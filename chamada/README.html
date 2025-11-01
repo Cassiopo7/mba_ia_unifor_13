@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="sistema-de-chamada-interativo---disciplina-c028">Sistema de Chamada Interativo - Disciplina C028</h1>
+<h2 id="%F0%9F%93%8B-objetivo">📋 Objetivo</h2>
+<p>Desenvolver um sistema de chamada interativo que permita gerenciar múltiplas disciplinas, realizar chamadas presenciais por encontro, registrar presenças e ausências de alunos, calcular estatísticas de frequência e gerar relatórios em arquivos de texto, usando apenas os conceitos fundamentais de Python do Módulo 1.</p>
+<h2 id="%F0%9F%97%BA%EF%B8%8F-diagrama-de-contexto">🗺️ Diagrama de Contexto</h2>
+<pre><code class="language-mermaid"><div class="mermaid">graph TD
+    A[Sistema de Chamada Interativo] --> B[Gerenciamento de<br/>Disciplinas]
+    B --> C[Cadastro de<br/>Alunos]
+    C --> D[Realização de<br/>Chamadas]
+    D --> E[Registro de<br/>Presenças]
+    E --> F[Processamento e<br/>Estatísticas]
+    F --> G[Relatórios em<br/>Arquivo TXT]
+    G --> H[Professor/Usuário]
+    
+    style A fill:#e1f5ff
+    style B fill:#ffe1f5
+    style C fill:#e7ffe1
+    style D fill:#fff5e1
+    style E fill:#f5e1ff
+    style F fill:#ffe1f5
+    style G fill:#e1f5ff
+</div></code></pre>
+<h2 id="%F0%9F%94%A7-funcionalidades-b%C3%A1sicas">🔧 Funcionalidades Básicas</h2>
+<ol>
+<li>
+<p><strong>Gerenciamento de Disciplinas</strong></p>
+<ul>
+<li>Criar novas disciplinas com nome e quantidade de encontros</li>
+<li>Listar disciplinas cadastradas</li>
+<li>Selecionar disciplina existente</li>
+<li>Salvar disciplinas em arquivo texto simples</li>
+</ul>
+</li>
+<li>
+<p><strong>Cadastro de Alunos</strong></p>
+<ul>
+<li>Manter dicionário de alunos (matrícula: nome)</li>
+<li>Buscar aluno por matrícula ou nome</li>
+<li>Listar alunos ordenados</li>
+<li>Calcular estatísticas da turma</li>
+</ul>
+</li>
+<li>
+<p><strong>Sistema de Chamada</strong></p>
+<ul>
+<li>Iniciar chamada para um encontro específico</li>
+<li>Iterar sobre todos os alunos da turma</li>
+<li>Registrar presença (P/p) ou ausência (Enter ou qualquer outra tecla)</li>
+<li>Exibir nome e matrícula de cada aluno antes de solicitar presença</li>
+<li>Mostrar progresso da chamada (ex: [1/28])</li>
+</ul>
+</li>
+<li>
+<p><strong>Estatísticas e Relatórios</strong></p>
+<ul>
+<li>Calcular total de presentes e ausentes</li>
+<li>Calcular taxa de presença (%)</li>
+<li>Gerar relatório formatado por encontro</li>
+<li>Salvar relatórios em arquivos TXT separados por disciplina e encontro</li>
+</ul>
+</li>
+<li>
+<p><strong>Persistência de Dados</strong></p>
+<ul>
+<li>Salvar disciplinas em <code>data/disciplinas.txt</code></li>
+<li>Salvar chamadas em <code>data/chamada_[DISCIPLINA]_encontro_[NÚMERO].txt</code></li>
+<li>Carregar disciplinas existentes automaticamente</li>
+</ul>
+</li>
+</ol>
+<h2 id="%F0%9F%93%8A-estrutura-de-dados">📊 Estrutura de Dados</h2>
+<h3 id="entrada">Entrada</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># Dicionário de alunos</span>
+alunos = {
+    <span class="hljs-string">"2526859/8"</span>: <span class="hljs-string">"ANA KAROLINE DAMASCENO CAETANO"</span>,
+    <span class="hljs-string">"2527027/4"</span>: <span class="hljs-string">"ANNA MARIA DO NASCIMENTO OLIVEIRA"</span>,
+    <span class="hljs-comment"># ... mais alunos</span>
+}
+
+<span class="hljs-comment"># Disciplina</span>
+disciplina = {
+    <span class="hljs-string">'nome'</span>: <span class="hljs-string">'Programação para Ciência de Dados'</span>,
+    <span class="hljs-string">'num_encontros'</span>: <span class="hljs-number">7</span>,
+    <span class="hljs-string">'chamadas'</span>: {}
+}
+
+<span class="hljs-comment"># Resposta durante chamada</span>
+resposta = <span class="hljs-string">'P'</span>  <span class="hljs-comment"># 'P' ou 'p' para presente, qualquer outra coisa para ausente</span>
+</div></code></pre>
+<h3 id="sa%C3%ADda">Saída</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># Lista de presenças de um encontro</span>
+presencas = [
+    {
+        <span class="hljs-string">'matricula'</span>: <span class="hljs-string">'2526859/8'</span>,
+        <span class="hljs-string">'nome'</span>: <span class="hljs-string">'ANA KAROLINE DAMASCENO CAETANO'</span>,
+        <span class="hljs-string">'status'</span>: <span class="hljs-string">'P'</span>  <span class="hljs-comment"># 'P' para presente, 'F' para faltante</span>
+    },
+    {
+        <span class="hljs-string">'matricula'</span>: <span class="hljs-string">'2527027/4'</span>,
+        <span class="hljs-string">'nome'</span>: <span class="hljs-string">'ANNA MARIA DO NASCIMENTO OLIVEIRA'</span>,
+        <span class="hljs-string">'status'</span>: <span class="hljs-string">'F'</span>
+    },
+    <span class="hljs-comment"># ... mais alunos</span>
+]
+
+<span class="hljs-comment"># Estatísticas da chamada</span>
+resumo = {
+    <span class="hljs-string">'total_alunos'</span>: <span class="hljs-number">28</span>,
+    <span class="hljs-string">'presentes'</span>: <span class="hljs-number">25</span>,
+    <span class="hljs-string">'ausentes'</span>: <span class="hljs-number">3</span>,
+    <span class="hljs-string">'taxa_presenca'</span>: <span class="hljs-number">89.3</span>
+}
+</div></code></pre>
+<h2 id="%F0%9F%92%BB-requisitos-t%C3%A9cnicos">💻 Requisitos Técnicos</h2>
+<ul>
+<li>Python 3.8+</li>
+<li>Jupyter Notebook (opcional, pode ser executado como script Python)</li>
+<li>Conhecimentos em:
+<ul>
+<li>Tipos de dados (int, float, str, dict, list)</li>
+<li>Estruturas de controle (if/else, for, while)</li>
+<li>Funções e documentação</li>
+<li>Compreensões de lista e dicionário</li>
+<li>Manipulação de arquivos (leitura/escrita com <code>with open</code>)</li>
+<li>Métodos de string (<code>isdigit()</code>, <code>upper()</code>, <code>strip()</code>)</li>
+<li>Enumerate para iteração com índices</li>
+</ul>
+</li>
+</ul>
+<p><strong>Nota:</strong> Este código usa <strong>apenas</strong> conceitos do Módulo 1 - Fundamentos de Python:</p>
+<ul>
+<li><strong>Não utiliza:</strong> <code>json</code>, <code>datetime</code>, <code>os</code>, <code>threading</code>, <code>time</code>, <code>try/except</code></li>
+<li><strong>Utiliza apenas:</strong> dicionários, listas, estruturas de controle, funções, arquivos texto simples</li>
+</ul>
+<h2 id="%F0%9F%93%A6-entreg%C3%A1veis">📦 Entregáveis</h2>
+<ol>
+<li>
+<p><strong>Notebook Jupyter</strong> (<code>notebook_chamada.ipynb</code>)</p>
+<ul>
+<li>Código completo do sistema</li>
+<li>Dicionário de alunos</li>
+<li>Funções de gerenciamento de disciplinas</li>
+<li>Sistema de chamada interativo</li>
+<li>Funções de relatórios</li>
+</ul>
+</li>
+<li>
+<p><strong>Pasta de Dados</strong> (<code>data/</code>)</p>
+<ul>
+<li><code>disciplinas.txt</code> - Armazena todas as disciplinas cadastradas</li>
+<li><code>chamada_[DISCIPLINA]_encontro_[NÚMERO].txt</code> - Relatórios de cada chamada</li>
+</ul>
+</li>
+<li>
+<p><strong>Documentação</strong> (<code>README.md</code>)</p>
+<ul>
+<li>Este arquivo com instruções completas</li>
+<li>Exemplos de uso</li>
+</ul>
+</li>
+</ol>
+<h2 id="%F0%9F%92%A1-dicas">💡 Dicas</h2>
+<ol>
+<li>Use dicionários para armazenar alunos (<code>matricula: nome</code>)</li>
+<li>Use dicionários aninhados para gerenciar disciplinas e suas informações</li>
+<li>Use listas para armazenar resultados de chamadas</li>
+<li>Use <code>list comprehension</code> para filtrar presentes e ausentes:<pre class="hljs"><code><div>presentes = [p <span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> presencas <span class="hljs-keyword">if</span> p[<span class="hljs-string">'status'</span>] == <span class="hljs-string">'P'</span>]
+</div></code></pre>
+</li>
+<li>Use <code>enumerate()</code> para numerar opções e mostrar progresso</li>
+<li>Use <code>isdigit()</code> para validar entradas numéricas (sem try/except)</li>
+<li>Use <code>with open()</code> para garantir fechamento automático de arquivos</li>
+<li>Formate números com f-strings para exibir porcentagens</li>
+<li>Use multiplicação de strings para criar linhas separadoras (<code>&quot;=&quot;*70</code>)</li>
+<li>Valide entradas do usuário com estruturas condicionais explícitas</li>
+</ol>
+<h2 id="%F0%9F%8F%97%EF%B8%8F-estrutura-do-projeto">🏗️ Estrutura do Projeto</h2>
+<pre class="hljs"><code><div>chamada/
+├── notebook_chamada.ipynb          # Código principal do sistema
+├── README.md                        # Este arquivo
+├── alunos.jpeg                      # Imagem com lista de alunos (opcional)
+└── data/                            # Pasta de dados
+    ├── disciplinas.txt             # Arquivo de disciplinas cadastradas
+    └── chamada_*.txt               # Relatórios de chamadas
+</div></code></pre>
+<h2 id="%F0%9F%93%9D-exemplo-de-uso">📝 Exemplo de Uso</h2>
+<h3 id="1-executar-o-sistema">1. Executar o Sistema</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># No Jupyter Notebook, execute todas as células sequencialmente</span>
+<span class="hljs-comment"># A última célula executa automaticamente menu_principal()</span>
+</div></code></pre>
+<h3 id="2-criar-nova-disciplina">2. Criar Nova Disciplina</h3>
+<pre class="hljs"><code><div>SISTEMA DE CHAMADA
+======================================================================
+
+📝 Nenhuma disciplina cadastrada ainda.
+
+----------------------------------------------------------------------
+NOVA DISCIPLINA
+----------------------------------------------------------------------
+Digite o nome da disciplina: Programação para Ciência de Dados
+Digite a quantidade de encontros da disciplina: 7
+
+✅ Disciplina 'Programação para Ciência de Dados' criada com sucesso!
+
+Para qual encontro será a chamada? (1 a 7): 1
+</div></code></pre>
+<h3 id="3-realizar-chamada">3. Realizar Chamada</h3>
+<pre class="hljs"><code><div>======================================================================
+INICIANDO CHAMADA - PROGRAMAÇÃO PARA CIÊNCIA DE DADOS
+ENCONTRO: 1
+======================================================================
+
+Digite 'P' ou 'p' para PRESENTE
+Digite qualquer outra coisa ou Enter para AUSENTE
+
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+[1/28]
+ALUNO: ANA KAROLINE DAMASCENO CAETANO
+MATRÍCULA: 2526859/8
+----------------------------------------------------------------------
+O aluno ANA KAROLINE DAMASCENO CAETANO está presente? (P/p = Presente, Enter = Ausente): P
+✅ PRESENTE registrado
+
+----------------------------------------------------------------------
+[2/28]
+ALUNO: ANNA MARIA DO NASCIMENTO OLIVEIRA
+MATRÍCULA: 2527027/4
+----------------------------------------------------------------------
+O aluno ANNA MARIA DO NASCIMENTO OLIVEIRA está presente? (P/p = Presente, Enter = Ausente): 
+❌ AUSENTE registrado
+
+...
+
+======================================================================
+CHAMADA CONCLUÍDA!
+======================================================================
+
+📊 RESUMO:
+Total de alunos: 28
+Presentes: 25
+Ausentes: 3
+Taxa de presença: 89.3%
+
+✅ Chamada salva em: data/chamada_Programacao_para_Ciencia_de_Dados_encontro_1.txt
+</div></code></pre>
+<h3 id="4-selecionar-disciplina-existente">4. Selecionar Disciplina Existente</h3>
+<pre class="hljs"><code><div>SISTEMA DE CHAMADA
+======================================================================
+
+📚 DISCIPLINAS CADASTRADAS:
+----------------------------------------------------------------------
+1. Programação para Ciência de Dados (7 encontros)
+2. Nova Disciplina
+----------------------------------------------------------------------
+
+OPÇÕES DISPONÍVEIS:
+  Opção 1: Selecionar disciplina 'Programação para Ciência de Dados'
+  Opção 2: Criar nova disciplina
+----------------------------------------------------------------------
+
+Escolha uma opção (1 a 2): 1
+
+✓ Disciplina selecionada: Programação para Ciência de Dados
+✓ Total de encontros: 7
+
+Para qual encontro será a chamada? (1 a 7): 2
+</div></code></pre>
+<h2 id="%F0%9F%94%8D-fun%C3%A7%C3%B5es-principais">🔍 Funções Principais</h2>
+<h3 id="fun%C3%A7%C3%B5es-de-disciplinas">Funções de Disciplinas</h3>
+<ul>
+<li><code>carregar_disciplinas()</code> - Carrega disciplinas do arquivo texto</li>
+<li><code>salvar_disciplinas(disciplinas)</code> - Salva disciplinas no arquivo texto</li>
+<li><code>listar_disciplinas()</code> - Retorna todas as disciplinas cadastradas</li>
+<li><code>criar_disciplina(nome, num_encontros)</code> - Cria uma nova disciplina</li>
+</ul>
+<h3 id="fun%C3%A7%C3%B5es-de-chamada">Funções de Chamada</h3>
+<ul>
+<li><code>fazer_chamada(disciplina_nome, encontro, alunos_dict)</code> - Realiza chamada interativa</li>
+<li><code>salvar_chamada(disciplina_nome, encontro, presencas)</code> - Salva resultado da chamada em arquivo</li>
+</ul>
+<h3 id="fun%C3%A7%C3%B5es-de-menu">Funções de Menu</h3>
+<ul>
+<li><code>menu_principal()</code> - Menu principal do sistema</li>
+<li><code>criar_nova_disciplina()</code> - Cria nova disciplina e inicia chamada</li>
+</ul>
+<h3 id="fun%C3%A7%C3%B5es-auxiliares-opcionais">Funções Auxiliares (opcionais)</h3>
+<ul>
+<li><code>buscar_aluno_por_matricula(matricula)</code> - Busca aluno por matrícula</li>
+<li><code>buscar_aluno_por_nome(nome)</code> - Busca aluno por nome</li>
+<li><code>listar_alunos_ordenados()</code> - Lista alunos em ordem alfabética</li>
+</ul>
+<h2 id="%F0%9F%93%84-formato-dos-arquivos">📄 Formato dos Arquivos</h2>
+<h3 id="disciplinastxt">disciplinas.txt</h3>
+<pre class="hljs"><code><div>Programação para Ciência de Dados
+7
+---
+</div></code></pre>
+<h3 id="chamadadisciplinaencontron%C3%BAmerotxt">chamada_[DISCIPLINA]<em>encontro</em>[NÚMERO].txt</h3>
+<pre class="hljs"><code><div>======================================================================
+CHAMADA - PROGRAMAÇÃO PARA CIÊNCIA DE DADOS
+Encontro: 1
+======================================================================
+
+TOTAL DE ALUNOS: 28
+PRESENTES: 25
+AUSENTES: 3
+
+----------------------------------------------------------------------
+PRESENTES:
+----------------------------------------------------------------------
+ 1. [2526859/8] ANA KAROLINE DAMASCENO CAETANO
+ 2. [2527291/9] ARTUR SILVA BARBOSA NUNES
+...
+
+----------------------------------------------------------------------
+AUSENTES:
+----------------------------------------------------------------------
+ 1. [2527027/4] ANNA MARIA DO NASCIMENTO OLIVEIRA
+...
+</div></code></pre>
+<h2 id="%E2%9A%A0%EF%B8%8F-observa%C3%A7%C3%B5es-importantes">⚠️ Observações Importantes</h2>
+<ol>
+<li><strong>Execução Sequencial</strong>: Execute as células do notebook na ordem correta</li>
+<li><strong>Pasta data</strong>: A pasta <code>data/</code> é criada automaticamente na primeira execução</li>
+<li><strong>Validação de Entrada</strong>: O sistema valida entradas usando apenas <code>isdigit()</code> e estruturas condicionais</li>
+<li><strong>Sem Módulos Avançados</strong>: O código não utiliza módulos além dos fundamentos de Python</li>
+<li><strong>Arquivos de Texto</strong>: Todos os dados são salvos em formato texto simples para facilitar leitura e manutenção</li>
+</ol>
+<h2 id="%F0%9F%8E%93-disciplina">🎓 Disciplina</h2>
+<ul>
+<li><strong>Disciplina</strong>: C028 - Programação para Ciência de Dados</li>
+<li><strong>Curso</strong>: MBA Ciência de Dados</li>
+<li><strong>Instituição</strong>: Universidade de Fortaleza (UNIFOR)</li>
+<li><strong>Instrutor</strong>: Cássio Pinheiro</li>
+</ul>
+
+</body>
+</html>
