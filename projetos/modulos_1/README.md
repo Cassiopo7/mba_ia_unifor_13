@@ -98,5 +98,24 @@ Cada projeto contém:
 
 ---
 
+## 🎓 Projeto Final
+
+### 📋 Especificações Completas
+Para informações detalhadas sobre o **Projeto Final** da disciplina, consulte:
+- **[ESPECIFICACOES_PROJETO_FINAL.md](ESPECIFICACOES_PROJETO_FINAL.md)** - Documento completo com todas as especificações, normas de avaliação e requisitos
+
+### 📝 Template de README
+Use o template fornecido para criar o README do seu projeto:
+- **[TEMPLATE_README.md](TEMPLATE_README.md)** - Template completo com todos os tópicos obrigatórios
+
+### ⚠️ Informações Importantes do Projeto Final
+- **Grupos:** Até 3 pessoas por grupo
+- **Prazo de entrega:** 14/11/2024, às 23:59
+- **Conteúdo:** Deve cobrir Módulos 1, 2 e 3
+- **Avaliação:** 10 pontos (2 pontos documentação + 8 pontos implementação)
+- **Repositório:** Deve ser público no GitHub
+
+---
+
 **Bons estudos e boa prática!** 🚀
 

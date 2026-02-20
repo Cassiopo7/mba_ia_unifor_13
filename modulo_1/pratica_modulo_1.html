@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>pratica_modulo_1.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="%F0%9F%93%9A-pr%C3%A1tica---m%C3%B3dulo-1-fundamentos-de-programa%C3%A7%C3%A3o-com-python">📚 Prática - Módulo 1: Fundamentos de Programação com Python</h1>
+<p><strong>Disciplina:</strong> Programação para Ciência de Dados<br>
+<strong>Instrutor:</strong> Cássio Pinheiro<br>
+<strong>Instituição:</strong> MBA Ciência de Dados - Universidade de Fortaleza<br>
+<strong>Autor:</strong> <a href="https://github.com/cassiopo7">@cassiopo7</a></p>
+<hr>
+<h2 id="%F0%9F%93%8B-%C3%ADndice">📋 Índice</h2>
+<ol>
+<li><a href="#sobre-a-pr%C3%A1tica">Sobre a Prática</a></li>
+<li><a href="#pr%C3%A9-requisitos">Pré-requisitos</a></li>
+<li><a href="#exerc%C3%ADcios">Exercícios</a>
+<ul>
+<li><a href="#exerc%C3%ADcio-1-tipos-de-dados-e-opera%C3%A7%C3%B5es-b%C3%A1sicas">Exercício 1: Tipos de Dados e Operações Básicas</a></li>
+<li><a href="#exerc%C3%ADcio-2-estruturas-de-dados-fundamentais">Exercício 2: Estruturas de Dados Fundamentais</a></li>
+<li><a href="#exerc%C3%ADcio-3-estruturas-de-controle">Exercício 3: Estruturas de Controle</a></li>
+<li><a href="#exerc%C3%ADcio-4-compreens%C3%B5es-e-programa%C3%A7%C3%A3o-funcional">Exercício 4: Compreensões e Programação Funcional</a></li>
+<li><a href="#exerc%C3%ADcio-5-fun%C3%A7%C3%B5es-avan%C3%A7adas">Exercício 5: Funções Avançadas</a></li>
+<li><a href="#exerc%C3%ADcio-6-manipula%C3%A7%C3%A3o-de-arquivos">Exercício 6: Manipulação de Arquivos</a></li>
+</ul>
+</li>
+<li><a href="#desafio-final">Desafio Final</a></li>
+<li><a href="#como-contribuir">Como Contribuir</a></li>
+</ol>
+<hr>
+<h2 id="sobre-a-pr%C3%A1tica">Sobre a Prática</h2>
+<p>Esta prática foi desenvolvida para consolidar os conhecimentos do <strong>Módulo 1 - Fundamentos de Programação com Python</strong>, abordando:</p>
+<ul>
+<li>✅ Tipos de dados e operações básicas</li>
+<li>✅ Estruturas de dados (listas, dicionários, tuplas, sets)</li>
+<li>✅ Estruturas de controle (condicionais e laços)</li>
+<li>✅ Compreensões e programação funcional</li>
+<li>✅ Funções avançadas</li>
+<li>✅ Manipulação de arquivos</li>
+</ul>
+<p><strong>⚠️ Nível:</strong> Avançado - Recomendado para trabalho em duplas<br>
+<strong>⏱️ Tempo estimado:</strong> 4-6 horas</p>
+<hr>
+<h2 id="pr%C3%A9-requisitos">Pré-requisitos</h2>
+<ul>
+<li>Python 3.8 ou superior instalado</li>
+<li>Editor de código ou IDE (VS Code, PyCharm, Jupyter Notebook, etc.)</li>
+<li>Conhecimento básico de terminal/comando de linha</li>
+</ul>
+<h3 id="verificar-vers%C3%A3o-do-python">Verificar versão do Python</h3>
+<pre class="hljs"><code><div>python --version
+<span class="hljs-comment"># ou</span>
+python3 --version
+</div></code></pre>
+<hr>
+<h2 id="exerc%C3%ADcios">Exercícios</h2>
+<h3 id="exerc%C3%ADcio-1-sistema-de-an%C3%A1lise-financeira-completo">Exercício 1: Sistema de Análise Financeira Completo</h3>
+<p><strong>Objetivo:</strong> Criar um sistema completo de análise financeira que integre múltiplos conceitos de Python.</p>
+<p><strong>Complexidade:</strong> ⭐⭐⭐⭐<br>
+<strong>Tempo estimado:</strong> 60-90 minutos</p>
+<h4 id="desafio">Desafio:</h4>
+<p>Você foi contratado para desenvolver um sistema de análise financeira para uma pequena empresa. O sistema deve:</p>
+<ol>
+<li>
+<p><strong>Calculadora Financeira Avançada:</strong></p>
+<ul>
+<li>Calcular juros compostos: <code>M = P * (1 + i)^n</code></li>
+<li>Calcular valor presente líquido (VPL) de uma série de fluxos de caixa</li>
+<li>Calcular taxa interna de retorno (TIR) aproximada</li>
+<li>Converter entre diferentes taxas (mensal, anual, diária)</li>
+</ul>
+</li>
+<li>
+<p><strong>Análise de Despesas:</strong></p>
+<ul>
+<li>Receber múltiplas transações financeiras (data, descrição, valor, categoria)</li>
+<li>Calcular totais por categoria</li>
+<li>Identificar meses com maior gasto</li>
+<li>Calcular média mensal de gastos</li>
+</ul>
+</li>
+<li>
+<p><strong>Relatórios Formatados:</strong></p>
+<ul>
+<li>Gerar relatório em texto formatado</li>
+<li>Exportar dados para arquivo CSV</li>
+</ul>
+</li>
+</ol>
+<p><strong>Estrutura de dados esperada:</strong></p>
+<pre class="hljs"><code><div>transacoes = [
+    {<span class="hljs-string">'data'</span>: <span class="hljs-string">'2024-01-15'</span>, <span class="hljs-string">'descricao'</span>: <span class="hljs-string">'Aluguel'</span>, <span class="hljs-string">'valor'</span>: <span class="hljs-number">-1500.00</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Moradia'</span>},
+    {<span class="hljs-string">'data'</span>: <span class="hljs-string">'2024-01-20'</span>, <span class="hljs-string">'descricao'</span>: <span class="hljs-string">'Salário'</span>, <span class="hljs-string">'valor'</span>: <span class="hljs-number">5000.00</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Renda'</span>},
+    {<span class="hljs-string">'data'</span>: <span class="hljs-string">'2024-02-01'</span>, <span class="hljs-string">'descricao'</span>: <span class="hljs-string">'Supermercado'</span>, <span class="hljs-string">'valor'</span>: <span class="hljs-number">-350.00</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Alimentação'</span>},
+    <span class="hljs-comment"># ... mais transações</span>
+]
+</div></code></pre>
+<p><strong>Requisitos técnicos:</strong></p>
+<ul>
+<li>Usar funções com documentação completa (docstrings)</li>
+<li>Implementar tratamento de erros robusto</li>
+<li>Utilizar compreensões onde apropriado</li>
+<li>Validar todos os inputs do usuário</li>
+<li>Formatar saídas usando f-strings</li>
+</ul>
+<p><strong>Entregáveis:</strong></p>
+<ol>
+<li>Função <code>calcular_juros_compostos(principal, taxa, periodo)</code></li>
+<li>Função <code>analisar_transacoes(transacoes)</code></li>
+<li>Função <code>gerar_relatorio(transacoes, arquivo_saida)</code></li>
+<li>Função <code>exportar_csv(transacoes, arquivo)</code></li>
+<li>Script principal com menu interativo</li>
+</ol>
+<p><strong>Teste com os seguintes dados:</strong></p>
+<pre class="hljs"><code><div>transacoes_teste = [
+    {<span class="hljs-string">'data'</span>: <span class="hljs-string">'2024-01-15'</span>, <span class="hljs-string">'descricao'</span>: <span class="hljs-string">'Aluguel'</span>, <span class="hljs-string">'valor'</span>: <span class="hljs-number">-1500.00</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Moradia'</span>},
+    {<span class="hljs-string">'data'</span>: <span class="hljs-string">'2024-01-20'</span>, <span class="hljs-string">'descricao'</span>: <span class="hljs-string">'Salário'</span>, <span class="hljs-string">'valor'</span>: <span class="hljs-number">5000.00</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Renda'</span>},
+    {<span class="hljs-string">'data'</span>: <span class="hljs-string">'2024-02-01'</span>, <span class="hljs-string">'descricao'</span>: <span class="hljs-string">'Supermercado'</span>, <span class="hljs-string">'valor'</span>: <span class="hljs-number">-350.00</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Alimentação'</span>},
+    {<span class="hljs-string">'data'</span>: <span class="hljs-string">'2024-02-05'</span>, <span class="hljs-string">'descricao'</span>: <span class="hljs-string">'Conta de Luz'</span>, <span class="hljs-string">'valor'</span>: <span class="hljs-number">-120.00</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Moradia'</span>},
+    {<span class="hljs-string">'data'</span>: <span class="hljs-string">'2024-02-15'</span>, <span class="hljs-string">'descricao'</span>: <span class="hljs-string">'Aluguel'</span>, <span class="hljs-string">'valor'</span>: <span class="hljs-number">-1500.00</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Moradia'</span>},
+    {<span class="hljs-string">'data'</span>: <span class="hljs-string">'2024-02-20'</span>, <span class="hljs-string">'descricao'</span>: <span class="hljs-string">'Salário'</span>, <span class="hljs-string">'valor'</span>: <span class="hljs-number">5000.00</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Renda'</span>},
+    {<span class="hljs-string">'data'</span>: <span class="hljs-string">'2024-02-25'</span>, <span class="hljs-string">'descricao'</span>: <span class="hljs-string">'Restaurante'</span>, <span class="hljs-string">'valor'</span>: <span class="hljs-number">-180.00</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Alimentação'</span>},
+]
+</div></code></pre>
+<p><strong>Dicas:</strong></p>
+<ul>
+<li>Use <code>datetime</code> para manipular datas</li>
+<li>Considere usar <code>reduce</code> para cálculos acumulados</li>
+<li>Implemente validação de dados antes de processar</li>
+<li>Use dicionários para agrupar por categoria</li>
+</ul>
+<hr>
+<h3 id="exerc%C3%ADcio-2-sistema-de-gerenciamento-acad%C3%AAmico-avan%C3%A7ado">Exercício 2: Sistema de Gerenciamento Acadêmico Avançado</h3>
+<p><strong>Objetivo:</strong> Desenvolver um sistema completo de gerenciamento acadêmico utilizando estruturas de dados complexas.</p>
+<p><strong>Complexidade:</strong> ⭐⭐⭐⭐⭐<br>
+<strong>Tempo estimado:</strong> 90-120 minutos</p>
+<h4 id="desafio">Desafio:</h4>
+<p>Você precisa criar um sistema de gerenciamento acadêmico completo que gerencie alunos, cursos, disciplinas e notas. O sistema deve:</p>
+<ol>
+<li>
+<p><strong>Gerenciamento de Cursos:</strong></p>
+<ul>
+<li>Cadastrar cursos com código, nome, carga horária</li>
+<li>Cada curso tem múltiplas disciplinas</li>
+<li>Cada disciplina tem código, nome, créditos, pré-requisitos</li>
+</ul>
+</li>
+<li>
+<p><strong>Gerenciamento de Alunos:</strong></p>
+<ul>
+<li>Cadastrar alunos com matrícula única, nome, CPF, email</li>
+<li>Vincular aluno a um curso</li>
+<li>Matricular aluno em disciplinas (respeitando pré-requisitos)</li>
+<li>Registrar notas (múltiplas avaliações por disciplina)</li>
+</ul>
+</li>
+<li>
+<p><strong>Sistema de Análise:</strong></p>
+<ul>
+<li>Calcular CR (Coeficiente de Rendimento) por aluno</li>
+<li>Calcular média da turma por disciplina</li>
+<li>Identificar alunos em risco (CR &lt; 6.0)</li>
+<li>Gerar relatório de aprovação/reprovação</li>
+<li>Calcular estatísticas de frequência por disciplina</li>
+</ul>
+</li>
+<li>
+<p><strong>Operações Avançadas:</strong></p>
+<ul>
+<li>Buscar alunos por intervalo de CR</li>
+<li>Listar disciplinas sem pré-requisitos disponíveis para um aluno</li>
+<li>Calcular progresso do aluno (% de disciplinas concluídas)</li>
+<li>Identificar conflitos de horário (mesmo horário)</li>
+</ul>
+</li>
+</ol>
+<p><strong>Estrutura de dados sugerida:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-comment"># Sistema completo de dados</span>
+sistema_academico = {
+    <span class="hljs-string">'cursos'</span>: {
+        <span class="hljs-string">'CC001'</span>: {
+            <span class="hljs-string">'nome'</span>: <span class="hljs-string">'Ciência da Computação'</span>,
+            <span class="hljs-string">'carga_horaria'</span>: <span class="hljs-number">3200</span>,
+            <span class="hljs-string">'disciplinas'</span>: {
+                <span class="hljs-string">'CC001-01'</span>: {
+                    <span class="hljs-string">'nome'</span>: <span class="hljs-string">'Programação I'</span>,
+                    <span class="hljs-string">'creditos'</span>: <span class="hljs-number">4</span>,
+                    <span class="hljs-string">'pre_requisitos'</span>: [],
+                    <span class="hljs-string">'horario'</span>: <span class="hljs-string">'Segunda 08:00-10:00'</span>
+                },
+                <span class="hljs-string">'CC001-02'</span>: {
+                    <span class="hljs-string">'nome'</span>: <span class="hljs-string">'Estrutura de Dados'</span>,
+                    <span class="hljs-string">'creditos'</span>: <span class="hljs-number">4</span>,
+                    <span class="hljs-string">'pre_requisitos'</span>: [<span class="hljs-string">'CC001-01'</span>],
+                    <span class="hljs-string">'horario'</span>: <span class="hljs-string">'Quarta 08:00-10:00'</span>
+                }
+            }
+        }
+    },
+    <span class="hljs-string">'alunos'</span>: {
+        <span class="hljs-string">'MAT2024001'</span>: {
+            <span class="hljs-string">'nome'</span>: <span class="hljs-string">'João Silva'</span>,
+            <span class="hljs-string">'cpf'</span>: <span class="hljs-string">'123.456.789-00'</span>,
+            <span class="hljs-string">'email'</span>: <span class="hljs-string">'joao@email.com'</span>,
+            <span class="hljs-string">'curso'</span>: <span class="hljs-string">'CC001'</span>,
+            <span class="hljs-string">'matriculas'</span>: {
+                <span class="hljs-string">'CC001-01'</span>: {
+                    <span class="hljs-string">'notas'</span>: [<span class="hljs-number">8.5</span>, <span class="hljs-number">9.0</span>, <span class="hljs-number">7.5</span>],
+                    <span class="hljs-string">'frequencia'</span>: <span class="hljs-number">85</span>
+                }
+            }
+        }
+    }
+}
+</div></code></pre>
+<p><strong>Requisitos técnicos:</strong></p>
+<ul>
+<li>Usar dicionários aninhados para estruturar dados</li>
+<li>Implementar funções de validação (CPF, email, matrícula única)</li>
+<li>Usar sets para verificar pré-requisitos</li>
+<li>Utilizar list comprehensions para filtros e transformações</li>
+<li>Criar funções que retornem múltiplos valores (tuplas)</li>
+<li>Implementar busca eficiente usando compreensões</li>
+</ul>
+<p><strong>Entregáveis:</strong></p>
+<ol>
+<li>Função <code>cadastrar_curso(codigo, nome, carga_horaria)</code></li>
+<li>Função <code>cadastrar_aluno(matricula, dados_aluno)</code></li>
+<li>Função <code>matricular_aluno(matricula, codigo_disciplina)</code></li>
+<li>Função <code>calcular_cr(matricula)</code></li>
+<li>Função <code>gerar_relatorio_aluno(matricula)</code></li>
+<li>Função <code>estatisticas_turma(codigo_disciplina)</code></li>
+<li>Função <code>exportar_dados_json(arquivo)</code> (salvar em JSON)</li>
+<li>Função <code>importar_dados_json(arquivo)</code> (carregar de JSON)</li>
+</ol>
+<p><strong>Casos de teste:</strong></p>
+<ul>
+<li>Matricular aluno sem pré-requisitos deve falhar</li>
+<li>Calcular CR considerando apenas disciplinas com nota final</li>
+<li>Verificar matrícula duplicada em mesma disciplina</li>
+<li>Validar formato de CPF e email</li>
+</ul>
+<p><strong>Dicas:</strong></p>
+<ul>
+<li>Use <code>json</code> para persistência</li>
+<li>Implemente validação de CPF (11 dígitos)</li>
+<li>Use <code>any()</code> e <code>all()</code> para validações complexas</li>
+<li>Considere criar uma classe helper para validações</li>
+</ul>
+<hr>
+<h3 id="exerc%C3%ADcio-3-processador-de-texto-e-an%C3%A1lise-de-dados">Exercício 3: Processador de Texto e Análise de Dados</h3>
+<p><strong>Objetivo:</strong> Criar um sistema completo de processamento e análise de texto usando estruturas de controle avançadas.</p>
+<p><strong>Complexidade:</strong> ⭐⭐⭐⭐<br>
+<strong>Tempo estimado:</strong> 75-90 minutos</p>
+<h4 id="desafio">Desafio:</h4>
+<p>Desenvolva um processador de texto que analise documentos e gere estatísticas detalhadas. O sistema deve:</p>
+<ol>
+<li>
+<p><strong>Análise de Texto:</strong></p>
+<ul>
+<li>Contar palavras, caracteres (com e sem espaços), parágrafos</li>
+<li>Identificar palavras mais frequentes (top N)</li>
+<li>Calcular média de palavras por frase</li>
+<li>Identificar palavras únicas</li>
+<li>Contar ocorrências de uma palavra específica</li>
+</ul>
+</li>
+<li>
+<p><strong>Estatísticas Avançadas:</strong></p>
+<ul>
+<li>Calcular índice de diversidade lexical (palavras únicas / total palavras)</li>
+<li>Identificar palavras mais longas e mais curtas</li>
+<li>Encontrar frases mais longas (por número de palavras)</li>
+<li>Calcular frequência de pontuação</li>
+</ul>
+</li>
+<li>
+<p><strong>Processamento de Múltiplos Arquivos:</strong></p>
+<ul>
+<li>Processar múltiplos arquivos de texto</li>
+<li>Comparar estatísticas entre arquivos</li>
+<li>Identificar palavras em comum entre arquivos</li>
+<li>Gerar relatório comparativo</li>
+</ul>
+</li>
+<li>
+<p><strong>Filtros e Buscas:</strong></p>
+<ul>
+<li>Buscar frases que contenham uma palavra específica</li>
+<li>Filtrar palavras por tamanho mínimo/máximo</li>
+<li>Buscar padrões usando condições complexas</li>
+</ul>
+</li>
+</ol>
+<p><strong>Exemplo de texto de teste:</strong></p>
+<pre class="hljs"><code><div>A ciência de dados é uma área interdisciplinar que utiliza métodos científicos, 
+processos, algoritmos e sistemas para extrair conhecimento e insights de dados 
+estruturados e não estruturados. A ciência de dados está relacionada à mineração 
+de dados, aprendizado de máquina e big data.
+</div></code></pre>
+<p><strong>Requisitos técnicos:</strong></p>
+<ul>
+<li>Usar loops aninhados onde necessário</li>
+<li>Implementar funções recursivas para busca</li>
+<li>Usar estruturas condicionais complexas (elif, operadores lógicos)</li>
+<li>Validar entradas e tratar erros</li>
+<li>Criar menu interativo com while loop</li>
+</ul>
+<p><strong>Entregáveis:</strong></p>
+<ol>
+<li>Função <code>analisar_texto(texto)</code> - retorna dicionário com todas as estatísticas</li>
+<li>Função <code>palavras_mais_frequentes(texto, n=10)</code> - top N palavras</li>
+<li>Função <code>buscar_frases_com_palavra(texto, palavra)</code></li>
+<li>Função <code>comparar_arquivos(arquivo1, arquivo2)</code> - comparação de estatísticas</li>
+<li>Função <code>gerar_relatorio(texto, arquivo_saida)</code> - relatório formatado</li>
+<li>Script principal com menu interativo</li>
+</ol>
+<p><strong>Casos de teste:</strong></p>
+<ul>
+<li>Processar arquivo vazio</li>
+<li>Arquivo com caracteres especiais</li>
+<li>Texto com múltiplos idiomas</li>
+<li>Arquivo muito grande (performance)</li>
+</ul>
+<p><strong>Dicas:</strong></p>
+<ul>
+<li>Use <code>split()</code> para separar palavras</li>
+<li>Considere usar <code>Counter</code> do módulo <code>collections</code> para contagem</li>
+<li>Normalize texto (lowercase, remover pontuação)</li>
+<li>Implemente tratamento de encoding (UTF-8)</li>
+</ul>
+<hr>
+<h3 id="exerc%C3%ADcio-4-pipeline-de-processamento-de-dados-com-programa%C3%A7%C3%A3o-funcional">Exercício 4: Pipeline de Processamento de Dados com Programação Funcional</h3>
+<p><strong>Objetivo:</strong> Criar um pipeline completo de processamento de dados usando compreensões avançadas e programação funcional.</p>
+<p><strong>Complexidade:</strong> ⭐⭐⭐⭐⭐<br>
+<strong>Tempo estimado:</strong> 90-120 minutos</p>
+<h4 id="desafio">Desafio:</h4>
+<p>Você precisa criar um sistema de pipeline de processamento de dados que transforme dados brutos em informações estruturadas e analisadas. O sistema deve:</p>
+<ol>
+<li>
+<p><strong>Pipeline de Transformação:</strong></p>
+<ul>
+<li>Carregar dados de múltiplas fontes (lista de dicionários, CSV, JSON)</li>
+<li>Aplicar transformações em cascata usando <code>map</code>, <code>filter</code>, <code>reduce</code></li>
+<li>Criar múltiplas visualizações dos dados usando compreensões</li>
+</ul>
+</li>
+<li>
+<p><strong>Operações Funcionais Avançadas:</strong></p>
+<ul>
+<li>Implementar funções de ordem superior (funções que recebem funções)</li>
+<li>Criar decoradores para logging e validação</li>
+<li>Implementar composição de funções</li>
+<li>Criar pipeline funcional encadeado</li>
+</ul>
+</li>
+<li>
+<p><strong>Análise com Compreensões:</strong></p>
+<ul>
+<li>Gerar relatórios usando dict/set comprehensions aninhadas</li>
+<li>Criar estruturas de dados complexas em uma linha</li>
+<li>Otimizar código usando compreensões ao invés de loops</li>
+</ul>
+</li>
+<li>
+<p><strong>Processamento Assíncrono Simulado:</strong></p>
+<ul>
+<li>Processar múltiplos datasets em paralelo (simulado)</li>
+<li>Agregar resultados usando reduce</li>
+<li>Validar dados usando funções de alta ordem</li>
+</ul>
+</li>
+</ol>
+<p><strong>Dados de exemplo:</strong></p>
+<pre class="hljs"><code><div>vendas_brutas = [
+    {<span class="hljs-string">'produto'</span>: <span class="hljs-string">'Notebook'</span>, <span class="hljs-string">'preco'</span>: <span class="hljs-number">3500.00</span>, <span class="hljs-string">'quantidade'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'desconto'</span>: <span class="hljs-number">0.1</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Eletrônicos'</span>},
+    {<span class="hljs-string">'produto'</span>: <span class="hljs-string">'Mouse'</span>, <span class="hljs-string">'preco'</span>: <span class="hljs-number">50.00</span>, <span class="hljs-string">'quantidade'</span>: <span class="hljs-number">5</span>, <span class="hljs-string">'desconto'</span>: <span class="hljs-number">0.0</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Acessórios'</span>},
+    {<span class="hljs-string">'produto'</span>: <span class="hljs-string">'Teclado'</span>, <span class="hljs-string">'preco'</span>: <span class="hljs-number">150.00</span>, <span class="hljs-string">'quantidade'</span>: <span class="hljs-number">3</span>, <span class="hljs-string">'desconto'</span>: <span class="hljs-number">0.15</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Acessórios'</span>},
+    {<span class="hljs-string">'produto'</span>: <span class="hljs-string">'Monitor'</span>, <span class="hljs-string">'preco'</span>: <span class="hljs-number">800.00</span>, <span class="hljs-string">'quantidade'</span>: <span class="hljs-number">1</span>, <span class="hljs-string">'desconto'</span>: <span class="hljs-number">0.05</span>, <span class="hljs-string">'categoria'</span>: <span class="hljs-string">'Eletrônicos'</span>},
+    <span class="hljs-comment"># ... mais vendas</span>
+]
+</div></code></pre>
+<p><strong>Requisitos técnicos:</strong></p>
+<ul>
+<li>Usar apenas programação funcional (sem loops explícitos onde possível)</li>
+<li>Criar funções puras (sem efeitos colaterais)</li>
+<li>Implementar composição de funções</li>
+<li>Usar <code>functools.partial</code> para criar funções especializadas</li>
+<li>Criar decoradores personalizados</li>
+<li>Usar <code>operator</code> module para operações funcionais</li>
+</ul>
+<p><strong>Entregáveis:</strong></p>
+<ol>
+<li>Função <code>pipeline_transformacao(dados)</code> - pipeline completo usando map/filter/reduce</li>
+<li>Função <code>analisar_por_categoria(dados)</code> - análise usando dict comprehension</li>
+<li>Função <code>compor_funcoes(*funcoes)</code> - compositor de funções genérico</li>
+<li>Decorador <code>@validar_dados(tipo_esperado)</code> - validação automática</li>
+<li>Decorador <code>@log_execucao</code> - logging automático</li>
+<li>Função <code>processar_em_lote(datasets, funcao)</code> - processamento em lote funcional</li>
+<li>Função <code>gerar_relatorio_funcional(dados)</code> - relatório usando apenas compreensões</li>
+</ol>
+<p><strong>Casos de teste:</strong></p>
+<ul>
+<li>Pipeline com dados vazios</li>
+<li>Pipeline com dados inválidos (deve filtrar)</li>
+<li>Compor múltiplas transformações</li>
+<li>Performance comparativa (compreensões vs loops)</li>
+</ul>
+<p><strong>Exemplo de uso esperado:</strong></p>
+<pre class="hljs"><code><div><span class="hljs-comment"># Pipeline funcional</span>
+resultado = pipeline_transformacao(
+    vendas_brutas,
+    transformacoes=[
+        <span class="hljs-keyword">lambda</span> x: calcular_total(x),
+        <span class="hljs-keyword">lambda</span> x: aplicar_desconto(x),
+        <span class="hljs-keyword">lambda</span> x: categorizar(x)
+    ],
+    filtros=[
+        <span class="hljs-keyword">lambda</span> x: x[<span class="hljs-string">'total'</span>] &gt; <span class="hljs-number">100</span>
+    ]
+)
+</div></code></pre>
+<p><strong>Dicas:</strong></p>
+<ul>
+<li>Use <code>functools.partial</code> para criar funções especializadas</li>
+<li>Explore <code>operator</code> module para operações funcionais</li>
+<li>Considere criar uma classe <code>Pipeline</code> usando métodos funcionais</li>
+<li>Use <code>itertools</code> para operações avançadas</li>
+</ul>
+<hr>
+<h3 id="exerc%C3%ADcio-5-sistema-de-biblioteca-digital-com-persist%C3%AAncia-de-dados">Exercício 5: Sistema de Biblioteca Digital com Persistência de Dados</h3>
+<p><strong>Objetivo:</strong> Criar um sistema completo de biblioteca digital com persistência de dados em múltiplos formatos.</p>
+<p><strong>Complexidade:</strong> ⭐⭐⭐⭐⭐<br>
+<strong>Tempo estimado:</strong> 120-150 minutos</p>
+<h4 id="desafio">Desafio:</h4>
+<p>Desenvolva um sistema completo de biblioteca digital que gerencie livros, usuários, empréstimos e relatórios com persistência completa em arquivos.</p>
+<ol>
+<li>
+<p><strong>Gerenciamento de Livros:</strong></p>
+<ul>
+<li>CRUD completo (Create, Read, Update, Delete)</li>
+<li>Busca avançada (por título, autor, ISBN, gênero, ano)</li>
+<li>Validação de ISBN (formato e dígito verificador)</li>
+<li>Controle de estoque e disponibilidade</li>
+</ul>
+</li>
+<li>
+<p><strong>Sistema de Usuários:</strong></p>
+<ul>
+<li>Cadastro com validações (CPF, email, telefone)</li>
+<li>Histórico completo de empréstimos</li>
+<li>Sistema de multas (atraso na devolução)</li>
+<li>Limite de livros por usuário</li>
+</ul>
+</li>
+<li>
+<p><strong>Sistema de Empréstimos:</strong></p>
+<ul>
+<li>Realizar empréstimo com validações</li>
+<li>Calcular data de devolução automática</li>
+<li>Renovação de empréstimos</li>
+<li>Devolução com cálculo de multa</li>
+<li>Histórico completo de transações</li>
+</ul>
+</li>
+<li>
+<p><strong>Persistência Multi-Formato:</strong></p>
+<ul>
+<li>Salvar em JSON (dados completos)</li>
+<li>Exportar relatórios em CSV</li>
+<li>Gerar logs em arquivo de texto</li>
+<li>Backup automático dos dados</li>
+</ul>
+</li>
+<li>
+<p><strong>Relatórios e Estatísticas:</strong></p>
+<ul>
+<li>Livros mais emprestados</li>
+<li>Usuários mais frequentes</li>
+<li>Livros atrasados</li>
+<li>Estatísticas por gênero</li>
+<li>Relatório financeiro (multas)</li>
+</ul>
+</li>
+</ol>
+<p><strong>Estrutura de dados:</strong></p>
+<pre class="hljs"><code><div>biblioteca = {
+    <span class="hljs-string">'livros'</span>: {
+        <span class="hljs-string">'ISBN1234567890'</span>: {
+            <span class="hljs-string">'titulo'</span>: <span class="hljs-string">'Python para Ciência de Dados'</span>,
+            <span class="hljs-string">'autor'</span>: <span class="hljs-string">'João Silva'</span>,
+            <span class="hljs-string">'ano'</span>: <span class="hljs-number">2023</span>,
+            <span class="hljs-string">'genero'</span>: <span class="hljs-string">'Técnico'</span>,
+            <span class="hljs-string">'estoque'</span>: <span class="hljs-number">5</span>,
+            <span class="hljs-string">'disponivel'</span>: <span class="hljs-number">3</span>
+        }
+    },
+    <span class="hljs-string">'usuarios'</span>: {
+        <span class="hljs-string">'USER001'</span>: {
+            <span class="hljs-string">'nome'</span>: <span class="hljs-string">'Maria Santos'</span>,
+            <span class="hljs-string">'cpf'</span>: <span class="hljs-string">'123.456.789-00'</span>,
+            <span class="hljs-string">'email'</span>: <span class="hljs-string">'maria@email.com'</span>,
+            <span class="hljs-string">'telefone'</span>: <span class="hljs-string">'(85) 99999-9999'</span>,
+            <span class="hljs-string">'emprestimos_ativos'</span>: [],
+            <span class="hljs-string">'historico'</span>: []
+        }
+    },
+    <span class="hljs-string">'emprestimos'</span>: {
+        <span class="hljs-string">'EMP001'</span>: {
+            <span class="hljs-string">'isbn'</span>: <span class="hljs-string">'ISBN1234567890'</span>,
+            <span class="hljs-string">'usuario'</span>: <span class="hljs-string">'USER001'</span>,
+            <span class="hljs-string">'data_emprestimo'</span>: <span class="hljs-string">'2024-01-15'</span>,
+            <span class="hljs-string">'data_devolucao_prevista'</span>: <span class="hljs-string">'2024-01-29'</span>,
+            <span class="hljs-string">'data_devolucao_real'</span>: <span class="hljs-literal">None</span>,
+            <span class="hljs-string">'status'</span>: <span class="hljs-string">'ativo'</span>,
+            <span class="hljs-string">'multa'</span>: <span class="hljs-number">0.0</span>
+        }
+    }
+}
+</div></code></pre>
+<p><strong>Requisitos técnicos:</strong></p>
+<ul>
+<li>Funções com documentação completa (docstrings)</li>
+<li>Tratamento de erros robusto (try/except)</li>
+<li>Validação de todos os inputs</li>
+<li>Funções de backup e restore</li>
+<li>Context managers para manipulação de arquivos</li>
+<li>Uso de <code>json</code>, <code>csv</code>, e manipulação de arquivos texto</li>
+<li>Funções auxiliares bem organizadas</li>
+</ul>
+<p><strong>Entregáveis:</strong></p>
+<ol>
+<li>Função <code>cadastrar_livro(dados_livro)</code> - com validação de ISBN</li>
+<li>Função <code>cadastrar_usuario(dados_usuario)</code> - com validações completas</li>
+<li>Função <code>realizar_emprestimo(isbn, usuario_id)</code> - com todas as validações</li>
+<li>Função <code>devolver_livro(emprestimo_id)</code> - com cálculo de multa</li>
+<li>Função <code>buscar_livros(**criterios)</code> - busca flexível</li>
+<li>Função <code>salvar_dados(arquivo_json)</code> - persistência completa</li>
+<li>Função <code>carregar_dados(arquivo_json)</code> - carregamento seguro</li>
+<li>Função <code>gerar_relatorio_csv(tipo_relatorio, arquivo_saida)</code></li>
+<li>Função <code>backup_dados()</code> - backup automático</li>
+<li>Script principal com menu completo e tratamento de erros</li>
+</ol>
+<p><strong>Casos de teste:</strong></p>
+<ul>
+<li>Empréstimo com livro indisponível</li>
+<li>Usuário com limite de livros atingido</li>
+<li>Devolução com atraso (cálculo de multa)</li>
+<li>Validação de ISBN inválido</li>
+<li>Recuperação de backup após erro</li>
+</ul>
+<p><strong>Dicas:</strong></p>
+<ul>
+<li>Use <code>contextlib</code> para criar context managers customizados</li>
+<li>Implemente validação de ISBN-13 (algoritmo de validação)</li>
+<li>Use <code>datetime</code> para cálculos de datas</li>
+<li>Considere usar <code>pathlib</code> para manipulação de arquivos</li>
+<li>Implemente logging em arquivo separado</li>
+</ul>
+<hr>
+<h2 id="desafio-final-integrado">Desafio Final Integrado</h2>
+<h3 id="%F0%9F%8E%AF-sistema-integrado-de-gest%C3%A3o-empresarial">🎯 Sistema Integrado de Gestão Empresarial</h3>
+<p><strong>Objetivo:</strong> Integrar todos os conceitos aprendidos em um sistema completo e funcional.</p>
+<p><strong>Complexidade:</strong> ⭐⭐⭐⭐⭐<br>
+<strong>Tempo estimado:</strong> 4-6 horas (trabalho em duplas)<br>
+<strong>Entrega:</strong> Código completo + Documentação + Apresentação</p>
+<h4 id="desafio-completo">Desafio Completo:</h4>
+<p>Você e seu parceiro foram contratados para desenvolver um <strong>Sistema Integrado de Gestão Empresarial</strong> que combine funcionalidades de:</p>
+<ul>
+<li>Gestão financeira</li>
+<li>Gestão de recursos humanos</li>
+<li>Gestão de estoque</li>
+<li>Sistema de relatórios e análises</li>
+</ul>
+<p>O sistema deve integrar <strong>TODOS</strong> os conceitos do Módulo 1:</p>
+<h4 id="m%C3%B3dulos-obrigat%C3%B3rios">Módulos Obrigatórios:</h4>
+<ol>
+<li>
+<p><strong>Módulo Financeiro</strong> (conceitos do Exercício 1)</p>
+<ul>
+<li>Registro de receitas e despesas</li>
+<li>Cálculo de indicadores financeiros</li>
+<li>Análise de fluxo de caixa</li>
+<li>Exportação para CSV</li>
+</ul>
+</li>
+<li>
+<p><strong>Módulo de RH</strong> (conceitos do Exercício 2)</p>
+<ul>
+<li>Cadastro de funcionários</li>
+<li>Cálculo de folha de pagamento</li>
+<li>Gestão de férias e benefícios</li>
+<li>Relatórios de desempenho</li>
+</ul>
+</li>
+<li>
+<p><strong>Módulo de Estoque</strong> (conceitos do Exercício 3)</p>
+<ul>
+<li>Controle de produtos</li>
+<li>Entrada e saída de mercadorias</li>
+<li>Alertas de estoque mínimo</li>
+<li>Análise de rotatividade</li>
+</ul>
+</li>
+<li>
+<p><strong>Módulo de Análises</strong> (conceitos do Exercício 4)</p>
+<ul>
+<li>Pipeline de processamento de dados</li>
+<li>Análises estatísticas</li>
+<li>Visualizações de dados</li>
+<li>Relatórios executivos</li>
+</ul>
+</li>
+<li>
+<p><strong>Módulo de Persistência</strong> (conceitos do Exercício 5)</p>
+<ul>
+<li>Salvar/carregar dados em JSON</li>
+<li>Exportação para CSV</li>
+<li>Sistema de logs</li>
+<li>Backup automático</li>
+</ul>
+</li>
+</ol>
+<h4 id="requisitos-t%C3%A9cnicos-obrigat%C3%B3rios">Requisitos Técnicos Obrigatórios:</h4>
+<ul>
+<li>✅ Mínimo de 20 funções bem documentadas</li>
+<li>✅ Uso de todos os tipos de dados (listas, dicts, tuplas, sets)</li>
+<li>✅ Estruturas de controle complexas (loops aninhados, condicionais)</li>
+<li>✅ Compreensões (list, dict, set comprehensions)</li>
+<li>✅ Programação funcional (map, filter, reduce)</li>
+<li>✅ Funções avançadas (argumentos variáveis, decoradores)</li>
+<li>✅ Manipulação de arquivos (JSON, CSV, TXT)</li>
+<li>✅ Tratamento de erros robusto</li>
+<li>✅ Validação de dados completa</li>
+<li>✅ Menu interativo completo</li>
+</ul>
+<h4 id="entreg%C3%A1veis">Entregáveis:</h4>
+<ol>
+<li><strong>Código Python completo</strong> (organizado em módulos)</li>
+<li><strong>Documentação técnica</strong> (README.md explicando o sistema)</li>
+<li><strong>Manual do usuário</strong> (como usar o sistema)</li>
+<li><strong>Apresentação</strong> (10-15 minutos demonstrando o sistema)</li>
+<li><strong>Testes</strong> (casos de teste para validação)</li>
+</ol>
+<h4 id="crit%C3%A9rios-de-avalia%C3%A7%C3%A3o">Critérios de Avaliação:</h4>
+<ul>
+<li><strong>Funcionalidade (40%)</strong>: Sistema funciona completamente</li>
+<li><strong>Qualidade do Código (30%)</strong>: Código limpo, documentado, organizado</li>
+<li><strong>Integração (20%)</strong>: Módulos integrados corretamente</li>
+<li><strong>Apresentação (10%)</strong>: Demonstração clara e profissional</li>
+</ul>
+<h4 id="sugest%C3%B5es-de-estrutura">Sugestões de Estrutura:</h4>
+<pre class="hljs"><code><div>sistema_gestao/
+├── modulos/
+│   ├── financeiro.py
+│   ├── rh.py
+│   ├── estoque.py
+│   ├── analises.py
+│   └── persistencia.py
+├── utils/
+│   ├── validacoes.py
+│   ├── formatadores.py
+│   └── helpers.py
+├── dados/
+│   ├── financeiro.json
+│   ├── rh.json
+│   ├── estoque.json
+│   └── logs/
+├── relatorios/
+├── main.py
+├── README.md
+└── requirements.txt
+</div></code></pre>
+<h4 id="dicas-para-trabalho-em-duplas">Dicas para Trabalho em Duplas:</h4>
+<ol>
+<li><strong>Dividam responsabilidades</strong> por módulos</li>
+<li><strong>Comuniquem-se constantemente</strong> sobre interfaces entre módulos</li>
+<li><strong>Testem integrações</strong> desde o início</li>
+<li><strong>Documentem</strong> enquanto desenvolvem</li>
+<li><strong>Versionem</strong> o código (Git)</li>
+</ol>
+<p><strong>Boa sorte! Este desafio vai consolidar todo o conhecimento do Módulo 1! 🚀</strong></p>
+<hr>
+<h2 id="como-contribuir">Como Contribuir</h2>
+<p>Sinta-se à vontade para:</p>
+<ol>
+<li><strong>Fork</strong> este repositório</li>
+<li>Criar uma <strong>branch</strong> para sua melhoria (<code>git checkout -b feature/minha-melhoria</code>)</li>
+<li><strong>Commit</strong> suas mudanças (<code>git commit -m 'Adiciona nova funcionalidade'</code>)</li>
+<li><strong>Push</strong> para a branch (<code>git push origin feature/minha-melhoria</code>)</li>
+<li>Abrir um <strong>Pull Request</strong></li>
+</ol>
+<h3 id="sugest%C3%B5es-de-melhorias">Sugestões de Melhorias</h3>
+<ul>
+<li>Adicionar mais exercícios práticos</li>
+<li>Incluir testes unitários</li>
+<li>Criar exemplos de soluções</li>
+<li>Adicionar diagramas explicativos</li>
+<li>Traduzir para outros idiomas</li>
+</ul>
+<hr>
+<h2 id="%F0%9F%93%9D-licen%C3%A7a">📝 Licença</h2>
+<p>Este material é fornecido para fins educacionais. Sinta-se livre para usar, modificar e compartilhar.</p>
+<hr>
+<h2 id="%F0%9F%91%A4-autor">👤 Autor</h2>
+<p><strong>Cássio Pinheiro</strong></p>
+<ul>
+<li>GitHub: <a href="https://github.com/cassiopo7">@cassiopo7</a></li>
+<li>Instituição: Universidade de Fortaleza</li>
+<li>Curso: MBA Ciência de Dados</li>
+</ul>
+<hr>
+<h2 id="%F0%9F%99%8F-agradecimentos">🙏 Agradecimentos</h2>
+<p>Agradecimentos à Universidade de Fortaleza e ao programa de MBA em Ciência de Dados pela oportunidade de compartilhar conhecimento.</p>
+<hr>
+<p><strong>Última atualização:</strong> Janeiro 2024<br>
+<strong>Versão:</strong> 1.0.0</p>
+
+</body>
+</html>

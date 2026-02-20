@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ESPECIFICACOES_PROJETO_FINAL.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="%F0%9F%93%8B-especifica%C3%A7%C3%B5es-do-projeto-final">📋 Especificações do Projeto Final</h1>
+<h2 id="programa%C3%A7%C3%A3o-para-ci%C3%AAncia-de-dados---mba-ci%C3%AAncia-de-dados">Programação para Ciência de Dados - MBA Ciência de Dados</h2>
+<p><strong>Disciplina:</strong> Programação para Ciência de Dados<br>
+<strong>Instrutor:</strong> Cássio Pinheiro<br>
+<strong>Universidade de Fortaleza (UNIFOR)</strong></p>
+<hr>
+<h2 id="%F0%9F%8E%AF-objetivo-do-projeto-final">🎯 Objetivo do Projeto Final</h2>
+<p>Desenvolver um projeto prático completo que integre os conhecimentos adquiridos nos <strong>Módulos 1, 2 e 3</strong> da disciplina, demonstrando domínio em:</p>
+<ul>
+<li>Fundamentos de Python (Módulo 1)</li>
+<li>Manipulação de dados com Pandas e NumPy (Módulo 2)</li>
+<li>Visualização de Dados (Módulo 3)</li>
+</ul>
+<p>O projeto deve ser funcional, bem documentado e publicado em um repositório público no GitHub.</p>
+<hr>
+<h2 id="%F0%9F%91%A5-forma%C3%A7%C3%A3o-de-grupos">👥 Formação de Grupos</h2>
+<ul>
+<li><strong>Número máximo de integrantes:</strong> 3 pessoas por grupo</li>
+<li><strong>Número mínimo de integrantes:</strong> 1 pessoa (trabalho individual permitido)</li>
+<li><strong>Formação:</strong> Os grupos devem ser formados pelos próprios alunos</li>
+<li><strong>Divisão de trabalho:</strong> Deve estar claramente documentada no README do projeto</li>
+</ul>
+<hr>
+<h2 id="%F0%9F%93%85-prazos-importantes">📅 Prazos Importantes</h2>
+<h3 id="entrega-do-readme-com-especifica%C3%A7%C3%B5es">Entrega do README com Especificações</h3>
+<ul>
+<li>
+<p><strong>Prazo:</strong> Até <strong>8/11/2025</strong></p>
+</li>
+<li>
+<p><strong>Enviar para o email cassiopo7@gmail.com</strong></p>
+</li>
+<li>
+<p><strong>Apenas 1 membro por equipe precisa enviar</strong></p>
+</li>
+<li>
+<p><strong>Conteúdo:</strong> README completo com todas as especificações do projeto</p>
+</li>
+<li>
+<p><strong>Formato:</strong> Markdown (.md) no repositório GitHub</p>
+</li>
+</ul>
+<h3 id="entrega-final-do-projeto">Entrega Final do Projeto</h3>
+<ul>
+<li><strong>Data limite:</strong> <strong>14/11/2025, às 23:59</strong></li>
+<li><strong>Formato:</strong> Repositório público no GitHub</li>
+<li><strong>Link:</strong> Deve estar disponível no README desde a primeira entrega</li>
+</ul>
+<hr>
+<h2 id="%F0%9F%93%9A-conte%C3%BAdo-a-ser-cobrado">📚 Conteúdo a Ser Cobrado</h2>
+<p>O projeto deve demonstrar o uso dos seguintes conceitos e bibliotecas:</p>
+<h3 id="%E2%9C%85-m%C3%B3dulo-1---fundamentos-de-programa%C3%A7%C3%A3o-com-python">✅ Módulo 1 - Fundamentos de Programação com Python</h3>
+<ul>
+<li>Tipos de dados básicos (int, float, str, bool)</li>
+<li>Estruturas de dados (list, dict, tuple, set)</li>
+<li>Estruturas de controle (if/else, for, while)</li>
+<li>Funções e documentação (docstrings)</li>
+<li>Compreensões de lista e dicionário</li>
+<li>Funções lambda, map, filter, reduce</li>
+<li>Manipulação de arquivos (leitura/escrita com <code>open()</code>)</li>
+<li>Tratamento básico de erros</li>
+</ul>
+<h3 id="%E2%9C%85-m%C3%B3dulo-2---manipula%C3%A7%C3%A3o-avan%C3%A7ada-com-pandas-e-numpy">✅ Módulo 2 - Manipulação Avançada com Pandas e NumPy</h3>
+<ul>
+<li>Criação e manipulação de arrays NumPy</li>
+<li>Operações vetorizadas</li>
+<li>Indexação e fatiamento avançado</li>
+<li>Operações estatísticas básicas</li>
+<li>Criação e manipulação de DataFrames e Series</li>
+<li>Leitura de arquivos CSV</li>
+<li>Limpeza e tratamento de dados (valores ausentes, duplicatas)</li>
+<li>Seleção e filtragem de dados</li>
+<li>Agrupamentos e agregações (<code>groupby()</code>)</li>
+<li>Operações temporais (se aplicável)</li>
+<li>Pivot tables e transformações de dados</li>
+<li>Operações com strings em DataFrames</li>
+</ul>
+<h3 id="%E2%9C%85-m%C3%B3dulo-3---visualiza%C3%A7%C3%A3o-de-dados">✅ Módulo 3 - Visualização de Dados</h3>
+<ul>
+<li>Visualizações básicas com Matplotlib
+<ul>
+<li>Gráficos de linha, barras, histogramas</li>
+<li>Subplots e múltiplos gráficos</li>
+<li>Customização (cores, labels, títulos)</li>
+</ul>
+</li>
+<li>Visualizações estatísticas com Seaborn
+<ul>
+<li>Box plots, violin plots</li>
+<li>Heatmaps de correlação</li>
+<li>Gráficos de distribuição</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="%F0%9F%93%9D-estrutura-obrigat%C3%B3ria-do-readme">📝 Estrutura Obrigatória do README</h2>
+<p>O README do projeto deve conter <strong>TODOS</strong> os seguintes tópicos:</p>
+<h3 id="1-%F0%9F%93%8B-cabe%C3%A7alho-e-informa%C3%A7%C3%B5es-b%C3%A1sicas">1. 📋 Cabeçalho e Informações Básicas</h3>
+<pre class="hljs"><code><div><span class="hljs-section"># Nome do Projeto</span>
+
+<span class="hljs-strong">**Disciplina:**</span> Programação para Ciência de Dados  
+<span class="hljs-strong">**Curso:**</span> MBA Ciência de Dados - UNIFOR  
+<span class="hljs-strong">**Instrutor:**</span> Cássio Pinheiro  
+<span class="hljs-strong">**Integrantes:**</span> 
+<span class="hljs-bullet">- </span>Nome Completo 1 (Matrícula)
+<span class="hljs-bullet">- </span>Nome Completo 2 (Matrícula)
+<span class="hljs-bullet">- </span>Nome Completo 3 (Matrícula)
+
+<span class="hljs-strong">**Repositório GitHub:**</span> [Link completo do repositório público]
+<span class="hljs-strong">**Data de Entrega:**</span> 14/11/2024
+</div></code></pre>
+<h3 id="2-%F0%9F%8E%AF-objetivo-do-projeto">2. 🎯 Objetivo do Projeto</h3>
+<ul>
+<li>Descrição clara do propósito do projeto</li>
+<li>Problema que o projeto resolve</li>
+<li>Público-alvo ou contexto de aplicação</li>
+</ul>
+<h3 id="3-%F0%9F%93%8A-diagrama-de-contexto-mermaid">3. 📊 Diagrama de Contexto (Mermaid)</h3>
+<ul>
+<li>Diagrama C4 de contexto mostrando o sistema e seus relacionamentos</li>
+<li>Pode usar diagramas Container ou Component se aplicável</li>
+</ul>
+<h3 id="4-%F0%9F%94%A7-funcionalidades-implementadas">4. 🔧 Funcionalidades Implementadas</h3>
+<ul>
+<li>Lista detalhada de todas as funcionalidades</li>
+<li>Descrição do que cada funcionalidade faz</li>
+<li>Indicação de quais módulos foram utilizados em cada funcionalidade</li>
+</ul>
+<h3 id="5-%F0%9F%93%A6-estrutura-de-dados">5. 📦 Estrutura de Dados</h3>
+<ul>
+<li>Modelos de dados utilizados</li>
+<li>Exemplos de estruturas de entrada</li>
+<li>Exemplos de estruturas de saída</li>
+<li>Formato dos arquivos de dados (CSV, TXT, etc.)</li>
+</ul>
+<h3 id="6-%F0%9F%92%BB-requisitos-t%C3%A9cnicos">6. 💻 Requisitos Técnicos</h3>
+<ul>
+<li>Versão do Python utilizada</li>
+<li>Bibliotecas e dependências (com versões)</li>
+<li>Requisitos de sistema (se houver)</li>
+<li>Como instalar as dependências</li>
+</ul>
+<h3 id="7-%F0%9F%9A%80-como-executar-o-projeto">7. 🚀 Como Executar o Projeto</h3>
+<ul>
+<li>Passo a passo para instalação</li>
+<li>Como executar o código principal</li>
+<li>Exemplos de uso</li>
+<li>Comandos necessários</li>
+</ul>
+<h3 id="8-%F0%9F%93%88-an%C3%A1lises-realizadas">8. 📈 Análises Realizadas</h3>
+<ul>
+<li>Descrição das análises realizadas</li>
+<li>Principais insights encontrados</li>
+<li>Visualizações criadas e seus propósitos</li>
+<li>Estatísticas calculadas</li>
+</ul>
+<h3 id="9-%F0%9F%93%81-estrutura-do-projeto">9. 📁 Estrutura do Projeto</h3>
+<pre class="hljs"><code><div>nome_projeto/
+├── README.md
+├── requirements.txt
+├── main.py (ou arquivo principal)
+├── dados/
+│   └── arquivos de dados
+├── src/ (opcional)
+│   └── módulos do projeto
+├── relatorios/ (opcional)
+│   └── relatórios gerados
+└── notebooks/ (opcional)
+    └── notebooks de análise
+</div></code></pre>
+<h3 id="10-%F0%9F%93%B8-capturas-de-tela--exemplos-de-sa%C3%ADda">10. 📸 Capturas de Tela / Exemplos de Saída</h3>
+<ul>
+<li>Imagens das visualizações geradas</li>
+<li>Exemplos de saída do programa</li>
+<li>Interface (se houver)</li>
+</ul>
+<h3 id="11-%F0%9F%A7%AA-testes-realizados">11. 🧪 Testes Realizados</h3>
+<ul>
+<li>Cenários testados</li>
+<li>Resultados obtidos</li>
+<li>Validações implementadas</li>
+</ul>
+<h3 id="12-%F0%9F%93%9A-refer%C3%AAncias-e-bibliografia">12. 📚 Referências e Bibliografia</h3>
+<ul>
+<li>Documentação consultada</li>
+<li>Tutoriais utilizados</li>
+<li>Datasets utilizados (com links)</li>
+</ul>
+<h3 id="13-%F0%9F%A4%9D-contribui%C3%A7%C3%B5es-dos-integrantes">13. 🤝 Contribuições dos Integrantes</h3>
+<ul>
+<li>Divisão de trabalho</li>
+<li>Responsabilidades de cada integrante</li>
+<li>Commits principais de cada membro</li>
+</ul>
+<h3 id="14-%F0%9F%94%84-pr%C3%B3ximos-passos--melhorias-futuras">14. 🔄 Próximos Passos / Melhorias Futuras</h3>
+<ul>
+<li>Funcionalidades que poderiam ser adicionadas</li>
+<li>Melhorias técnicas possíveis</li>
+<li>Expansões do projeto</li>
+</ul>
+<hr>
+<h2 id="%F0%9F%93%8A-normas-de-avalia%C3%A7%C3%A3o">📊 Normas de Avaliação</h2>
+<p>O projeto será avaliado em <strong>10 pontos</strong>, distribuídos da seguinte forma:</p>
+<h3 id="%F0%9F%93%84-documenta%C3%A7%C3%A3o-2-pontos">📄 Documentação (2 pontos)</h3>
+<p>A documentação será avaliada considerando:</p>
+<table>
+<thead>
+<tr>
+<th>Critério</th>
+<th>Pontuação</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Qualidade do README</strong></td>
+<td>0.5 pontos</td>
+<td>README completo, bem formatado, com todos os tópicos obrigatórios preenchidos</td>
+</tr>
+<tr>
+<td><strong>Alinhamento com o Projeto</strong></td>
+<td>0.75 pontos</td>
+<td>Documentação reflete fielmente o que foi implementado; exemplos correspondem ao código</td>
+</tr>
+<tr>
+<td><strong>Expressão do Propósito</strong></td>
+<td>0.75 pontos</td>
+<td>Documentação comunica claramente o objetivo, funcionalidades e valor do projeto</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Critérios de Desconto:</strong></p>
+<ul>
+<li>README incompleto (faltam tópicos obrigatórios): -0.2 pontos</li>
+<li>Exemplos não funcionam ou não correspondem ao código: -0.2 pontos</li>
+<li>Erros de formatação ou português que dificultam leitura: -0.1 pontos</li>
+<li>Falta de clareza na explicação do propósito: -0.2 pontos</li>
+</ul>
+<hr>
+<h3 id="%F0%9F%92%BB-implementa%C3%A7%C3%A3o-t%C3%A9cnica-8-pontos">💻 Implementação Técnica (8 pontos)</h3>
+<p>A implementação será avaliada considerando:</p>
+<h4 id="1-uso-dos-conceitos-dos-m%C3%B3dulos-3-pontos">1. Uso dos Conceitos dos Módulos (3 pontos)</h4>
+<table>
+<thead>
+<tr>
+<th>Módulo</th>
+<th>Pontuação</th>
+<th>Critérios</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Módulo 1 - Fundamentos</strong></td>
+<td>1.0 ponto</td>
+<td>Uso adequado de estruturas de dados, funções bem definidas, compreensões, manipulação de arquivos</td>
+</tr>
+<tr>
+<td><strong>Módulo 2 - Pandas/NumPy</strong></td>
+<td>1.0 ponto</td>
+<td>Manipulação eficiente de DataFrames, operações de agrupamento, limpeza de dados, operações vetorizadas</td>
+</tr>
+<tr>
+<td><strong>Módulo 3 - Visualização</strong></td>
+<td>1.0 ponto</td>
+<td>Visualizações relevantes e bem formatadas, uso adequado de Matplotlib e Seaborn</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Critérios de Desconto:</strong></p>
+<ul>
+<li>Uso mínimo ou inadequado dos conceitos: -0.3 pontos por módulo</li>
+<li>Código que poderia usar conceitos do módulo mas não usa: -0.2 pontos</li>
+<li>Implementações ineficientes (ex: loops quando poderia usar vetorização): -0.2 pontos</li>
+</ul>
+<h4 id="2-qualidade-do-c%C3%B3digo-2-pontos">2. Qualidade do Código (2 pontos)</h4>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Pontuação</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Organização e Estrutura</strong></td>
+<td>0.5 pontos</td>
+<td>Código bem organizado, funções com responsabilidades claras, modularização adequada</td>
+</tr>
+<tr>
+<td><strong>Documentação do Código</strong></td>
+<td>0.5 pontos</td>
+<td>Docstrings nas funções principais, comentários onde necessário, código legível</td>
+</tr>
+<tr>
+<td><strong>Tratamento de Erros</strong></td>
+<td>0.5 pontos</td>
+<td>Validação de entradas, tratamento de casos extremos, mensagens de erro claras</td>
+</tr>
+<tr>
+<td><strong>Boas Práticas</strong></td>
+<td>0.5 pontos</td>
+<td>Nomes de variáveis descritivos, código limpo, seguimento de convenções Python</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Critérios de Desconto:</strong></p>
+<ul>
+<li>Código desorganizado ou difícil de entender: -0.3 pontos</li>
+<li>Falta de documentação (docstrings): -0.2 pontos</li>
+<li>Sem tratamento de erros ou validações: -0.2 pontos</li>
+<li>Código duplicado ou não reutilizável: -0.2 pontos</li>
+</ul>
+<h4 id="3-funcionalidades-implementadas-2-pontos">3. Funcionalidades Implementadas (2 pontos)</h4>
+<table>
+<thead>
+<tr>
+<th>Critério</th>
+<th>Pontuação</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Completude das Funcionalidades</strong></td>
+<td>1.0 ponto</td>
+<td>Todas as funcionalidades planejadas foram implementadas e funcionam corretamente</td>
+</tr>
+<tr>
+<td><strong>Robustez e Confiabilidade</strong></td>
+<td>0.5 pontos</td>
+<td>Sistema funciona com diferentes entradas, trata casos extremos, não quebra facilmente</td>
+</tr>
+<tr>
+<td><strong>Complexidade Adequada</strong></td>
+<td>0.5 pontos</td>
+<td>Projeto demonstra nível adequado de complexidade para o escopo do curso</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Critérios de Desconto:</strong></p>
+<ul>
+<li>Funcionalidades planejadas não implementadas: -0.3 pontos por funcionalidade importante</li>
+<li>Bugs críticos que impedem execução: -0.5 pontos</li>
+<li>Sistema quebra com entradas inválidas: -0.2 pontos</li>
+<li>Projeto muito simples para o escopo: -0.3 pontos</li>
+</ul>
+<h4 id="4-visualiza%C3%A7%C3%B5es-1-ponto">4. Visualizações (1 ponto)</h4>
+<table>
+<thead>
+<tr>
+<th>Critério</th>
+<th>Pontuação</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Relevância das Visualizações</strong></td>
+<td>0.5 pontos</td>
+<td>Visualizações relevantes para o problema, insights interessantes</td>
+</tr>
+<tr>
+<td><strong>Qualidade das Visualizações</strong></td>
+<td>0.5 pontos</td>
+<td>Gráficos bem formatados, informativos, com títulos e labels adequados</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Critérios de Desconto:</strong></p>
+<ul>
+<li>Visualizações sem contexto ou pouco informativas: -0.2 pontos</li>
+<li>Gráficos mal formatados ou sem labels: -0.2 pontos</li>
+<li>Visualizações superficiais ou sem insights: -0.2 pontos</li>
+<li>Falta de diversidade nos tipos de visualização: -0.1 pontos</li>
+</ul>
+<hr>
+<h2 id="%E2%9C%85-checklist-de-entrega">✅ Checklist de Entrega</h2>
+<p>Antes de submeter o projeto, verifique:</p>
+<h3 id="documenta%C3%A7%C3%A3o">Documentação</h3>
+<ul>
+<li><input type="checkbox" id="checkbox0"><label for="checkbox0">README completo com todos os tópicos obrigatórios</label></li>
+<li><input type="checkbox" id="checkbox1"><label for="checkbox1">Link do repositório GitHub público funcionando</label></li>
+<li><input type="checkbox" id="checkbox2"><label for="checkbox2">Informações dos integrantes corretas</label></li>
+<li><input type="checkbox" id="checkbox3"><label for="checkbox3">Exemplos de uso funcionando</label></li>
+<li><input type="checkbox" id="checkbox4"><label for="checkbox4">Estrutura do projeto documentada</label></li>
+<li><input type="checkbox" id="checkbox5"><label for="checkbox5">Capturas de tela ou exemplos de saída incluídos</label></li>
+</ul>
+<h3 id="c%C3%B3digo">Código</h3>
+<ul>
+<li><input type="checkbox" id="checkbox6"><label for="checkbox6">Código funcional e executável</label></li>
+<li><input type="checkbox" id="checkbox7"><label for="checkbox7"></label><code>requirements.txt</code> com todas as dependências</li>
+<li><input type="checkbox" id="checkbox8"><label for="checkbox8">Código comentado e documentado</label></li>
+<li><input type="checkbox" id="checkbox9"><label for="checkbox9">Tratamento de erros implementado</label></li>
+<li><input type="checkbox" id="checkbox10"><label for="checkbox10">Validações de entrada implementadas</label></li>
+</ul>
+<h3 id="conte%C3%BAdo-dos-m%C3%B3dulos">Conteúdo dos Módulos</h3>
+<ul>
+<li><input type="checkbox" id="checkbox11"><label for="checkbox11">Uso adequado de conceitos do Módulo 1</label></li>
+<li><input type="checkbox" id="checkbox12"><label for="checkbox12">Uso adequado de Pandas e NumPy (Módulo 2)</label></li>
+<li><input type="checkbox" id="checkbox13"><label for="checkbox13">Visualizações com Matplotlib e Seaborn (Módulo 3)</label></li>
+</ul>
+<h3 id="reposit%C3%B3rio-github">Repositório GitHub</h3>
+<ul>
+<li><input type="checkbox" id="checkbox14"><label for="checkbox14">Repositório público</label></li>
+<li><input type="checkbox" id="checkbox15"><label for="checkbox15">README.md na raiz</label></li>
+<li><input type="checkbox" id="checkbox16"><label for="checkbox16">Código organizado em pastas adequadas</label></li>
+<li><input type="checkbox" id="checkbox17"><label for="checkbox17">Arquivo </label><code>.gitignore</code> presente (se necessário)</li>
+<li><input type="checkbox" id="checkbox18"><label for="checkbox18">Commits com mensagens descritivas</label></li>
+<li><input type="checkbox" id="checkbox19"><label for="checkbox19">Histórico de commits mostra trabalho colaborativo (se em grupo)</label></li>
+</ul>
+<hr>
+<h2 id="%F0%9F%93%8C-observa%C3%A7%C3%B5es-importantes">📌 Observações Importantes</h2>
+<ol>
+<li>
+<p><strong>Plágio:</strong> Projetos copiados de outros alunos ou da internet resultarão em nota zero para todos os envolvidos.</p>
+</li>
+<li>
+<p><strong>Originalidade:</strong> Embora possam usar projetos da pasta <code>projetos/modulos_1</code> como referência, o projeto deve ter implementação própria e melhorias significativas.</p>
+</li>
+<li>
+<p><strong>Colaboração:</strong> Em grupos, todos os membros devem contribuir significativamente. A divisão de trabalho deve estar clara no README.</p>
+</li>
+<li>
+<p><strong>Prazo:</strong> Projetos entregues após o prazo terão desconto de 1 ponto por dia de atraso, até máximo de 3 dias. Após isso, não serão aceitos.</p>
+</li>
+<li>
+<p><strong>Dúvidas:</strong> Em caso de dúvidas sobre os critérios de avaliação ou requisitos, consultar o instrutor com antecedência.</p>
+</li>
+</ol>
+<hr>
+<h2 id="%F0%9F%8E%93-exemplos-de-projetos-aceit%C3%A1veis">🎓 Exemplos de Projetos Aceitáveis</h2>
+<p>Os projetos podem ser baseados nos exemplos da pasta <code>projetos/modulos_1</code>, mas devem incluir:</p>
+<ul>
+<li><strong>Expansão significativa:</strong> Adicionar funcionalidades além do básico</li>
+<li><strong>Análises com Pandas:</strong> Manipulação avançada de dados</li>
+<li><strong>Visualizações:</strong> Múltiplos gráficos e visualizações relevantes</li>
+<li><strong>Dataset real:</strong> Usar dados reais ou simulados de forma adequada</li>
+<li><strong>Documentação completa:</strong> README profissional e detalhado</li>
+</ul>
+<hr>
+<h2 id="%F0%9F%93%9E-contato">📞 Contato</h2>
+<p><strong>Dúvidas:</strong> Prof. Cássio Pinheiro</p>
+<p><strong>E-mail:</strong> cassiopo7@gmail.com</p>
+<p><strong>Disciplina:</strong> Programação para Ciência de Dados - MBA Ciência de Dados</p>
+<hr>
+<p><strong>Boa sorte com o projeto final!</strong> 🚀</p>
+<hr>
+
+</body>
+</html>
