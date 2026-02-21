@@ -1,0 +1,51 @@
+Data,Descricao,Categoria,Valor,Tipo,Forma_Pagamento,Essencial
+2025-03-22,Material escolar,Educacao,64.47,Variavel,Dinheiro,Sim
+2025-02-14,Material escolar,Educacao,82.86,Variavel,Pix,Sim
+2025-03-31,Academia,Saude,73.43,Fixo,Boleto,Nao
+2025-01-24,Acessorios,Vestuario,57.88,Variavel,Cartao,Nao
+2025-02-08,Acessorios,Vestuario,31.55,Variavel,Boleto,Nao
+2025-01-08,Viagem fim de semana,Lazer,780.67,Variavel,Debito Automatico,Nao
+2025-03-09,Passagem onibus,Transporte,5.46,Variavel,Cartao,Sim
+2025-02-12,Mensalidade curso,Educacao,1867.78,Fixo,Pix,Sim
+2025-01-12,Streaming,Lazer,21.8,Fixo,Boleto,Nao
+2025-03-28,Cinema,Lazer,54.94,Variavel,Cartao,Nao
+2025-03-17,Livros,Educacao,87.53,Variavel,Pix,Nao
+2025-02-08,Restaurante almoco,Alimentacao,57.17,Variavel,Dinheiro,Sim
+2025-03-03,Manutencao veiculo,Transporte,381.51,Variavel,Boleto,Sim
+2025-01-31,Bar com amigos,Lazer,99.8,Variavel,Boleto,Nao
+2025-03-01,Bar com amigos,Lazer,57.76,Variavel,Pix,Nao
+2025-03-07,Academia,Saude,68.87,Fixo,Boleto,Nao
+2025-02-10,Estacionamento,Transporte,11.26,Variavel,Dinheiro,Nao
+2025-03-14,Roupas,Vestuario,235.31,Variavel,Dinheiro,Nao
+2025-02-03,Viagem fim de semana,Lazer,377.12,Variavel,Cartao,Nao
+2025-02-12,Passagem onibus,Transporte,7.42,Variavel,Cartao,Sim
+2025-03-05,Bar com amigos,Lazer,53.16,Variavel,Boleto,Nao
+2025-03-24,Material escolar,Educacao,56.87,Variavel,Pix,Sim
+2025-01-22,Manutencao veiculo,Transporte,295.33,Variavel,Debito Automatico,Sim
+2025-03-24,Padaria,Alimentacao,5.68,Variavel,Dinheiro,Sim
+2025-03-27,Supermercado mensal,Alimentacao,476.82,Variavel,Cartao,Sim
+2025-01-09,Livros,Educacao,31.1,Variavel,Debito Automatico,Nao
+2025-02-28,Aluguel,Moradia,1850.32,Fixo,Debito Automatico,Sim
+2025-03-03,Material escolar,Educacao,21.26,Variavel,Debito Automatico,Sim
+2025-03-12,Plano de saude,Saude,210.04,Fixo,Pix,Sim
+2025-03-10,Aluguel,Moradia,1653.77,Fixo,Boleto,Sim
+2025-01-23,Supermercado mensal,Alimentacao,538.41,Variavel,Cartao,Sim
+2025-01-25,Bar com amigos,Lazer,103.37,Variavel,Pix,Nao
+2025-02-20,Delivery jantar,Alimentacao,77.56,Variavel,Boleto,Nao
+2025-03-14,Uber/99,Transporte,22.0,Variavel,Dinheiro,Nao
+2025-03-25,Acessorios,Vestuario,80.77,Variavel,Dinheiro,Nao
+2025-02-21,Academia,Saude,109.74,Fixo,Dinheiro,Nao
+2025-03-23,Restaurante almoco,Alimentacao,18.72,Variavel,Boleto,Sim
+2025-03-24,Calcados,Vestuario,261.07,Variavel,Dinheiro,Nao
+2025-03-09,Restaurante almoco,Alimentacao,24.51,Variavel,Debito Automatico,Sim
+2025-03-02,Aluguel,Moradia,2371.07,Fixo,Pix,Sim
+2025-03-11,Cinema,Lazer,27.17,Variavel,Pix,Nao
+2025-01-03,Manutencao veiculo,Transporte,157.68,Variavel,Boleto,Sim
+2025-01-10,Condominio,Moradia,425.58,Fixo,Debito Automatico,Sim
+2025-02-19,Curso online,Educacao,95.25,Variavel,Cartao,Nao
+2025-03-30,Mensalidade curso,Educacao,1151.35,Fixo,Pix,Sim
+2025-01-07,Feira livre,Alimentacao,50.89,Variavel,Dinheiro,Sim
+2025-02-13,Viagem fim de semana,Lazer,781.35,Variavel,Pix,Nao
+2025-01-04,Curso online,Educacao,163.2,Variavel,Boleto,Nao
+2025-03-04,Estacionamento,Transporte,16.06,Variavel,Boleto,Nao
+2025-02-25,Manutencao veiculo,Transporte,364.27,Variavel,Dinheiro,Sim

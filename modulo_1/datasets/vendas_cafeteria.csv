@@ -1,0 +1,51 @@
+Data,Produto,Categoria,Quantidade,Preco_Unitario,Forma_Pagamento,Turno
+2025-02-27,Brownie,Sobremesas,6,8.42,Pix,Manha
+2025-01-08,Sanduiche Natural,Lanches,6,14.88,Dinheiro,Noite
+2025-03-24,Cafe Expresso,Bebidas,4,6.27,Cartao,Noite
+2025-03-08,Brownie,Sobremesas,6,7.49,Cartao,Tarde
+2025-02-22,Misto Quente,Lanches,1,9.16,Pix,Tarde
+2025-01-09,Sanduiche Natural,Lanches,9,12.75,Cartao,Tarde
+2025-03-26,Brownie,Sobremesas,6,6.33,Pix,Manha
+2025-02-14,Empada,Lanches,3,6.29,Dinheiro,Tarde
+2025-03-13,Coxinha,Lanches,3,6.01,Pix,Noite
+2025-03-09,Cafe com Leite,Bebidas,7,6.78,Dinheiro,Tarde
+2025-02-09,Cappuccino,Bebidas,6,11.74,Cartao,Manha
+2025-01-29,Cappuccino,Bebidas,2,8.48,Dinheiro,Noite
+2025-03-11,Cookie,Sobremesas,1,5.49,Pix,Manha
+2025-03-18,Pao de Queijo,Lanches,3,3.95,Pix,Noite
+2025-01-22,Pudim,Sobremesas,1,7.14,Pix,Noite
+2025-01-31,Misto Quente,Lanches,5,9.01,Cartao,Manha
+2025-03-10,Suco Natural,Bebidas,8,9.62,Dinheiro,Tarde
+2025-03-28,Pudim,Sobremesas,8,8.58,Cartao,Noite
+2025-03-09,Pao de Queijo,Lanches,4,5.5,Dinheiro,Tarde
+2025-01-07,Pudim,Sobremesas,6,7.72,Dinheiro,Noite
+2025-03-08,Suco Natural,Bebidas,2,9.05,Cartao,Tarde
+2025-03-07,Chocolate Quente,Bebidas,7,7.37,Dinheiro,Tarde
+2025-02-14,Agua Mineral,Bebidas,1,3.29,Cartao,Manha
+2025-02-19,Suco Natural,Bebidas,4,6.11,Dinheiro,Noite
+2025-03-25,Pao de Queijo,Lanches,3,3.6,Cartao,Noite
+2025-01-18,Pudim,Sobremesas,8,7.96,Dinheiro,Manha
+2025-02-02,Chocolate Quente,Bebidas,3,9.2,Pix,Noite
+2025-03-09,Sanduiche Natural,Lanches,5,9.66,Dinheiro,Manha
+2025-01-31,Misto Quente,Lanches,8,6.25,Cartao,Noite
+2025-03-10,Cafe com Leite,Bebidas,9,7.01,Pix,Manha
+2025-02-07,Sanduiche Natural,Lanches,10,10.47,Pix,Tarde
+2025-01-24,Bolo de Cenoura,Sobremesas,9,8.9,Dinheiro,Noite
+2025-03-11,Cookie,Sobremesas,9,3.56,Cartao,Manha
+2025-03-23,Coxinha,Lanches,5,6.24,Cartao,Manha
+2025-02-14,Cafe com Leite,Bebidas,2,7.7,Pix,Tarde
+2025-01-18,Suco Natural,Bebidas,9,7.35,Pix,Manha
+2025-03-29,Empada,Lanches,3,6.93,Dinheiro,Noite
+2025-02-28,Suco Natural,Bebidas,4,6.18,Dinheiro,Manha
+2025-02-10,Misto Quente,Lanches,7,9.96,Pix,Tarde
+2025-02-02,Chocolate Quente,Bebidas,4,8.14,Dinheiro,Noite
+2025-02-12,Sanduiche Natural,Lanches,6,11.06,Cartao,Noite
+2025-02-26,Coxinha,Lanches,3,5.49,Cartao,Tarde
+2025-03-08,Sanduiche Natural,Lanches,7,8.55,Pix,Manha
+2025-03-11,Coxinha,Lanches,2,4.24,Pix,Tarde
+2025-02-09,Misto Quente,Lanches,7,6.67,Cartao,Tarde
+2025-02-27,Cafe com Leite,Bebidas,6,7.15,Cartao,Tarde
+2025-03-23,Cafe Expresso,Bebidas,7,5.41,Pix,Noite
+2025-01-21,Cappuccino,Bebidas,10,10.39,Cartao,Manha
+2025-01-17,Cappuccino,Bebidas,6,8.81,Pix,Manha
+2025-03-19,Cafe com Leite,Bebidas,8,8.32,Cartao,Tarde
