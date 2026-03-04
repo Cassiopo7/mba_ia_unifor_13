@@ -1,0 +1,36 @@
+ISBN,Titulo,Autor,Genero,Ano_Publicacao,Paginas,Disponivel,Emprestimos
+978-19-3255-642-5,Dom Casmurro,Machado de Assis,Romance,1951,401,Nao,15
+978-24-1424-853-2,Memorias Postumas de Bras Cubas,Machado de Assis,Romance,1977,610,Nao,35
+978-25-5288-893-4,Grande Sertao: Veredas,Guimaraes Rosa,Romance,1964,299,Nao,44
+978-72-4279-225-2,O Cortico,Aluisio Azevedo,Romance,1868,542,Sim,45
+978-66-2438-929-5,Capitaes da Areia,Jorge Amado,Romance,2020,435,Sim,35
+978-79-5757-407-2,Vidas Secas,Graciliano Ramos,Romance,2013,258,Nao,32
+978-38-2988-305-2,A Hora da Estrela,Clarice Lispector,Romance,1910,585,Sim,23
+978-80-7044-578-8,O Alquimista,Paulo Coelho,Ficcao,1883,706,Sim,4
+978-49-7523-834-7,Iracema,Jose de Alencar,Romance,1984,500,Nao,36
+978-19-3053-424-1,Macunaima,Mario de Andrade,Romance,1965,557,Nao,8
+978-80-3981-886-2,O Tempo e o Vento,Erico Verissimo,Romance,1960,594,Sim,7
+978-76-3507-411-2,Olhai os Lirios do Campo,Erico Verissimo,Romance,1891,410,Sim,22
+978-76-5653-966-1,Cem Anos de Solidao,Gabriel Garcia Marquez,Realismo Magico,1914,281,Nao,8
+978-90-5961-729-8,1984,George Orwell,Ficcao Cientifica,1873,594,Sim,37
+978-84-3526-275-9,O Senhor dos Aneis,J.R.R. Tolkien,Fantasia,2004,425,Sim,1
+978-20-1744-756-9,Harry Potter e a Pedra Filosofal,J.K. Rowling,Fantasia,1917,746,Sim,49
+978-83-7825-732-0,O Pequeno Principe,Antoine de Saint-Exupery,Fabula,1977,722,Nao,41
+978-48-8912-350-6,Crime e Castigo,Fiodor Dostoievski,Romance,1926,544,Sim,44
+978-17-3589-550-6,Orgulho e Preconceito,Jane Austen,Romance,1973,555,Sim,21
+978-87-3353-420-5,O Grande Gatsby,F. Scott Fitzgerald,Romance,1938,488,Sim,48
+978-57-9437-675-1,A Metamorfose,Franz Kafka,Ficcao,1931,327,Nao,7
+978-44-8366-353-2,O Apanhador no Campo de Centeio,J.D. Salinger,Romance,1874,131,Nao,24
+978-88-7850-354-2,A Revolucao dos Bichos,George Orwell,Satira,1933,671,Nao,12
+978-30-9163-627-7,Sapiens,Yuval Noah Harari,Nao Ficcao,1977,395,Nao,1
+978-21-7442-617-7,Breve Historia do Tempo,Stephen Hawking,Ciencia,1911,300,Nao,3
+978-16-5609-606-9,O Poder do Habito,Charles Duhigg,Autoajuda,2017,768,Nao,18
+978-78-1133-967-1,Pai Rico Pai Pobre,Robert Kiyosaki,Financas,1960,217,Nao,46
+978-56-7606-474-0,A Arte da Guerra,Sun Tzu,Estrategia,1952,132,Sim,23
+978-80-5728-175-6,O Morro dos Ventos Uivantes,Emily Bronte,Romance,1979,541,Nao,39
+978-97-2946-231-1,A Menina que Roubava Livros,Markus Zusak,Romance,1950,462,Nao,35
+978-56-3363-303-9,O Diario de Anne Frank,Anne Frank,Biografia,1980,491,Sim,2
+978-14-3245-830-5,Eu Sei Por Que o Passaro Canta na Gaiola,Maya Angelou,Autobiografia,1971,611,Nao,9
+978-87-9446-243-5,As Cronicas de Narnia,C.S. Lewis,Fantasia,2006,406,Sim,25
+978-88-5902-707-5,Duna,Frank Herbert,Ficcao Cientifica,1979,601,Nao,45
+978-82-5911-586-0,Ensaio Sobre a Cegueira,Jose Saramago,Romance,1944,419,Sim,26

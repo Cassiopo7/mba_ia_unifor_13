@@ -1,0 +1,36 @@
+Codigo,Produto,Categoria,Preco,Quantidade_Estoque,Fornecedor,Ativo
+P9308,Regua 30cm,Papelaria,4.45,209,Nordeste Suprimentos,False
+P5844,Agua Sanitaria 2L,Limpeza,7.67,98,Sul Distribuidora,False
+P3851,Meia Kit 3 Pares,Vestuario,30.29,154,Sul Distribuidora,True
+P5978,Borracha Branca,Papelaria,2.48,220,Top Fornecedora,False
+P8618,Fone de Ouvido Bluetooth,Eletronicos,160.59,345,Mega Distribuidora,False
+P3780,Mouse Sem Fio,Eletronicos,118.96,145,Rede Abastece,False
+P2530,Cafe Torrado 500g,Alimentos,30.91,384,Mega Distribuidora,False
+P4680,Webcam HD,Eletronicos,261.21,75,Distribuidora Central,True
+P5011,Bermuda Tactel,Vestuario,98.94,312,Atacadao do Norte,False
+P7790,Limpador Multiuso 500ml,Limpeza,12.1,294,Mega Distribuidora,False
+P9099,Carregador Portatil,Eletronicos,89.87,75,Distribuidora Central,True
+P7965,Caderno 200 folhas,Papelaria,20.37,411,Rede Abastece,False
+P1822,Vestido Casual,Vestuario,126.79,469,Atacadao do Norte,False
+P3184,Mel Puro 500g,Alimentos,35.73,341,Rede Abastece,False
+P8251,Azeite Extra Virgem 500ml,Alimentos,38.28,368,Rede Abastece,False
+P9976,Biscoito Integral 300g,Alimentos,9.91,81,Ponto Comercial,False
+P5246,Jaqueta Corta-Vento,Vestuario,210.18,430,Brasil Atacado,False
+P4919,Calca Jeans,Vestuario,112.85,39,Brasil Atacado,True
+P5451,Detergente 500ml,Limpeza,3.67,457,Rede Abastece,True
+P3267,Pen Drive 64GB,Eletronicos,37.44,196,Fornecedora Nacional,True
+P2052,Chocolate ao Leite 200g,Alimentos,12.88,169,Rede Abastece,False
+P7812,Camiseta Algodao,Vestuario,33.64,426,Sul Distribuidora,False
+P1320,Teclado Mecanico,Eletronicos,446.89,391,Top Fornecedora,False
+P8814,Caneta Esferografica Kit 10,Papelaria,9.99,180,Brasil Atacado,False
+P7865,Castanha de Caju 200g,Alimentos,26.13,376,Rede Abastece,True
+P8999,Pasta Arquivo,Papelaria,9.75,223,Ponto Comercial,True
+P7371,Granola Premium 800g,Alimentos,19.94,347,Sul Distribuidora,True
+P8657,Caixa de Som Bluetooth,Eletronicos,374.15,318,Rede Abastece,True
+P7455,Cabo HDMI 2m,Eletronicos,43.58,339,Distribuidora Central,True
+P8022,Sabao em Po 1kg,Limpeza,11.66,236,Fornecedora Nacional,True
+P5262,Tenis Esportivo,Vestuario,194.68,108,Ponto Comercial,False
+P6529,Esponja Multiuso 3un,Limpeza,6.85,194,Brasil Atacado,False
+P5133,Desinfetante 2L,Limpeza,15.41,240,Distribuidora Central,True
+P6733,Lapis de Cor 24 cores,Papelaria,17.83,35,Distribuidora Central,True
+P5051,Vestido Casual,Vestuario,83.82,10,Top Fornecedora,True

@@ -1,3 +1,0 @@
-Disciplina: Programação para Ciência de Dados
-Instrutor: Cássio Pinheiro
-Universidade de Fortaleza

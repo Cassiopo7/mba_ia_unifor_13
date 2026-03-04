@@ -1,0 +1,41 @@
+ID,Nome,Departamento,Cargo,Salario,Data_Admissao,Cidade,Ativo
+1,Lucas Ramos,Marketing,Analista de Marketing,4533.46,2024-06-08,Belo Horizonte,False
+2,Amanda Pinto,Operacoes,Gerente de Operacoes,8369.77,2018-01-24,Joao Pessoa,False
+3,Tatiana Andrade,Vendas,Gerente de Vendas,6678.41,2021-09-21,Sao Luis,True
+4,Raquel Nunes,Financeiro,Gerente Financeiro,12577.42,2018-03-04,Belem,False
+5,Helena Melo,Marketing,Social Media,5987.94,2023-07-22,Campinas,False
+6,Vinicius Carvalho,Operacoes,Supervisor,9219.27,2017-08-14,Joao Pessoa,True
+7,Miguel Mendes,Marketing,Designer,8186.94,2015-06-01,Salvador,False
+8,Helena Costa,Vendas,Representante,1707.19,2016-08-13,Joao Pessoa,True
+9,Marcos Teixeira,Vendas,Representante,10272.79,2024-07-20,Goiania,False
+10,Valentina Melo,TI,Tech Lead,2423.68,2022-01-29,Belem,True
+11,Bianca Costa,Operacoes,Analista de Operacoes,7489.66,2022-10-13,Belem,True
+12,Rafael Barros,Financeiro,Gerente Financeiro,7314.27,2017-09-27,Sao Luis,False
+13,Gabriela Nascimento,RH,Analista de RH,9728.14,2019-04-16,Vitoria,True
+14,Nicolas Almeida,RH,Assistente de DP,10111.71,2020-02-26,Manaus,True
+15,Manuela Barros,Operacoes,Supervisor,2497.14,2018-11-16,Florianopolis,False
+16,Bianca Ribeiro,Marketing,Social Media,4189.43,2019-04-25,Teresina,True
+17,Samuel Cardoso,Vendas,Consultor Comercial,14901.34,2018-04-24,Fortaleza,False
+18,Samuel Souza,Vendas,Representante,12743.33,2018-03-18,Porto Alegre,False
+19,Thiago Cunha,Financeiro,Contador,9981.35,2022-01-14,Sao Paulo,False
+20,Juliana Reis,Financeiro,Contador,2716.8,2018-04-23,Goiania,False
+21,Bruno Melo,Financeiro,Gerente Financeiro,12711.38,2017-11-18,Teresina,False
+22,Carla Ferreira,Marketing,Analista de Marketing,3400.22,2017-07-13,Natal,False
+23,Caio Silva,Financeiro,Analista Financeiro,7639.61,2022-07-18,Manaus,False
+24,Renata Costa,Operacoes,Supervisor,7864.94,2021-12-12,Campinas,False
+25,Isabela Pereira,Operacoes,Logistica,13776.73,2018-05-22,Joao Pessoa,True
+26,Pedro Moreira,Marketing,Analista de Marketing,2812.09,2024-12-13,Campinas,True
+27,Roberto Melo,Marketing,Designer,13453.09,2022-05-06,Belo Horizonte,False
+28,Raquel Oliveira,Operacoes,Gerente de Operacoes,4433.14,2019-12-27,Porto Alegre,False
+29,Roberto Melo,Operacoes,Gerente de Operacoes,2317.43,2018-02-04,Recife,True
+30,Manuela Lima,Operacoes,Supervisor,10163.01,2021-09-11,Fortaleza,True
+31,Tatiana Rodrigues,Vendas,Gerente de Vendas,2426.24,2023-08-01,Campinas,True
+32,Isabela Teixeira,RH,Analista de RH,5243.21,2016-08-15,Salvador,False
+33,Mariana Santos,RH,Analista de RH,6336.27,2023-11-04,Porto Alegre,False
+34,Marcos Souza,RH,Assistente de DP,8602.15,2023-05-13,Rio de Janeiro,False
+35,Roberto Lopes,Vendas,Vendedor,7602.07,2017-06-26,Vitoria,True
+36,Sophia Moreira,Marketing,Analista de Marketing,2321.14,2020-05-15,Natal,False
+37,Valentina Freitas,TI,Desenvolvedor,5848.51,2016-08-30,Rio de Janeiro,True
+38,Nicolas Ramos,Operacoes,Gerente de Operacoes,6642.21,2021-09-12,Sao Luis,False
+39,Murilo Dias,TI,Desenvolvedor,13012.7,2022-04-20,Campinas,True
+40,Eduardo Nunes,Financeiro,Tesoureiro,6882.86,2023-03-08,Belo Horizonte,False

@@ -1,1 +1,0 @@
-# sistema_qualidade.py
