@@ -1,0 +1,51 @@
+transformador_id,bairro,capacidade_kva,ucs_conectadas,ano_instalacao,ultima_manutencao,status
+T-001,Edson Queiroz,300.0,89,2014,2023-08-02,Operacional
+T-002,Aldeota,75.0,41,2008,2021-12-01,Operacional
+T-003,Messejana,75.0,51,2017,2022-09-10,Operacional
+T-004,Montese,150.0,150,2018,2021-07-29,Operacional
+T-005,Aldeota,300.0,111,2018,2023-10-09,Operacional
+T-006,Edson Queiroz,75.0,139,2011,2021-11-19,Operacional
+T-007,Barra do Ceará,112.5,160,2015,2023-01-18,Operacional
+T-008,Papicu,150.0,40,2009,2023-03-03,Operacional
+T-009,Messejana,75.0,58,2012,2023-08-25,Operacional
+T-010,Aldeota,112.5,36,2007,2022-11-27,Operacional
+T-011,Centro,300.0,161,2016,2021-11-02,Operacional
+T-012,Mondubim,75.0,88,2009,2023-09-27,Operacional
+T-013,Centro,150.0,190,2013,2021-07-21,Operacional
+T-014,Edson Queiroz,112.5,125,2017,2023-06-20,Operacional
+T-015,Aldeota,112.5,66,2012,2023-02-01,Operacional
+T-016,Mondubim,112.5,55,2016,2022-12-17,Operacional
+T-017,Meireles,225.0,89,2008,2023-10-29,Operacional
+T-018,Papicu,75.0,130,2015,2021-07-14,Operacional
+T-019,Papicu,112.5,65,2015,2021-04-15,Operacional
+T-020,Messejana,300.0,142,2006,2023-08-24,Operacional
+T-021,Parangaba,150.0,135,2015,2023-06-22,Operacional
+T-022,Meireles,300.0,161,2022,2022-07-05,Operacional
+T-023,Barra do Ceará,75.0,280,2018,2021-06-27,Sobrecarga frequente
+T-024,Aldeota,112.5,77,2017,2021-11-16,Operacional
+T-025,Mondubim,225.0,166,2016,2023-11-27,Operacional
+T-026,Montese,112.5,51,2021,2023-04-06,Operacional
+T-027,Mondubim,300.0,61,2010,2023-05-29,Operacional
+T-028,Parangaba,112.5,181,2016,2023-09-04,Operacional
+T-029,Montese,300.0,89,2006,2021-05-19,Operacional
+T-030,Messejana,112.5,165,2010,2021-04-07,Operacional
+T-031,Messejana,150.0,38,2012,2021-08-30,Operacional
+T-032,Barra do Ceará,300.0,41,2005,2022-07-29,Operacional
+T-033,Papicu,75.0,142,2009,2021-11-29,Operacional
+T-034,Centro,300.0,116,2022,2023-02-19,Operacional
+T-035,Papicu,225.0,92,2022,2023-05-25,Operacional
+T-036,Mondubim,75.0,125,2019,2021-11-10,Operacional
+T-037,Parangaba,75.0,64,2011,2022-06-13,Operacional
+T-038,Montese,225.0,129,2018,2023-11-09,Operacional
+T-039,Mondubim,150.0,73,2014,2022-04-04,Operacional
+T-040,Papicu,112.5,96,2011,2023-06-10,Operacional
+T-041,Messejana,75.0,66,2007,2023-05-27,Operacional
+T-042,Edson Queiroz,75.0,74,2005,2022-09-12,Operacional
+T-043,Edson Queiroz,300.0,175,2006,2022-05-12,Operacional
+T-044,Messejana,75.0,150,2016,2023-04-25,Operacional
+T-045,Mondubim,150.0,122,2007,2023-10-08,Operacional
+T-046,Parangaba,225.0,39,2008,2021-05-28,Operacional
+T-047,Parangaba,150.0,73,2005,2022-09-16,Operacional
+T-048,Papicu,112.5,159,2012,2022-09-25,Operacional
+T-049,Edson Queiroz,112.5,74,2008,2023-09-15,Operacional
+T-050,Messejana,150.0,59,2012,2023-11-10,Operacional

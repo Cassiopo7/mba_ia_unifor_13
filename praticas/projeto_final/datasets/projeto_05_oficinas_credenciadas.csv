@@ -1,0 +1,11 @@
+oficina_id,nome_oficina,cnpj,socio_principal,endereco,cidade,data_credenciamento,avaliacao_media,total_servicos_realizados
+OF-001,AutoCenter VIP,85.888.803/0001-95,João Silva Santos,"Rua das Flores, 123",Fortaleza,2020-04-03,4.5,365
+OF-002,MecaPremium,80.582.791/0001-20,José Silva Santos,"Rua das Flores, 123",Fortaleza,2021-08-04,4.2,229
+OF-003,ServiCar Express,66.924.584/0001-60,José Silva Santos,"Rua das Flores, 123",Fortaleza,2022-01-29,4.5,119
+OF-004,Oficina Popular,56.547.300/0001-58,Sócio 8,"Rua 173, 39",Fortaleza,2021-07-15,4.2,115
+OF-005,Mecânica Central,58.254.371/0001-50,Sócio 39,"Rua 126, 225",Fortaleza,2021-06-27,3.8,485
+OF-006,Auto Elétrica Norte,69.846.249/0001-15,Sócio 4,"Rua 199, 247",Fortaleza,2020-08-10,5.6,425
+OF-007,Retífica Ceará,92.161.651/0001-27,Sócio 26,"Rua 45, 377",Fortaleza,2021-08-19,3.0,320
+OF-008,Pneus & Cia,79.540.356/0001-21,Sócio 5,"Rua 51, 59",Fortaleza,2021-07-22,5.5,348
+OF-009,Freios Total,61.473.961/0001-40,Sócio 22,"Rua 76, 131",Fortaleza,2020-09-22,3.9,717
+OF-010,Moto Peças,82.410.400/0001-17,Sócio 21,"Rua 13, 492",Fortaleza,2020-12-09,3.7,498

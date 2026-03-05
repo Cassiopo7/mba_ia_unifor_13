@@ -1,0 +1,3256 @@
+municipio,ano,programa,valor_repassado,valor_executado_declarado,fonte
+Fortaleza,2020,Infraestrutura,976796.57,946482.89,SUS
+Fortaleza,2020,Educação Fundamental,493092.51,442883.17,FUNDEB
+Fortaleza,2020,Cultura,595753.94,581483.42,SUS
+Fortaleza,2021,Esporte,436536.74,372893.76,SUS
+Fortaleza,2021,Cultura,337169.63,322186.75,FPM
+Fortaleza,2021,Infraestrutura,284328.35,269131.57,Emenda Parlamentar
+Fortaleza,2021,Saneamento,549244.31,469616.25,SUS
+Fortaleza,2022,Educação Fundamental,778126.61,741291.03,SUS
+Fortaleza,2022,Saneamento,310260.43,283237.02,PAC
+Fortaleza,2022,Esporte,469770.99,429587.61,PAC
+Fortaleza,2022,Assistência Social,645951.21,585258.09,PAC
+Fortaleza,2022,Cultura,341539.13,312429.11,SUS
+Fortaleza,2022,Saúde Básica,261205.66,236942.82,SUS
+Fortaleza,2023,Saúde Básica,96357.93,92726.58,FPM
+Fortaleza,2023,Infraestrutura,160207.63,139286.79,SUS
+Fortaleza,2023,Assistência Social,371803.3,353107.43,FUNDEB
+Caucaia,2020,Infraestrutura,917506.82,873440.71,FUNDEB
+Caucaia,2020,Assistência Social,332294.02,304213.53,SUS
+Caucaia,2020,Saneamento,396953.36,353540.84,FUNDEB
+Caucaia,2020,Saúde Básica,336810.35,308133.01,FPM
+Caucaia,2020,Esporte,945051.87,839901.94,PAC
+Caucaia,2020,Educação Fundamental,445448.49,441990.65,FUNDEB
+Caucaia,2021,Esporte,531965.74,472475.71,FUNDEB
+Caucaia,2021,Infraestrutura,499416.74,479985.44,Emenda Parlamentar
+Caucaia,2021,Educação Fundamental,657805.16,585873.99,PAC
+Caucaia,2021,Cultura,786884.23,749281.95,Emenda Parlamentar
+Caucaia,2021,Assistência Social,838127.43,761987.86,FUNDEB
+Caucaia,2021,Saneamento,432099.83,413569.65,PAC
+Caucaia,2022,Saneamento,390709.38,343701.03,PAC
+Caucaia,2022,Infraestrutura,310540.45,281667.11,FUNDEB
+Caucaia,2022,Cultura,606373.04,567276.54,FPM
+Caucaia,2022,Saúde Básica,409718.2,365989.18,SUS
+Caucaia,2022,Educação Fundamental,579162.26,514938.01,SUS
+Caucaia,2022,Assistência Social,513133.25,480370.47,FUNDEB
+Caucaia,2023,Saneamento,596308.45,594842.46,SUS
+Caucaia,2023,Infraestrutura,238795.28,216677.36,SUS
+Caucaia,2023,Esporte,157909.17,148133.97,Emenda Parlamentar
+Juazeiro do Norte,2020,Educação Fundamental,392878.2,346350.75,FUNDEB
+Juazeiro do Norte,2020,Saneamento,466162.02,418166.49,FUNDEB
+Juazeiro do Norte,2020,Esporte,808126.8,748538.1,FPM
+Juazeiro do Norte,2020,Saúde Básica,373965.35,318778.44,PAC
+Juazeiro do Norte,2021,Saneamento,405488.11,402322.94,SUS
+Juazeiro do Norte,2021,Esporte,101447.74,89428.14,FUNDEB
+Juazeiro do Norte,2021,Saúde Básica,386289.3,378038.97,SUS
+Juazeiro do Norte,2021,Educação Fundamental,335330.56,325393.67,Emenda Parlamentar
+Juazeiro do Norte,2022,Educação Fundamental,784551.56,783967.24,SUS
+Juazeiro do Norte,2022,Saneamento,911300.73,794801.6,Emenda Parlamentar
+Juazeiro do Norte,2022,Cultura,513747.32,462707.72,Emenda Parlamentar
+Juazeiro do Norte,2023,Saneamento,755938.29,656418.28,PAC
+Juazeiro do Norte,2023,Assistência Social,381687.13,381437.93,SUS
+Juazeiro do Norte,2023,Cultura,586600.17,566290.81,FPM
+Juazeiro do Norte,2023,Infraestrutura,467335.84,444838.71,Emenda Parlamentar
+Juazeiro do Norte,2023,Saúde Básica,558266.87,526636.55,SUS
+Juazeiro do Norte,2023,Educação Fundamental,325566.34,302181.69,Emenda Parlamentar
+Maracanaú,2020,Assistência Social,88993.38,85288.85,Emenda Parlamentar
+Maracanaú,2020,Cultura,600322.42,599053.07,FUNDEB
+Maracanaú,2020,Saúde Básica,100749.92,95536.46,Emenda Parlamentar
+Maracanaú,2020,Educação Fundamental,487084.97,467026.48,FUNDEB
+Maracanaú,2020,Saneamento,392220.24,389141.26,FPM
+Maracanaú,2021,Assistência Social,568458.3,534783.51,SUS
+Maracanaú,2021,Saúde Básica,344459.74,299747.62,PAC
+Maracanaú,2021,Educação Fundamental,332193.41,323394.17,SUS
+Maracanaú,2022,Esporte,638201.47,571762.78,FPM
+Maracanaú,2022,Saneamento,386428.33,373071.72,SUS
+Maracanaú,2022,Assistência Social,675106.18,595190.12,FUNDEB
+Maracanaú,2022,Educação Fundamental,540131.84,467474.65,FPM
+Maracanaú,2023,Saneamento,676889.6,600389.43,PAC
+Maracanaú,2023,Assistência Social,365628.68,342362.59,FUNDEB
+Maracanaú,2023,Infraestrutura,725311.19,664543.62,Emenda Parlamentar
+Maracanaú,2023,Esporte,409871.68,388265.16,PAC
+Maracanaú,2023,Saúde Básica,482647.29,418203.99,FUNDEB
+Maracanaú,2023,Cultura,227609.7,217047.16,SUS
+Sobral,2020,Educação Fundamental,477150.76,438783.12,FUNDEB
+Sobral,2020,Infraestrutura,188258.59,180609.49,PAC
+Sobral,2020,Esporte,584003.87,511050.93,FPM
+Sobral,2021,Infraestrutura,436124.66,414171.39,FPM
+Sobral,2021,Cultura,523563.5,495106.26,Emenda Parlamentar
+Sobral,2021,Assistência Social,860723.93,829540.74,PAC
+Sobral,2022,Cultura,560827.72,537261.89,Emenda Parlamentar
+Sobral,2022,Esporte,488019.02,438217.22,FPM
+Sobral,2022,Saneamento,850515.67,755516.56,FPM
+Sobral,2022,Assistência Social,509131.55,436744.44,PAC
+Sobral,2022,Saúde Básica,203276.6,178955.26,FPM
+Sobral,2022,Infraestrutura,592040.68,532732.32,PAC
+Sobral,2023,Saneamento,344181.47,316641.45,PAC
+Sobral,2023,Educação Fundamental,485261.63,412859.34,SUS
+Sobral,2023,Esporte,298282.2,270549.03,PAC
+Sobral,2023,Cultura,477439.12,413541.34,Emenda Parlamentar
+Sobral,2023,Assistência Social,402865.73,350367.08,FUNDEB
+Crato,2020,Saneamento,589682.98,560435.6,SUS
+Crato,2020,Infraestrutura,462768.58,438315.18,FUNDEB
+Crato,2020,Assistência Social,394817.51,370552.06,FUNDEB
+Crato,2020,Cultura,735106.95,688760.7,SUS
+Crato,2021,Educação Fundamental,668145.32,644066.4,PAC
+Crato,2021,Cultura,516765.56,505314.57,SUS
+Crato,2021,Infraestrutura,812484.9,801976.08,FPM
+Crato,2021,Saneamento,553207.92,517087.78,FPM
+Crato,2021,Esporte,225680.72,200137.98,FPM
+Crato,2021,Saúde Básica,239686.25,233925.07,SUS
+Crato,2022,Educação Fundamental,227419.98,220453.05,FPM
+Crato,2022,Saúde Básica,369357.44,327356.37,SUS
+Crato,2022,Cultura,451154.49,438260.28,PAC
+Crato,2022,Assistência Social,199722.89,169824.57,FUNDEB
+Crato,2022,Esporte,525488.59,476849.1,FPM
+Crato,2022,Saneamento,369603.96,340595.03,SUS
+Crato,2023,Infraestrutura,642443.57,633736.24,PAC
+Crato,2023,Assistência Social,50000.0,43979.52,SUS
+Crato,2023,Cultura,798344.73,685993.56,FPM
+Crato,2023,Educação Fundamental,405611.2,349954.44,FPM
+Crato,2023,Saneamento,458201.56,403395.58,FUNDEB
+Itapipoca,2020,Infraestrutura,389427.11,359330.83,FPM
+Itapipoca,2020,Educação Fundamental,352954.68,306571.41,FPM
+Itapipoca,2020,Saneamento,215765.26,193500.28,Emenda Parlamentar
+Itapipoca,2020,Assistência Social,438467.66,433022.9,SUS
+Itapipoca,2021,Saneamento,428967.8,386093.23,Emenda Parlamentar
+Itapipoca,2021,Esporte,281525.54,249556.33,Emenda Parlamentar
+Itapipoca,2021,Educação Fundamental,906369.77,832075.44,SUS
+Itapipoca,2021,Saúde Básica,100357.81,91780.35,PAC
+Itapipoca,2022,Educação Fundamental,744619.95,678086.48,PAC
+Itapipoca,2022,Assistência Social,623586.62,559279.97,Emenda Parlamentar
+Itapipoca,2022,Esporte,337600.35,334274.8,FPM
+Itapipoca,2022,Cultura,380147.56,354212.28,SUS
+Itapipoca,2022,Saneamento,327257.6,285800.53,FUNDEB
+Itapipoca,2022,Infraestrutura,528312.26,492612.76,FPM
+Itapipoca,2023,Saúde Básica,253386.5,250612.56,FPM
+Itapipoca,2023,Saneamento,441017.41,428461.91,FUNDEB
+Itapipoca,2023,Educação Fundamental,181130.82,167181.79,FPM
+Itapipoca,2023,Infraestrutura,255503.85,246859.69,SUS
+Itapipoca,2023,Esporte,449326.84,386312.8,FUNDEB
+Itapipoca,2023,Cultura,489922.69,426755.52,Emenda Parlamentar
+Maranguape,2020,Cultura,314006.27,301715.22,Emenda Parlamentar
+Maranguape,2020,Educação Fundamental,754249.19,674986.15,Emenda Parlamentar
+Maranguape,2020,Saúde Básica,60922.27,53297.41,FPM
+Maranguape,2020,Esporte,178265.4,164058.71,Emenda Parlamentar
+Maranguape,2020,Saneamento,489159.51,439036.96,Emenda Parlamentar
+Maranguape,2020,Assistência Social,250153.78,237439.31,PAC
+Maranguape,2021,Esporte,478803.09,437543.15,FUNDEB
+Maranguape,2021,Saúde Básica,432533.5,405379.15,FUNDEB
+Maranguape,2021,Cultura,548150.06,540618.35,PAC
+Maranguape,2021,Assistência Social,490877.23,431568.8,SUS
+Maranguape,2021,Infraestrutura,409344.02,365051.66,SUS
+Maranguape,2022,Esporte,241417.82,220875.26,FPM
+Maranguape,2022,Assistência Social,644903.63,566256.75,Emenda Parlamentar
+Maranguape,2022,Infraestrutura,545743.64,508649.28,PAC
+Maranguape,2023,Assistência Social,504197.98,488117.85,FUNDEB
+Maranguape,2023,Esporte,362874.61,311963.55,Emenda Parlamentar
+Maranguape,2023,Cultura,367543.25,347059.73,FUNDEB
+Maranguape,2023,Educação Fundamental,700584.92,634483.54,SUS
+Maranguape,2023,Saneamento,585032.96,573334.88,Emenda Parlamentar
+Maranguape,2023,Infraestrutura,651186.62,605331.04,FPM
+Iguatu,2020,Assistência Social,256193.45,231371.17,FPM
+Iguatu,2020,Esporte,50000.0,43515.68,Emenda Parlamentar
+Iguatu,2020,Cultura,850576.15,795721.11,FUNDEB
+Iguatu,2020,Saneamento,343358.31,293198.87,PAC
+Iguatu,2020,Educação Fundamental,334675.82,290825.88,PAC
+Iguatu,2021,Saneamento,170363.47,154036.87,FPM
+Iguatu,2021,Educação Fundamental,420038.2,410496.11,FPM
+Iguatu,2021,Saúde Básica,87037.93,86753.02,SUS
+Iguatu,2021,Assistência Social,930569.98,866283.92,FUNDEB
+Iguatu,2022,Saúde Básica,429058.86,399037.32,Emenda Parlamentar
+Iguatu,2022,Assistência Social,642843.23,578351.31,PAC
+Iguatu,2022,Infraestrutura,549435.94,543582.19,FPM
+Iguatu,2022,Cultura,405293.0,393290.78,Emenda Parlamentar
+Iguatu,2022,Saneamento,643226.1,618271.62,FUNDEB
+Iguatu,2022,Educação Fundamental,542947.06,467207.89,FPM
+Iguatu,2023,Saneamento,481625.96,434732.85,Emenda Parlamentar
+Iguatu,2023,Saúde Básica,220678.07,198494.86,FPM
+Iguatu,2023,Educação Fundamental,200577.1,185955.25,PAC
+Iguatu,2023,Infraestrutura,921360.9,846169.62,PAC
+Iguatu,2023,Esporte,217147.52,192821.62,PAC
+Quixadá,2020,Saúde Básica,473468.38,405463.2,FPM
+Quixadá,2020,Esporte,829182.58,796878.6,SUS
+Quixadá,2020,Educação Fundamental,384687.7,335064.0,FPM
+Quixadá,2020,Assistência Social,434096.67,433372.17,FUNDEB
+Quixadá,2021,Infraestrutura,523123.27,469658.12,Emenda Parlamentar
+Quixadá,2021,Cultura,932638.83,828419.56,PAC
+Quixadá,2021,Esporte,520544.27,474813.77,FPM
+Quixadá,2021,Assistência Social,367909.16,323084.14,FPM
+Quixadá,2021,Saneamento,542689.18,542571.29,SUS
+Quixadá,2022,Saúde Básica,455201.4,392183.92,Emenda Parlamentar
+Quixadá,2022,Esporte,304374.08,298820.47,FUNDEB
+Quixadá,2022,Assistência Social,327215.29,284051.09,SUS
+Quixadá,2022,Infraestrutura,248203.44,242580.92,FPM
+Quixadá,2023,Assistência Social,197941.2,183772.41,FPM
+Quixadá,2023,Infraestrutura,372652.91,369021.55,FPM
+Quixadá,2023,Saneamento,468667.98,433284.23,PAC
+Quixadá,2023,Esporte,627124.92,551524.99,SUS
+Quixadá,2023,Educação Fundamental,319600.78,318186.69,FPM
+Quixadá,2023,Saúde Básica,431538.61,414942.99,Emenda Parlamentar
+Pacatuba,2020,Saneamento,671963.93,655790.53,PAC
+Pacatuba,2020,Infraestrutura,209486.04,190403.39,FUNDEB
+Pacatuba,2020,Cultura,580751.91,525498.99,Emenda Parlamentar
+Pacatuba,2020,Assistência Social,387610.06,346470.1,FPM
+Pacatuba,2020,Educação Fundamental,315149.19,277809.06,Emenda Parlamentar
+Pacatuba,2020,Saúde Básica,432876.76,372467.08,PAC
+Pacatuba,2021,Infraestrutura,597920.49,561295.07,Emenda Parlamentar
+Pacatuba,2021,Cultura,413106.64,411532.84,FUNDEB
+Pacatuba,2021,Saúde Básica,247995.42,237345.99,FPM
+Pacatuba,2021,Esporte,985848.52,896235.63,FPM
+Pacatuba,2021,Saneamento,690781.85,591953.5,FUNDEB
+Pacatuba,2022,Cultura,562321.55,545735.05,FPM
+Pacatuba,2022,Esporte,454157.98,408128.67,SUS
+Pacatuba,2022,Saúde Básica,693944.06,688789.1,SUS
+Pacatuba,2022,Saneamento,835511.22,747384.87,SUS
+Pacatuba,2023,Esporte,362250.69,332966.57,FUNDEB
+Pacatuba,2023,Saúde Básica,569388.94,508819.36,SUS
+Pacatuba,2023,Cultura,684425.23,615470.31,PAC
+Pacatuba,2023,Educação Fundamental,253980.25,225811.59,FUNDEB
+Pacatuba,2023,Assistência Social,285746.51,265143.61,SUS
+Aquiraz,2020,Assistência Social,803765.12,717708.47,FPM
+Aquiraz,2020,Cultura,364816.26,343262.32,PAC
+Aquiraz,2020,Esporte,375684.95,358310.07,Emenda Parlamentar
+Aquiraz,2020,Educação Fundamental,432944.93,430538.39,FPM
+Aquiraz,2020,Saúde Básica,664055.24,656108.91,SUS
+Aquiraz,2021,Assistência Social,349076.2,324510.93,SUS
+Aquiraz,2021,Infraestrutura,433968.61,426326.48,SUS
+Aquiraz,2021,Cultura,567781.4,556739.19,Emenda Parlamentar
+Aquiraz,2021,Saneamento,186142.01,179717.94,PAC
+Aquiraz,2021,Esporte,525544.22,523911.87,SUS
+Aquiraz,2022,Saneamento,486857.3,463471.03,FPM
+Aquiraz,2022,Infraestrutura,693541.9,638979.38,Emenda Parlamentar
+Aquiraz,2022,Educação Fundamental,50000.0,44432.8,PAC
+Aquiraz,2023,Saneamento,591391.65,571594.78,PAC
+Aquiraz,2023,Infraestrutura,157325.46,148839.74,FUNDEB
+Aquiraz,2023,Cultura,763905.23,673508.99,FPM
+Canindé,2020,Saneamento,615779.16,523461.4,PAC
+Canindé,2020,Assistência Social,194345.22,166363.92,FPM
+Canindé,2020,Saúde Básica,724473.44,672118.73,Emenda Parlamentar
+Canindé,2021,Saneamento,577307.24,504644.31,FPM
+Canindé,2021,Cultura,295995.06,288048.4,FUNDEB
+Canindé,2021,Esporte,345024.17,302194.63,FUNDEB
+Canindé,2021,Educação Fundamental,514272.8,448085.5,FUNDEB
+Canindé,2021,Infraestrutura,654094.92,579290.12,PAC
+Canindé,2022,Infraestrutura,91701.12,90876.58,Emenda Parlamentar
+Canindé,2022,Assistência Social,493267.76,420676.87,FPM
+Canindé,2022,Educação Fundamental,585613.39,547456.44,PAC
+Canindé,2022,Saúde Básica,632174.88,544797.54,FPM
+Canindé,2022,Saneamento,628663.25,556302.65,FUNDEB
+Canindé,2023,Saneamento,431287.82,414446.44,Emenda Parlamentar
+Canindé,2023,Esporte,538186.09,517296.01,FUNDEB
+Canindé,2023,Cultura,559801.09,508200.78,FPM
+Canindé,2023,Assistência Social,665597.73,584652.96,SUS
+Russas,2020,Saúde Básica,379004.85,322765.6,SUS
+Russas,2020,Educação Fundamental,243960.89,227676.07,PAC
+Russas,2020,Saneamento,428288.01,425775.95,Emenda Parlamentar
+Russas,2020,Infraestrutura,649446.5,646116.96,PAC
+Russas,2021,Esporte,700059.15,682588.03,PAC
+Russas,2021,Saneamento,468582.35,453066.59,FUNDEB
+Russas,2021,Assistência Social,704030.01,694702.58,Emenda Parlamentar
+Russas,2022,Saneamento,330622.86,329341.11,PAC
+Russas,2022,Educação Fundamental,697012.65,665776.48,SUS
+Russas,2022,Cultura,622360.28,605430.99,FUNDEB
+Russas,2022,Saúde Básica,431059.83,379393.25,FPM
+Russas,2022,Esporte,855250.08,816021.62,SUS
+Russas,2022,Assistência Social,711755.53,645058.67,Emenda Parlamentar
+Russas,2023,Saneamento,475568.07,414267.73,SUS
+Russas,2023,Cultura,551715.05,512231.89,SUS
+Russas,2023,Saúde Básica,486128.96,438446.57,SUS
+Russas,2023,Esporte,607873.94,601349.53,FPM
+Russas,2023,Infraestrutura,430522.57,412196.57,FPM
+Tianguá,2020,Infraestrutura,487394.63,450505.17,PAC
+Tianguá,2020,Assistência Social,364689.09,316636.45,PAC
+Tianguá,2020,Educação Fundamental,568678.16,549886.39,FUNDEB
+Tianguá,2020,Saúde Básica,813340.28,778970.26,FUNDEB
+Tianguá,2021,Educação Fundamental,267006.68,252196.18,FUNDEB
+Tianguá,2021,Cultura,216460.76,214045.69,SUS
+Tianguá,2021,Esporte,549105.39,500760.82,SUS
+Tianguá,2022,Saneamento,106704.54,103608.33,SUS
+Tianguá,2022,Assistência Social,377544.6,339823.12,Emenda Parlamentar
+Tianguá,2022,Infraestrutura,253742.22,246998.84,FPM
+Tianguá,2023,Cultura,431066.45,417655.5,FUNDEB
+Tianguá,2023,Assistência Social,730454.14,646338.71,PAC
+Tianguá,2023,Saúde Básica,673464.4,613247.45,SUS
+Crateús,2020,Infraestrutura,846303.55,845186.34,FPM
+Crateús,2020,Saneamento,714190.13,668446.81,FUNDEB
+Crateús,2020,Educação Fundamental,583177.11,577686.01,FUNDEB
+Crateús,2020,Cultura,679739.15,591921.34,FPM
+Crateús,2020,Assistência Social,648271.82,643305.05,Emenda Parlamentar
+Crateús,2020,Saúde Básica,439354.63,423386.13,SUS
+Crateús,2021,Educação Fundamental,581552.85,503048.22,Emenda Parlamentar
+Crateús,2021,Cultura,420826.94,410260.11,PAC
+Crateús,2021,Infraestrutura,351295.8,342987.65,FUNDEB
+Crateús,2021,Saneamento,537138.74,461377.41,Emenda Parlamentar
+Crateús,2021,Assistência Social,716966.63,675642.71,FPM
+Crateús,2022,Assistência Social,488117.44,464761.82,SUS
+Crateús,2022,Esporte,334458.54,323366.17,Emenda Parlamentar
+Crateús,2022,Saúde Básica,633822.89,586411.87,SUS
+Crateús,2023,Assistência Social,770204.29,704833.08,FUNDEB
+Crateús,2023,Educação Fundamental,868949.62,832240.27,FUNDEB
+Crateús,2023,Esporte,231924.35,210750.62,FUNDEB
+Crateús,2023,Cultura,564149.1,517886.12,FUNDEB
+Crateús,2023,Saúde Básica,250260.77,242470.41,Emenda Parlamentar
+Aracati,2020,Saneamento,415071.82,397294.02,SUS
+Aracati,2020,Infraestrutura,50000.0,49385.48,FPM
+Aracati,2020,Esporte,534706.73,529299.05,FUNDEB
+Aracati,2020,Assistência Social,648858.83,635958.0,FPM
+Aracati,2020,Educação Fundamental,508727.0,442403.42,PAC
+Aracati,2020,Saúde Básica,657523.7,619223.62,FPM
+Aracati,2021,Educação Fundamental,470497.86,411930.2,FUNDEB
+Aracati,2021,Cultura,312563.89,283049.45,FUNDEB
+Aracati,2021,Saúde Básica,973533.14,928527.3,SUS
+Aracati,2021,Infraestrutura,380934.91,329944.52,FPM
+Aracati,2022,Esporte,239388.67,223969.96,FUNDEB
+Aracati,2022,Infraestrutura,862065.56,811397.04,PAC
+Aracati,2022,Educação Fundamental,61420.34,53231.23,PAC
+Aracati,2023,Educação Fundamental,403360.9,367629.79,PAC
+Aracati,2023,Assistência Social,481805.1,457755.83,PAC
+Aracati,2023,Infraestrutura,248096.28,223827.14,Emenda Parlamentar
+Aracati,2023,Esporte,652213.84,625582.82,FPM
+Horizonte,2020,Cultura,600583.24,580764.53,FUNDEB
+Horizonte,2020,Educação Fundamental,564417.78,499564.84,FPM
+Horizonte,2020,Infraestrutura,488036.64,457915.38,Emenda Parlamentar
+Horizonte,2020,Assistência Social,214654.64,188011.63,SUS
+Horizonte,2020,Saúde Básica,440259.05,435249.35,FUNDEB
+Horizonte,2021,Assistência Social,357057.53,322471.77,PAC
+Horizonte,2021,Saneamento,563579.71,560911.11,SUS
+Horizonte,2021,Educação Fundamental,517680.41,478210.29,SUS
+Horizonte,2021,Saúde Básica,178787.73,162672.04,PAC
+Horizonte,2021,Esporte,721072.2,644746.68,PAC
+Horizonte,2021,Cultura,540090.75,510175.91,Emenda Parlamentar
+Horizonte,2022,Assistência Social,364909.06,322892.13,FPM
+Horizonte,2022,Saúde Básica,903647.56,839511.43,SUS
+Horizonte,2022,Infraestrutura,400101.57,382095.99,SUS
+Horizonte,2023,Cultura,488694.41,449978.79,SUS
+Horizonte,2023,Esporte,459095.18,409410.48,SUS
+Horizonte,2023,Assistência Social,589610.05,555547.04,FPM
+Pacajus,2020,Saneamento,397567.6,381257.11,FUNDEB
+Pacajus,2020,Assistência Social,488572.96,482475.74,SUS
+Pacajus,2020,Educação Fundamental,437799.07,424083.25,SUS
+Pacajus,2020,Cultura,160317.69,153403.27,FUNDEB
+Pacajus,2020,Infraestrutura,465133.2,408065.01,Emenda Parlamentar
+Pacajus,2021,Saneamento,652098.09,626229.98,PAC
+Pacajus,2021,Infraestrutura,278095.75,262395.88,FUNDEB
+Pacajus,2021,Esporte,539023.4,508583.73,PAC
+Pacajus,2022,Saúde Básica,784753.42,672134.5,FPM
+Pacajus,2022,Cultura,801486.13,698244.89,SUS
+Pacajus,2022,Educação Fundamental,260638.25,253707.0,FUNDEB
+Pacajus,2022,Infraestrutura,426373.72,378583.53,PAC
+Pacajus,2022,Saneamento,709446.67,671611.0,SUS
+Pacajus,2022,Esporte,586292.8,508421.2,FPM
+Pacajus,2023,Cultura,445949.27,420802.23,FUNDEB
+Pacajus,2023,Infraestrutura,587118.08,578313.87,Emenda Parlamentar
+Pacajus,2023,Assistência Social,551996.14,486380.19,PAC
+Pacajus,2023,Saneamento,430225.32,381081.93,PAC
+Eusébio,2020,Infraestrutura,716909.79,672570.24,FUNDEB
+Eusébio,2020,Esporte,430527.92,429872.45,SUS
+Eusébio,2020,Saneamento,216704.71,200064.03,FPM
+Eusébio,2021,Cultura,379828.03,369934.58,PAC
+Eusébio,2021,Saúde Básica,328562.38,288771.16,Emenda Parlamentar
+Eusébio,2021,Educação Fundamental,651687.98,598227.82,FPM
+Eusébio,2021,Assistência Social,519539.87,490956.1,SUS
+Eusébio,2022,Saneamento,574799.22,570837.39,FUNDEB
+Eusébio,2022,Cultura,682472.91,676810.4,FUNDEB
+Eusébio,2022,Assistência Social,70109.95,67725.42,FPM
+Eusébio,2023,Assistência Social,354138.6,321454.1,PAC
+Eusébio,2023,Cultura,311681.36,273415.25,SUS
+Eusébio,2023,Educação Fundamental,728021.03,702504.94,FPM
+Eusébio,2023,Saneamento,498604.39,466936.91,SUS
+Eusébio,2023,Esporte,830608.98,716916.11,FUNDEB
+Eusébio,2023,Saúde Básica,396473.05,380234.03,PAC
+São Gonçalo do Amarante,2020,Saneamento,452048.86,408117.42,FPM
+São Gonçalo do Amarante,2020,Saúde Básica,630795.47,551041.28,FPM
+São Gonçalo do Amarante,2020,Assistência Social,451685.11,429702.22,Emenda Parlamentar
+São Gonçalo do Amarante,2021,Esporte,574780.46,489112.07,SUS
+São Gonçalo do Amarante,2021,Cultura,685013.04,618757.9,PAC
+São Gonçalo do Amarante,2021,Educação Fundamental,383146.61,332171.95,Emenda Parlamentar
+São Gonçalo do Amarante,2021,Saneamento,642373.38,591068.76,SUS
+São Gonçalo do Amarante,2021,Assistência Social,531571.1,530606.97,Emenda Parlamentar
+São Gonçalo do Amarante,2021,Infraestrutura,709550.46,645971.77,FUNDEB
+São Gonçalo do Amarante,2022,Saúde Básica,263168.0,258728.77,FPM
+São Gonçalo do Amarante,2022,Educação Fundamental,543379.0,506311.74,SUS
+São Gonçalo do Amarante,2022,Saneamento,474923.83,449591.57,FPM
+São Gonçalo do Amarante,2022,Infraestrutura,515027.71,504087.33,SUS
+São Gonçalo do Amarante,2022,Assistência Social,579525.28,504607.87,Emenda Parlamentar
+São Gonçalo do Amarante,2022,Cultura,724591.85,676315.8,FUNDEB
+São Gonçalo do Amarante,2023,Esporte,341236.16,295840.77,PAC
+São Gonçalo do Amarante,2023,Assistência Social,598756.6,565199.44,Emenda Parlamentar
+São Gonçalo do Amarante,2023,Saúde Básica,553534.48,547960.76,Emenda Parlamentar
+São Gonçalo do Amarante,2023,Saneamento,637678.55,633509.63,Emenda Parlamentar
+Cascavel,2020,Saúde Básica,607333.38,557578.88,PAC
+Cascavel,2020,Educação Fundamental,600495.34,521751.71,PAC
+Cascavel,2020,Esporte,882077.58,801025.37,Emenda Parlamentar
+Cascavel,2020,Infraestrutura,552554.49,526966.25,SUS
+Cascavel,2021,Cultura,837373.54,731843.19,FUNDEB
+Cascavel,2021,Educação Fundamental,690828.85,643948.83,FUNDEB
+Cascavel,2021,Esporte,468910.36,443090.59,FUNDEB
+Cascavel,2022,Infraestrutura,175109.36,171086.73,FPM
+Cascavel,2022,Assistência Social,347879.06,298300.91,SUS
+Cascavel,2022,Saneamento,428387.48,372178.86,FPM
+Cascavel,2022,Cultura,382978.33,343857.08,FPM
+Cascavel,2023,Esporte,491271.67,466316.38,Emenda Parlamentar
+Cascavel,2023,Educação Fundamental,522909.5,445382.83,PAC
+Cascavel,2023,Assistência Social,589377.77,554336.95,Emenda Parlamentar
+Barbalha,2020,Esporte,1022811.24,1017460.32,Emenda Parlamentar
+Barbalha,2020,Educação Fundamental,333358.46,283475.83,FUNDEB
+Barbalha,2020,Assistência Social,636487.56,620918.11,FUNDEB
+Barbalha,2020,Cultura,704299.4,609033.44,FUNDEB
+Barbalha,2021,Infraestrutura,801299.66,798972.03,FPM
+Barbalha,2021,Cultura,605127.5,580480.51,FUNDEB
+Barbalha,2021,Educação Fundamental,343823.92,336082.96,Emenda Parlamentar
+Barbalha,2022,Infraestrutura,562894.54,530869.22,FUNDEB
+Barbalha,2022,Educação Fundamental,675332.48,647659.0,Emenda Parlamentar
+Barbalha,2022,Assistência Social,622129.34,529109.63,PAC
+Barbalha,2022,Esporte,521813.4,496209.9,FUNDEB
+Barbalha,2022,Saúde Básica,313281.85,267113.84,FPM
+Barbalha,2022,Cultura,706422.42,687508.65,PAC
+Barbalha,2023,Assistência Social,77548.24,68606.81,FPM
+Barbalha,2023,Saneamento,343965.21,321075.34,FUNDEB
+Barbalha,2023,Esporte,697548.38,639291.25,Emenda Parlamentar
+Barbalha,2023,Infraestrutura,633665.45,606384.73,FUNDEB
+Barbalha,2023,Educação Fundamental,201593.11,189141.97,SUS
+Barbalha,2023,Cultura,656777.98,626351.35,Emenda Parlamentar
+Icó,2020,Infraestrutura,283505.23,264965.65,FUNDEB
+Icó,2020,Assistência Social,279067.9,276228.27,PAC
+Icó,2020,Cultura,241130.38,233658.58,Emenda Parlamentar
+Icó,2020,Saneamento,638274.58,596956.98,SUS
+Icó,2020,Esporte,238746.59,227826.91,FPM
+Icó,2021,Infraestrutura,642822.76,594423.38,FPM
+Icó,2021,Esporte,532188.98,475649.55,SUS
+Icó,2021,Cultura,295054.17,293162.64,FPM
+Icó,2021,Saúde Básica,501352.47,449989.57,SUS
+Icó,2022,Saúde Básica,207353.2,197705.83,PAC
+Icó,2022,Educação Fundamental,731857.73,658557.23,FPM
+Icó,2022,Infraestrutura,214507.57,188590.18,PAC
+Icó,2022,Cultura,241751.61,212048.24,SUS
+Icó,2023,Cultura,381769.03,375665.07,FPM
+Icó,2023,Assistência Social,489326.87,459065.19,FPM
+Icó,2023,Saneamento,527213.7,518699.52,FUNDEB
+Icó,2023,Educação Fundamental,492652.04,429291.69,FUNDEB
+Camocim,2020,Educação Fundamental,341316.01,322898.44,PAC
+Camocim,2020,Esporte,312401.25,287637.79,FPM
+Camocim,2020,Assistência Social,534016.46,480545.56,SUS
+Camocim,2020,Saneamento,994195.34,895182.22,FUNDEB
+Camocim,2021,Cultura,245866.41,245806.87,SUS
+Camocim,2021,Infraestrutura,563722.92,532232.49,PAC
+Camocim,2021,Saúde Básica,671620.0,611209.04,FPM
+Camocim,2021,Esporte,214756.82,191632.09,Emenda Parlamentar
+Camocim,2021,Assistência Social,784314.77,764830.03,SUS
+Camocim,2021,Educação Fundamental,735366.44,680623.61,SUS
+Camocim,2022,Esporte,198053.37,195597.17,PAC
+Camocim,2022,Saúde Básica,495360.29,454097.65,SUS
+Camocim,2022,Assistência Social,813032.55,721528.45,FPM
+Camocim,2022,Cultura,362537.6,325251.25,Emenda Parlamentar
+Camocim,2023,Cultura,551322.86,473358.86,FPM
+Camocim,2023,Esporte,984290.65,879915.4,Emenda Parlamentar
+Camocim,2023,Infraestrutura,633836.11,553622.61,Emenda Parlamentar
+Limoeiro do Norte,2020,Esporte,791045.07,729029.94,FUNDEB
+Limoeiro do Norte,2020,Educação Fundamental,843790.86,840957.17,Emenda Parlamentar
+Limoeiro do Norte,2020,Saúde Básica,673046.46,623971.63,FUNDEB
+Limoeiro do Norte,2020,Infraestrutura,1008046.01,899068.35,Emenda Parlamentar
+Limoeiro do Norte,2021,Saneamento,455601.58,402480.24,SUS
+Limoeiro do Norte,2021,Esporte,595946.13,543154.75,FUNDEB
+Limoeiro do Norte,2021,Assistência Social,633567.87,567010.17,FPM
+Limoeiro do Norte,2022,Cultura,741204.96,717072.44,SUS
+Limoeiro do Norte,2022,Saúde Básica,519812.82,470640.26,FUNDEB
+Limoeiro do Norte,2022,Saneamento,445452.86,428606.81,SUS
+Limoeiro do Norte,2022,Esporte,570885.89,485862.26,Emenda Parlamentar
+Limoeiro do Norte,2022,Educação Fundamental,687036.05,597501.47,Emenda Parlamentar
+Limoeiro do Norte,2023,Infraestrutura,762926.26,745145.97,Emenda Parlamentar
+Limoeiro do Norte,2023,Saúde Básica,676760.01,586460.97,PAC
+Limoeiro do Norte,2023,Saneamento,193886.52,171265.19,SUS
+Limoeiro do Norte,2023,Esporte,640079.86,635680.5,Emenda Parlamentar
+Tauá,2020,Cultura,451403.34,432573.51,Emenda Parlamentar
+Tauá,2020,Saneamento,516164.53,496412.61,FUNDEB
+Tauá,2020,Saúde Básica,601145.67,522867.31,PAC
+Tauá,2020,Infraestrutura,384549.32,379962.08,SUS
+Tauá,2020,Assistência Social,514189.73,508250.1,FPM
+Tauá,2021,Assistência Social,718353.5,678254.64,SUS
+Tauá,2021,Educação Fundamental,561708.04,483396.49,PAC
+Tauá,2021,Saúde Básica,735717.95,704617.53,FPM
+Tauá,2022,Infraestrutura,268572.19,241857.57,SUS
+Tauá,2022,Cultura,437957.03,386118.45,PAC
+Tauá,2022,Esporte,628541.57,578187.57,FUNDEB
+Tauá,2023,Esporte,336768.36,312115.45,PAC
+Tauá,2023,Infraestrutura,375728.86,328407.83,SUS
+Tauá,2023,Saneamento,592446.1,533901.67,Emenda Parlamentar
+Tauá,2023,Cultura,598541.78,552631.53,FUNDEB
+Tauá,2023,Educação Fundamental,562800.81,529343.32,PAC
+Tauá,2023,Saúde Básica,621759.31,600753.81,FUNDEB
+Morada Nova,2020,Infraestrutura,51668.97,45399.16,Emenda Parlamentar
+Morada Nova,2020,Saneamento,939486.91,905385.88,FUNDEB
+Morada Nova,2020,Cultura,596316.39,520940.12,SUS
+Morada Nova,2021,Saúde Básica,688289.67,632307.35,FPM
+Morada Nova,2021,Esporte,411214.58,370104.07,FPM
+Morada Nova,2021,Cultura,637020.25,586517.48,PAC
+Morada Nova,2022,Assistência Social,517053.98,494689.91,SUS
+Morada Nova,2022,Saúde Básica,389520.29,359615.1,SUS
+Morada Nova,2022,Saneamento,723979.68,656170.83,PAC
+Morada Nova,2023,Esporte,707671.19,698489.06,Emenda Parlamentar
+Morada Nova,2023,Assistência Social,289072.88,264261.71,FUNDEB
+Morada Nova,2023,Saúde Básica,241095.22,208629.25,FUNDEB
+Morada Nova,2023,Infraestrutura,623435.05,580043.88,SUS
+Morada Nova,2023,Cultura,569785.52,511077.13,SUS
+Morada Nova,2023,Saneamento,408055.29,380816.12,Emenda Parlamentar
+Brejo Santo,2020,Educação Fundamental,207896.36,180226.8,FUNDEB
+Brejo Santo,2020,Infraestrutura,381646.24,324531.86,PAC
+Brejo Santo,2020,Cultura,966199.78,895388.92,Emenda Parlamentar
+Brejo Santo,2020,Esporte,540898.37,534484.64,Emenda Parlamentar
+Brejo Santo,2020,Assistência Social,456659.44,432530.93,FUNDEB
+Brejo Santo,2021,Assistência Social,358469.44,351161.97,FPM
+Brejo Santo,2021,Educação Fundamental,497118.21,445619.67,SUS
+Brejo Santo,2021,Saneamento,568135.05,555424.64,Emenda Parlamentar
+Brejo Santo,2021,Infraestrutura,489921.7,486930.14,SUS
+Brejo Santo,2021,Saúde Básica,438993.76,415195.97,PAC
+Brejo Santo,2022,Saúde Básica,685108.27,677696.29,PAC
+Brejo Santo,2022,Cultura,192432.02,168902.75,PAC
+Brejo Santo,2022,Assistência Social,462423.24,437059.63,Emenda Parlamentar
+Brejo Santo,2023,Assistência Social,488821.39,416152.78,PAC
+Brejo Santo,2023,Esporte,750898.18,707556.34,Emenda Parlamentar
+Brejo Santo,2023,Cultura,247356.1,226417.5,PAC
+Brejo Santo,2023,Infraestrutura,50000.0,43121.99,FUNDEB
+Baturité,2020,Infraestrutura,353169.04,341764.44,Emenda Parlamentar
+Baturité,2020,Esporte,220845.21,200831.17,FPM
+Baturité,2020,Saúde Básica,697108.68,680422.53,FPM
+Baturité,2020,Educação Fundamental,379010.45,350844.81,Emenda Parlamentar
+Baturité,2020,Cultura,547895.42,493410.22,FUNDEB
+Baturité,2020,Saneamento,289423.7,276996.0,FUNDEB
+Baturité,2021,Cultura,931582.88,892738.73,PAC
+Baturité,2021,Saúde Básica,322357.44,293850.05,FUNDEB
+Baturité,2021,Educação Fundamental,371346.17,359050.74,Emenda Parlamentar
+Baturité,2021,Assistência Social,717926.99,652669.02,PAC
+Baturité,2021,Infraestrutura,453559.69,432772.68,PAC
+Baturité,2021,Esporte,538983.07,518045.73,PAC
+Baturité,2022,Saúde Básica,249625.1,212372.6,PAC
+Baturité,2022,Infraestrutura,482769.87,422295.03,Emenda Parlamentar
+Baturité,2022,Esporte,658873.15,635933.41,SUS
+Baturité,2023,Educação Fundamental,538041.75,532065.51,FUNDEB
+Baturité,2023,Saúde Básica,201950.19,179278.22,SUS
+Baturité,2023,Assistência Social,697585.0,662871.25,SUS
+Baturité,2023,Esporte,446275.26,441440.74,FUNDEB
+Acaraú,2020,Assistência Social,486202.08,427799.68,Emenda Parlamentar
+Acaraú,2020,Saneamento,50000.0,42971.26,PAC
+Acaraú,2020,Cultura,650848.4,554039.35,Emenda Parlamentar
+Acaraú,2020,Educação Fundamental,302443.78,266087.57,Emenda Parlamentar
+Acaraú,2021,Educação Fundamental,442686.3,415407.78,FUNDEB
+Acaraú,2021,Assistência Social,330515.15,300532.53,Emenda Parlamentar
+Acaraú,2021,Cultura,115825.83,113564.0,FUNDEB
+Acaraú,2021,Saneamento,458636.75,415606.61,SUS
+Acaraú,2021,Infraestrutura,425803.57,421358.1,SUS
+Acaraú,2022,Assistência Social,657143.79,572644.37,Emenda Parlamentar
+Acaraú,2022,Esporte,151145.66,147280.92,SUS
+Acaraú,2022,Infraestrutura,531613.53,479396.27,FUNDEB
+Acaraú,2022,Educação Fundamental,182782.07,162344.36,FUNDEB
+Acaraú,2023,Cultura,504755.62,451057.11,PAC
+Acaraú,2023,Educação Fundamental,547304.96,487854.56,Emenda Parlamentar
+Acaraú,2023,Saúde Básica,289700.17,275402.8,SUS
+Acaraú,2023,Esporte,722960.35,638198.48,Emenda Parlamentar
+Granja,2020,Saúde Básica,515674.16,498081.53,Emenda Parlamentar
+Granja,2020,Saneamento,188425.09,174826.44,Emenda Parlamentar
+Granja,2020,Educação Fundamental,745885.16,690824.76,Emenda Parlamentar
+Granja,2020,Cultura,570496.07,552895.08,Emenda Parlamentar
+Granja,2021,Infraestrutura,457087.55,433596.6,PAC
+Granja,2021,Esporte,662023.49,581233.07,Emenda Parlamentar
+Granja,2021,Educação Fundamental,587944.7,562662.24,Emenda Parlamentar
+Granja,2022,Assistência Social,364544.73,343546.9,FPM
+Granja,2022,Esporte,126261.57,118023.12,PAC
+Granja,2022,Saneamento,637731.91,593332.28,FPM
+Granja,2022,Cultura,261041.79,249262.69,SUS
+Granja,2022,Infraestrutura,378113.61,325720.85,SUS
+Granja,2022,Saúde Básica,346248.11,327749.46,Emenda Parlamentar
+Granja,2023,Esporte,527008.78,478284.11,SUS
+Granja,2023,Educação Fundamental,164353.81,156347.25,Emenda Parlamentar
+Granja,2023,Cultura,557223.57,509224.37,SUS
+Granja,2023,Saneamento,781254.19,773889.34,FUNDEB
+Pentecoste,2020,Assistência Social,917453.71,789640.5,SUS
+Pentecoste,2020,Infraestrutura,805644.85,750736.06,Emenda Parlamentar
+Pentecoste,2020,Saúde Básica,229262.16,196178.63,SUS
+Pentecoste,2020,Cultura,635234.61,625120.43,SUS
+Pentecoste,2021,Educação Fundamental,504098.66,457071.63,SUS
+Pentecoste,2021,Cultura,144503.05,125098.49,SUS
+Pentecoste,2021,Saúde Básica,147531.84,141877.72,Emenda Parlamentar
+Pentecoste,2021,Saneamento,201062.94,179857.8,FUNDEB
+Pentecoste,2021,Infraestrutura,456536.12,399055.44,FUNDEB
+Pentecoste,2022,Assistência Social,995000.02,846873.21,FPM
+Pentecoste,2022,Saneamento,243519.1,240348.26,FPM
+Pentecoste,2022,Infraestrutura,212221.56,204433.91,FUNDEB
+Pentecoste,2023,Saúde Básica,349539.83,336642.58,PAC
+Pentecoste,2023,Saneamento,596897.79,572364.47,FUNDEB
+Pentecoste,2023,Esporte,759079.16,737228.33,PAC
+Pentecoste,2023,Assistência Social,438316.62,384305.8,SUS
+Pentecoste,2023,Educação Fundamental,634818.27,551640.47,FUNDEB
+Beberibe,2020,Assistência Social,437003.0,434680.72,FPM
+Beberibe,2020,Infraestrutura,571701.09,544491.7,FPM
+Beberibe,2020,Saneamento,518558.65,467723.08,FPM
+Beberibe,2020,Educação Fundamental,690335.46,650631.22,FUNDEB
+Beberibe,2020,Cultura,519127.69,494797.75,PAC
+Beberibe,2021,Saúde Básica,469461.66,452187.28,FUNDEB
+Beberibe,2021,Infraestrutura,388392.87,343409.96,FPM
+Beberibe,2021,Educação Fundamental,622008.16,589486.78,SUS
+Beberibe,2021,Assistência Social,580036.53,537149.99,SUS
+Beberibe,2022,Infraestrutura,258064.18,240027.48,FUNDEB
+Beberibe,2022,Saneamento,650760.02,567441.79,SUS
+Beberibe,2022,Saúde Básica,774690.21,756823.4,FUNDEB
+Beberibe,2022,Cultura,433902.32,411088.27,FUNDEB
+Beberibe,2023,Infraestrutura,565274.4,513993.18,FUNDEB
+Beberibe,2023,Cultura,692503.12,637365.41,FPM
+Beberibe,2023,Educação Fundamental,435500.18,420455.71,FPM
+Beberibe,2023,Esporte,905186.32,882693.36,FPM
+Beberibe,2023,Saúde Básica,446353.11,399232.35,Emenda Parlamentar
+Trairi,2020,Esporte,390979.7,346798.85,FUNDEB
+Trairi,2020,Infraestrutura,292736.46,249850.46,PAC
+Trairi,2020,Cultura,271248.61,251516.93,FUNDEB
+Trairi,2020,Saneamento,847123.64,786688.25,FPM
+Trairi,2020,Assistência Social,559304.36,552385.82,FPM
+Trairi,2021,Educação Fundamental,503829.07,477368.25,FUNDEB
+Trairi,2021,Esporte,618480.05,574882.34,SUS
+Trairi,2021,Cultura,218596.94,192644.08,FUNDEB
+Trairi,2021,Infraestrutura,545147.89,468608.1,PAC
+Trairi,2021,Assistência Social,825289.73,719295.87,FPM
+Trairi,2022,Educação Fundamental,320769.83,296577.5,FPM
+Trairi,2022,Saúde Básica,590420.77,523910.0,SUS
+Trairi,2022,Assistência Social,748869.89,696209.79,PAC
+Trairi,2023,Saúde Básica,745578.83,691564.81,FPM
+Trairi,2023,Cultura,523377.38,509903.18,PAC
+Trairi,2023,Infraestrutura,590747.02,545050.45,SUS
+Trairi,2023,Saneamento,715557.41,620574.16,Emenda Parlamentar
+Trairi,2023,Esporte,594590.68,576527.87,SUS
+Redenção,2020,Educação Fundamental,675441.41,620722.96,SUS
+Redenção,2020,Saúde Básica,606773.5,523408.5,PAC
+Redenção,2020,Esporte,447493.08,429240.34,FPM
+Redenção,2020,Assistência Social,692869.28,677028.98,FPM
+Redenção,2020,Infraestrutura,268435.27,233989.78,SUS
+Redenção,2021,Esporte,591502.24,589425.27,FUNDEB
+Redenção,2021,Saneamento,291529.1,248027.12,SUS
+Redenção,2021,Cultura,318494.1,305997.28,SUS
+Redenção,2021,Infraestrutura,268930.85,260630.75,FPM
+Redenção,2022,Educação Fundamental,626984.24,607116.41,FPM
+Redenção,2022,Cultura,319864.41,311148.02,SUS
+Redenção,2022,Infraestrutura,474655.63,437871.0,FUNDEB
+Redenção,2022,Saneamento,566691.34,557218.35,SUS
+Redenção,2022,Esporte,524789.14,446836.53,FUNDEB
+Redenção,2022,Assistência Social,524762.17,514579.09,Emenda Parlamentar
+Redenção,2023,Educação Fundamental,755861.0,690994.85,Emenda Parlamentar
+Redenção,2023,Esporte,225850.99,204370.53,Emenda Parlamentar
+Redenção,2023,Infraestrutura,273975.41,273619.58,SUS
+Redenção,2023,Saúde Básica,716365.03,705767.78,Emenda Parlamentar
+Viçosa do Ceará,2020,Assistência Social,401970.4,350737.55,Emenda Parlamentar
+Viçosa do Ceará,2020,Esporte,314362.59,272654.92,SUS
+Viçosa do Ceará,2020,Educação Fundamental,463173.67,396181.75,SUS
+Viçosa do Ceará,2020,Infraestrutura,176205.12,171819.26,SUS
+Viçosa do Ceará,2020,Cultura,495572.14,447823.02,PAC
+Viçosa do Ceará,2021,Assistência Social,319365.21,277267.55,FUNDEB
+Viçosa do Ceará,2021,Infraestrutura,486645.74,429955.05,FPM
+Viçosa do Ceará,2021,Cultura,361754.36,345720.56,PAC
+Viçosa do Ceará,2021,Saúde Básica,385495.52,379942.14,FPM
+Viçosa do Ceará,2022,Educação Fundamental,264957.79,227524.66,Emenda Parlamentar
+Viçosa do Ceará,2022,Assistência Social,810424.07,689194.75,PAC
+Viçosa do Ceará,2022,Esporte,603626.56,539255.96,SUS
+Viçosa do Ceará,2022,Saneamento,381728.04,344193.0,FUNDEB
+Viçosa do Ceará,2022,Saúde Básica,839751.02,769368.63,PAC
+Viçosa do Ceará,2022,Cultura,269452.49,248225.96,FUNDEB
+Viçosa do Ceará,2023,Esporte,585806.9,566992.76,FUNDEB
+Viçosa do Ceará,2023,Educação Fundamental,784765.42,699224.96,FPM
+Viçosa do Ceará,2023,Assistência Social,596417.71,533245.55,FUNDEB
+Viçosa do Ceará,2023,Infraestrutura,817832.86,769095.72,FUNDEB
+Viçosa do Ceará,2023,Cultura,580900.69,528990.19,FUNDEB
+Viçosa do Ceará,2023,Saneamento,67181.86,65988.18,PAC
+Lavras da Mangabeira,2020,Assistência Social,785133.17,702117.37,PAC
+Lavras da Mangabeira,2020,Saneamento,863802.19,788221.03,Emenda Parlamentar
+Lavras da Mangabeira,2020,Esporte,824088.58,804720.77,Emenda Parlamentar
+Lavras da Mangabeira,2020,Saúde Básica,664587.73,608801.17,FPM
+Lavras da Mangabeira,2020,Infraestrutura,252236.93,235942.95,FUNDEB
+Lavras da Mangabeira,2020,Educação Fundamental,619166.05,543122.48,FUNDEB
+Lavras da Mangabeira,2021,Saúde Básica,731107.52,623881.15,SUS
+Lavras da Mangabeira,2021,Infraestrutura,735169.33,725247.72,FUNDEB
+Lavras da Mangabeira,2021,Educação Fundamental,228961.25,207744.72,FPM
+Lavras da Mangabeira,2021,Esporte,625393.52,614679.08,SUS
+Lavras da Mangabeira,2021,Saneamento,840677.77,837197.33,Emenda Parlamentar
+Lavras da Mangabeira,2021,Assistência Social,320841.38,278185.66,FPM
+Lavras da Mangabeira,2022,Saneamento,406964.78,360125.97,Emenda Parlamentar
+Lavras da Mangabeira,2022,Saúde Básica,668372.79,601693.1,Emenda Parlamentar
+Lavras da Mangabeira,2022,Infraestrutura,618552.69,528652.23,SUS
+Lavras da Mangabeira,2022,Esporte,50000.0,44279.76,SUS
+Lavras da Mangabeira,2023,Saúde Básica,297144.07,258157.7,FPM
+Lavras da Mangabeira,2023,Assistência Social,686968.03,651910.12,SUS
+Lavras da Mangabeira,2023,Educação Fundamental,253318.46,223987.77,FUNDEB
+Lavras da Mangabeira,2023,Infraestrutura,484366.25,440317.77,PAC
+Lavras da Mangabeira,2023,Saneamento,501119.31,448569.11,FUNDEB
+Lavras da Mangabeira,2023,Esporte,744707.45,743917.77,SUS
+Jaguaribe,2020,Cultura,602625.07,549517.97,FPM
+Jaguaribe,2020,Assistência Social,336231.55,303971.53,SUS
+Jaguaribe,2020,Educação Fundamental,447657.6,417216.79,SUS
+Jaguaribe,2020,Saúde Básica,302291.06,274307.72,FUNDEB
+Jaguaribe,2020,Infraestrutura,711239.84,670455.59,SUS
+Jaguaribe,2021,Esporte,455129.29,394066.73,PAC
+Jaguaribe,2021,Saneamento,482540.07,434121.43,FPM
+Jaguaribe,2021,Infraestrutura,568926.13,563299.8,PAC
+Jaguaribe,2021,Saúde Básica,603166.72,522679.66,FUNDEB
+Jaguaribe,2021,Educação Fundamental,599016.33,580126.81,Emenda Parlamentar
+Jaguaribe,2021,Assistência Social,184880.16,180173.85,Emenda Parlamentar
+Jaguaribe,2022,Cultura,442647.48,441118.84,FUNDEB
+Jaguaribe,2022,Educação Fundamental,606072.56,575081.64,FPM
+Jaguaribe,2022,Saúde Básica,732633.93,656245.08,Emenda Parlamentar
+Jaguaribe,2023,Cultura,855239.15,733473.92,FPM
+Jaguaribe,2023,Assistência Social,344897.82,297289.49,FPM
+Jaguaribe,2023,Infraestrutura,661554.79,656099.09,SUS
+Missão Velha,2020,Infraestrutura,520721.37,454699.87,Emenda Parlamentar
+Missão Velha,2020,Saneamento,213354.68,202832.42,Emenda Parlamentar
+Missão Velha,2020,Educação Fundamental,621996.62,614144.75,PAC
+Missão Velha,2020,Esporte,261840.35,260595.26,FUNDEB
+Missão Velha,2020,Assistência Social,732492.9,720108.71,PAC
+Missão Velha,2021,Educação Fundamental,614577.85,563795.69,SUS
+Missão Velha,2021,Cultura,609620.1,557549.86,SUS
+Missão Velha,2021,Saneamento,385208.43,343130.96,PAC
+Missão Velha,2021,Assistência Social,738225.95,636385.22,FPM
+Missão Velha,2021,Esporte,165812.48,153859.06,FUNDEB
+Missão Velha,2021,Saúde Básica,189572.23,163976.82,FPM
+Missão Velha,2022,Esporte,355452.22,319918.84,FPM
+Missão Velha,2022,Assistência Social,50000.0,42724.49,PAC
+Missão Velha,2022,Infraestrutura,510226.15,479454.95,PAC
+Missão Velha,2022,Saúde Básica,302234.61,267567.13,FPM
+Missão Velha,2023,Saneamento,599405.98,542430.6,SUS
+Missão Velha,2023,Saúde Básica,723962.31,694863.69,Emenda Parlamentar
+Missão Velha,2023,Cultura,91736.72,90155.65,PAC
+Município 41,2020,Esporte,590991.03,519504.39,Emenda Parlamentar
+Município 41,2020,Assistência Social,288352.11,275204.02,FPM
+Município 41,2020,Saneamento,399310.01,347421.2,FUNDEB
+Município 41,2020,Educação Fundamental,405118.2,383557.12,FPM
+Município 41,2020,Saúde Básica,370917.99,322282.96,FPM
+Município 41,2021,Saúde Básica,457425.74,423600.57,Emenda Parlamentar
+Município 41,2021,Saneamento,488310.03,441565.69,Emenda Parlamentar
+Município 41,2021,Assistência Social,754242.73,735293.99,Emenda Parlamentar
+Município 41,2021,Esporte,1181261.16,1086074.74,Emenda Parlamentar
+Município 41,2022,Educação Fundamental,638780.58,609648.71,SUS
+Município 41,2022,Saúde Básica,955644.36,894033.02,PAC
+Município 41,2022,Esporte,402017.11,385197.64,SUS
+Município 41,2023,Esporte,675173.69,590936.02,PAC
+Município 41,2023,Assistência Social,467723.1,411916.05,SUS
+Município 41,2023,Cultura,664955.16,617722.58,FPM
+Município 41,2023,Infraestrutura,579729.79,514467.07,FUNDEB
+Município 41,2023,Saúde Básica,98356.4,96466.63,SUS
+Município 41,2023,Saneamento,668433.95,590711.26,FPM
+Município 42,2020,Esporte,281013.44,239671.41,PAC
+Município 42,2020,Infraestrutura,386898.36,357037.97,Emenda Parlamentar
+Município 42,2020,Saneamento,527970.13,453935.22,SUS
+Município 42,2021,Saneamento,621840.08,613584.94,Emenda Parlamentar
+Município 42,2021,Esporte,210770.64,185175.66,FPM
+Município 42,2021,Assistência Social,190262.37,176759.92,Emenda Parlamentar
+Município 42,2021,Educação Fundamental,522429.33,481836.11,FPM
+Município 42,2021,Infraestrutura,384472.92,375003.44,FUNDEB
+Município 42,2022,Saúde Básica,162863.9,154527.29,FPM
+Município 42,2022,Saneamento,250458.45,215235.72,SUS
+Município 42,2022,Assistência Social,84347.69,72457.35,FPM
+Município 42,2022,Educação Fundamental,523895.2,461351.53,Emenda Parlamentar
+Município 42,2023,Infraestrutura,328283.78,314933.42,SUS
+Município 42,2023,Esporte,379559.76,361659.09,FPM
+Município 42,2023,Saúde Básica,69106.56,59532.85,PAC
+Município 43,2020,Educação Fundamental,676019.13,617194.73,SUS
+Município 43,2020,Saúde Básica,325344.8,296770.38,Emenda Parlamentar
+Município 43,2020,Esporte,705453.25,641794.95,FPM
+Município 43,2020,Infraestrutura,701922.66,630158.25,SUS
+Município 43,2020,Cultura,172562.77,158070.93,FUNDEB
+Município 43,2020,Assistência Social,601870.71,556046.8,Emenda Parlamentar
+Município 43,2021,Infraestrutura,300692.44,283234.76,Emenda Parlamentar
+Município 43,2021,Assistência Social,745090.43,706395.77,Emenda Parlamentar
+Município 43,2021,Saúde Básica,933151.53,808004.18,FUNDEB
+Município 43,2021,Educação Fundamental,539125.37,528642.98,Emenda Parlamentar
+Município 43,2021,Cultura,268820.75,258882.18,PAC
+Município 43,2021,Saneamento,340841.47,340698.69,SUS
+Município 43,2022,Cultura,569978.04,528626.13,FUNDEB
+Município 43,2022,Educação Fundamental,412938.71,373171.75,FUNDEB
+Município 43,2022,Assistência Social,315753.05,290203.99,SUS
+Município 43,2022,Esporte,814505.01,701056.3,Emenda Parlamentar
+Município 43,2022,Saneamento,365466.57,340895.3,FPM
+Município 43,2022,Saúde Básica,565017.86,547057.07,PAC
+Município 43,2023,Infraestrutura,735450.3,640409.81,PAC
+Município 43,2023,Saneamento,960968.6,940125.19,FPM
+Município 43,2023,Educação Fundamental,530011.53,505973.0,SUS
+Município 43,2023,Assistência Social,711692.42,705675.14,SUS
+Município 43,2023,Esporte,477825.61,432564.57,FPM
+Município 44,2020,Infraestrutura,407917.13,348061.88,PAC
+Município 44,2020,Cultura,390178.44,373087.72,SUS
+Município 44,2020,Saneamento,583931.1,568488.29,PAC
+Município 44,2021,Infraestrutura,572167.04,535181.41,FUNDEB
+Município 44,2021,Saneamento,565574.83,552059.76,FUNDEB
+Município 44,2021,Educação Fundamental,432438.93,418807.3,FPM
+Município 44,2022,Educação Fundamental,981791.71,951000.02,Emenda Parlamentar
+Município 44,2022,Infraestrutura,356910.76,351112.06,SUS
+Município 44,2022,Cultura,488156.05,441323.47,PAC
+Município 44,2022,Saneamento,802432.27,762249.2,PAC
+Município 44,2023,Cultura,857226.66,791282.85,FUNDEB
+Município 44,2023,Infraestrutura,679675.14,664451.78,FUNDEB
+Município 44,2023,Saúde Básica,213080.17,205491.93,Emenda Parlamentar
+Município 45,2020,Infraestrutura,684609.46,645624.41,FUNDEB
+Município 45,2020,Cultura,147270.46,129690.4,FPM
+Município 45,2020,Saneamento,819300.81,697660.63,Emenda Parlamentar
+Município 45,2021,Esporte,585773.41,521768.25,Emenda Parlamentar
+Município 45,2021,Saúde Básica,373886.26,351483.13,FPM
+Município 45,2021,Infraestrutura,712785.28,692289.71,PAC
+Município 45,2021,Cultura,735613.84,652586.84,FPM
+Município 45,2021,Educação Fundamental,588506.22,508371.4,SUS
+Município 45,2021,Saneamento,250402.89,231009.06,PAC
+Município 45,2022,Esporte,207030.61,183003.96,Emenda Parlamentar
+Município 45,2022,Assistência Social,561667.03,509059.38,SUS
+Município 45,2022,Infraestrutura,350654.23,305423.35,FUNDEB
+Município 45,2022,Saneamento,498070.71,468464.38,FUNDEB
+Município 45,2023,Infraestrutura,722824.87,701984.34,FUNDEB
+Município 45,2023,Educação Fundamental,652930.37,596704.77,FPM
+Município 45,2023,Esporte,723217.9,673417.71,FPM
+Município 45,2023,Cultura,627274.34,536389.12,FPM
+Município 45,2023,Saúde Básica,576330.83,497512.64,FPM
+Município 46,2020,Educação Fundamental,493975.72,483227.47,FPM
+Município 46,2020,Saneamento,660866.13,580482.22,SUS
+Município 46,2020,Esporte,515183.14,452442.04,Emenda Parlamentar
+Município 46,2020,Cultura,579242.27,571003.55,FUNDEB
+Município 46,2021,Infraestrutura,493473.3,443062.89,SUS
+Município 46,2021,Educação Fundamental,459635.0,411725.47,FUNDEB
+Município 46,2021,Assistência Social,218495.25,186964.89,FPM
+Município 46,2021,Esporte,185182.44,159906.41,SUS
+Município 46,2022,Saúde Básica,84858.1,81219.62,PAC
+Município 46,2022,Esporte,490269.05,445020.97,FUNDEB
+Município 46,2022,Assistência Social,518781.08,491346.31,PAC
+Município 46,2022,Infraestrutura,453183.69,390267.02,SUS
+Município 46,2023,Esporte,488007.19,469487.71,PAC
+Município 46,2023,Educação Fundamental,214183.69,186210.17,Emenda Parlamentar
+Município 46,2023,Infraestrutura,301988.08,282621.52,PAC
+Município 46,2023,Assistência Social,570594.55,492145.43,Emenda Parlamentar
+Município 47,2020,Saneamento,504289.15,481574.52,FUNDEB
+Município 47,2020,Saúde Básica,380333.09,374479.4,SUS
+Município 47,2020,Educação Fundamental,719937.29,696148.58,Emenda Parlamentar
+Município 47,2021,Educação Fundamental,277393.06,238539.14,Emenda Parlamentar
+Município 47,2021,Saneamento,334812.4,309575.59,SUS
+Município 47,2021,Infraestrutura,377304.83,321892.13,Emenda Parlamentar
+Município 47,2021,Esporte,133699.06,131555.75,PAC
+Município 47,2021,Assistência Social,566672.59,543205.64,FPM
+Município 47,2022,Saúde Básica,684682.94,595395.42,PAC
+Município 47,2022,Infraestrutura,758399.64,756053.19,Emenda Parlamentar
+Município 47,2022,Esporte,50000.0,45978.59,SUS
+Município 47,2022,Educação Fundamental,825253.41,737776.48,FPM
+Município 47,2022,Cultura,344906.42,341082.66,PAC
+Município 47,2022,Saneamento,588066.09,575227.62,FUNDEB
+Município 47,2023,Saúde Básica,176712.53,156237.26,PAC
+Município 47,2023,Saneamento,786279.89,746032.23,Emenda Parlamentar
+Município 47,2023,Educação Fundamental,253320.68,239779.81,Emenda Parlamentar
+Município 47,2023,Infraestrutura,367939.21,342649.84,FPM
+Município 48,2020,Saneamento,530967.85,478463.55,SUS
+Município 48,2020,Esporte,378403.55,368723.89,FPM
+Município 48,2020,Saúde Básica,564964.94,560570.47,FPM
+Município 48,2021,Infraestrutura,579574.92,565263.09,FPM
+Município 48,2021,Educação Fundamental,849873.77,729563.15,SUS
+Município 48,2021,Cultura,398293.72,378011.93,FPM
+Município 48,2021,Assistência Social,372481.81,340714.49,SUS
+Município 48,2022,Esporte,637305.05,546826.84,PAC
+Município 48,2022,Cultura,519069.82,486963.15,SUS
+Município 48,2022,Saneamento,367798.76,348656.92,Emenda Parlamentar
+Município 48,2022,Saúde Básica,845994.73,749939.43,PAC
+Município 48,2022,Educação Fundamental,550117.88,491342.85,SUS
+Município 48,2023,Assistência Social,930110.29,928406.15,FUNDEB
+Município 48,2023,Infraestrutura,484940.53,446368.9,Emenda Parlamentar
+Município 48,2023,Saúde Básica,813917.49,790831.15,PAC
+Município 48,2023,Saneamento,713722.09,657065.65,FPM
+Município 48,2023,Cultura,482962.42,479293.56,FPM
+Município 48,2023,Educação Fundamental,342353.45,334699.81,FPM
+Município 49,2020,Educação Fundamental,445044.29,427159.42,FUNDEB
+Município 49,2020,Esporte,449106.01,435338.75,FPM
+Município 49,2020,Assistência Social,398379.25,385320.18,SUS
+Município 49,2020,Saneamento,527438.72,507239.06,FPM
+Município 49,2020,Cultura,591192.24,508612.75,FUNDEB
+Município 49,2020,Infraestrutura,493265.13,439085.71,SUS
+Município 49,2021,Saneamento,295502.89,283050.26,FPM
+Município 49,2021,Cultura,425602.98,405718.74,FPM
+Município 49,2021,Esporte,590041.75,524129.21,FUNDEB
+Município 49,2022,Saúde Básica,863055.35,791554.33,PAC
+Município 49,2022,Assistência Social,649618.04,570421.19,PAC
+Município 49,2022,Infraestrutura,472946.52,441703.19,FPM
+Município 49,2022,Saneamento,363219.69,334366.1,FPM
+Município 49,2022,Cultura,378194.96,340577.05,PAC
+Município 49,2022,Esporte,483018.5,442654.2,SUS
+Município 49,2023,Cultura,485011.19,444256.05,FUNDEB
+Município 49,2023,Saneamento,588118.72,519202.29,Emenda Parlamentar
+Município 49,2023,Esporte,180836.0,166541.9,FUNDEB
+Município 49,2023,Saúde Básica,658620.39,588205.9,SUS
+Município 49,2023,Educação Fundamental,280439.75,251269.45,FPM
+Município 50,2020,Educação Fundamental,553937.38,483359.11,FPM
+Município 50,2020,Cultura,430683.18,398996.29,SUS
+Município 50,2020,Assistência Social,554244.96,538715.91,FPM
+Município 50,2021,Educação Fundamental,682221.84,594835.32,Emenda Parlamentar
+Município 50,2021,Infraestrutura,402694.58,348371.74,FPM
+Município 50,2021,Assistência Social,474885.77,403857.68,SUS
+Município 50,2022,Educação Fundamental,544175.73,487226.68,SUS
+Município 50,2022,Cultura,487196.04,440609.44,FPM
+Município 50,2022,Esporte,564823.73,550107.99,SUS
+Município 50,2023,Saneamento,742536.73,738576.1,PAC
+Município 50,2023,Assistência Social,334688.15,327680.34,FUNDEB
+Município 50,2023,Esporte,532835.57,496211.87,SUS
+Município 51,2020,Cultura,483112.97,460482.15,PAC
+Município 51,2020,Saneamento,627012.64,616428.78,FPM
+Município 51,2020,Assistência Social,255159.95,243458.69,FUNDEB
+Município 51,2021,Cultura,589255.15,576278.04,PAC
+Município 51,2021,Esporte,481141.75,451860.91,FPM
+Município 51,2021,Educação Fundamental,625048.08,575157.69,FPM
+Município 51,2021,Assistência Social,316501.18,281548.49,SUS
+Município 51,2021,Infraestrutura,299605.27,281582.82,SUS
+Município 51,2022,Saúde Básica,459160.44,432990.16,PAC
+Município 51,2022,Infraestrutura,301943.9,267295.9,PAC
+Município 51,2022,Educação Fundamental,752518.99,711351.89,PAC
+Município 51,2022,Assistência Social,828988.43,807996.68,FPM
+Município 51,2023,Saneamento,711287.35,685809.25,Emenda Parlamentar
+Município 51,2023,Educação Fundamental,473326.49,467202.4,FPM
+Município 51,2023,Cultura,480792.63,412055.46,Emenda Parlamentar
+Município 51,2023,Infraestrutura,527031.14,467518.91,FPM
+Município 51,2023,Saúde Básica,763189.17,722023.68,FUNDEB
+Município 51,2023,Assistência Social,514879.58,508261.53,PAC
+Município 52,2020,Esporte,501444.81,481796.97,Emenda Parlamentar
+Município 52,2020,Saneamento,610805.73,526362.98,PAC
+Município 52,2020,Infraestrutura,554414.16,480215.57,SUS
+Município 52,2020,Educação Fundamental,481464.98,479271.96,PAC
+Município 52,2020,Cultura,513094.37,504657.85,SUS
+Município 52,2020,Saúde Básica,520352.2,446947.93,FUNDEB
+Município 52,2021,Esporte,357553.39,341810.34,SUS
+Município 52,2021,Saneamento,520306.1,475711.39,Emenda Parlamentar
+Município 52,2021,Educação Fundamental,629894.66,554823.84,SUS
+Município 52,2022,Cultura,304396.85,260903.74,FPM
+Município 52,2022,Assistência Social,492206.57,448660.75,PAC
+Município 52,2022,Saúde Básica,717203.31,700090.42,Emenda Parlamentar
+Município 52,2022,Saneamento,499473.73,449758.84,Emenda Parlamentar
+Município 52,2022,Esporte,570456.37,559154.04,FPM
+Município 52,2023,Cultura,535244.46,491807.95,FPM
+Município 52,2023,Saúde Básica,742740.5,638838.48,PAC
+Município 52,2023,Saneamento,447393.68,420995.89,Emenda Parlamentar
+Município 52,2023,Esporte,469991.94,413577.65,SUS
+Município 52,2023,Infraestrutura,104401.46,90645.63,FPM
+Município 52,2023,Educação Fundamental,352505.71,331017.29,SUS
+Município 53,2020,Assistência Social,361408.53,324401.61,Emenda Parlamentar
+Município 53,2020,Saneamento,360771.99,356208.63,SUS
+Município 53,2020,Infraestrutura,555297.49,545569.56,Emenda Parlamentar
+Município 53,2021,Educação Fundamental,477768.87,418683.94,Emenda Parlamentar
+Município 53,2021,Saneamento,476247.89,444101.54,SUS
+Município 53,2021,Cultura,282268.8,267977.37,PAC
+Município 53,2021,Infraestrutura,384200.96,340064.29,FPM
+Município 53,2022,Saúde Básica,579447.34,559514.84,SUS
+Município 53,2022,Saneamento,448311.11,435741.75,Emenda Parlamentar
+Município 53,2022,Esporte,330990.32,298693.52,FPM
+Município 53,2022,Educação Fundamental,396278.7,348875.16,Emenda Parlamentar
+Município 53,2022,Cultura,556231.16,552846.55,SUS
+Município 53,2022,Assistência Social,700885.38,625980.71,FUNDEB
+Município 53,2023,Educação Fundamental,436675.74,372279.65,Emenda Parlamentar
+Município 53,2023,Cultura,412324.79,388439.03,SUS
+Município 53,2023,Esporte,636598.77,614588.7,Emenda Parlamentar
+Município 54,2020,Assistência Social,752994.58,662245.37,FPM
+Município 54,2020,Infraestrutura,685159.55,627385.36,FUNDEB
+Município 54,2020,Cultura,411826.68,403814.41,SUS
+Município 54,2021,Esporte,615296.62,593885.7,FPM
+Município 54,2021,Assistência Social,514188.45,438851.51,FUNDEB
+Município 54,2021,Educação Fundamental,768959.52,672233.88,FUNDEB
+Município 54,2022,Infraestrutura,611069.41,551559.24,FPM
+Município 54,2022,Saneamento,618178.96,567453.75,Emenda Parlamentar
+Município 54,2022,Assistência Social,434406.0,405727.26,Emenda Parlamentar
+Município 54,2022,Cultura,422182.71,403017.46,FUNDEB
+Município 54,2022,Educação Fundamental,619163.7,568548.28,PAC
+Município 54,2023,Saúde Básica,968558.33,887600.77,FPM
+Município 54,2023,Educação Fundamental,446494.92,398113.03,SUS
+Município 54,2023,Saneamento,251148.54,236935.57,SUS
+Município 55,2020,Esporte,734725.15,698269.52,SUS
+Município 55,2020,Cultura,698378.66,668111.92,Emenda Parlamentar
+Município 55,2020,Assistência Social,690473.25,684082.0,FUNDEB
+Município 55,2020,Infraestrutura,645757.9,603735.75,SUS
+Município 55,2020,Educação Fundamental,604189.47,561386.22,SUS
+Município 55,2020,Saúde Básica,381677.27,334217.35,PAC
+Município 55,2021,Saneamento,476617.91,408260.36,PAC
+Município 55,2021,Saúde Básica,241411.78,206531.78,SUS
+Município 55,2021,Educação Fundamental,572573.34,528520.4,FUNDEB
+Município 55,2021,Cultura,614288.54,600509.71,Emenda Parlamentar
+Município 55,2022,Educação Fundamental,341253.86,314250.1,FPM
+Município 55,2022,Cultura,383709.18,346633.54,PAC
+Município 55,2022,Infraestrutura,350328.21,334042.3,PAC
+Município 55,2022,Saneamento,647091.79,560684.26,Emenda Parlamentar
+Município 55,2022,Assistência Social,862691.23,774151.85,PAC
+Município 55,2022,Saúde Básica,511569.83,448455.32,FUNDEB
+Município 55,2023,Esporte,426924.2,371565.83,SUS
+Município 55,2023,Cultura,1051353.64,919754.56,PAC
+Município 55,2023,Saneamento,707875.95,672603.66,PAC
+Município 55,2023,Saúde Básica,297403.72,261873.71,FUNDEB
+Município 55,2023,Educação Fundamental,450399.92,443471.32,FPM
+Município 56,2020,Cultura,716262.73,711869.05,SUS
+Município 56,2020,Assistência Social,915761.68,832564.43,FPM
+Município 56,2020,Infraestrutura,547452.71,476174.95,FPM
+Município 56,2021,Saúde Básica,186537.47,170664.6,PAC
+Município 56,2021,Infraestrutura,587593.51,587485.75,SUS
+Município 56,2021,Esporte,838536.19,827719.73,PAC
+Município 56,2021,Cultura,578085.18,496998.87,PAC
+Município 56,2021,Assistência Social,512133.5,479265.52,FUNDEB
+Município 56,2021,Saneamento,497491.55,486960.22,Emenda Parlamentar
+Município 56,2022,Esporte,680419.22,628769.37,FUNDEB
+Município 56,2022,Saneamento,879408.08,848163.77,FUNDEB
+Município 56,2022,Infraestrutura,890840.44,816596.91,FPM
+Município 56,2022,Saúde Básica,608044.94,578313.0,PAC
+Município 56,2022,Cultura,282739.71,249329.72,SUS
+Município 56,2023,Infraestrutura,617420.44,556278.22,Emenda Parlamentar
+Município 56,2023,Esporte,477598.63,446266.49,Emenda Parlamentar
+Município 56,2023,Educação Fundamental,618186.92,567818.4,PAC
+Município 57,2020,Infraestrutura,622003.68,568838.12,PAC
+Município 57,2020,Assistência Social,176015.52,160110.44,SUS
+Município 57,2020,Cultura,400906.38,376272.74,PAC
+Município 57,2020,Esporte,359509.64,323278.65,PAC
+Município 57,2020,Saneamento,809967.8,746046.08,PAC
+Município 57,2021,Assistência Social,452510.78,437760.08,FPM
+Município 57,2021,Cultura,466475.94,431534.64,FUNDEB
+Município 57,2021,Saneamento,831570.0,744911.41,Emenda Parlamentar
+Município 57,2021,Infraestrutura,821977.28,714449.41,FUNDEB
+Município 57,2021,Saúde Básica,515757.07,515690.45,PAC
+Município 57,2021,Educação Fundamental,1066900.19,998417.9,PAC
+Município 57,2022,Cultura,896036.37,797165.98,Emenda Parlamentar
+Município 57,2022,Saneamento,627037.88,556751.47,SUS
+Município 57,2022,Saúde Básica,638443.45,574284.2,PAC
+Município 57,2023,Esporte,216475.27,193887.9,FUNDEB
+Município 57,2023,Saúde Básica,468021.39,464603.38,SUS
+Município 57,2023,Cultura,466764.16,446031.99,SUS
+Município 57,2023,Saneamento,318225.56,279614.84,SUS
+Município 57,2023,Educação Fundamental,380987.32,377635.62,PAC
+Município 58,2020,Assistência Social,260768.34,253933.48,Emenda Parlamentar
+Município 58,2020,Saúde Básica,627699.87,599694.57,SUS
+Município 58,2020,Infraestrutura,167635.12,158035.06,SUS
+Município 58,2020,Saneamento,523322.21,521387.68,Emenda Parlamentar
+Município 58,2020,Esporte,557806.59,497066.36,Emenda Parlamentar
+Município 58,2021,Saneamento,687340.71,632901.84,PAC
+Município 58,2021,Assistência Social,835935.03,731968.13,FPM
+Município 58,2021,Educação Fundamental,512622.29,478219.04,PAC
+Município 58,2022,Assistência Social,749665.87,749338.83,FPM
+Município 58,2022,Infraestrutura,444518.23,424472.23,FPM
+Município 58,2022,Saneamento,468083.1,432946.44,PAC
+Município 58,2022,Saúde Básica,840824.47,730780.28,FUNDEB
+Município 58,2022,Esporte,232321.28,198039.78,FPM
+Município 58,2023,Esporte,611829.5,521281.53,PAC
+Município 58,2023,Educação Fundamental,86495.8,85539.38,FPM
+Município 58,2023,Infraestrutura,104219.12,96780.15,SUS
+Município 58,2023,Saúde Básica,677929.06,596352.7,PAC
+Município 59,2020,Assistência Social,283427.82,252279.06,FUNDEB
+Município 59,2020,Infraestrutura,322228.68,299457.45,FUNDEB
+Município 59,2020,Saúde Básica,50000.0,45053.42,Emenda Parlamentar
+Município 59,2020,Esporte,656437.01,616185.19,Emenda Parlamentar
+Município 59,2020,Cultura,420609.11,378381.23,PAC
+Município 59,2021,Cultura,430322.83,389420.22,Emenda Parlamentar
+Município 59,2021,Educação Fundamental,262871.88,245096.29,PAC
+Município 59,2021,Infraestrutura,641565.58,549085.85,Emenda Parlamentar
+Município 59,2021,Esporte,312536.92,274962.83,FUNDEB
+Município 59,2021,Saneamento,854572.19,769330.81,FUNDEB
+Município 59,2021,Saúde Básica,616066.4,609454.12,PAC
+Município 59,2022,Saneamento,669549.43,627300.15,PAC
+Município 59,2022,Saúde Básica,745101.86,726325.39,PAC
+Município 59,2022,Esporte,655113.94,602694.74,FPM
+Município 59,2022,Cultura,438527.21,417905.11,Emenda Parlamentar
+Município 59,2023,Infraestrutura,532363.78,519070.34,SUS
+Município 59,2023,Assistência Social,296534.56,274151.64,FUNDEB
+Município 59,2023,Cultura,542037.86,484982.37,PAC
+Município 59,2023,Saneamento,756552.54,658062.61,Emenda Parlamentar
+Município 59,2023,Saúde Básica,885696.24,758683.91,SUS
+Município 59,2023,Educação Fundamental,485947.57,459800.66,Emenda Parlamentar
+Município 60,2020,Esporte,310967.16,291951.25,FPM
+Município 60,2020,Cultura,395224.05,336303.06,FUNDEB
+Município 60,2020,Educação Fundamental,377661.04,321778.89,FPM
+Município 60,2020,Saneamento,656239.83,655245.12,Emenda Parlamentar
+Município 60,2020,Saúde Básica,498090.1,462570.18,PAC
+Município 60,2020,Assistência Social,365018.01,325251.91,SUS
+Município 60,2021,Esporte,304575.59,288522.24,Emenda Parlamentar
+Município 60,2021,Saúde Básica,544918.68,481425.07,FUNDEB
+Município 60,2021,Educação Fundamental,403475.07,391556.9,FPM
+Município 60,2022,Cultura,592945.56,588281.21,Emenda Parlamentar
+Município 60,2022,Saneamento,566429.01,549852.55,SUS
+Município 60,2022,Esporte,667045.19,613963.6,SUS
+Município 60,2022,Assistência Social,627717.12,541764.94,SUS
+Município 60,2022,Infraestrutura,556841.83,496481.83,FPM
+Município 60,2023,Educação Fundamental,508310.55,459538.78,SUS
+Município 60,2023,Saneamento,585593.39,551132.01,SUS
+Município 60,2023,Esporte,672700.55,614533.41,PAC
+Município 60,2023,Assistência Social,470209.56,420882.24,SUS
+Município 60,2023,Infraestrutura,254427.02,244626.02,Emenda Parlamentar
+Município 60,2023,Cultura,340517.38,292739.36,FPM
+Município 61,2020,Infraestrutura,633197.17,564949.25,PAC
+Município 61,2020,Saúde Básica,508051.8,439512.6,FUNDEB
+Município 61,2020,Assistência Social,728179.39,689222.48,FUNDEB
+Município 61,2020,Educação Fundamental,777685.17,766367.01,FUNDEB
+Município 61,2021,Educação Fundamental,432022.92,420631.11,PAC
+Município 61,2021,Infraestrutura,461720.78,414094.67,SUS
+Município 61,2021,Cultura,500943.97,452880.41,FPM
+Município 61,2021,Saneamento,324543.22,293093.63,FUNDEB
+Município 61,2021,Esporte,455401.57,399094.69,FUNDEB
+Município 61,2022,Saúde Básica,392279.81,370907.37,PAC
+Município 61,2022,Saneamento,535216.18,495870.73,FUNDEB
+Município 61,2022,Assistência Social,260595.34,246313.01,SUS
+Município 61,2023,Educação Fundamental,445959.86,396571.14,Emenda Parlamentar
+Município 61,2023,Infraestrutura,195247.07,188338.64,SUS
+Município 61,2023,Esporte,270544.0,256621.52,Emenda Parlamentar
+Município 61,2023,Saneamento,465734.19,442289.3,FUNDEB
+Município 61,2023,Saúde Básica,113132.32,103001.57,PAC
+Município 62,2020,Esporte,455590.58,425824.52,PAC
+Município 62,2020,Saneamento,693869.53,632492.68,PAC
+Município 62,2020,Educação Fundamental,362856.86,342709.03,FUNDEB
+Município 62,2020,Infraestrutura,440221.23,397453.48,Emenda Parlamentar
+Município 62,2020,Saúde Básica,499898.75,437570.55,FPM
+Município 62,2020,Cultura,462321.29,428844.06,PAC
+Município 62,2021,Assistência Social,692800.19,617019.6,FUNDEB
+Município 62,2021,Infraestrutura,467008.2,398897.61,FPM
+Município 62,2021,Educação Fundamental,480561.86,427952.22,FPM
+Município 62,2021,Esporte,537240.48,468309.35,SUS
+Município 62,2021,Saneamento,374645.86,321746.42,FUNDEB
+Município 62,2022,Saneamento,737565.06,661222.31,PAC
+Município 62,2022,Cultura,168722.63,157246.32,Emenda Parlamentar
+Município 62,2022,Educação Fundamental,640433.34,619750.18,FUNDEB
+Município 62,2023,Esporte,477277.42,463186.34,FPM
+Município 62,2023,Saúde Básica,582076.83,569391.23,PAC
+Município 62,2023,Educação Fundamental,648612.2,612532.65,PAC
+Município 63,2020,Infraestrutura,427870.02,389287.2,PAC
+Município 63,2020,Saúde Básica,450259.11,384020.83,FUNDEB
+Município 63,2020,Cultura,420639.25,407756.18,FPM
+Município 63,2020,Esporte,365271.03,321577.92,PAC
+Município 63,2021,Infraestrutura,1000204.57,944576.76,FPM
+Município 63,2021,Cultura,98149.51,95281.44,SUS
+Município 63,2021,Esporte,580475.23,577054.14,Emenda Parlamentar
+Município 63,2022,Infraestrutura,454626.34,429924.56,FPM
+Município 63,2022,Educação Fundamental,551500.24,478368.94,FPM
+Município 63,2022,Saneamento,453115.74,429138.84,PAC
+Município 63,2023,Esporte,381442.99,328034.76,FPM
+Município 63,2023,Educação Fundamental,434781.32,430437.64,FUNDEB
+Município 63,2023,Infraestrutura,439064.0,389967.31,FPM
+Município 64,2020,Cultura,252733.66,233340.52,FPM
+Município 64,2020,Esporte,578923.59,521409.91,FUNDEB
+Município 64,2020,Saúde Básica,447749.29,387545.92,Emenda Parlamentar
+Município 64,2020,Educação Fundamental,646782.71,597999.06,PAC
+Município 64,2020,Saneamento,515616.84,493662.47,Emenda Parlamentar
+Município 64,2020,Infraestrutura,736891.78,719258.39,Emenda Parlamentar
+Município 64,2021,Assistência Social,522396.86,510155.86,Emenda Parlamentar
+Município 64,2021,Saneamento,314086.72,304613.44,FPM
+Município 64,2021,Cultura,538181.84,527423.22,SUS
+Município 64,2021,Esporte,61660.35,52863.44,FUNDEB
+Município 64,2021,Infraestrutura,228673.19,213317.64,SUS
+Município 64,2022,Cultura,960336.89,904132.81,FUNDEB
+Município 64,2022,Esporte,668074.1,666899.37,SUS
+Município 64,2022,Saúde Básica,382931.16,333220.37,FPM
+Município 64,2023,Saneamento,633938.95,541138.52,PAC
+Município 64,2023,Cultura,697284.5,607958.55,FUNDEB
+Município 64,2023,Saúde Básica,422220.84,384293.3,PAC
+Município 64,2023,Assistência Social,441504.6,403938.56,SUS
+Município 65,2020,Saneamento,209119.82,190582.87,FPM
+Município 65,2020,Esporte,396323.76,392728.54,FPM
+Município 65,2020,Saúde Básica,758727.92,674597.16,FUNDEB
+Município 65,2020,Infraestrutura,408208.14,358964.24,FPM
+Município 65,2020,Educação Fundamental,445084.05,431698.84,SUS
+Município 65,2020,Assistência Social,717490.9,701371.28,FPM
+Município 65,2021,Esporte,629929.77,598394.13,PAC
+Município 65,2021,Saneamento,377513.31,365402.39,PAC
+Município 65,2021,Infraestrutura,586256.85,581241.8,FUNDEB
+Município 65,2022,Assistência Social,396542.77,342841.67,SUS
+Município 65,2022,Saneamento,501867.56,493871.58,PAC
+Município 65,2022,Cultura,50000.0,48170.33,PAC
+Município 65,2022,Infraestrutura,177391.26,168886.13,FUNDEB
+Município 65,2022,Esporte,568969.86,550985.42,Emenda Parlamentar
+Município 65,2022,Educação Fundamental,729797.1,712432.22,FPM
+Município 65,2023,Cultura,388883.76,348661.96,SUS
+Município 65,2023,Esporte,97781.65,93420.21,PAC
+Município 65,2023,Infraestrutura,510682.14,484224.13,Emenda Parlamentar
+Município 66,2020,Educação Fundamental,717420.99,639184.05,FPM
+Município 66,2020,Saneamento,448335.21,417403.9,Emenda Parlamentar
+Município 66,2020,Infraestrutura,668017.37,570725.07,Emenda Parlamentar
+Município 66,2020,Esporte,701847.56,692490.89,FPM
+Município 66,2020,Saúde Básica,655628.45,589916.08,PAC
+Município 66,2020,Assistência Social,437833.93,431781.13,FPM
+Município 66,2021,Educação Fundamental,382421.46,367299.39,SUS
+Município 66,2021,Esporte,455049.23,388335.35,FUNDEB
+Município 66,2021,Saneamento,297060.01,292142.43,PAC
+Município 66,2022,Educação Fundamental,474568.46,416752.64,FUNDEB
+Município 66,2022,Assistência Social,741719.69,672694.15,FUNDEB
+Município 66,2022,Infraestrutura,532664.27,498355.59,SUS
+Município 66,2022,Saúde Básica,144766.02,144634.16,Emenda Parlamentar
+Município 66,2023,Educação Fundamental,269380.13,238370.23,FPM
+Município 66,2023,Infraestrutura,554149.9,537383.7,FPM
+Município 66,2023,Esporte,353657.81,323510.77,SUS
+Município 67,2020,Esporte,911409.15,799296.44,PAC
+Município 67,2020,Assistência Social,222535.01,198545.17,FUNDEB
+Município 67,2020,Infraestrutura,386145.49,337260.32,FPM
+Município 67,2020,Saneamento,689013.97,688053.16,SUS
+Município 67,2021,Educação Fundamental,373050.73,350596.09,PAC
+Município 67,2021,Infraestrutura,444122.53,429652.85,Emenda Parlamentar
+Município 67,2021,Assistência Social,271543.5,234663.5,FUNDEB
+Município 67,2021,Cultura,721941.85,622049.39,PAC
+Município 67,2021,Saúde Básica,814218.21,701814.06,SUS
+Município 67,2022,Assistência Social,693981.57,664947.55,FUNDEB
+Município 67,2022,Saneamento,760751.82,718353.5,FPM
+Município 67,2022,Saúde Básica,725249.29,708834.49,Emenda Parlamentar
+Município 67,2023,Cultura,312074.28,286195.02,FPM
+Município 67,2023,Educação Fundamental,50000.0,47814.04,FUNDEB
+Município 67,2023,Esporte,856738.38,779680.48,PAC
+Município 68,2020,Assistência Social,638997.02,590078.23,FPM
+Município 68,2020,Saneamento,263814.59,243456.98,Emenda Parlamentar
+Município 68,2020,Educação Fundamental,421911.38,384306.32,FUNDEB
+Município 68,2020,Esporte,371315.53,359037.52,FPM
+Município 68,2021,Assistência Social,286502.41,255602.98,Emenda Parlamentar
+Município 68,2021,Cultura,636252.99,627798.21,PAC
+Município 68,2021,Educação Fundamental,235923.65,208680.9,FPM
+Município 68,2021,Esporte,77029.15,76288.18,Emenda Parlamentar
+Município 68,2022,Assistência Social,1037697.71,1035308.63,PAC
+Município 68,2022,Saneamento,203545.61,195266.68,Emenda Parlamentar
+Município 68,2022,Cultura,777549.17,715564.62,FPM
+Município 68,2023,Saúde Básica,526952.53,455016.14,FPM
+Município 68,2023,Saneamento,648238.05,574143.57,FPM
+Município 68,2023,Educação Fundamental,652093.51,625303.86,FUNDEB
+Município 69,2020,Saúde Básica,332638.25,312858.69,FPM
+Município 69,2020,Educação Fundamental,454907.35,424733.23,FPM
+Município 69,2020,Saneamento,470410.51,402695.87,SUS
+Município 69,2020,Esporte,391136.24,336690.72,FUNDEB
+Município 69,2021,Esporte,503129.03,466812.45,PAC
+Município 69,2021,Cultura,391605.77,344446.15,Emenda Parlamentar
+Município 69,2021,Saúde Básica,619292.13,533922.76,FUNDEB
+Município 69,2021,Assistência Social,549946.89,543671.35,PAC
+Município 69,2022,Saneamento,695697.4,679571.06,FUNDEB
+Município 69,2022,Infraestrutura,699875.54,634459.4,SUS
+Município 69,2022,Cultura,240388.05,212868.24,Emenda Parlamentar
+Município 69,2022,Saúde Básica,386792.19,382194.67,FUNDEB
+Município 69,2023,Cultura,279449.16,268709.95,Emenda Parlamentar
+Município 69,2023,Esporte,673719.48,642839.44,FUNDEB
+Município 69,2023,Assistência Social,775746.52,662712.11,SUS
+Município 69,2023,Infraestrutura,595684.97,545728.32,Emenda Parlamentar
+Município 69,2023,Saneamento,737959.68,675838.19,Emenda Parlamentar
+Município 69,2023,Saúde Básica,562365.09,525331.58,FUNDEB
+Município 70,2020,Cultura,522089.24,474122.83,Emenda Parlamentar
+Município 70,2020,Esporte,340722.92,304245.49,SUS
+Município 70,2020,Saúde Básica,472006.47,464295.03,FUNDEB
+Município 70,2020,Infraestrutura,570113.54,562547.94,FUNDEB
+Município 70,2020,Assistência Social,561038.05,527780.77,FPM
+Município 70,2020,Saneamento,338895.06,297750.87,FUNDEB
+Município 70,2021,Esporte,361309.84,323785.35,FUNDEB
+Município 70,2021,Saúde Básica,357794.03,305941.1,PAC
+Município 70,2021,Educação Fundamental,520722.85,489701.22,SUS
+Município 70,2021,Cultura,303542.55,275557.27,FUNDEB
+Município 70,2021,Assistência Social,377552.24,345003.49,SUS
+Município 70,2021,Saneamento,338125.48,333729.72,SUS
+Município 70,2022,Assistência Social,538508.05,466689.11,FPM
+Município 70,2022,Infraestrutura,296952.23,260647.68,Emenda Parlamentar
+Município 70,2022,Cultura,286935.64,268669.89,FPM
+Município 70,2023,Assistência Social,173785.08,164537.24,SUS
+Município 70,2023,Saúde Básica,341030.49,297090.84,FUNDEB
+Município 70,2023,Esporte,714646.24,674612.98,FPM
+Município 71,2020,Educação Fundamental,274645.25,247551.08,Emenda Parlamentar
+Município 71,2020,Esporte,801702.03,754758.39,PAC
+Município 71,2020,Assistência Social,826831.33,804137.09,FUNDEB
+Município 71,2020,Saúde Básica,718686.09,648836.42,SUS
+Município 71,2020,Infraestrutura,351828.76,337627.51,Emenda Parlamentar
+Município 71,2021,Educação Fundamental,340009.38,319636.16,FPM
+Município 71,2021,Cultura,100345.09,99490.92,PAC
+Município 71,2021,Infraestrutura,607715.25,571536.09,PAC
+Município 71,2022,Cultura,457843.86,441558.24,PAC
+Município 71,2022,Saúde Básica,342666.06,328467.77,FUNDEB
+Município 71,2022,Infraestrutura,548976.82,503290.07,PAC
+Município 71,2022,Assistência Social,316079.53,279994.58,FUNDEB
+Município 71,2022,Esporte,469144.65,432456.7,PAC
+Município 71,2022,Educação Fundamental,489993.98,425223.09,PAC
+Município 71,2023,Esporte,594691.33,593690.89,SUS
+Município 71,2023,Assistência Social,399307.58,378816.79,FUNDEB
+Município 71,2023,Cultura,533960.74,487819.8,FUNDEB
+Município 71,2023,Infraestrutura,522279.68,458867.59,FUNDEB
+Município 72,2020,Infraestrutura,452405.19,434286.88,PAC
+Município 72,2020,Esporte,339950.51,315420.98,Emenda Parlamentar
+Município 72,2020,Educação Fundamental,368936.08,348916.52,Emenda Parlamentar
+Município 72,2021,Educação Fundamental,218831.55,205525.58,PAC
+Município 72,2021,Esporte,484499.87,476010.2,PAC
+Município 72,2021,Saneamento,373194.23,366054.66,Emenda Parlamentar
+Município 72,2021,Assistência Social,636522.32,602917.04,FPM
+Município 72,2021,Infraestrutura,706923.77,658695.49,FUNDEB
+Município 72,2022,Saúde Básica,200308.28,186396.75,PAC
+Município 72,2022,Assistência Social,286486.49,264161.74,SUS
+Município 72,2022,Infraestrutura,579074.69,565511.99,SUS
+Município 72,2022,Educação Fundamental,307292.26,263914.21,FUNDEB
+Município 72,2022,Saneamento,566874.18,523046.94,PAC
+Município 72,2022,Cultura,626551.51,534112.72,PAC
+Município 72,2023,Assistência Social,758482.06,729398.18,SUS
+Município 72,2023,Infraestrutura,424585.46,403345.47,Emenda Parlamentar
+Município 72,2023,Esporte,211416.35,200911.17,Emenda Parlamentar
+Município 73,2020,Saneamento,538477.78,505619.12,SUS
+Município 73,2020,Saúde Básica,490086.08,461778.38,SUS
+Município 73,2020,Infraestrutura,423961.11,392292.09,FPM
+Município 73,2020,Assistência Social,742676.54,719054.55,Emenda Parlamentar
+Município 73,2020,Esporte,752291.7,742988.46,PAC
+Município 73,2021,Assistência Social,595418.14,512373.07,FPM
+Município 73,2021,Esporte,365035.01,310357.7,Emenda Parlamentar
+Município 73,2021,Cultura,502048.3,491797.82,FPM
+Município 73,2021,Saneamento,1026323.24,986104.39,PAC
+Município 73,2022,Assistência Social,619114.67,607662.68,SUS
+Município 73,2022,Cultura,702921.45,688407.02,PAC
+Município 73,2022,Saneamento,249398.04,219391.94,SUS
+Município 73,2023,Cultura,388868.42,387188.01,PAC
+Município 73,2023,Saúde Básica,396196.08,395549.62,FPM
+Município 73,2023,Assistência Social,707037.91,688582.88,SUS
+Município 74,2020,Saneamento,587238.76,501057.67,FUNDEB
+Município 74,2020,Assistência Social,776729.27,759740.65,PAC
+Município 74,2020,Infraestrutura,590265.64,571466.53,SUS
+Município 74,2020,Cultura,618410.07,594504.03,FPM
+Município 74,2020,Esporte,198415.01,192357.23,Emenda Parlamentar
+Município 74,2020,Educação Fundamental,361739.98,333386.2,FPM
+Município 74,2021,Educação Fundamental,552833.92,509164.54,PAC
+Município 74,2021,Cultura,537159.78,519263.58,FPM
+Município 74,2021,Assistência Social,690599.63,630829.4,Emenda Parlamentar
+Município 74,2022,Infraestrutura,618335.38,539479.27,FPM
+Município 74,2022,Saúde Básica,807294.66,747468.76,Emenda Parlamentar
+Município 74,2022,Assistência Social,815284.58,745876.16,FUNDEB
+Município 74,2023,Assistência Social,175765.71,152878.62,SUS
+Município 74,2023,Saneamento,473287.19,467035.11,FUNDEB
+Município 74,2023,Cultura,125450.15,113147.61,PAC
+Município 74,2023,Esporte,328287.95,316671.69,SUS
+Município 74,2023,Saúde Básica,887639.97,769813.64,Emenda Parlamentar
+Município 75,2020,Educação Fundamental,593987.98,575665.72,FPM
+Município 75,2020,Saúde Básica,501295.24,438046.87,FUNDEB
+Município 75,2020,Infraestrutura,648461.33,628578.66,FPM
+Município 75,2021,Educação Fundamental,455666.44,452133.38,SUS
+Município 75,2021,Cultura,661293.95,571983.42,SUS
+Município 75,2021,Esporte,650751.95,577050.38,SUS
+Município 75,2021,Saneamento,564995.47,510418.37,Emenda Parlamentar
+Município 75,2022,Esporte,149521.47,134272.6,Emenda Parlamentar
+Município 75,2022,Infraestrutura,839635.76,744943.52,Emenda Parlamentar
+Município 75,2022,Assistência Social,833793.58,783425.08,Emenda Parlamentar
+Município 75,2022,Saúde Básica,791460.32,753780.49,SUS
+Município 75,2022,Cultura,531701.59,524139.13,FPM
+Município 75,2022,Educação Fundamental,193430.32,181700.46,FUNDEB
+Município 75,2023,Educação Fundamental,884526.77,849585.68,PAC
+Município 75,2023,Infraestrutura,516081.38,469157.33,FUNDEB
+Município 75,2023,Saúde Básica,446060.54,393827.93,SUS
+Município 75,2023,Saneamento,262334.33,254149.95,FUNDEB
+Município 75,2023,Cultura,337071.55,332811.16,FPM
+Município 75,2023,Esporte,403263.83,396270.89,FPM
+Município 76,2020,Assistência Social,390945.6,375742.5,FUNDEB
+Município 76,2020,Esporte,343711.6,304050.79,FPM
+Município 76,2020,Educação Fundamental,540616.8,499693.11,FUNDEB
+Município 76,2020,Saúde Básica,619467.01,581542.22,PAC
+Município 76,2020,Cultura,383384.83,332533.67,FPM
+Município 76,2020,Saneamento,256250.99,255923.92,FUNDEB
+Município 76,2021,Saneamento,904406.22,797407.65,SUS
+Município 76,2021,Infraestrutura,484635.26,431701.32,FPM
+Município 76,2021,Educação Fundamental,776977.23,674533.76,FPM
+Município 76,2021,Esporte,499386.93,455811.6,Emenda Parlamentar
+Município 76,2022,Infraestrutura,370217.95,319618.3,SUS
+Município 76,2022,Educação Fundamental,562753.34,507274.48,PAC
+Município 76,2022,Saúde Básica,719886.92,660957.29,PAC
+Município 76,2023,Saneamento,273906.7,260316.85,FPM
+Município 76,2023,Assistência Social,588906.33,501302.96,FPM
+Município 76,2023,Cultura,476647.54,438698.12,Emenda Parlamentar
+Município 76,2023,Esporte,474108.88,438323.75,FUNDEB
+Município 76,2023,Infraestrutura,1012071.39,889539.67,FPM
+Município 76,2023,Saúde Básica,630286.87,584060.39,FUNDEB
+Município 77,2020,Saúde Básica,700965.04,606707.64,Emenda Parlamentar
+Município 77,2020,Cultura,665248.5,570556.75,PAC
+Município 77,2020,Educação Fundamental,469068.04,400456.66,PAC
+Município 77,2021,Saneamento,260481.06,256621.76,Emenda Parlamentar
+Município 77,2021,Assistência Social,343666.14,323377.74,FUNDEB
+Município 77,2021,Saúde Básica,513669.43,485035.32,SUS
+Município 77,2021,Educação Fundamental,383110.25,370738.47,SUS
+Município 77,2022,Infraestrutura,710391.65,699909.83,FUNDEB
+Município 77,2022,Esporte,738192.36,669543.37,SUS
+Município 77,2022,Saúde Básica,689031.19,624568.31,SUS
+Município 77,2022,Educação Fundamental,362907.68,316686.37,PAC
+Município 77,2022,Assistência Social,463791.8,407544.79,PAC
+Município 77,2022,Saneamento,465709.36,457190.48,FPM
+Município 77,2023,Assistência Social,591288.71,538735.31,Emenda Parlamentar
+Município 77,2023,Infraestrutura,50000.0,47276.9,Emenda Parlamentar
+Município 77,2023,Educação Fundamental,356923.89,353059.85,FUNDEB
+Município 78,2020,Assistência Social,132573.27,120168.06,SUS
+Município 78,2020,Infraestrutura,680254.02,674415.48,PAC
+Município 78,2020,Saneamento,308288.54,272533.53,PAC
+Município 78,2021,Infraestrutura,729453.75,718328.89,FUNDEB
+Município 78,2021,Educação Fundamental,612567.05,608307.72,FUNDEB
+Município 78,2021,Saúde Básica,675827.19,664481.55,Emenda Parlamentar
+Município 78,2021,Cultura,267524.86,264434.85,Emenda Parlamentar
+Município 78,2021,Saneamento,112990.57,98426.88,FUNDEB
+Município 78,2022,Saúde Básica,625604.45,559569.71,FUNDEB
+Município 78,2022,Assistência Social,620306.06,601046.81,FPM
+Município 78,2022,Educação Fundamental,422496.43,378674.11,PAC
+Município 78,2023,Educação Fundamental,576678.18,508553.8,Emenda Parlamentar
+Município 78,2023,Esporte,516335.72,512960.72,SUS
+Município 78,2023,Saúde Básica,569028.56,509398.28,FUNDEB
+Município 79,2020,Assistência Social,517913.03,486617.58,FPM
+Município 79,2020,Educação Fundamental,823601.68,717705.18,SUS
+Município 79,2020,Infraestrutura,355838.32,302817.45,FUNDEB
+Município 79,2020,Saneamento,772685.67,746832.01,Emenda Parlamentar
+Município 79,2020,Esporte,98879.62,91718.77,SUS
+Município 79,2021,Infraestrutura,480393.12,419068.18,PAC
+Município 79,2021,Saúde Básica,376107.69,364796.22,PAC
+Município 79,2021,Esporte,199193.21,195535.16,FUNDEB
+Município 79,2022,Educação Fundamental,570084.96,550254.55,Emenda Parlamentar
+Município 79,2022,Cultura,598362.53,585724.19,FPM
+Município 79,2022,Esporte,458334.27,451961.1,FPM
+Município 79,2022,Saúde Básica,647000.62,556516.89,FUNDEB
+Município 79,2022,Infraestrutura,421753.12,390332.3,FPM
+Município 79,2023,Saneamento,615894.19,542699.29,SUS
+Município 79,2023,Cultura,509471.31,462891.06,PAC
+Município 79,2023,Educação Fundamental,350460.0,325030.54,FUNDEB
+Município 79,2023,Assistência Social,454200.05,444688.22,Emenda Parlamentar
+Município 80,2020,Infraestrutura,505258.1,486520.25,FUNDEB
+Município 80,2020,Saneamento,696558.73,680763.44,FPM
+Município 80,2020,Assistência Social,605648.96,535501.77,PAC
+Município 80,2020,Educação Fundamental,329220.94,307846.38,FUNDEB
+Município 80,2020,Cultura,850720.87,754568.35,SUS
+Município 80,2021,Saúde Básica,366293.34,357551.16,PAC
+Município 80,2021,Assistência Social,779480.74,760176.12,PAC
+Município 80,2021,Cultura,613401.38,569533.42,FUNDEB
+Município 80,2021,Saneamento,429269.86,410699.01,FUNDEB
+Município 80,2022,Cultura,499605.6,434677.74,FUNDEB
+Município 80,2022,Educação Fundamental,444507.99,406866.05,FPM
+Município 80,2022,Saúde Básica,265963.27,242629.15,FUNDEB
+Município 80,2022,Saneamento,658873.16,574912.53,FUNDEB
+Município 80,2022,Esporte,486256.6,481121.18,SUS
+Município 80,2023,Saneamento,556823.0,510613.37,PAC
+Município 80,2023,Assistência Social,502450.17,453399.77,SUS
+Município 80,2023,Infraestrutura,408128.24,350217.41,SUS
+Município 80,2023,Saúde Básica,528995.05,519383.55,PAC
+Município 80,2023,Cultura,738765.22,651997.75,FPM
+Município 80,2023,Educação Fundamental,772634.21,737160.53,FPM
+Município 81,2020,Cultura,647484.73,625373.22,FUNDEB
+Município 81,2020,Saúde Básica,546100.03,485019.91,FUNDEB
+Município 81,2020,Assistência Social,244313.2,212309.12,SUS
+Município 81,2021,Cultura,157683.58,156734.9,Emenda Parlamentar
+Município 81,2021,Saúde Básica,375084.18,360924.38,SUS
+Município 81,2021,Saneamento,557277.83,522214.73,Emenda Parlamentar
+Município 81,2022,Saneamento,697620.03,643900.24,FUNDEB
+Município 81,2022,Infraestrutura,407395.75,360217.81,Emenda Parlamentar
+Município 81,2022,Esporte,732741.36,682629.89,SUS
+Município 81,2022,Educação Fundamental,457964.0,446156.88,FPM
+Município 81,2022,Saúde Básica,740689.03,737359.19,SUS
+Município 81,2023,Educação Fundamental,674459.09,635775.04,Emenda Parlamentar
+Município 81,2023,Infraestrutura,735754.95,731822.05,Emenda Parlamentar
+Município 81,2023,Saneamento,739067.42,700453.86,Emenda Parlamentar
+Município 82,2020,Saúde Básica,423309.22,381716.79,PAC
+Município 82,2020,Saneamento,538287.91,534573.85,SUS
+Município 82,2020,Esporte,345479.49,300080.91,PAC
+Município 82,2020,Assistência Social,171591.47,169217.87,Emenda Parlamentar
+Município 82,2021,Educação Fundamental,284680.83,262583.7,PAC
+Município 82,2021,Saneamento,595488.08,580081.59,FUNDEB
+Município 82,2021,Cultura,411640.88,356310.77,FUNDEB
+Município 82,2021,Esporte,497462.04,481116.57,FPM
+Município 82,2022,Saúde Básica,669690.51,597905.12,Emenda Parlamentar
+Município 82,2022,Esporte,773933.58,708412.02,PAC
+Município 82,2022,Cultura,730432.25,723599.27,FPM
+Município 82,2022,Saneamento,593851.47,579283.45,Emenda Parlamentar
+Município 82,2022,Educação Fundamental,562539.04,532861.81,FUNDEB
+Município 82,2022,Assistência Social,455822.99,409659.22,SUS
+Município 82,2023,Cultura,494081.54,429395.69,FUNDEB
+Município 82,2023,Assistência Social,660984.48,658087.75,FPM
+Município 82,2023,Saneamento,143486.23,123309.67,SUS
+Município 82,2023,Educação Fundamental,781683.4,727912.65,SUS
+Município 82,2023,Infraestrutura,492885.22,492004.15,Emenda Parlamentar
+Município 83,2020,Cultura,777078.31,771505.04,Emenda Parlamentar
+Município 83,2020,Infraestrutura,542317.46,471176.64,FUNDEB
+Município 83,2020,Assistência Social,691590.13,592314.94,FUNDEB
+Município 83,2020,Saúde Básica,308589.06,268777.02,Emenda Parlamentar
+Município 83,2020,Esporte,440713.31,419389.34,FUNDEB
+Município 83,2021,Cultura,617712.57,550778.45,FUNDEB
+Município 83,2021,Saneamento,422761.12,362466.43,FUNDEB
+Município 83,2021,Esporte,579901.86,509868.98,SUS
+Município 83,2021,Educação Fundamental,805018.8,800723.0,FUNDEB
+Município 83,2021,Infraestrutura,783270.67,747067.0,PAC
+Município 83,2021,Assistência Social,458737.23,425675.35,FUNDEB
+Município 83,2022,Infraestrutura,290620.84,250377.59,Emenda Parlamentar
+Município 83,2022,Esporte,418841.1,376123.99,Emenda Parlamentar
+Município 83,2022,Assistência Social,447591.8,395936.06,Emenda Parlamentar
+Município 83,2023,Esporte,450320.51,423293.56,SUS
+Município 83,2023,Cultura,723702.06,686389.03,Emenda Parlamentar
+Município 83,2023,Educação Fundamental,609432.14,530009.69,SUS
+Município 84,2020,Esporte,466380.04,427201.29,SUS
+Município 84,2020,Saúde Básica,283904.47,259723.93,FUNDEB
+Município 84,2020,Educação Fundamental,601762.24,515800.29,Emenda Parlamentar
+Município 84,2021,Assistência Social,488690.12,475752.92,FPM
+Município 84,2021,Infraestrutura,305482.29,268436.8,Emenda Parlamentar
+Município 84,2021,Esporte,262489.06,253181.8,SUS
+Município 84,2022,Assistência Social,371225.22,318361.98,Emenda Parlamentar
+Município 84,2022,Infraestrutura,684147.68,674725.2,SUS
+Município 84,2022,Cultura,224795.92,201732.49,FPM
+Município 84,2022,Educação Fundamental,471411.65,466632.15,PAC
+Município 84,2022,Saúde Básica,517769.73,490713.2,FPM
+Município 84,2022,Esporte,490991.3,483934.46,Emenda Parlamentar
+Município 84,2023,Cultura,519486.31,457586.63,SUS
+Município 84,2023,Educação Fundamental,323533.24,314612.82,FUNDEB
+Município 84,2023,Assistência Social,486095.75,472351.82,SUS
+Município 84,2023,Saneamento,316955.86,283930.27,SUS
+Município 84,2023,Infraestrutura,467576.77,455087.1,FPM
+Município 85,2020,Assistência Social,251190.79,214966.44,SUS
+Município 85,2020,Esporte,713120.9,693795.67,PAC
+Município 85,2020,Infraestrutura,775298.33,705828.25,FUNDEB
+Município 85,2020,Cultura,753812.89,706425.2,FPM
+Município 85,2020,Saneamento,620406.64,553752.73,SUS
+Município 85,2020,Educação Fundamental,584452.06,508440.02,FUNDEB
+Município 85,2021,Infraestrutura,445088.54,391693.8,PAC
+Município 85,2021,Educação Fundamental,382556.96,376322.51,FPM
+Município 85,2021,Cultura,774040.21,721479.93,FPM
+Município 85,2021,Saúde Básica,521482.46,448601.34,SUS
+Município 85,2021,Saneamento,658616.92,644190.93,Emenda Parlamentar
+Município 85,2022,Educação Fundamental,583276.45,563041.53,SUS
+Município 85,2022,Saúde Básica,382376.29,372049.07,Emenda Parlamentar
+Município 85,2022,Esporte,466709.1,434621.19,SUS
+Município 85,2023,Saneamento,370519.33,339290.23,FUNDEB
+Município 85,2023,Esporte,714602.15,662909.43,Emenda Parlamentar
+Município 85,2023,Assistência Social,608501.4,540710.51,FUNDEB
+Município 85,2023,Saúde Básica,50000.0,43331.81,PAC
+Município 85,2023,Infraestrutura,518906.09,477629.58,PAC
+Município 86,2020,Cultura,404277.17,348714.06,FPM
+Município 86,2020,Educação Fundamental,608219.51,520985.47,FUNDEB
+Município 86,2020,Esporte,201221.03,191046.49,PAC
+Município 86,2020,Infraestrutura,50000.0,47339.74,FPM
+Município 86,2020,Saúde Básica,376852.75,337028.25,SUS
+Município 86,2020,Saneamento,289550.62,259506.72,SUS
+Município 86,2021,Infraestrutura,561741.92,550208.57,FPM
+Município 86,2021,Assistência Social,438426.49,420331.57,FPM
+Município 86,2021,Cultura,176079.7,171093.91,FPM
+Município 86,2022,Saneamento,330385.12,296192.75,FUNDEB
+Município 86,2022,Saúde Básica,774511.03,679997.56,Emenda Parlamentar
+Município 86,2022,Educação Fundamental,398605.07,349286.25,Emenda Parlamentar
+Município 86,2023,Educação Fundamental,463279.29,439651.46,FUNDEB
+Município 86,2023,Infraestrutura,467467.59,449351.3,Emenda Parlamentar
+Município 86,2023,Assistência Social,665547.32,609884.91,Emenda Parlamentar
+Município 87,2020,Esporte,631525.77,555800.06,Emenda Parlamentar
+Município 87,2020,Infraestrutura,646807.75,632465.59,Emenda Parlamentar
+Município 87,2020,Saneamento,607833.91,576539.28,FPM
+Município 87,2020,Educação Fundamental,542220.67,505837.33,Emenda Parlamentar
+Município 87,2020,Cultura,394640.18,376001.03,PAC
+Município 87,2021,Esporte,505715.82,444789.25,FPM
+Município 87,2021,Cultura,380896.61,347568.3,FUNDEB
+Município 87,2021,Saneamento,695536.14,641343.04,PAC
+Município 87,2022,Esporte,619350.94,555119.6,FPM
+Município 87,2022,Saneamento,278592.05,250431.07,PAC
+Município 87,2022,Saúde Básica,557090.43,473558.93,SUS
+Município 87,2022,Infraestrutura,610804.75,544043.52,SUS
+Município 87,2023,Infraestrutura,448998.73,388860.14,PAC
+Município 87,2023,Assistência Social,605198.72,524176.49,FPM
+Município 87,2023,Educação Fundamental,362758.93,349033.36,SUS
+Município 88,2020,Cultura,440252.09,412724.83,FPM
+Município 88,2020,Esporte,764869.1,759429.91,Emenda Parlamentar
+Município 88,2020,Infraestrutura,516682.22,461671.59,FUNDEB
+Município 88,2020,Saneamento,552899.77,491425.99,FUNDEB
+Município 88,2021,Saneamento,432079.8,378977.73,FUNDEB
+Município 88,2021,Esporte,757350.3,656879.33,FUNDEB
+Município 88,2021,Educação Fundamental,256953.32,248355.11,FPM
+Município 88,2021,Infraestrutura,648681.32,553003.38,PAC
+Município 88,2021,Cultura,618942.18,618374.05,Emenda Parlamentar
+Município 88,2021,Assistência Social,577363.41,538581.77,PAC
+Município 88,2022,Educação Fundamental,440582.76,375351.32,SUS
+Município 88,2022,Esporte,504172.95,503671.35,SUS
+Município 88,2022,Saneamento,154195.54,137029.71,FPM
+Município 88,2022,Infraestrutura,342310.23,336429.95,FUNDEB
+Município 88,2023,Saneamento,588213.11,574450.01,FUNDEB
+Município 88,2023,Cultura,282008.2,271587.37,SUS
+Município 88,2023,Saúde Básica,586991.03,517291.43,PAC
+Município 88,2023,Infraestrutura,443090.89,387534.75,SUS
+Município 88,2023,Educação Fundamental,620634.14,572577.2,PAC
+Município 88,2023,Assistência Social,728153.92,645320.22,FPM
+Município 89,2020,Infraestrutura,344118.0,300237.4,FUNDEB
+Município 89,2020,Saneamento,543579.06,509927.38,FUNDEB
+Município 89,2020,Cultura,636714.0,615375.03,SUS
+Município 89,2020,Educação Fundamental,335912.6,307750.17,Emenda Parlamentar
+Município 89,2020,Assistência Social,606591.34,518251.65,Emenda Parlamentar
+Município 89,2021,Educação Fundamental,751484.39,671477.43,PAC
+Município 89,2021,Saneamento,674165.62,603129.69,Emenda Parlamentar
+Município 89,2021,Saúde Básica,451338.01,388329.04,Emenda Parlamentar
+Município 89,2021,Esporte,494789.21,458377.44,SUS
+Município 89,2022,Educação Fundamental,382812.83,329974.67,FUNDEB
+Município 89,2022,Saneamento,441577.49,433766.84,FPM
+Município 89,2022,Assistência Social,378763.22,376494.22,Emenda Parlamentar
+Município 89,2022,Esporte,881681.27,782847.51,PAC
+Município 89,2023,Saúde Básica,689783.27,674891.07,FPM
+Município 89,2023,Infraestrutura,661981.52,632195.6,SUS
+Município 89,2023,Educação Fundamental,232271.14,209623.72,Emenda Parlamentar
+Município 89,2023,Saneamento,812785.24,714489.04,Emenda Parlamentar
+Município 90,2020,Esporte,454522.4,428099.37,SUS
+Município 90,2020,Cultura,442630.22,423293.19,FPM
+Município 90,2020,Infraestrutura,763686.48,680241.8,Emenda Parlamentar
+Município 90,2020,Saneamento,192604.15,171516.16,SUS
+Município 90,2020,Educação Fundamental,528261.63,487497.04,FPM
+Município 90,2020,Saúde Básica,427778.6,383183.64,SUS
+Município 90,2021,Saneamento,377168.1,342981.11,FPM
+Município 90,2021,Cultura,770122.42,754435.25,PAC
+Município 90,2021,Infraestrutura,717271.48,668731.75,Emenda Parlamentar
+Município 90,2021,Esporte,522254.66,509708.28,SUS
+Município 90,2022,Esporte,336038.54,335687.2,Emenda Parlamentar
+Município 90,2022,Cultura,513192.42,441179.93,PAC
+Município 90,2022,Assistência Social,355712.8,354002.09,PAC
+Município 90,2023,Infraestrutura,474067.96,470719.31,PAC
+Município 90,2023,Assistência Social,450924.81,433342.76,Emenda Parlamentar
+Município 90,2023,Saúde Básica,635796.1,606734.66,FUNDEB
+Município 90,2023,Educação Fundamental,420301.7,385585.61,PAC
+Município 90,2023,Cultura,846653.42,831735.45,FPM
+Município 90,2023,Esporte,424741.23,404104.12,FUNDEB
+Município 91,2020,Saúde Básica,632478.58,630964.48,FUNDEB
+Município 91,2020,Saneamento,638190.92,630796.77,FUNDEB
+Município 91,2020,Infraestrutura,257857.72,255988.95,FPM
+Município 91,2021,Esporte,388250.32,362508.34,PAC
+Município 91,2021,Saneamento,363701.68,333411.51,Emenda Parlamentar
+Município 91,2021,Educação Fundamental,365083.69,311248.66,FPM
+Município 91,2021,Saúde Básica,687037.43,682943.28,Emenda Parlamentar
+Município 91,2021,Infraestrutura,450631.5,428424.8,Emenda Parlamentar
+Município 91,2022,Cultura,789300.75,699066.45,Emenda Parlamentar
+Município 91,2022,Saúde Básica,598919.74,512767.0,SUS
+Município 91,2022,Saneamento,681708.97,579575.86,FPM
+Município 91,2022,Infraestrutura,764717.69,717539.32,FUNDEB
+Município 91,2022,Assistência Social,430642.17,392452.96,Emenda Parlamentar
+Município 91,2022,Educação Fundamental,491973.36,434236.81,Emenda Parlamentar
+Município 91,2023,Esporte,554517.87,522477.1,FPM
+Município 91,2023,Saneamento,596193.17,549777.46,Emenda Parlamentar
+Município 91,2023,Cultura,132790.71,128416.26,FUNDEB
+Município 91,2023,Saúde Básica,310770.75,293926.79,Emenda Parlamentar
+Município 91,2023,Infraestrutura,633241.43,570942.94,FPM
+Município 92,2020,Esporte,254695.98,241119.13,SUS
+Município 92,2020,Assistência Social,528641.35,465683.0,Emenda Parlamentar
+Município 92,2020,Cultura,528614.65,512276.13,SUS
+Município 92,2020,Saúde Básica,238635.51,210458.35,SUS
+Município 92,2020,Educação Fundamental,914962.77,862814.79,PAC
+Município 92,2020,Infraestrutura,795133.79,767222.43,PAC
+Município 92,2021,Saneamento,486724.25,461253.83,SUS
+Município 92,2021,Infraestrutura,723972.55,720404.66,SUS
+Município 92,2021,Saúde Básica,263736.85,227299.89,Emenda Parlamentar
+Município 92,2022,Educação Fundamental,526823.37,466960.15,FPM
+Município 92,2022,Infraestrutura,509340.72,480499.58,FPM
+Município 92,2022,Saúde Básica,530705.27,503670.99,Emenda Parlamentar
+Município 92,2022,Esporte,443476.85,442913.36,FPM
+Município 92,2022,Saneamento,466408.18,410944.72,SUS
+Município 92,2022,Assistência Social,338513.79,332467.92,FPM
+Município 92,2023,Saneamento,396853.47,369951.26,FUNDEB
+Município 92,2023,Assistência Social,369686.36,322506.85,FPM
+Município 92,2023,Esporte,493679.75,435165.44,FPM
+Município 92,2023,Educação Fundamental,518649.58,454448.31,FPM
+Município 93,2020,Infraestrutura,301134.75,272970.26,PAC
+Município 93,2020,Assistência Social,718045.85,635263.51,PAC
+Município 93,2020,Educação Fundamental,823199.11,705734.38,PAC
+Município 93,2020,Saúde Básica,510754.81,453351.7,PAC
+Município 93,2021,Assistência Social,305248.64,290558.53,PAC
+Município 93,2021,Educação Fundamental,777636.14,680208.28,Emenda Parlamentar
+Município 93,2021,Saúde Básica,743793.79,693946.69,Emenda Parlamentar
+Município 93,2021,Saneamento,346625.15,317399.11,Emenda Parlamentar
+Município 93,2021,Cultura,547667.81,520555.9,SUS
+Município 93,2021,Infraestrutura,596004.65,595641.09,FPM
+Município 93,2022,Saúde Básica,632513.73,570248.67,FPM
+Município 93,2022,Cultura,481463.58,481349.23,SUS
+Município 93,2022,Educação Fundamental,258971.96,226218.27,FPM
+Município 93,2022,Infraestrutura,366087.66,314357.76,FUNDEB
+Município 93,2022,Assistência Social,739115.27,686777.82,Emenda Parlamentar
+Município 93,2023,Educação Fundamental,341135.81,328435.22,FUNDEB
+Município 93,2023,Cultura,211319.83,185086.58,Emenda Parlamentar
+Município 93,2023,Saneamento,464728.1,432261.5,PAC
+Município 94,2020,Esporte,298865.77,292923.87,FPM
+Município 94,2020,Infraestrutura,593736.53,592277.15,SUS
+Município 94,2020,Assistência Social,397206.52,338269.5,SUS
+Município 94,2020,Cultura,693007.33,646288.7,FPM
+Município 94,2020,Educação Fundamental,50000.0,45464.74,Emenda Parlamentar
+Município 94,2020,Saúde Básica,479737.5,435347.61,PAC
+Município 94,2021,Assistência Social,395308.75,340031.56,SUS
+Município 94,2021,Infraestrutura,476154.37,404753.27,FPM
+Município 94,2021,Educação Fundamental,298203.11,281663.04,FUNDEB
+Município 94,2021,Saúde Básica,491134.24,489061.55,SUS
+Município 94,2021,Saneamento,489840.5,434628.49,PAC
+Município 94,2021,Esporte,270130.41,259105.54,SUS
+Município 94,2022,Assistência Social,220069.13,191962.91,SUS
+Município 94,2022,Educação Fundamental,840934.17,757864.25,SUS
+Município 94,2022,Cultura,638121.73,592289.92,FPM
+Município 94,2023,Esporte,235379.77,205626.2,Emenda Parlamentar
+Município 94,2023,Saúde Básica,455802.02,411796.91,FUNDEB
+Município 94,2023,Cultura,903071.46,828695.5,SUS
+Município 94,2023,Infraestrutura,695935.07,693841.66,FPM
+Município 94,2023,Assistência Social,622107.51,605584.48,PAC
+Município 95,2020,Cultura,521378.83,502209.77,FUNDEB
+Município 95,2020,Saúde Básica,635072.92,591244.56,FPM
+Município 95,2020,Esporte,794596.65,720525.56,Emenda Parlamentar
+Município 95,2020,Infraestrutura,471866.67,447366.79,PAC
+Município 95,2020,Educação Fundamental,424996.87,394145.13,SUS
+Município 95,2020,Saneamento,255983.39,247322.93,SUS
+Município 95,2021,Assistência Social,426137.86,424185.77,SUS
+Município 95,2021,Saneamento,476811.79,468102.88,PAC
+Município 95,2021,Infraestrutura,422884.98,397264.62,FUNDEB
+Município 95,2021,Cultura,526495.85,514610.6,Emenda Parlamentar
+Município 95,2021,Esporte,480349.46,446173.24,Emenda Parlamentar
+Município 95,2021,Saúde Básica,623929.47,606405.39,Emenda Parlamentar
+Município 95,2022,Infraestrutura,372937.25,349445.37,SUS
+Município 95,2022,Educação Fundamental,270793.61,265332.05,Emenda Parlamentar
+Município 95,2022,Saúde Básica,487831.45,448023.41,Emenda Parlamentar
+Município 95,2022,Esporte,556638.42,535855.63,PAC
+Município 95,2022,Assistência Social,299943.92,269746.57,SUS
+Município 95,2023,Esporte,362620.62,312955.43,PAC
+Município 95,2023,Cultura,50000.0,46539.97,FUNDEB
+Município 95,2023,Saneamento,240259.38,210841.09,PAC
+Município 95,2023,Assistência Social,458191.84,402461.4,FPM
+Município 96,2020,Educação Fundamental,585005.52,573618.7,PAC
+Município 96,2020,Assistência Social,242951.76,233752.38,SUS
+Município 96,2020,Infraestrutura,435524.05,430437.78,Emenda Parlamentar
+Município 96,2020,Saúde Básica,425462.98,389722.72,PAC
+Município 96,2020,Esporte,349411.35,324240.42,Emenda Parlamentar
+Município 96,2021,Infraestrutura,814653.88,736908.08,PAC
+Município 96,2021,Saneamento,831634.71,800153.16,Emenda Parlamentar
+Município 96,2021,Saúde Básica,449980.07,434318.14,Emenda Parlamentar
+Município 96,2021,Educação Fundamental,388652.21,366929.82,FPM
+Município 96,2021,Esporte,715234.75,641185.52,FUNDEB
+Município 96,2021,Assistência Social,509665.17,477000.25,Emenda Parlamentar
+Município 96,2022,Saúde Básica,591812.82,551454.18,SUS
+Município 96,2022,Cultura,887081.85,872677.97,FPM
+Município 96,2022,Esporte,50000.0,47240.12,FPM
+Município 96,2022,Educação Fundamental,646624.8,568743.98,Emenda Parlamentar
+Município 96,2022,Infraestrutura,408369.95,357782.41,PAC
+Município 96,2023,Saúde Básica,812311.81,728769.57,Emenda Parlamentar
+Município 96,2023,Educação Fundamental,485432.25,434125.46,SUS
+Município 96,2023,Cultura,675005.41,586197.43,PAC
+Município 96,2023,Assistência Social,440003.08,421015.76,FPM
+Município 96,2023,Infraestrutura,1228569.96,1150444.67,PAC
+Município 96,2023,Saneamento,435655.98,407844.31,FPM
+Município 97,2020,Esporte,577340.71,511253.67,FPM
+Município 97,2020,Assistência Social,453676.06,453593.17,FUNDEB
+Município 97,2020,Saúde Básica,449120.07,437643.55,PAC
+Município 97,2020,Infraestrutura,479409.75,454592.69,PAC
+Município 97,2020,Educação Fundamental,698493.18,672660.92,FUNDEB
+Município 97,2021,Esporte,404622.72,371194.39,SUS
+Município 97,2021,Infraestrutura,528982.26,489315.54,SUS
+Município 97,2021,Saneamento,71531.0,61547.17,FPM
+Município 97,2021,Educação Fundamental,684605.68,601682.17,SUS
+Município 97,2022,Saúde Básica,485891.96,465548.13,SUS
+Município 97,2022,Esporte,493503.68,486412.03,FPM
+Município 97,2022,Cultura,233196.24,203901.71,SUS
+Município 97,2022,Assistência Social,592997.04,532642.08,PAC
+Município 97,2022,Infraestrutura,541474.31,519827.91,FUNDEB
+Município 97,2023,Esporte,69936.45,62273.61,FPM
+Município 97,2023,Saúde Básica,475710.69,470655.64,PAC
+Município 97,2023,Cultura,775878.88,696668.46,Emenda Parlamentar
+Município 98,2020,Saneamento,408428.98,357616.39,PAC
+Município 98,2020,Cultura,342421.56,334535.04,Emenda Parlamentar
+Município 98,2020,Saúde Básica,356934.93,349916.01,Emenda Parlamentar
+Município 98,2020,Esporte,410994.19,389030.21,FPM
+Município 98,2020,Educação Fundamental,678478.52,578939.28,PAC
+Município 98,2021,Saneamento,279083.29,253979.04,PAC
+Município 98,2021,Educação Fundamental,170195.24,148365.33,FPM
+Município 98,2021,Infraestrutura,424851.7,373609.93,SUS
+Município 98,2021,Assistência Social,644581.99,557099.82,FPM
+Município 98,2021,Cultura,306913.45,265998.91,FUNDEB
+Município 98,2021,Saúde Básica,380584.13,334949.87,PAC
+Município 98,2022,Saneamento,344342.79,316771.15,FUNDEB
+Município 98,2022,Assistência Social,628784.11,616339.13,FUNDEB
+Município 98,2022,Cultura,1107336.83,996147.09,FUNDEB
+Município 98,2022,Saúde Básica,533827.98,498623.77,Emenda Parlamentar
+Município 98,2023,Cultura,487319.98,444448.41,PAC
+Município 98,2023,Assistência Social,497233.75,462148.04,PAC
+Município 98,2023,Saúde Básica,869028.73,778669.59,SUS
+Município 98,2023,Esporte,245667.0,213356.57,FUNDEB
+Município 98,2023,Saneamento,319331.19,309285.28,Emenda Parlamentar
+Município 99,2020,Esporte,572955.64,509750.56,PAC
+Município 99,2020,Infraestrutura,344286.78,312948.12,SUS
+Município 99,2020,Assistência Social,504092.84,501705.2,SUS
+Município 99,2021,Infraestrutura,229427.23,218920.78,PAC
+Município 99,2021,Esporte,364154.39,318312.82,PAC
+Município 99,2021,Educação Fundamental,743072.21,724358.16,SUS
+Município 99,2021,Saúde Básica,258181.72,232619.43,SUS
+Município 99,2022,Saúde Básica,157231.54,155447.12,SUS
+Município 99,2022,Educação Fundamental,598851.56,596311.17,FUNDEB
+Município 99,2022,Infraestrutura,692815.18,604215.34,FPM
+Município 99,2022,Saneamento,617216.89,608883.03,Emenda Parlamentar
+Município 99,2022,Esporte,395775.92,393295.37,PAC
+Município 99,2023,Esporte,333042.85,328057.6,FUNDEB
+Município 99,2023,Cultura,221165.99,209533.61,SUS
+Município 99,2023,Educação Fundamental,525552.61,502740.94,PAC
+Município 99,2023,Assistência Social,141006.35,134339.51,FUNDEB
+Município 100,2020,Assistência Social,572223.92,494458.06,FUNDEB
+Município 100,2020,Cultura,347544.23,311189.21,PAC
+Município 100,2020,Saneamento,479267.96,426690.34,PAC
+Município 100,2020,Esporte,177875.34,171443.92,Emenda Parlamentar
+Município 100,2020,Educação Fundamental,495311.49,477710.61,FUNDEB
+Município 100,2021,Assistência Social,756693.77,688025.46,PAC
+Município 100,2021,Esporte,418806.15,400740.63,FPM
+Município 100,2021,Saneamento,611063.05,583250.5,FPM
+Município 100,2022,Infraestrutura,306600.48,276943.81,SUS
+Município 100,2022,Saúde Básica,369398.37,347044.38,FPM
+Município 100,2022,Assistência Social,689790.0,653744.4,FUNDEB
+Município 100,2023,Saneamento,560911.76,504511.57,Emenda Parlamentar
+Município 100,2023,Infraestrutura,778177.18,774968.78,Emenda Parlamentar
+Município 100,2023,Esporte,638021.48,557019.77,Emenda Parlamentar
+Município 101,2020,Infraestrutura,1240771.23,1173736.09,Emenda Parlamentar
+Município 101,2020,Educação Fundamental,909295.78,885036.64,FUNDEB
+Município 101,2020,Esporte,1037916.49,912632.44,Emenda Parlamentar
+Município 101,2020,Cultura,634596.44,599167.43,PAC
+Município 101,2020,Assistência Social,790710.58,690353.82,Emenda Parlamentar
+Município 101,2020,Saneamento,1210434.66,1164948.06,SUS
+Município 101,2021,Educação Fundamental,593148.59,582808.99,SUS
+Município 101,2021,Cultura,1585317.38,1570167.48,PAC
+Município 101,2021,Saúde Básica,859808.46,759844.73,SUS
+Município 101,2021,Saneamento,996767.88,902055.92,SUS
+Município 101,2022,Educação Fundamental,1118059.34,976732.83,PAC
+Município 101,2022,Assistência Social,1988464.03,1823634.12,FUNDEB
+Município 101,2022,Esporte,1357315.28,1161247.38,Emenda Parlamentar
+Município 101,2022,Saneamento,1681850.95,1484996.22,Emenda Parlamentar
+Município 101,2022,Cultura,258196.82,257926.81,PAC
+Município 101,2023,Saneamento,1119206.39,1083609.14,Emenda Parlamentar
+Município 101,2023,Esporte,960819.65,893849.02,FUNDEB
+Município 101,2023,Assistência Social,637751.72,632265.81,FPM
+Município 101,2023,Infraestrutura,1015962.75,972615.77,FUNDEB
+Município 101,2023,Educação Fundamental,561015.6,538421.47,PAC
+Município 102,2020,Saneamento,1232878.84,1168104.91,FUNDEB
+Município 102,2020,Saúde Básica,1571648.27,1373822.13,PAC
+Município 102,2020,Cultura,50000.0,49184.99,PAC
+Município 102,2021,Cultura,1021003.65,886161.31,Emenda Parlamentar
+Município 102,2021,Saneamento,1303670.67,1151157.16,SUS
+Município 102,2021,Educação Fundamental,1838347.36,1733505.69,FUNDEB
+Município 102,2022,Cultura,884300.25,794190.73,SUS
+Município 102,2022,Infraestrutura,928008.31,889954.51,FPM
+Município 102,2022,Educação Fundamental,689912.84,688644.5,Emenda Parlamentar
+Município 102,2023,Saneamento,937601.53,831384.95,PAC
+Município 102,2023,Saúde Básica,1323005.83,1138085.7,FUNDEB
+Município 102,2023,Educação Fundamental,779040.14,763731.92,SUS
+Município 103,2020,Cultura,1415145.74,1352278.01,FUNDEB
+Município 103,2020,Assistência Social,374860.94,323890.78,PAC
+Município 103,2020,Educação Fundamental,929186.23,924143.47,PAC
+Município 103,2020,Infraestrutura,1479186.2,1349678.26,Emenda Parlamentar
+Município 103,2020,Saúde Básica,967974.24,963464.16,PAC
+Município 103,2020,Saneamento,384701.17,382825.73,FUNDEB
+Município 103,2021,Assistência Social,1109401.27,969038.83,FPM
+Município 103,2021,Educação Fundamental,981490.82,859002.48,Emenda Parlamentar
+Município 103,2021,Cultura,1000050.4,891320.4,Emenda Parlamentar
+Município 103,2021,Saneamento,1157593.8,1011475.42,SUS
+Município 103,2021,Infraestrutura,1033494.89,953146.21,FUNDEB
+Município 103,2022,Cultura,135351.96,133936.54,PAC
+Município 103,2022,Educação Fundamental,551354.45,502153.54,FPM
+Município 103,2022,Infraestrutura,2026218.73,1929811.82,PAC
+Município 103,2022,Esporte,665979.87,585593.45,Emenda Parlamentar
+Município 103,2022,Saúde Básica,1453544.38,1280015.74,FPM
+Município 103,2022,Saneamento,1544148.43,1390345.52,SUS
+Município 103,2023,Cultura,1554823.37,1412715.16,Emenda Parlamentar
+Município 103,2023,Saúde Básica,703020.88,693727.24,FUNDEB
+Município 103,2023,Esporte,720659.96,686864.94,FUNDEB
+Município 103,2023,Infraestrutura,1341950.41,1307528.74,FUNDEB
+Município 103,2023,Saneamento,1391029.79,1188021.02,Emenda Parlamentar
+Município 104,2020,Saúde Básica,1340467.96,1290545.63,PAC
+Município 104,2020,Cultura,1028744.91,1005733.89,FPM
+Município 104,2020,Infraestrutura,496071.85,452296.7,FPM
+Município 104,2020,Assistência Social,1404943.09,1321930.4,FUNDEB
+Município 104,2021,Saúde Básica,1909631.62,1792809.87,FPM
+Município 104,2021,Educação Fundamental,1020781.56,1017148.82,Emenda Parlamentar
+Município 104,2021,Cultura,812781.62,733124.38,PAC
+Município 104,2021,Esporte,2137249.85,1863674.49,FPM
+Município 104,2021,Assistência Social,1647573.7,1577018.21,FUNDEB
+Município 104,2022,Saúde Básica,1156045.94,1049029.5,SUS
+Município 104,2022,Infraestrutura,971967.03,857075.54,PAC
+Município 104,2022,Cultura,1475214.18,1469004.95,Emenda Parlamentar
+Município 104,2023,Infraestrutura,881289.59,813283.92,PAC
+Município 104,2023,Saúde Básica,1370002.64,1243049.72,SUS
+Município 104,2023,Assistência Social,1084984.76,939991.17,FPM
+Município 104,2023,Educação Fundamental,1513435.41,1311035.42,FPM
+Município 104,2023,Cultura,1037969.1,890617.14,FUNDEB
+Município 105,2020,Saneamento,830879.26,756920.55,PAC
+Município 105,2020,Esporte,542243.59,474671.02,SUS
+Município 105,2020,Cultura,1359985.25,1218536.64,FPM
+Município 105,2020,Infraestrutura,1469109.74,1319757.77,FUNDEB
+Município 105,2020,Saúde Básica,1343621.27,1222409.99,Emenda Parlamentar
+Município 105,2021,Infraestrutura,872759.56,744725.77,PAC
+Município 105,2021,Saneamento,645535.02,579276.15,PAC
+Município 105,2021,Cultura,690256.84,627502.46,PAC
+Município 105,2022,Esporte,734130.44,636126.15,Emenda Parlamentar
+Município 105,2022,Saúde Básica,1109278.57,971192.24,PAC
+Município 105,2022,Saneamento,328094.57,292692.61,Emenda Parlamentar
+Município 105,2022,Cultura,1801488.29,1780884.81,PAC
+Município 105,2023,Assistência Social,1250946.51,1076223.71,Emenda Parlamentar
+Município 105,2023,Saneamento,669317.78,653253.75,SUS
+Município 105,2023,Cultura,939286.47,914630.84,FUNDEB
+Município 106,2020,Infraestrutura,752637.11,646087.87,FUNDEB
+Município 106,2020,Cultura,695729.7,691224.09,PAC
+Município 106,2020,Esporte,1000011.06,989273.6,FUNDEB
+Município 106,2020,Saneamento,711161.07,682545.22,SUS
+Município 106,2020,Assistência Social,304358.41,269276.57,SUS
+Município 106,2021,Saneamento,398593.4,368935.41,Emenda Parlamentar
+Município 106,2021,Infraestrutura,530572.41,496576.61,FPM
+Município 106,2021,Educação Fundamental,538937.89,458969.68,FPM
+Município 106,2022,Saneamento,864666.81,746734.2,FPM
+Município 106,2022,Cultura,701237.59,632275.57,FUNDEB
+Município 106,2022,Esporte,602867.89,553826.48,PAC
+Município 106,2022,Infraestrutura,863860.86,809926.39,FPM
+Município 106,2022,Saúde Básica,134837.17,132790.82,Emenda Parlamentar
+Município 106,2023,Saneamento,320895.55,290909.73,FPM
+Município 106,2023,Esporte,433476.37,424613.22,Emenda Parlamentar
+Município 106,2023,Saúde Básica,682962.54,668049.18,PAC
+Município 107,2020,Educação Fundamental,807761.16,792444.16,FUNDEB
+Município 107,2020,Saneamento,630434.24,544934.44,SUS
+Município 107,2020,Esporte,260234.98,225566.93,Emenda Parlamentar
+Município 107,2020,Saúde Básica,512950.87,482882.85,SUS
+Município 107,2021,Saneamento,360650.37,317322.05,Emenda Parlamentar
+Município 107,2021,Esporte,443173.64,381612.71,Emenda Parlamentar
+Município 107,2021,Educação Fundamental,886280.06,831114.09,FPM
+Município 107,2022,Cultura,406769.32,353555.81,Emenda Parlamentar
+Município 107,2022,Saúde Básica,696481.14,633457.6,SUS
+Município 107,2022,Educação Fundamental,583004.5,529767.33,PAC
+Município 107,2022,Infraestrutura,77446.22,66712.1,Emenda Parlamentar
+Município 107,2022,Assistência Social,493409.57,484525.23,FPM
+Município 107,2023,Cultura,357862.55,317410.31,FUNDEB
+Município 107,2023,Saúde Básica,244671.16,225252.84,FPM
+Município 107,2023,Saneamento,716800.19,637418.95,FUNDEB
+Município 108,2020,Assistência Social,758230.73,753897.44,FUNDEB
+Município 108,2020,Saneamento,200543.0,197265.74,Emenda Parlamentar
+Município 108,2020,Saúde Básica,834760.49,797633.53,SUS
+Município 108,2020,Esporte,460677.82,407481.84,FUNDEB
+Município 108,2020,Cultura,691090.81,654982.19,FPM
+Município 108,2020,Infraestrutura,263357.24,249627.72,FUNDEB
+Município 108,2021,Educação Fundamental,477230.19,457376.36,FUNDEB
+Município 108,2021,Saneamento,412446.44,389110.29,FUNDEB
+Município 108,2021,Assistência Social,82654.64,76453.03,Emenda Parlamentar
+Município 108,2022,Esporte,275316.31,255809.3,SUS
+Município 108,2022,Saneamento,619586.45,602463.77,FUNDEB
+Município 108,2022,Educação Fundamental,182895.05,168151.98,PAC
+Município 108,2022,Assistência Social,190758.63,164303.2,FPM
+Município 108,2023,Cultura,478604.76,420414.47,SUS
+Município 108,2023,Esporte,303379.04,295505.99,FUNDEB
+Município 108,2023,Saneamento,361151.58,352539.49,FUNDEB
+Município 108,2023,Saúde Básica,746369.41,700513.33,FPM
+Município 109,2020,Saneamento,642257.26,576512.64,SUS
+Município 109,2020,Infraestrutura,363671.85,341712.35,Emenda Parlamentar
+Município 109,2020,Esporte,350646.34,299257.66,SUS
+Município 109,2020,Saúde Básica,237333.47,233387.51,SUS
+Município 109,2021,Esporte,372488.35,325803.45,Emenda Parlamentar
+Município 109,2021,Assistência Social,481855.9,422312.65,Emenda Parlamentar
+Município 109,2021,Cultura,277610.06,239450.39,FUNDEB
+Município 109,2022,Infraestrutura,449387.67,431393.52,PAC
+Município 109,2022,Saneamento,887347.62,870653.32,FUNDEB
+Município 109,2022,Cultura,348570.18,312186.96,PAC
+Município 109,2022,Saúde Básica,501261.96,493445.68,Emenda Parlamentar
+Município 109,2023,Saneamento,813672.39,778616.45,SUS
+Município 109,2023,Saúde Básica,421543.61,367193.39,FUNDEB
+Município 109,2023,Educação Fundamental,620101.12,615964.32,PAC
+Município 109,2023,Cultura,398985.38,395122.14,FPM
+Município 109,2023,Esporte,768118.61,767248.41,FUNDEB
+Município 109,2023,Infraestrutura,435212.24,429760.02,PAC
+Município 110,2020,Esporte,397722.8,348599.81,FPM
+Município 110,2020,Educação Fundamental,805753.4,717282.84,FPM
+Município 110,2020,Saúde Básica,159709.23,148526.46,SUS
+Município 110,2020,Cultura,366381.46,315094.42,PAC
+Município 110,2020,Assistência Social,50000.0,46683.87,Emenda Parlamentar
+Município 110,2020,Saneamento,381002.76,358177.18,FPM
+Município 110,2021,Esporte,458182.67,456889.82,Emenda Parlamentar
+Município 110,2021,Saúde Básica,485678.34,475571.18,Emenda Parlamentar
+Município 110,2021,Saneamento,612000.41,550457.14,FUNDEB
+Município 110,2021,Infraestrutura,732358.29,726769.31,FPM
+Município 110,2022,Infraestrutura,547827.29,504493.35,FPM
+Município 110,2022,Esporte,577230.83,545776.83,SUS
+Município 110,2022,Cultura,50000.0,45345.14,Emenda Parlamentar
+Município 110,2023,Esporte,149482.29,147644.56,FPM
+Município 110,2023,Assistência Social,563404.23,530698.04,PAC
+Município 110,2023,Saneamento,308248.0,286460.23,Emenda Parlamentar
+Município 110,2023,Cultura,671799.72,621577.1,SUS
+Município 111,2020,Esporte,1010060.21,902234.96,PAC
+Município 111,2020,Saneamento,456266.29,422174.54,Emenda Parlamentar
+Município 111,2020,Infraestrutura,508631.1,463334.94,FUNDEB
+Município 111,2020,Assistência Social,686173.9,646158.49,Emenda Parlamentar
+Município 111,2021,Saúde Básica,456601.03,444400.31,FUNDEB
+Município 111,2021,Cultura,493843.23,438455.82,FUNDEB
+Município 111,2021,Educação Fundamental,354697.69,318007.23,Emenda Parlamentar
+Município 111,2021,Esporte,373050.34,364670.28,PAC
+Município 111,2021,Infraestrutura,610606.57,538815.47,PAC
+Município 111,2021,Saneamento,305808.28,279399.18,SUS
+Município 111,2022,Assistência Social,247229.34,228174.88,Emenda Parlamentar
+Município 111,2022,Esporte,586742.36,513872.64,FUNDEB
+Município 111,2022,Saúde Básica,302137.25,264030.61,PAC
+Município 111,2022,Educação Fundamental,492936.74,473723.57,FPM
+Município 111,2022,Saneamento,503820.86,461180.11,SUS
+Município 111,2022,Cultura,239382.71,218604.94,FPM
+Município 111,2023,Esporte,370863.41,333484.68,FPM
+Município 111,2023,Assistência Social,358558.08,320272.52,FPM
+Município 111,2023,Cultura,312772.67,308788.89,FUNDEB
+Município 111,2023,Educação Fundamental,245111.29,218638.22,FPM
+Município 111,2023,Infraestrutura,263966.15,263924.28,FUNDEB
+Município 111,2023,Saúde Básica,288487.21,274052.0,PAC
+Município 112,2020,Saúde Básica,174979.94,154849.39,PAC
+Município 112,2020,Infraestrutura,469539.61,457438.74,FPM
+Município 112,2020,Assistência Social,407355.54,387952.69,SUS
+Município 112,2021,Saúde Básica,461244.22,409876.15,Emenda Parlamentar
+Município 112,2021,Saneamento,393501.49,366274.14,SUS
+Município 112,2021,Assistência Social,601543.6,543618.29,Emenda Parlamentar
+Município 112,2021,Esporte,563826.3,550056.02,FUNDEB
+Município 112,2021,Infraestrutura,226071.04,222317.35,Emenda Parlamentar
+Município 112,2022,Infraestrutura,735270.61,697412.77,PAC
+Município 112,2022,Cultura,297269.85,295646.52,FUNDEB
+Município 112,2022,Saneamento,363467.44,343290.94,PAC
+Município 112,2022,Saúde Básica,86652.77,85226.97,Emenda Parlamentar
+Município 112,2022,Esporte,527773.67,463191.78,FUNDEB
+Município 112,2022,Assistência Social,316542.17,276958.88,Emenda Parlamentar
+Município 112,2023,Saúde Básica,1018780.74,957142.93,PAC
+Município 112,2023,Esporte,413860.39,354311.95,PAC
+Município 112,2023,Infraestrutura,305306.82,279153.62,FUNDEB
+Município 112,2023,Educação Fundamental,393172.09,377273.51,FPM
+Município 113,2020,Infraestrutura,681834.9,592092.5,FUNDEB
+Município 113,2020,Esporte,442070.23,387044.04,SUS
+Município 113,2020,Assistência Social,324368.03,287407.61,Emenda Parlamentar
+Município 113,2020,Educação Fundamental,606857.26,544779.76,FPM
+Município 113,2021,Saneamento,682102.64,666117.08,FPM
+Município 113,2021,Cultura,330499.08,303791.95,SUS
+Município 113,2021,Infraestrutura,392849.92,337433.91,PAC
+Município 113,2021,Esporte,821247.91,707008.11,PAC
+Município 113,2022,Infraestrutura,488201.52,427422.43,FUNDEB
+Município 113,2022,Esporte,276631.07,247064.5,Emenda Parlamentar
+Município 113,2022,Cultura,437407.68,382446.88,Emenda Parlamentar
+Município 113,2022,Saneamento,236500.01,222976.06,Emenda Parlamentar
+Município 113,2022,Saúde Básica,751710.85,750415.27,SUS
+Município 113,2023,Assistência Social,623856.14,554137.67,Emenda Parlamentar
+Município 113,2023,Esporte,440624.2,399756.88,FUNDEB
+Município 113,2023,Infraestrutura,512116.96,487932.98,FUNDEB
+Município 113,2023,Saúde Básica,333508.97,316933.45,FPM
+Município 113,2023,Educação Fundamental,566124.71,491585.87,SUS
+Município 114,2020,Assistência Social,579840.19,513224.62,PAC
+Município 114,2020,Infraestrutura,340447.98,325710.28,FPM
+Município 114,2020,Saneamento,272255.84,247195.92,SUS
+Município 114,2021,Esporte,366934.16,312463.26,FUNDEB
+Município 114,2021,Saneamento,512227.84,464880.82,PAC
+Município 114,2021,Educação Fundamental,50000.0,43054.96,Emenda Parlamentar
+Município 114,2022,Educação Fundamental,316954.39,270509.81,PAC
+Município 114,2022,Infraestrutura,749105.82,710942.61,FUNDEB
+Município 114,2022,Cultura,320802.01,309529.01,Emenda Parlamentar
+Município 114,2022,Assistência Social,755262.34,648390.59,Emenda Parlamentar
+Município 114,2022,Esporte,437829.06,415506.7,Emenda Parlamentar
+Município 114,2023,Esporte,823176.03,713061.87,PAC
+Município 114,2023,Saneamento,207517.67,183497.21,Emenda Parlamentar
+Município 114,2023,Educação Fundamental,752074.43,737926.58,PAC
+Município 115,2020,Educação Fundamental,689701.4,672253.04,PAC
+Município 115,2020,Infraestrutura,686761.23,629935.76,PAC
+Município 115,2020,Esporte,417678.61,373380.3,PAC
+Município 115,2020,Cultura,673046.24,656983.21,SUS
+Município 115,2020,Saúde Básica,635436.52,574723.88,Emenda Parlamentar
+Município 115,2021,Esporte,629037.56,620708.0,FPM
+Município 115,2021,Cultura,442927.01,424902.71,FUNDEB
+Município 115,2021,Saneamento,367004.69,358177.02,FPM
+Município 115,2021,Assistência Social,666329.3,612059.67,SUS
+Município 115,2022,Esporte,70162.33,65179.97,Emenda Parlamentar
+Município 115,2022,Cultura,783834.29,705741.41,PAC
+Município 115,2022,Saúde Básica,675090.45,663189.64,PAC
+Município 115,2022,Educação Fundamental,301005.95,297754.65,FUNDEB
+Município 115,2022,Saneamento,363170.56,319417.2,PAC
+Município 115,2023,Educação Fundamental,713365.46,624378.8,FUNDEB
+Município 115,2023,Cultura,683037.84,591934.78,FUNDEB
+Município 115,2023,Infraestrutura,509339.19,437462.84,PAC
+Município 115,2023,Assistência Social,700795.26,691500.43,PAC
+Município 115,2023,Esporte,487365.95,428239.11,SUS
+Município 115,2023,Saneamento,731575.98,657737.03,SUS
+Município 116,2020,Educação Fundamental,444353.62,442870.39,FPM
+Município 116,2020,Esporte,176159.76,165353.38,SUS
+Município 116,2020,Saúde Básica,621312.16,588506.82,Emenda Parlamentar
+Município 116,2020,Infraestrutura,511465.18,486125.38,FUNDEB
+Município 116,2020,Saneamento,816459.84,727533.11,Emenda Parlamentar
+Município 116,2020,Assistência Social,802033.68,725773.85,Emenda Parlamentar
+Município 116,2021,Educação Fundamental,857076.92,849783.88,PAC
+Município 116,2021,Saúde Básica,250626.49,213156.28,FPM
+Município 116,2021,Cultura,672374.83,638981.62,FPM
+Município 116,2021,Esporte,652767.41,612499.0,FUNDEB
+Município 116,2021,Assistência Social,621430.46,532477.41,SUS
+Município 116,2021,Infraestrutura,1060544.84,906881.59,SUS
+Município 116,2022,Cultura,637294.85,581047.75,PAC
+Município 116,2022,Educação Fundamental,449967.31,420133.74,FUNDEB
+Município 116,2022,Saneamento,50000.0,44580.56,PAC
+Município 116,2022,Assistência Social,583612.24,503122.36,Emenda Parlamentar
+Município 116,2023,Cultura,703765.31,656389.77,FUNDEB
+Município 116,2023,Saúde Básica,827249.9,759105.7,PAC
+Município 116,2023,Saneamento,876825.53,873546.28,SUS
+Município 116,2023,Esporte,524017.26,506883.36,SUS
+Município 117,2020,Infraestrutura,819285.12,700052.56,FUNDEB
+Município 117,2020,Saúde Básica,845491.97,752349.91,Emenda Parlamentar
+Município 117,2020,Educação Fundamental,877579.41,773249.49,Emenda Parlamentar
+Município 117,2021,Esporte,632678.71,567983.03,SUS
+Município 117,2021,Saúde Básica,970340.32,891912.72,SUS
+Município 117,2021,Infraestrutura,356525.93,321221.05,PAC
+Município 117,2022,Saúde Básica,518291.57,507150.34,FUNDEB
+Município 117,2022,Saneamento,445839.61,424754.31,PAC
+Município 117,2022,Educação Fundamental,775660.27,706765.4,PAC
+Município 117,2022,Cultura,180451.82,156110.13,FPM
+Município 117,2022,Assistência Social,682446.36,593345.15,Emenda Parlamentar
+Município 117,2022,Esporte,1126120.4,1009375.83,SUS
+Município 117,2023,Infraestrutura,342136.48,303303.95,SUS
+Município 117,2023,Saneamento,507887.45,450308.1,FUNDEB
+Município 117,2023,Saúde Básica,412099.93,373041.92,SUS
+Município 117,2023,Assistência Social,571689.63,503740.63,FPM
+Município 117,2023,Cultura,480110.94,436398.96,FPM
+Município 118,2020,Assistência Social,660384.74,566972.64,PAC
+Município 118,2020,Cultura,815162.65,759412.13,SUS
+Município 118,2020,Esporte,595888.86,529180.84,FUNDEB
+Município 118,2020,Educação Fundamental,437389.15,404481.96,FPM
+Município 118,2020,Saúde Básica,150236.02,144011.65,FUNDEB
+Município 118,2021,Cultura,366453.04,333748.04,FUNDEB
+Município 118,2021,Esporte,538989.81,517657.16,FUNDEB
+Município 118,2021,Infraestrutura,299297.28,290988.11,Emenda Parlamentar
+Município 118,2021,Saneamento,1030555.36,898318.85,FPM
+Município 118,2021,Educação Fundamental,812212.48,691267.75,SUS
+Município 118,2021,Saúde Básica,304111.34,272082.91,Emenda Parlamentar
+Município 118,2022,Assistência Social,477755.77,477408.41,FPM
+Município 118,2022,Esporte,357534.32,339615.4,Emenda Parlamentar
+Município 118,2022,Saúde Básica,527619.05,487883.95,SUS
+Município 118,2022,Cultura,414640.57,411173.5,FPM
+Município 118,2023,Saúde Básica,479747.77,447824.4,FUNDEB
+Município 118,2023,Infraestrutura,437913.19,417072.11,FUNDEB
+Município 118,2023,Cultura,689316.26,687441.42,PAC
+Município 118,2023,Educação Fundamental,275063.63,241113.62,FUNDEB
+Município 118,2023,Esporte,438864.55,405597.73,FPM
+Município 118,2023,Assistência Social,369986.88,349493.86,FUNDEB
+Município 119,2020,Saúde Básica,675654.16,670106.05,FUNDEB
+Município 119,2020,Educação Fundamental,163087.21,140804.02,FUNDEB
+Município 119,2020,Saneamento,801739.73,727408.52,Emenda Parlamentar
+Município 119,2020,Assistência Social,718077.88,619787.9,SUS
+Município 119,2021,Esporte,410631.06,406304.91,Emenda Parlamentar
+Município 119,2021,Assistência Social,586485.01,537813.21,SUS
+Município 119,2021,Saúde Básica,871973.04,840695.15,FPM
+Município 119,2021,Saneamento,547370.1,484573.12,FPM
+Município 119,2022,Esporte,306456.58,281398.28,Emenda Parlamentar
+Município 119,2022,Infraestrutura,627447.93,593269.13,Emenda Parlamentar
+Município 119,2022,Assistência Social,902299.66,836217.51,PAC
+Município 119,2022,Saneamento,344919.54,338729.11,PAC
+Município 119,2022,Cultura,715515.16,710176.27,FUNDEB
+Município 119,2022,Educação Fundamental,672422.02,650849.62,FPM
+Município 119,2023,Cultura,676049.22,648773.22,FUNDEB
+Município 119,2023,Saneamento,721977.2,681420.68,FPM
+Município 119,2023,Esporte,50000.0,45297.72,FPM
+Município 119,2023,Saúde Básica,652903.42,589082.72,FUNDEB
+Município 119,2023,Assistência Social,652085.21,565830.99,FUNDEB
+Município 119,2023,Infraestrutura,586674.75,551725.05,Emenda Parlamentar
+Município 120,2020,Saneamento,711855.66,689073.91,SUS
+Município 120,2020,Saúde Básica,186019.07,160510.46,FPM
+Município 120,2020,Infraestrutura,516069.68,499371.99,FUNDEB
+Município 120,2020,Educação Fundamental,93201.35,80745.87,FPM
+Município 120,2020,Cultura,477990.04,449395.0,FPM
+Município 120,2021,Assistência Social,328429.83,316385.56,Emenda Parlamentar
+Município 120,2021,Cultura,735096.19,698887.83,SUS
+Município 120,2021,Saneamento,569077.96,490016.08,Emenda Parlamentar
+Município 120,2022,Cultura,481841.88,429539.64,FPM
+Município 120,2022,Saúde Básica,637957.49,544022.79,FUNDEB
+Município 120,2022,Esporte,499637.07,473052.41,PAC
+Município 120,2022,Saneamento,700863.24,616034.48,SUS
+Município 120,2022,Educação Fundamental,569563.96,546957.8,FPM
+Município 120,2023,Esporte,660052.02,569867.62,FPM
+Município 120,2023,Educação Fundamental,277727.26,253867.86,FUNDEB
+Município 120,2023,Saúde Básica,651877.68,568779.82,PAC
+Município 120,2023,Cultura,343150.2,300132.5,FUNDEB
+Município 121,2020,Saúde Básica,489604.27,478304.7,PAC
+Município 121,2020,Infraestrutura,608782.71,521584.57,SUS
+Município 121,2020,Cultura,766615.58,672553.68,Emenda Parlamentar
+Município 121,2020,Assistência Social,584369.29,582785.52,FUNDEB
+Município 121,2020,Saneamento,376061.75,324585.19,PAC
+Município 121,2021,Assistência Social,457506.99,404729.47,Emenda Parlamentar
+Município 121,2021,Infraestrutura,476331.21,463452.04,PAC
+Município 121,2021,Esporte,532709.56,480726.34,SUS
+Município 121,2021,Cultura,433567.89,422682.47,PAC
+Município 121,2022,Infraestrutura,482618.09,459339.48,SUS
+Município 121,2022,Cultura,766457.91,700831.34,SUS
+Município 121,2022,Educação Fundamental,515564.91,503175.16,SUS
+Município 121,2022,Saúde Básica,632151.43,596643.95,FUNDEB
+Município 121,2023,Saneamento,697245.02,622531.33,FPM
+Município 121,2023,Cultura,543720.27,492214.6,Emenda Parlamentar
+Município 121,2023,Infraestrutura,450989.5,411071.98,FUNDEB
+Município 121,2023,Esporte,366651.35,316298.98,FPM
+Município 122,2020,Cultura,560264.17,555412.16,FUNDEB
+Município 122,2020,Educação Fundamental,437893.43,425033.02,SUS
+Município 122,2020,Saúde Básica,823491.36,713114.23,FUNDEB
+Município 122,2020,Saneamento,538897.13,518794.84,FPM
+Município 122,2020,Infraestrutura,800704.44,701249.52,FPM
+Município 122,2021,Assistência Social,249725.9,234868.71,Emenda Parlamentar
+Município 122,2021,Saneamento,912561.01,833968.92,FPM
+Município 122,2021,Cultura,573329.08,487477.3,FPM
+Município 122,2021,Educação Fundamental,448529.47,419330.37,SUS
+Município 122,2021,Saúde Básica,686510.85,621807.89,PAC
+Município 122,2021,Infraestrutura,394444.27,337388.6,Emenda Parlamentar
+Município 122,2022,Cultura,437483.96,384107.43,FPM
+Município 122,2022,Infraestrutura,276877.6,240738.1,FPM
+Município 122,2022,Assistência Social,610886.66,607812.71,FUNDEB
+Município 122,2022,Educação Fundamental,452558.19,394528.35,Emenda Parlamentar
+Município 122,2022,Saúde Básica,699834.87,636974.77,Emenda Parlamentar
+Município 122,2023,Cultura,140436.12,138559.38,SUS
+Município 122,2023,Assistência Social,275531.27,261103.37,PAC
+Município 122,2023,Esporte,692831.85,595230.25,SUS
+Município 123,2020,Assistência Social,389222.39,339559.39,FPM
+Município 123,2020,Educação Fundamental,424436.77,392863.12,FPM
+Município 123,2020,Infraestrutura,521640.13,471649.51,PAC
+Município 123,2021,Saúde Básica,948255.65,903529.13,SUS
+Município 123,2021,Esporte,862859.17,843625.17,SUS
+Município 123,2021,Cultura,1015127.88,939603.7,FPM
+Município 123,2021,Saneamento,809002.17,750466.63,SUS
+Município 123,2021,Infraestrutura,361049.94,355668.98,PAC
+Município 123,2022,Infraestrutura,534987.57,464353.96,FUNDEB
+Município 123,2022,Saúde Básica,724220.5,646640.46,PAC
+Município 123,2022,Esporte,613721.41,538396.11,FUNDEB
+Município 123,2022,Educação Fundamental,551103.1,499032.55,FPM
+Município 123,2022,Cultura,316797.05,272559.91,PAC
+Município 123,2023,Saúde Básica,413035.32,406550.92,FPM
+Município 123,2023,Esporte,709449.29,618498.59,Emenda Parlamentar
+Município 123,2023,Educação Fundamental,323069.74,320539.0,FPM
+Município 123,2023,Infraestrutura,285848.27,254865.44,PAC
+Município 123,2023,Cultura,535673.53,496264.75,PAC
+Município 123,2023,Saneamento,333835.33,323578.51,FUNDEB
+Município 124,2020,Saneamento,778827.57,745825.16,SUS
+Município 124,2020,Educação Fundamental,592644.73,592040.67,FPM
+Município 124,2020,Saúde Básica,416750.76,410818.28,SUS
+Município 124,2020,Assistência Social,629450.16,564363.49,Emenda Parlamentar
+Município 124,2020,Infraestrutura,209861.47,204748.32,Emenda Parlamentar
+Município 124,2021,Educação Fundamental,594183.02,514755.64,FPM
+Município 124,2021,Cultura,759776.52,724894.19,FUNDEB
+Município 124,2021,Infraestrutura,559689.99,499692.23,FUNDEB
+Município 124,2022,Infraestrutura,411550.85,387528.44,FUNDEB
+Município 124,2022,Esporte,519103.9,472035.55,PAC
+Município 124,2022,Cultura,400440.38,355011.87,PAC
+Município 124,2022,Assistência Social,479231.42,424370.15,PAC
+Município 124,2023,Saneamento,159129.27,143146.24,FPM
+Município 124,2023,Assistência Social,603248.85,566825.52,FUNDEB
+Município 124,2023,Infraestrutura,66368.41,58125.22,SUS
+Município 124,2023,Cultura,639965.38,616045.82,FPM
+Município 124,2023,Saúde Básica,389131.55,367026.91,FUNDEB
+Município 124,2023,Educação Fundamental,652946.6,649288.73,FPM
+Município 125,2020,Educação Fundamental,443084.47,403775.14,FUNDEB
+Município 125,2020,Assistência Social,408504.82,359792.38,PAC
+Município 125,2020,Infraestrutura,469780.93,426339.6,FUNDEB
+Município 125,2021,Infraestrutura,717008.83,673408.55,PAC
+Município 125,2021,Saneamento,367705.21,314697.08,SUS
+Município 125,2021,Assistência Social,580665.51,556879.24,FUNDEB
+Município 125,2021,Esporte,628352.61,539078.95,SUS
+Município 125,2022,Esporte,192065.1,184122.93,PAC
+Município 125,2022,Educação Fundamental,484565.87,476904.0,Emenda Parlamentar
+Município 125,2022,Saneamento,478977.11,430714.13,FPM
+Município 125,2022,Infraestrutura,459856.9,392134.26,PAC
+Município 125,2023,Cultura,413712.56,358139.69,PAC
+Município 125,2023,Saneamento,830951.03,809677.1,SUS
+Município 125,2023,Infraestrutura,683733.39,600167.62,SUS
+Município 125,2023,Esporte,421441.78,381578.19,PAC
+Município 125,2023,Educação Fundamental,491512.03,432324.49,PAC
+Município 126,2020,Educação Fundamental,369725.76,346331.48,FUNDEB
+Município 126,2020,Saúde Básica,479896.97,423254.09,SUS
+Município 126,2020,Saneamento,585197.0,503641.87,Emenda Parlamentar
+Município 126,2020,Cultura,810216.61,762906.98,FUNDEB
+Município 126,2021,Assistência Social,386473.24,348851.94,FUNDEB
+Município 126,2021,Cultura,317994.15,296504.57,PAC
+Município 126,2021,Saúde Básica,1045412.23,1008513.31,PAC
+Município 126,2021,Saneamento,252785.38,250774.26,Emenda Parlamentar
+Município 126,2022,Cultura,570470.96,536676.46,Emenda Parlamentar
+Município 126,2022,Educação Fundamental,746331.2,718527.95,PAC
+Município 126,2022,Infraestrutura,350344.46,341576.01,SUS
+Município 126,2022,Esporte,489985.23,476540.36,PAC
+Município 126,2022,Assistência Social,474110.96,407695.04,Emenda Parlamentar
+Município 126,2022,Saúde Básica,624814.33,617473.64,PAC
+Município 126,2023,Educação Fundamental,426519.88,395306.53,FUNDEB
+Município 126,2023,Infraestrutura,445982.12,436085.78,SUS
+Município 126,2023,Assistência Social,630999.21,599625.58,Emenda Parlamentar
+Município 126,2023,Cultura,705989.1,629739.37,FUNDEB
+Município 127,2020,Assistência Social,344436.36,301118.22,SUS
+Município 127,2020,Cultura,668287.43,602272.9,FUNDEB
+Município 127,2020,Saneamento,777583.44,770217.95,FUNDEB
+Município 127,2020,Infraestrutura,627956.14,548634.86,FPM
+Município 127,2020,Saúde Básica,476047.97,463526.99,PAC
+Município 127,2020,Esporte,50000.0,47744.38,FUNDEB
+Município 127,2021,Infraestrutura,509078.71,466305.04,Emenda Parlamentar
+Município 127,2021,Educação Fundamental,126426.57,120648.65,Emenda Parlamentar
+Município 127,2021,Esporte,503864.85,499630.35,Emenda Parlamentar
+Município 127,2021,Saúde Básica,568065.54,509933.68,FUNDEB
+Município 127,2022,Saneamento,895768.13,804126.01,FPM
+Município 127,2022,Saúde Básica,718492.83,714059.83,Emenda Parlamentar
+Município 127,2022,Esporte,361157.74,346477.21,PAC
+Município 127,2023,Esporte,225499.47,215603.83,FPM
+Município 127,2023,Assistência Social,825142.55,772982.88,Emenda Parlamentar
+Município 127,2023,Saúde Básica,470434.36,407310.6,SUS
+Município 128,2020,Infraestrutura,669975.51,580130.76,SUS
+Município 128,2020,Saúde Básica,743554.65,723508.63,PAC
+Município 128,2020,Assistência Social,667335.02,663826.65,FUNDEB
+Município 128,2020,Cultura,609295.74,588831.78,Emenda Parlamentar
+Município 128,2020,Esporte,848450.87,811484.93,PAC
+Município 128,2021,Saúde Básica,666073.72,653857.45,Emenda Parlamentar
+Município 128,2021,Infraestrutura,297047.51,262474.13,FPM
+Município 128,2021,Esporte,826373.64,803004.09,Emenda Parlamentar
+Município 128,2022,Infraestrutura,659785.8,576871.19,Emenda Parlamentar
+Município 128,2022,Saúde Básica,386950.97,343536.42,FPM
+Município 128,2022,Esporte,633947.48,626388.96,FUNDEB
+Município 128,2023,Educação Fundamental,560923.83,486427.52,FUNDEB
+Município 128,2023,Saúde Básica,119962.55,108660.67,FUNDEB
+Município 128,2023,Cultura,719938.54,671761.88,PAC
+Município 128,2023,Saneamento,456732.12,397972.69,FUNDEB
+Município 129,2020,Esporte,644799.68,576029.03,FUNDEB
+Município 129,2020,Infraestrutura,260189.77,247639.98,FPM
+Município 129,2020,Assistência Social,749710.55,685702.97,Emenda Parlamentar
+Município 129,2020,Cultura,671495.7,614399.79,FUNDEB
+Município 129,2020,Educação Fundamental,493116.41,433206.22,FUNDEB
+Município 129,2020,Saúde Básica,771554.78,673083.17,SUS
+Município 129,2021,Saneamento,617974.93,602507.4,SUS
+Município 129,2021,Cultura,583395.94,522025.89,FUNDEB
+Município 129,2021,Saúde Básica,540369.74,494518.7,FPM
+Município 129,2021,Infraestrutura,296122.62,271452.55,FUNDEB
+Município 129,2022,Saúde Básica,553469.56,548969.14,FUNDEB
+Município 129,2022,Infraestrutura,366497.02,317144.41,PAC
+Município 129,2022,Assistência Social,456593.07,424192.84,FPM
+Município 129,2022,Educação Fundamental,474444.93,462935.53,SUS
+Município 129,2022,Cultura,760262.95,659915.23,FPM
+Município 129,2022,Esporte,666467.88,642671.66,PAC
+Município 129,2023,Esporte,295341.67,285104.39,Emenda Parlamentar
+Município 129,2023,Assistência Social,649886.94,562412.1,SUS
+Município 129,2023,Infraestrutura,688831.43,609312.85,SUS
+Município 129,2023,Educação Fundamental,270980.76,257201.79,Emenda Parlamentar
+Município 129,2023,Saúde Básica,293463.97,289186.03,SUS
+Município 129,2023,Saneamento,708830.99,619934.13,PAC
+Município 130,2020,Saneamento,407667.71,357725.19,PAC
+Município 130,2020,Cultura,629397.69,626903.5,PAC
+Município 130,2020,Infraestrutura,614907.58,527248.61,FUNDEB
+Município 130,2020,Assistência Social,379766.04,373021.65,Emenda Parlamentar
+Município 130,2020,Saúde Básica,598198.85,517963.56,FPM
+Município 130,2021,Cultura,517290.98,459336.42,Emenda Parlamentar
+Município 130,2021,Esporte,365301.36,360309.95,FPM
+Município 130,2021,Educação Fundamental,545613.15,496818.19,FPM
+Município 130,2021,Infraestrutura,304637.06,282511.44,SUS
+Município 130,2022,Esporte,447346.69,402718.19,FUNDEB
+Município 130,2022,Saneamento,188478.06,178700.83,Emenda Parlamentar
+Município 130,2022,Infraestrutura,399915.38,347887.93,Emenda Parlamentar
+Município 130,2022,Educação Fundamental,430549.08,377767.02,FPM
+Município 130,2023,Saúde Básica,372289.94,347296.91,Emenda Parlamentar
+Município 130,2023,Saneamento,586377.45,533348.24,FPM
+Município 130,2023,Esporte,664059.92,584200.88,FPM
+Município 131,2020,Infraestrutura,626864.58,556612.26,SUS
+Município 131,2020,Esporte,274621.22,254325.55,PAC
+Município 131,2020,Educação Fundamental,266766.13,246278.18,Emenda Parlamentar
+Município 131,2020,Saúde Básica,560945.81,498281.51,SUS
+Município 131,2020,Saneamento,213998.49,195885.58,Emenda Parlamentar
+Município 131,2020,Cultura,140704.03,129128.24,FPM
+Município 131,2021,Esporte,450544.34,437270.07,SUS
+Município 131,2021,Infraestrutura,1120300.1,1086116.34,FPM
+Município 131,2021,Assistência Social,465813.99,441786.51,FUNDEB
+Município 131,2021,Cultura,337298.52,320687.15,PAC
+Município 131,2022,Esporte,396275.82,351930.37,FPM
+Município 131,2022,Infraestrutura,530184.05,529387.1,FPM
+Município 131,2022,Educação Fundamental,202821.72,194400.15,Emenda Parlamentar
+Município 131,2022,Saúde Básica,50825.95,43333.83,SUS
+Município 131,2023,Saneamento,554544.63,511111.92,FPM
+Município 131,2023,Assistência Social,850728.36,782053.71,FPM
+Município 131,2023,Educação Fundamental,101435.99,96426.63,SUS
+Município 132,2020,Assistência Social,255839.54,245629.54,SUS
+Município 132,2020,Cultura,775584.91,773591.91,FUNDEB
+Município 132,2020,Saúde Básica,490228.5,480954.24,FPM
+Município 132,2020,Esporte,768925.63,671687.19,FUNDEB
+Município 132,2020,Saneamento,344595.96,333299.03,FUNDEB
+Município 132,2020,Infraestrutura,347817.77,330331.94,PAC
+Município 132,2021,Infraestrutura,730462.27,718461.18,Emenda Parlamentar
+Município 132,2021,Educação Fundamental,904624.32,789596.83,FUNDEB
+Município 132,2021,Saúde Básica,541258.37,532697.87,PAC
+Município 132,2022,Esporte,454807.82,426554.39,FPM
+Município 132,2022,Cultura,426419.32,411649.03,Emenda Parlamentar
+Município 132,2022,Assistência Social,663315.19,571660.8,FPM
+Município 132,2022,Infraestrutura,588392.63,504057.16,FUNDEB
+Município 132,2022,Educação Fundamental,544298.87,526479.93,Emenda Parlamentar
+Município 132,2023,Esporte,334468.97,317003.47,PAC
+Município 132,2023,Cultura,553594.5,476718.91,FUNDEB
+Município 132,2023,Assistência Social,506405.72,457219.27,FPM
+Município 133,2020,Saneamento,616410.14,556799.54,FUNDEB
+Município 133,2020,Cultura,641414.81,622849.87,FPM
+Município 133,2020,Assistência Social,246514.79,230141.73,FPM
+Município 133,2020,Esporte,491546.35,451077.35,Emenda Parlamentar
+Município 133,2020,Educação Fundamental,510125.38,506086.71,FUNDEB
+Município 133,2020,Infraestrutura,464168.4,446700.54,PAC
+Município 133,2021,Cultura,330123.07,289196.02,FUNDEB
+Município 133,2021,Infraestrutura,740253.46,739682.17,SUS
+Município 133,2021,Saneamento,145078.03,139534.97,SUS
+Município 133,2021,Saúde Básica,552104.66,497417.75,Emenda Parlamentar
+Município 133,2021,Esporte,118959.52,105005.1,FUNDEB
+Município 133,2021,Assistência Social,513393.56,458144.73,FPM
+Município 133,2022,Educação Fundamental,883986.22,868948.11,FPM
+Município 133,2022,Assistência Social,773823.69,722320.41,PAC
+Município 133,2022,Cultura,496870.3,461456.11,SUS
+Município 133,2022,Saneamento,278775.26,277026.85,FPM
+Município 133,2022,Esporte,534584.56,518847.46,FUNDEB
+Município 133,2022,Saúde Básica,653996.94,571647.26,FPM
+Município 133,2023,Infraestrutura,526107.13,525930.37,PAC
+Município 133,2023,Esporte,586289.82,586276.95,FUNDEB
+Município 133,2023,Saneamento,458764.47,416033.46,Emenda Parlamentar
+Município 134,2020,Saneamento,667646.28,591005.75,PAC
+Município 134,2020,Saúde Básica,529331.84,491898.33,SUS
+Município 134,2020,Cultura,607608.05,544919.46,SUS
+Município 134,2020,Esporte,520737.2,468444.97,PAC
+Município 134,2020,Infraestrutura,485764.17,458572.46,PAC
+Município 134,2021,Educação Fundamental,628496.04,601853.64,FPM
+Município 134,2021,Saúde Básica,734120.84,726377.32,Emenda Parlamentar
+Município 134,2021,Assistência Social,724165.32,638967.24,SUS
+Município 134,2021,Esporte,471582.01,426491.21,FPM
+Município 134,2022,Educação Fundamental,247613.3,221118.39,SUS
+Município 134,2022,Esporte,265395.28,243173.23,SUS
+Município 134,2022,Assistência Social,258848.39,239875.48,FPM
+Município 134,2023,Assistência Social,232454.94,213893.18,Emenda Parlamentar
+Município 134,2023,Saneamento,457395.04,389048.62,FUNDEB
+Município 134,2023,Cultura,343735.5,315892.1,PAC
+Município 135,2020,Esporte,225166.12,204162.76,FPM
+Município 135,2020,Assistência Social,192865.87,168672.95,SUS
+Município 135,2020,Educação Fundamental,282242.18,246546.57,FUNDEB
+Município 135,2020,Infraestrutura,175405.44,168891.93,FPM
+Município 135,2021,Saúde Básica,386495.91,349557.62,PAC
+Município 135,2021,Cultura,275073.08,253559.27,PAC
+Município 135,2021,Infraestrutura,326708.94,308046.57,Emenda Parlamentar
+Município 135,2022,Assistência Social,414468.8,370233.35,Emenda Parlamentar
+Município 135,2022,Saúde Básica,741169.68,666562.1,SUS
+Município 135,2022,Esporte,562543.17,514432.1,FPM
+Município 135,2022,Cultura,500354.94,469306.13,Emenda Parlamentar
+Município 135,2022,Infraestrutura,699526.13,696482.5,SUS
+Município 135,2022,Educação Fundamental,1048874.79,1001014.82,FUNDEB
+Município 135,2023,Saúde Básica,491441.52,427391.33,FPM
+Município 135,2023,Saneamento,478768.79,410164.52,SUS
+Município 135,2023,Infraestrutura,372106.41,349203.91,PAC
+Município 136,2020,Cultura,607903.79,579085.78,SUS
+Município 136,2020,Educação Fundamental,97013.73,84217.75,PAC
+Município 136,2020,Saúde Básica,543472.06,509143.78,SUS
+Município 136,2020,Esporte,363056.0,353465.38,PAC
+Município 136,2020,Assistência Social,563724.86,484955.46,SUS
+Município 136,2021,Saneamento,758784.85,735607.97,FUNDEB
+Município 136,2021,Assistência Social,708269.2,666056.55,PAC
+Município 136,2021,Cultura,697568.58,675311.52,Emenda Parlamentar
+Município 136,2021,Saúde Básica,426693.56,416898.66,Emenda Parlamentar
+Município 136,2021,Educação Fundamental,284725.57,256527.83,PAC
+Município 136,2022,Infraestrutura,306980.97,266659.36,FUNDEB
+Município 136,2022,Saúde Básica,212507.34,181739.44,FPM
+Município 136,2022,Assistência Social,469393.64,399724.19,Emenda Parlamentar
+Município 136,2023,Cultura,478287.91,448190.61,Emenda Parlamentar
+Município 136,2023,Educação Fundamental,502452.33,444676.11,FPM
+Município 136,2023,Assistência Social,671086.44,634236.86,FUNDEB
+Município 136,2023,Infraestrutura,708983.38,686600.9,Emenda Parlamentar
+Município 136,2023,Saúde Básica,472381.95,463204.29,Emenda Parlamentar
+Município 136,2023,Saneamento,719617.97,657845.67,SUS
+Município 137,2020,Cultura,760896.95,734364.45,FPM
+Município 137,2020,Infraestrutura,516379.03,450710.39,PAC
+Município 137,2020,Educação Fundamental,147073.16,134750.0,SUS
+Município 137,2020,Saneamento,591901.56,540080.42,FPM
+Município 137,2021,Saneamento,652158.86,574042.21,Emenda Parlamentar
+Município 137,2021,Assistência Social,568564.41,563154.41,SUS
+Município 137,2021,Esporte,845100.37,729245.05,PAC
+Município 137,2021,Cultura,504975.58,465506.95,FUNDEB
+Município 137,2021,Infraestrutura,432319.09,425951.79,SUS
+Município 137,2022,Infraestrutura,321165.76,282452.31,PAC
+Município 137,2022,Saneamento,182867.28,162777.15,PAC
+Município 137,2022,Assistência Social,304975.16,298903.71,FUNDEB
+Município 137,2023,Esporte,311620.13,285662.12,FPM
+Município 137,2023,Infraestrutura,690361.08,664313.11,FUNDEB
+Município 137,2023,Cultura,614643.55,569343.5,FUNDEB
+Município 138,2020,Saneamento,494536.86,471434.59,Emenda Parlamentar
+Município 138,2020,Assistência Social,235363.11,230203.99,FUNDEB
+Município 138,2020,Infraestrutura,383398.67,348707.33,Emenda Parlamentar
+Município 138,2020,Esporte,581146.14,499766.9,FUNDEB
+Município 138,2020,Cultura,612885.85,604539.03,FUNDEB
+Município 138,2021,Saneamento,629472.11,609613.63,PAC
+Município 138,2021,Cultura,482304.37,434780.24,FPM
+Município 138,2021,Infraestrutura,433828.69,383806.12,PAC
+Município 138,2022,Cultura,331483.82,292836.8,PAC
+Município 138,2022,Assistência Social,747054.35,725699.79,Emenda Parlamentar
+Município 138,2022,Saúde Básica,595392.96,540058.82,FPM
+Município 138,2022,Saneamento,249648.64,246741.5,SUS
+Município 138,2023,Cultura,417050.38,388802.2,SUS
+Município 138,2023,Saúde Básica,471619.55,421048.64,PAC
+Município 138,2023,Educação Fundamental,622786.86,531941.42,SUS
+Município 139,2020,Saneamento,698173.81,622147.6,Emenda Parlamentar
+Município 139,2020,Cultura,606496.62,541174.19,FUNDEB
+Município 139,2020,Infraestrutura,1024764.68,966259.36,FUNDEB
+Município 139,2021,Infraestrutura,524081.78,466939.49,SUS
+Município 139,2021,Esporte,452923.55,388948.3,Emenda Parlamentar
+Município 139,2021,Assistência Social,437386.32,377610.95,PAC
+Município 139,2022,Saúde Básica,578907.44,567081.93,PAC
+Município 139,2022,Assistência Social,618963.11,542300.64,SUS
+Município 139,2022,Saneamento,352533.33,304153.31,FPM
+Município 139,2022,Infraestrutura,461859.84,411835.45,FPM
+Município 139,2022,Esporte,194044.79,175092.36,SUS
+Município 139,2023,Infraestrutura,100642.27,89663.24,SUS
+Município 139,2023,Cultura,565734.92,541375.09,Emenda Parlamentar
+Município 139,2023,Assistência Social,287385.59,258458.15,FUNDEB
+Município 139,2023,Saneamento,645590.29,620161.62,SUS
+Município 139,2023,Esporte,332782.88,308097.62,Emenda Parlamentar
+Município 139,2023,Saúde Básica,405599.28,362133.18,FPM
+Município 140,2020,Saúde Básica,404096.65,355436.88,Emenda Parlamentar
+Município 140,2020,Assistência Social,344589.99,309226.56,FUNDEB
+Município 140,2020,Saneamento,632377.01,583748.16,SUS
+Município 140,2021,Cultura,541799.57,514827.4,Emenda Parlamentar
+Município 140,2021,Educação Fundamental,389705.15,344679.26,FPM
+Município 140,2021,Saneamento,524076.89,449585.19,PAC
+Município 140,2021,Saúde Básica,146554.53,130454.15,FUNDEB
+Município 140,2021,Esporte,337674.26,289623.96,SUS
+Município 140,2021,Assistência Social,383271.12,356680.88,Emenda Parlamentar
+Município 140,2022,Cultura,884654.12,806043.71,FPM
+Município 140,2022,Infraestrutura,253426.3,250682.82,SUS
+Município 140,2022,Saneamento,290674.86,261247.58,FUNDEB
+Município 140,2023,Saneamento,654904.09,578584.41,PAC
+Município 140,2023,Educação Fundamental,667132.25,618163.86,FUNDEB
+Município 140,2023,Esporte,835295.93,711641.3,SUS
+Município 140,2023,Assistência Social,759980.37,728701.88,FUNDEB
+Município 141,2020,Saneamento,451509.15,430943.61,SUS
+Município 141,2020,Infraestrutura,633939.11,542134.53,PAC
+Município 141,2020,Esporte,638802.55,548529.06,Emenda Parlamentar
+Município 141,2020,Educação Fundamental,427043.23,396749.24,Emenda Parlamentar
+Município 141,2021,Infraestrutura,532758.47,499157.05,PAC
+Município 141,2021,Cultura,469632.25,425188.33,SUS
+Município 141,2021,Saúde Básica,458473.0,389999.55,SUS
+Município 141,2021,Esporte,218526.17,199904.37,FUNDEB
+Município 141,2022,Cultura,237724.52,204839.16,SUS
+Município 141,2022,Infraestrutura,50000.0,42922.67,FUNDEB
+Município 141,2022,Esporte,421638.55,396056.25,PAC
+Município 141,2023,Infraestrutura,223505.81,214129.47,SUS
+Município 141,2023,Assistência Social,757456.31,690251.24,Emenda Parlamentar
+Município 141,2023,Esporte,723316.48,671477.87,SUS
+Município 141,2023,Saneamento,505116.41,478831.17,PAC
+Município 141,2023,Cultura,292061.37,270501.15,SUS
+Município 141,2023,Educação Fundamental,800158.11,718347.32,FPM
+Município 142,2020,Educação Fundamental,664100.12,564675.2,Emenda Parlamentar
+Município 142,2020,Saneamento,654496.23,609225.17,FPM
+Município 142,2020,Esporte,156401.22,147903.76,Emenda Parlamentar
+Município 142,2020,Cultura,501300.8,461188.02,Emenda Parlamentar
+Município 142,2021,Saúde Básica,691114.02,617153.24,PAC
+Município 142,2021,Cultura,598116.42,589596.26,PAC
+Município 142,2021,Assistência Social,279417.4,257461.79,Emenda Parlamentar
+Município 142,2021,Saneamento,474488.54,416945.01,FUNDEB
+Município 142,2021,Infraestrutura,840716.88,822451.08,FPM
+Município 142,2021,Educação Fundamental,300966.61,270147.39,SUS
+Município 142,2022,Educação Fundamental,754635.9,654087.52,SUS
+Município 142,2022,Assistência Social,511890.7,487792.43,Emenda Parlamentar
+Município 142,2022,Infraestrutura,675038.27,661841.21,SUS
+Município 142,2022,Saúde Básica,627724.94,624405.16,FUNDEB
+Município 142,2023,Assistência Social,762142.36,739135.28,FPM
+Município 142,2023,Infraestrutura,755565.11,702378.08,FPM
+Município 142,2023,Cultura,648427.86,578252.93,PAC
+Município 142,2023,Saneamento,724715.02,621761.56,SUS
+Município 142,2023,Saúde Básica,400049.45,373197.78,SUS
+Município 142,2023,Esporte,589642.71,552270.0,FPM
+Município 143,2020,Cultura,584346.44,581462.92,FUNDEB
+Município 143,2020,Saneamento,303450.97,262239.47,FPM
+Município 143,2020,Educação Fundamental,749559.65,726259.22,FPM
+Município 143,2020,Infraestrutura,763674.1,750712.5,FPM
+Município 143,2020,Esporte,386165.73,352388.88,FPM
+Município 143,2020,Saúde Básica,554049.39,498535.39,Emenda Parlamentar
+Município 143,2021,Educação Fundamental,515909.21,441228.4,FUNDEB
+Município 143,2021,Infraestrutura,484791.77,466622.25,PAC
+Município 143,2021,Esporte,714528.61,668037.41,FUNDEB
+Município 143,2022,Cultura,374565.23,348464.43,Emenda Parlamentar
+Município 143,2022,Educação Fundamental,539050.15,502890.06,Emenda Parlamentar
+Município 143,2022,Infraestrutura,505467.35,500837.55,FPM
+Município 143,2022,Assistência Social,702867.98,617530.47,FPM
+Município 143,2023,Esporte,728785.97,711892.29,PAC
+Município 143,2023,Saneamento,190554.7,189488.2,FPM
+Município 143,2023,Assistência Social,455518.2,441145.45,FUNDEB
+Município 143,2023,Educação Fundamental,739977.06,682237.92,FPM
+Município 143,2023,Cultura,510264.98,506024.0,Emenda Parlamentar
+Município 144,2020,Assistência Social,484931.54,413359.15,PAC
+Município 144,2020,Saúde Básica,435788.83,414053.41,Emenda Parlamentar
+Município 144,2020,Saneamento,330525.45,309600.84,FPM
+Município 144,2020,Cultura,626472.79,533292.89,FUNDEB
+Município 144,2021,Cultura,604339.81,597528.38,SUS
+Município 144,2021,Assistência Social,598789.4,561519.31,Emenda Parlamentar
+Município 144,2021,Educação Fundamental,615164.34,545327.72,SUS
+Município 144,2021,Infraestrutura,280762.89,277303.82,FUNDEB
+Município 144,2021,Saneamento,105240.0,98125.74,PAC
+Município 144,2021,Esporte,512261.05,447018.57,FUNDEB
+Município 144,2022,Educação Fundamental,457250.81,407514.72,FPM
+Município 144,2022,Cultura,695000.04,613581.96,FUNDEB
+Município 144,2022,Assistência Social,273539.04,239394.45,FPM
+Município 144,2022,Esporte,592079.19,555533.04,FUNDEB
+Município 144,2022,Saneamento,466969.89,434945.43,PAC
+Município 144,2022,Infraestrutura,605045.06,532092.0,FUNDEB
+Município 144,2023,Assistência Social,372188.31,319675.92,FPM
+Município 144,2023,Infraestrutura,606342.04,543909.62,Emenda Parlamentar
+Município 144,2023,Educação Fundamental,429120.29,383605.8,Emenda Parlamentar
+Município 144,2023,Esporte,608778.47,603597.44,FUNDEB
+Município 145,2020,Esporte,609725.93,607311.33,FUNDEB
+Município 145,2020,Educação Fundamental,632349.49,567229.89,Emenda Parlamentar
+Município 145,2020,Assistência Social,488610.59,439126.28,PAC
+Município 145,2020,Cultura,374655.77,335726.52,Emenda Parlamentar
+Município 145,2020,Saneamento,449219.76,437397.73,PAC
+Município 145,2020,Saúde Básica,375648.36,352920.36,SUS
+Município 145,2021,Saúde Básica,582128.08,570113.11,FUNDEB
+Município 145,2021,Assistência Social,50000.0,45550.48,SUS
+Município 145,2021,Educação Fundamental,356409.78,314321.35,FPM
+Município 145,2021,Cultura,454901.68,386724.39,SUS
+Município 145,2021,Esporte,122916.55,110148.0,SUS
+Município 145,2021,Saneamento,413008.13,391284.17,FUNDEB
+Município 145,2022,Educação Fundamental,828440.21,726510.58,FPM
+Município 145,2022,Infraestrutura,375267.94,346077.27,Emenda Parlamentar
+Município 145,2022,Cultura,629857.91,595288.05,SUS
+Município 145,2023,Assistência Social,970970.19,872056.29,FPM
+Município 145,2023,Educação Fundamental,766222.2,762428.96,FUNDEB
+Município 145,2023,Cultura,666869.75,615550.48,Emenda Parlamentar
+Município 145,2023,Saneamento,641751.3,572153.1,Emenda Parlamentar
+Município 146,2020,Educação Fundamental,618795.69,611013.4,SUS
+Município 146,2020,Saúde Básica,485867.0,451424.6,Emenda Parlamentar
+Município 146,2020,Saneamento,631514.19,562839.27,PAC
+Município 146,2020,Esporte,215894.54,205308.3,PAC
+Município 146,2020,Cultura,616554.64,581925.23,PAC
+Município 146,2021,Esporte,533695.07,454891.24,PAC
+Município 146,2021,Infraestrutura,628267.01,595224.99,SUS
+Município 146,2021,Educação Fundamental,830293.66,740377.76,SUS
+Município 146,2021,Assistência Social,92497.34,91132.36,Emenda Parlamentar
+Município 146,2021,Cultura,620026.67,553022.73,FUNDEB
+Município 146,2021,Saneamento,273523.36,240211.8,FUNDEB
+Município 146,2022,Cultura,666781.56,646302.98,SUS
+Município 146,2022,Saneamento,389858.13,369758.13,FPM
+Município 146,2022,Saúde Básica,567716.28,489417.48,Emenda Parlamentar
+Município 146,2022,Esporte,275255.31,273902.97,SUS
+Município 146,2022,Infraestrutura,643115.55,606676.57,FPM
+Município 146,2023,Saneamento,526741.37,448621.64,FPM
+Município 146,2023,Assistência Social,308842.31,283715.2,SUS
+Município 146,2023,Cultura,591244.36,575669.47,FPM
+Município 146,2023,Infraestrutura,584302.18,532829.25,Emenda Parlamentar
+Município 147,2020,Infraestrutura,291788.96,254381.52,FUNDEB
+Município 147,2020,Educação Fundamental,593941.37,583393.97,Emenda Parlamentar
+Município 147,2020,Assistência Social,644730.89,552737.27,Emenda Parlamentar
+Município 147,2020,Cultura,614843.46,563971.21,FPM
+Município 147,2021,Educação Fundamental,158441.1,149003.15,FPM
+Município 147,2021,Assistência Social,50000.0,43553.46,FUNDEB
+Município 147,2021,Esporte,518213.42,479235.52,PAC
+Município 147,2021,Cultura,339271.32,322198.37,FPM
+Município 147,2021,Saneamento,842909.74,833124.97,FPM
+Município 147,2022,Saúde Básica,172037.15,146885.88,PAC
+Município 147,2022,Infraestrutura,542052.92,483147.95,Emenda Parlamentar
+Município 147,2022,Esporte,498446.11,446765.47,Emenda Parlamentar
+Município 147,2022,Educação Fundamental,433776.67,405324.18,FPM
+Município 147,2022,Saneamento,559892.78,529152.72,SUS
+Município 147,2022,Assistência Social,284509.34,277122.33,FUNDEB
+Município 147,2023,Saneamento,453629.27,426196.79,Emenda Parlamentar
+Município 147,2023,Infraestrutura,160028.65,150609.84,FPM
+Município 147,2023,Cultura,529158.61,459190.2,FPM
+Município 147,2023,Assistência Social,656390.77,637003.37,PAC
+Município 148,2020,Educação Fundamental,811979.78,710531.15,Emenda Parlamentar
+Município 148,2020,Assistência Social,621026.7,595081.97,SUS
+Município 148,2020,Cultura,571720.65,514094.86,Emenda Parlamentar
+Município 148,2020,Infraestrutura,773759.11,734881.88,Emenda Parlamentar
+Município 148,2020,Esporte,755010.17,710351.08,PAC
+Município 148,2021,Saúde Básica,739662.24,717294.71,Emenda Parlamentar
+Município 148,2021,Infraestrutura,242263.24,238573.05,PAC
+Município 148,2021,Assistência Social,351217.39,323171.11,Emenda Parlamentar
+Município 148,2021,Educação Fundamental,309484.78,275655.25,SUS
+Município 148,2021,Saneamento,631856.29,628211.29,Emenda Parlamentar
+Município 148,2021,Esporte,529971.2,450536.63,PAC
+Município 148,2022,Infraestrutura,381746.54,361136.94,PAC
+Município 148,2022,Cultura,417692.99,397929.31,SUS
+Município 148,2022,Assistência Social,646200.76,611766.0,Emenda Parlamentar
+Município 148,2022,Educação Fundamental,492652.6,472719.62,SUS
+Município 148,2023,Educação Fundamental,726651.71,715155.6,FPM
+Município 148,2023,Assistência Social,372274.19,366144.23,Emenda Parlamentar
+Município 148,2023,Saúde Básica,187890.03,171399.02,FPM
+Município 148,2023,Infraestrutura,444506.24,430593.15,PAC
+Município 149,2020,Esporte,168354.19,149055.95,SUS
+Município 149,2020,Assistência Social,184492.44,163902.48,Emenda Parlamentar
+Município 149,2020,Infraestrutura,672010.06,585167.45,SUS
+Município 149,2020,Educação Fundamental,548439.29,473773.98,FPM
+Município 149,2020,Saneamento,279094.32,245288.02,FPM
+Município 149,2020,Cultura,498793.06,481915.86,PAC
+Município 149,2021,Assistência Social,932347.83,924700.99,PAC
+Município 149,2021,Esporte,783377.15,689549.9,SUS
+Município 149,2021,Infraestrutura,560742.43,505718.71,FPM
+Município 149,2021,Saúde Básica,339798.25,332223.23,FUNDEB
+Município 149,2021,Saneamento,450320.86,396397.43,PAC
+Município 149,2022,Cultura,175701.01,161041.98,PAC
+Município 149,2022,Educação Fundamental,456309.53,433313.55,FUNDEB
+Município 149,2022,Esporte,684258.07,585918.05,FUNDEB
+Município 149,2023,Saúde Básica,659804.13,567001.08,Emenda Parlamentar
+Município 149,2023,Assistência Social,382485.75,343391.78,FUNDEB
+Município 149,2023,Infraestrutura,308225.35,275269.22,FPM
+Município 149,2023,Saneamento,300365.81,262301.19,FUNDEB
+Município 149,2023,Cultura,529383.29,461874.72,SUS
+Município 149,2023,Educação Fundamental,790833.86,704403.9,FUNDEB
+Município 150,2020,Assistência Social,521366.93,518627.21,Emenda Parlamentar
+Município 150,2020,Cultura,276404.25,236152.43,SUS
+Município 150,2020,Educação Fundamental,443428.5,424514.96,Emenda Parlamentar
+Município 150,2020,Infraestrutura,313255.51,312561.93,FPM
+Município 150,2020,Saúde Básica,341486.45,303667.62,FUNDEB
+Município 150,2020,Esporte,496600.61,424611.43,Emenda Parlamentar
+Município 150,2021,Educação Fundamental,710960.64,634843.82,FUNDEB
+Município 150,2021,Saneamento,495780.1,470180.22,FPM
+Município 150,2021,Cultura,288999.03,276197.93,SUS
+Município 150,2021,Esporte,430525.79,380402.58,FUNDEB
+Município 150,2022,Infraestrutura,539558.28,503327.88,SUS
+Município 150,2022,Saúde Básica,640669.18,623925.41,Emenda Parlamentar
+Município 150,2022,Esporte,503019.15,484585.19,FUNDEB
+Município 150,2022,Cultura,833885.44,723051.38,SUS
+Município 150,2022,Saneamento,62291.1,56059.11,Emenda Parlamentar
+Município 150,2022,Educação Fundamental,145227.54,141961.83,FUNDEB
+Município 150,2023,Saneamento,140523.82,119928.28,PAC
+Município 150,2023,Infraestrutura,723528.59,718770.57,PAC
+Município 150,2023,Saúde Básica,266356.76,241839.06,Emenda Parlamentar
+Município 150,2023,Assistência Social,350479.96,303695.25,Emenda Parlamentar
+Município 151,2020,Educação Fundamental,502314.04,465330.19,FUNDEB
+Município 151,2020,Cultura,799349.87,736031.86,FPM
+Município 151,2020,Esporte,424854.26,364902.52,SUS
+Município 151,2021,Saúde Básica,611714.91,526479.9,SUS
+Município 151,2021,Infraestrutura,347030.71,317749.16,FPM
+Município 151,2021,Cultura,673261.26,667744.67,FUNDEB
+Município 151,2021,Assistência Social,254981.52,220724.53,PAC
+Município 151,2022,Infraestrutura,489105.78,442424.15,FUNDEB
+Município 151,2022,Assistência Social,528333.51,501741.98,FUNDEB
+Município 151,2022,Educação Fundamental,384914.23,339951.1,FUNDEB
+Município 151,2022,Esporte,86617.53,80006.35,PAC
+Município 151,2022,Cultura,395594.15,337927.47,SUS
+Município 151,2023,Esporte,386178.97,332053.3,PAC
+Município 151,2023,Infraestrutura,541763.84,536170.73,PAC
+Município 151,2023,Educação Fundamental,464984.22,424197.64,FUNDEB
+Município 151,2023,Cultura,517255.98,466610.64,Emenda Parlamentar
+Município 151,2023,Saneamento,519981.53,508850.53,FPM
+Município 152,2020,Assistência Social,254246.28,231489.77,FPM
+Município 152,2020,Cultura,726618.9,657995.78,Emenda Parlamentar
+Município 152,2020,Saneamento,50000.0,44298.93,PAC
+Município 152,2020,Educação Fundamental,304613.0,260606.01,PAC
+Município 152,2020,Esporte,435378.85,429971.39,FUNDEB
+Município 152,2021,Esporte,258168.89,229282.07,SUS
+Município 152,2021,Educação Fundamental,399942.65,374951.69,Emenda Parlamentar
+Município 152,2021,Saúde Básica,218281.94,207897.57,FUNDEB
+Município 152,2021,Assistência Social,592078.28,578745.21,Emenda Parlamentar
+Município 152,2022,Educação Fundamental,516377.47,441431.96,Emenda Parlamentar
+Município 152,2022,Saúde Básica,245493.51,227166.82,FPM
+Município 152,2022,Saneamento,476237.33,431934.26,FPM
+Município 152,2022,Infraestrutura,713157.19,705590.54,FPM
+Município 152,2023,Assistência Social,514274.92,446947.9,SUS
+Município 152,2023,Educação Fundamental,396220.83,355279.88,FPM
+Município 152,2023,Cultura,753377.0,642896.46,FUNDEB
+Município 153,2020,Esporte,168493.41,146888.1,FPM
+Município 153,2020,Educação Fundamental,343137.69,307295.45,FPM
+Município 153,2020,Saúde Básica,282964.41,271446.73,SUS
+Município 153,2021,Educação Fundamental,553543.01,487945.81,PAC
+Município 153,2021,Esporte,711785.24,616992.67,FPM
+Município 153,2021,Saneamento,336745.75,290639.23,Emenda Parlamentar
+Município 153,2021,Infraestrutura,179799.91,155081.09,FUNDEB
+Município 153,2022,Saneamento,261070.28,250678.02,PAC
+Município 153,2022,Infraestrutura,531830.49,482628.78,SUS
+Município 153,2022,Assistência Social,651895.06,582055.25,FPM
+Município 153,2022,Cultura,681039.95,640400.98,FUNDEB
+Município 153,2022,Saúde Básica,459044.36,397820.41,Emenda Parlamentar
+Município 153,2023,Saneamento,429061.69,424847.79,FUNDEB
+Município 153,2023,Cultura,590766.01,563794.95,PAC
+Município 153,2023,Assistência Social,171872.85,168631.93,PAC
+Município 153,2023,Infraestrutura,448695.86,403946.78,FPM
+Município 154,2020,Esporte,310436.4,291357.6,SUS
+Município 154,2020,Infraestrutura,212528.94,190627.67,FPM
+Município 154,2020,Cultura,549040.9,511060.31,FPM
+Município 154,2021,Infraestrutura,632569.87,582357.66,FUNDEB
+Município 154,2021,Saneamento,902759.37,804564.12,FUNDEB
+Município 154,2021,Assistência Social,585722.47,553626.76,Emenda Parlamentar
+Município 154,2022,Saneamento,321757.82,315565.22,Emenda Parlamentar
+Município 154,2022,Educação Fundamental,545559.91,473846.22,FUNDEB
+Município 154,2022,Infraestrutura,296457.07,288431.43,FUNDEB
+Município 154,2022,Esporte,442682.18,423799.58,FUNDEB
+Município 154,2023,Educação Fundamental,598909.61,542664.74,FUNDEB
+Município 154,2023,Assistência Social,646434.67,627966.67,Emenda Parlamentar
+Município 154,2023,Infraestrutura,296453.09,279347.22,SUS
+Município 154,2023,Esporte,406809.2,396556.27,FPM
+Município 155,2020,Infraestrutura,50000.0,48046.69,PAC
+Município 155,2020,Cultura,436583.41,375468.25,SUS
+Município 155,2020,Esporte,472841.07,402621.7,Emenda Parlamentar
+Município 155,2021,Esporte,320608.84,300629.17,FUNDEB
+Município 155,2021,Saneamento,530231.35,450955.82,SUS
+Município 155,2021,Assistência Social,516501.64,448023.71,FPM
+Município 155,2022,Educação Fundamental,621555.71,599410.14,PAC
+Município 155,2022,Infraestrutura,457588.73,402422.96,SUS
+Município 155,2022,Saúde Básica,604628.08,561621.72,SUS
+Município 155,2023,Infraestrutura,355461.6,338272.15,PAC
+Município 155,2023,Educação Fundamental,646773.4,637960.16,PAC
+Município 155,2023,Saúde Básica,853947.36,811536.67,SUS
+Município 155,2023,Assistência Social,274346.1,271241.63,SUS
+Município 155,2023,Cultura,641030.29,562384.87,SUS
+Município 155,2023,Saneamento,479826.92,467467.69,FUNDEB
+Município 156,2020,Esporte,481469.4,416461.61,Emenda Parlamentar
+Município 156,2020,Educação Fundamental,530996.2,456940.36,PAC
+Município 156,2020,Infraestrutura,311003.79,265013.57,FUNDEB
+Município 156,2020,Cultura,459608.81,396043.85,SUS
+Município 156,2021,Cultura,289647.7,274451.1,FPM
+Município 156,2021,Infraestrutura,212778.01,212002.26,PAC
+Município 156,2021,Saneamento,468729.95,464003.69,PAC
+Município 156,2021,Educação Fundamental,639155.89,613720.89,Emenda Parlamentar
+Município 156,2022,Esporte,284885.02,270724.42,FPM
+Município 156,2022,Saneamento,526091.52,515369.23,PAC
+Município 156,2022,Educação Fundamental,245488.35,240291.73,FPM
+Município 156,2022,Assistência Social,302234.27,276588.39,Emenda Parlamentar
+Município 156,2022,Cultura,429974.48,405619.38,SUS
+Município 156,2022,Saúde Básica,863035.05,848583.25,Emenda Parlamentar
+Município 156,2023,Esporte,161323.75,148812.32,FUNDEB
+Município 156,2023,Infraestrutura,702794.91,615900.15,PAC
+Município 156,2023,Cultura,298653.35,270216.94,SUS
+Município 156,2023,Saúde Básica,536255.67,535242.9,PAC
+Município 157,2020,Educação Fundamental,214283.99,194937.79,Emenda Parlamentar
+Município 157,2020,Esporte,526713.93,482104.34,FUNDEB
+Município 157,2020,Saneamento,355941.36,310793.27,FUNDEB
+Município 157,2020,Assistência Social,476453.36,447863.88,FPM
+Município 157,2020,Cultura,491702.35,489839.98,PAC
+Município 157,2020,Infraestrutura,382869.96,336941.96,SUS
+Município 157,2021,Saúde Básica,514978.41,438071.54,PAC
+Município 157,2021,Cultura,571429.82,531391.0,SUS
+Município 157,2021,Infraestrutura,464440.93,404769.46,Emenda Parlamentar
+Município 157,2021,Educação Fundamental,361946.03,319475.43,SUS
+Município 157,2021,Saneamento,736263.77,726506.26,SUS
+Município 157,2021,Esporte,299231.51,257164.07,SUS
+Município 157,2022,Infraestrutura,421227.66,419811.48,Emenda Parlamentar
+Município 157,2022,Saúde Básica,492517.45,437489.36,Emenda Parlamentar
+Município 157,2022,Saneamento,498532.14,465893.79,PAC
+Município 157,2023,Assistência Social,453652.34,418895.24,FUNDEB
+Município 157,2023,Esporte,50000.0,47307.92,Emenda Parlamentar
+Município 157,2023,Infraestrutura,559711.3,492571.34,PAC
+Município 157,2023,Saneamento,449655.03,394911.83,SUS
+Município 157,2023,Cultura,688029.3,686486.55,SUS
+Município 158,2020,Educação Fundamental,969310.33,835386.25,FUNDEB
+Município 158,2020,Infraestrutura,326239.42,306795.83,PAC
+Município 158,2020,Esporte,444519.13,385920.42,FPM
+Município 158,2020,Cultura,146828.05,146373.08,Emenda Parlamentar
+Município 158,2020,Assistência Social,547862.89,516223.26,PAC
+Município 158,2020,Saúde Básica,489824.12,449255.87,Emenda Parlamentar
+Município 158,2021,Educação Fundamental,547610.25,543660.32,SUS
+Município 158,2021,Cultura,329936.6,312583.75,FUNDEB
+Município 158,2021,Assistência Social,456343.85,419862.14,PAC
+Município 158,2021,Saneamento,459526.83,427381.97,SUS
+Município 158,2021,Esporte,789626.48,713727.54,SUS
+Município 158,2022,Saúde Básica,467915.16,409337.82,PAC
+Município 158,2022,Esporte,687851.13,619317.09,SUS
+Município 158,2022,Cultura,574823.95,555003.01,FUNDEB
+Município 158,2022,Assistência Social,229136.73,195324.4,Emenda Parlamentar
+Município 158,2022,Educação Fundamental,85299.24,75211.56,FPM
+Município 158,2022,Saneamento,524636.19,487835.36,Emenda Parlamentar
+Município 158,2023,Educação Fundamental,388628.05,378239.2,Emenda Parlamentar
+Município 158,2023,Assistência Social,404019.07,399281.49,Emenda Parlamentar
+Município 158,2023,Saúde Básica,343695.26,308894.65,PAC
+Município 158,2023,Infraestrutura,389947.08,361204.85,Emenda Parlamentar
+Município 159,2020,Saúde Básica,608681.41,593560.9,SUS
+Município 159,2020,Esporte,572935.69,500373.81,FPM
+Município 159,2020,Saneamento,796488.22,700600.9,FPM
+Município 159,2020,Infraestrutura,595236.77,506123.77,FPM
+Município 159,2020,Educação Fundamental,670574.81,597302.79,Emenda Parlamentar
+Município 159,2020,Cultura,547046.19,519297.65,Emenda Parlamentar
+Município 159,2021,Cultura,406673.57,394102.78,FUNDEB
+Município 159,2021,Infraestrutura,346727.86,318250.4,FUNDEB
+Município 159,2021,Assistência Social,505641.72,470834.17,FPM
+Município 159,2021,Saúde Básica,324121.31,323367.43,SUS
+Município 159,2021,Educação Fundamental,553896.1,482603.81,FUNDEB
+Município 159,2022,Educação Fundamental,563660.49,530604.64,FUNDEB
+Município 159,2022,Infraestrutura,635001.41,573334.32,SUS
+Município 159,2022,Esporte,898205.21,797224.78,FPM
+Município 159,2022,Assistência Social,354719.17,344781.87,FUNDEB
+Município 159,2023,Cultura,704700.7,656790.83,FUNDEB
+Município 159,2023,Saúde Básica,613069.46,596979.6,SUS
+Município 159,2023,Esporte,575607.24,557271.51,SUS
+Município 160,2020,Cultura,560538.5,540969.63,PAC
+Município 160,2020,Saúde Básica,533383.38,526980.98,FUNDEB
+Município 160,2020,Assistência Social,286071.78,276417.11,FUNDEB
+Município 160,2020,Infraestrutura,483534.15,481316.35,Emenda Parlamentar
+Município 160,2021,Saneamento,226956.51,196870.38,Emenda Parlamentar
+Município 160,2021,Esporte,265133.81,244577.16,FUNDEB
+Município 160,2021,Cultura,192239.68,187931.25,FUNDEB
+Município 160,2021,Infraestrutura,358538.41,356333.54,PAC
+Município 160,2022,Infraestrutura,635367.35,555552.7,SUS
+Município 160,2022,Assistência Social,606086.31,546705.45,Emenda Parlamentar
+Município 160,2022,Saúde Básica,513738.08,461301.8,FUNDEB
+Município 160,2023,Educação Fundamental,454184.02,413603.19,FUNDEB
+Município 160,2023,Cultura,535205.0,492976.99,Emenda Parlamentar
+Município 160,2023,Assistência Social,359951.16,324089.68,PAC
+Município 160,2023,Saúde Básica,377004.45,329622.95,FUNDEB
+Município 161,2020,Infraestrutura,502250.81,485518.25,PAC
+Município 161,2020,Educação Fundamental,367569.28,323111.84,Emenda Parlamentar
+Município 161,2020,Esporte,484368.94,437510.74,PAC
+Município 161,2020,Saneamento,558359.57,528525.53,SUS
+Município 161,2021,Saúde Básica,478097.72,440925.59,FUNDEB
+Município 161,2021,Cultura,547899.56,511648.54,FUNDEB
+Município 161,2021,Educação Fundamental,576166.11,497436.13,SUS
+Município 161,2021,Esporte,243948.3,215711.69,SUS
+Município 161,2021,Infraestrutura,554421.98,514620.85,Emenda Parlamentar
+Município 161,2021,Assistência Social,358885.04,351671.81,PAC
+Município 161,2022,Infraestrutura,681212.97,616278.68,FPM
+Município 161,2022,Educação Fundamental,443482.95,438663.38,SUS
+Município 161,2022,Esporte,118970.97,109751.36,FUNDEB
+Município 161,2022,Saneamento,534660.6,499181.28,PAC
+Município 161,2022,Cultura,410835.51,398521.88,SUS
+Município 161,2022,Assistência Social,319228.81,300309.57,FPM
+Município 161,2023,Esporte,482015.38,476080.88,PAC
+Município 161,2023,Saúde Básica,399482.16,346947.15,PAC
+Município 161,2023,Cultura,1089117.16,1067926.58,SUS
+Município 161,2023,Saneamento,492063.02,469939.18,PAC
+Município 161,2023,Infraestrutura,488844.41,477002.15,PAC
+Município 161,2023,Assistência Social,606569.3,573459.98,PAC
+Município 162,2020,Saneamento,886629.24,880707.66,FUNDEB
+Município 162,2020,Saúde Básica,794876.38,711194.5,PAC
+Município 162,2020,Assistência Social,744490.66,668598.7,Emenda Parlamentar
+Município 162,2020,Esporte,326356.81,285766.6,Emenda Parlamentar
+Município 162,2020,Educação Fundamental,227585.3,201088.33,SUS
+Município 162,2021,Saúde Básica,500165.02,478343.44,FPM
+Município 162,2021,Esporte,474373.84,411441.15,FPM
+Município 162,2021,Educação Fundamental,524488.73,499069.9,FUNDEB
+Município 162,2022,Infraestrutura,92034.99,87192.96,SUS
+Município 162,2022,Saneamento,299202.72,294801.89,FUNDEB
+Município 162,2022,Cultura,226444.97,210386.78,PAC
+Município 162,2022,Assistência Social,50000.0,44065.92,FPM
+Município 162,2022,Saúde Básica,768675.54,765447.9,SUS
+Município 162,2023,Assistência Social,157226.47,141015.57,SUS
+Município 162,2023,Saneamento,132683.94,130255.99,FUNDEB
+Município 162,2023,Saúde Básica,636820.3,549678.12,Emenda Parlamentar
+Município 162,2023,Infraestrutura,524271.96,487103.6,FPM
+Município 162,2023,Educação Fundamental,179160.27,160429.83,SUS
+Município 163,2020,Infraestrutura,812483.76,797772.35,PAC
+Município 163,2020,Educação Fundamental,416606.66,379052.94,FPM
+Município 163,2020,Esporte,268456.54,248305.03,FPM
+Município 163,2020,Assistência Social,353208.92,305182.85,FUNDEB
+Município 163,2021,Infraestrutura,404670.26,399323.2,SUS
+Município 163,2021,Esporte,704424.81,626684.79,SUS
+Município 163,2021,Educação Fundamental,174731.27,157842.55,PAC
+Município 163,2021,Saneamento,200831.53,179236.65,FUNDEB
+Município 163,2021,Saúde Básica,511162.94,440090.01,SUS
+Município 163,2021,Assistência Social,864520.46,774160.26,SUS
+Município 163,2022,Cultura,745569.48,725388.61,PAC
+Município 163,2022,Saúde Básica,572199.53,500062.01,Emenda Parlamentar
+Município 163,2022,Saneamento,468034.13,420850.6,Emenda Parlamentar
+Município 163,2023,Educação Fundamental,273402.76,268595.11,Emenda Parlamentar
+Município 163,2023,Saneamento,454748.11,411067.12,FUNDEB
+Município 163,2023,Cultura,195383.15,185166.29,PAC
+Município 163,2023,Esporte,562771.91,496862.42,SUS
+Município 164,2020,Cultura,718670.23,685759.43,FPM
+Município 164,2020,Assistência Social,620931.2,575441.42,FPM
+Município 164,2020,Saneamento,322548.35,276647.46,PAC
+Município 164,2020,Infraestrutura,482850.72,471710.84,FUNDEB
+Município 164,2021,Cultura,856957.27,761606.2,FPM
+Município 164,2021,Assistência Social,539493.29,517479.78,Emenda Parlamentar
+Município 164,2021,Saúde Básica,389108.56,355656.46,FUNDEB
+Município 164,2022,Esporte,540671.69,491096.6,SUS
+Município 164,2022,Infraestrutura,168287.78,145898.31,FPM
+Município 164,2022,Assistência Social,388126.88,383816.56,PAC
+Município 164,2022,Cultura,597376.31,529051.84,PAC
+Município 164,2022,Saneamento,359799.4,330345.71,Emenda Parlamentar
+Município 164,2022,Educação Fundamental,338525.06,310096.02,FUNDEB
+Município 164,2023,Infraestrutura,462793.25,423094.59,Emenda Parlamentar
+Município 164,2023,Esporte,510697.14,446094.12,FUNDEB
+Município 164,2023,Assistência Social,410993.63,385750.32,FUNDEB
+Município 164,2023,Educação Fundamental,558081.94,521750.59,PAC
+Município 165,2020,Infraestrutura,277870.26,271048.63,Emenda Parlamentar
+Município 165,2020,Esporte,346282.19,305230.84,PAC
+Município 165,2020,Saneamento,504396.07,430960.44,SUS
+Município 165,2021,Saneamento,307736.5,279769.32,PAC
+Município 165,2021,Infraestrutura,451303.66,384206.05,FPM
+Município 165,2021,Educação Fundamental,480486.87,469652.93,FPM
+Município 165,2021,Saúde Básica,387095.54,345103.22,FPM
+Município 165,2021,Esporte,624180.75,556339.7,FPM
+Município 165,2021,Cultura,270926.64,269670.71,SUS
+Município 165,2022,Infraestrutura,691107.65,674673.71,FPM
+Município 165,2022,Saneamento,171308.14,159697.96,FPM
+Município 165,2022,Cultura,612306.02,579266.38,Emenda Parlamentar
+Município 165,2022,Saúde Básica,408989.1,396858.27,PAC
+Município 165,2023,Assistência Social,713501.33,614606.77,SUS
+Município 165,2023,Saneamento,691750.08,682617.11,FPM
+Município 165,2023,Infraestrutura,616719.3,540891.73,Emenda Parlamentar
+Município 165,2023,Educação Fundamental,201759.59,186269.47,SUS
+Município 166,2020,Saúde Básica,50000.0,44541.09,SUS
+Município 166,2020,Cultura,785449.44,671583.03,FPM
+Município 166,2020,Assistência Social,131389.91,118143.68,Emenda Parlamentar
+Município 166,2020,Educação Fundamental,712459.1,710067.04,Emenda Parlamentar
+Município 166,2020,Saneamento,652527.85,612107.18,Emenda Parlamentar
+Município 166,2020,Esporte,585805.34,513584.08,Emenda Parlamentar
+Município 166,2021,Educação Fundamental,740337.4,682569.48,FUNDEB
+Município 166,2021,Saneamento,765649.11,742633.91,FPM
+Município 166,2021,Esporte,617659.7,538756.34,PAC
+Município 166,2022,Infraestrutura,422727.05,403012.7,FUNDEB
+Município 166,2022,Esporte,199392.76,198292.17,FUNDEB
+Município 166,2022,Saneamento,157327.55,153268.78,FPM
+Município 166,2022,Cultura,477142.94,444474.78,PAC
+Município 166,2022,Assistência Social,193492.59,167828.84,FUNDEB
+Município 166,2022,Saúde Básica,324711.19,277236.19,FPM
+Município 166,2023,Saúde Básica,285144.01,260045.36,SUS
+Município 166,2023,Educação Fundamental,625080.06,584450.71,FPM
+Município 166,2023,Assistência Social,615438.32,610081.02,SUS
+Município 166,2023,Esporte,50000.0,49383.18,FPM
+Município 166,2023,Saneamento,400390.13,348970.35,FUNDEB
+Município 167,2020,Saúde Básica,598929.09,514807.89,FPM
+Município 167,2020,Saneamento,224592.07,223797.1,Emenda Parlamentar
+Município 167,2020,Esporte,744001.14,738257.13,SUS
+Município 167,2020,Educação Fundamental,575663.81,562902.79,FPM
+Município 167,2021,Saneamento,464054.01,459941.24,Emenda Parlamentar
+Município 167,2021,Infraestrutura,482192.64,448922.87,FUNDEB
+Município 167,2021,Cultura,590600.85,572777.0,Emenda Parlamentar
+Município 167,2022,Infraestrutura,502867.31,477242.33,PAC
+Município 167,2022,Saúde Básica,266423.84,254019.11,FUNDEB
+Município 167,2022,Saneamento,562290.9,529052.84,SUS
+Município 167,2022,Cultura,282379.83,256526.19,FUNDEB
+Município 167,2022,Esporte,499452.65,447544.55,Emenda Parlamentar
+Município 167,2023,Saneamento,538269.74,511294.91,FPM
+Município 167,2023,Assistência Social,200153.92,200030.79,FPM
+Município 167,2023,Esporte,448654.24,428357.69,FUNDEB
+Município 167,2023,Saúde Básica,287026.79,250814.3,SUS
+Município 167,2023,Infraestrutura,692272.54,642483.87,FUNDEB
+Município 167,2023,Educação Fundamental,643956.09,627328.11,FPM
+Município 168,2020,Assistência Social,561489.1,518484.95,FUNDEB
+Município 168,2020,Saúde Básica,534501.65,530038.11,FUNDEB
+Município 168,2020,Infraestrutura,372508.59,354927.75,Emenda Parlamentar
+Município 168,2021,Esporte,481188.66,412966.82,FPM
+Município 168,2021,Assistência Social,660582.62,600745.51,SUS
+Município 168,2021,Saneamento,184910.37,159810.0,FUNDEB
+Município 168,2021,Educação Fundamental,541712.88,490677.28,FUNDEB
+Município 168,2021,Infraestrutura,789377.91,783307.82,FPM
+Município 168,2021,Cultura,318186.86,270902.41,FPM
+Município 168,2022,Saneamento,802356.73,692354.53,SUS
+Município 168,2022,Saúde Básica,225845.56,216928.32,PAC
+Município 168,2022,Cultura,658298.69,561476.03,PAC
+Município 168,2022,Educação Fundamental,445904.77,400594.04,SUS
+Município 168,2022,Esporte,534248.11,485964.6,FUNDEB
+Município 168,2022,Assistência Social,510976.36,480717.99,SUS
+Município 168,2023,Saneamento,475336.71,425616.71,SUS
+Município 168,2023,Assistência Social,535078.61,518189.45,FPM
+Município 168,2023,Infraestrutura,602373.2,535734.73,FPM
+Município 169,2020,Infraestrutura,757352.45,688990.99,FPM
+Município 169,2020,Assistência Social,810673.06,790862.99,FUNDEB
+Município 169,2020,Saúde Básica,878692.74,766292.5,FPM
+Município 169,2020,Educação Fundamental,335269.09,310445.84,Emenda Parlamentar
+Município 169,2021,Infraestrutura,637937.96,549436.04,Emenda Parlamentar
+Município 169,2021,Esporte,394757.91,372707.55,FUNDEB
+Município 169,2021,Assistência Social,517105.76,460795.25,FUNDEB
+Município 169,2021,Saneamento,391709.6,353376.93,SUS
+Município 169,2022,Saúde Básica,385626.46,366738.59,FUNDEB
+Município 169,2022,Saneamento,543510.11,523725.96,SUS
+Município 169,2022,Infraestrutura,940965.31,877740.9,FPM
+Município 169,2023,Cultura,221463.66,207491.03,Emenda Parlamentar
+Município 169,2023,Saúde Básica,521828.53,464002.03,Emenda Parlamentar
+Município 169,2023,Educação Fundamental,604443.42,541744.06,Emenda Parlamentar
+Município 170,2020,Cultura,482753.52,460258.26,Emenda Parlamentar
+Município 170,2020,Saúde Básica,281009.57,275384.85,PAC
+Município 170,2020,Assistência Social,496493.98,489409.31,Emenda Parlamentar
+Município 170,2021,Assistência Social,598741.54,556143.86,Emenda Parlamentar
+Município 170,2021,Saneamento,747735.01,740488.86,SUS
+Município 170,2021,Cultura,1063271.81,957392.27,Emenda Parlamentar
+Município 170,2021,Esporte,524264.58,502692.15,Emenda Parlamentar
+Município 170,2022,Infraestrutura,773609.34,688841.28,FUNDEB
+Município 170,2022,Esporte,579655.15,552591.54,SUS
+Município 170,2022,Saúde Básica,372225.05,320802.06,Emenda Parlamentar
+Município 170,2022,Assistência Social,385495.42,369488.93,Emenda Parlamentar
+Município 170,2022,Saneamento,594795.09,535063.65,Emenda Parlamentar
+Município 170,2023,Educação Fundamental,688700.08,633926.23,SUS
+Município 170,2023,Infraestrutura,206002.07,190959.62,FUNDEB
+Município 170,2023,Cultura,569985.1,555321.65,FUNDEB
+Município 170,2023,Saneamento,645423.94,620531.6,Emenda Parlamentar
+Município 170,2023,Assistência Social,466156.24,420572.22,SUS
+Município 170,2023,Esporte,243754.0,210425.05,FUNDEB
+Município 171,2020,Educação Fundamental,376610.71,322990.94,FUNDEB
+Município 171,2020,Saúde Básica,189124.47,164498.5,SUS
+Município 171,2020,Esporte,568774.67,562887.97,Emenda Parlamentar
+Município 171,2020,Cultura,286444.8,256172.2,FUNDEB
+Município 171,2020,Assistência Social,764430.83,728991.67,PAC
+Município 171,2020,Saneamento,182274.7,160445.88,FUNDEB
+Município 171,2021,Saúde Básica,570342.23,529518.76,SUS
+Município 171,2021,Assistência Social,443993.88,439106.33,PAC
+Município 171,2021,Saneamento,642511.66,628712.09,PAC
+Município 171,2021,Cultura,260062.17,250621.97,FPM
+Município 171,2021,Educação Fundamental,535365.19,518092.84,Emenda Parlamentar
+Município 171,2022,Cultura,447022.81,392151.3,PAC
+Município 171,2022,Saneamento,814435.64,774346.15,SUS
+Município 171,2022,Educação Fundamental,470342.81,436988.03,PAC
+Município 171,2022,Infraestrutura,166698.54,156556.2,FPM
+Município 171,2022,Assistência Social,292328.39,275015.46,Emenda Parlamentar
+Município 171,2023,Cultura,1013638.48,996607.37,SUS
+Município 171,2023,Educação Fundamental,264272.33,248519.46,FUNDEB
+Município 171,2023,Infraestrutura,590738.94,519063.45,FUNDEB
+Município 172,2020,Infraestrutura,50000.0,47934.63,FUNDEB
+Município 172,2020,Saneamento,501691.31,487481.89,PAC
+Município 172,2020,Esporte,551371.76,526925.86,FPM
+Município 172,2020,Assistência Social,655001.72,568129.05,Emenda Parlamentar
+Município 172,2020,Educação Fundamental,693997.17,632583.44,FPM
+Município 172,2020,Saúde Básica,800612.21,685816.54,Emenda Parlamentar
+Município 172,2021,Saneamento,554650.29,504015.43,FUNDEB
+Município 172,2021,Esporte,256645.11,240387.74,FPM
+Município 172,2021,Cultura,757105.12,679199.0,PAC
+Município 172,2021,Saúde Básica,443756.3,385956.7,FUNDEB
+Município 172,2021,Infraestrutura,461589.86,448824.25,Emenda Parlamentar
+Município 172,2021,Assistência Social,672206.86,652693.68,Emenda Parlamentar
+Município 172,2022,Saneamento,546601.78,541148.73,PAC
+Município 172,2022,Educação Fundamental,623097.6,611771.48,SUS
+Município 172,2022,Cultura,715496.54,695680.59,PAC
+Município 172,2022,Saúde Básica,176090.83,168330.5,SUS
+Município 172,2022,Esporte,438341.52,395337.71,FUNDEB
+Município 172,2023,Cultura,542255.4,492610.97,Emenda Parlamentar
+Município 172,2023,Infraestrutura,731457.32,639661.86,SUS
+Município 172,2023,Saneamento,632734.19,545955.29,Emenda Parlamentar
+Município 173,2020,Educação Fundamental,603338.9,515015.84,FUNDEB
+Município 173,2020,Esporte,540531.05,477328.06,FUNDEB
+Município 173,2020,Assistência Social,1022815.82,930370.24,PAC
+Município 173,2020,Saúde Básica,244106.9,242367.04,Emenda Parlamentar
+Município 173,2021,Saneamento,454105.62,416134.48,FUNDEB
+Município 173,2021,Esporte,848550.17,818795.06,FUNDEB
+Município 173,2021,Educação Fundamental,230255.36,199254.29,PAC
+Município 173,2021,Infraestrutura,484162.57,477847.93,Emenda Parlamentar
+Município 173,2022,Assistência Social,719332.33,672987.74,SUS
+Município 173,2022,Saúde Básica,807175.47,784247.25,PAC
+Município 173,2022,Cultura,642333.07,625935.94,FUNDEB
+Município 173,2022,Saneamento,471555.45,406054.99,FUNDEB
+Município 173,2022,Esporte,480971.0,417979.61,FUNDEB
+Município 173,2022,Infraestrutura,369847.07,364909.26,FPM
+Município 173,2023,Assistência Social,412879.86,388386.09,Emenda Parlamentar
+Município 173,2023,Cultura,374648.65,368268.47,PAC
+Município 173,2023,Infraestrutura,608877.8,565265.44,PAC
+Município 173,2023,Esporte,611038.84,547566.89,PAC
+Município 174,2020,Saneamento,853338.4,799241.42,FUNDEB
+Município 174,2020,Saúde Básica,429876.64,418562.44,FUNDEB
+Município 174,2020,Educação Fundamental,585857.0,544385.62,PAC
+Município 174,2020,Cultura,679442.99,649850.77,Emenda Parlamentar
+Município 174,2020,Infraestrutura,535504.5,519345.47,FUNDEB
+Município 174,2020,Esporte,627634.87,605895.94,Emenda Parlamentar
+Município 174,2021,Saúde Básica,641691.37,573580.83,FUNDEB
+Município 174,2021,Assistência Social,454153.28,426593.62,SUS
+Município 174,2021,Infraestrutura,645215.93,582485.6,SUS
+Município 174,2021,Saneamento,623868.2,559054.79,FUNDEB
+Município 174,2021,Educação Fundamental,752926.68,745362.12,FPM
+Município 174,2021,Esporte,494469.17,441528.86,FUNDEB
+Município 174,2022,Assistência Social,532919.21,532895.86,FUNDEB
+Município 174,2022,Saúde Básica,272687.16,239695.84,FPM
+Município 174,2022,Cultura,610603.5,544963.86,PAC
+Município 174,2022,Educação Fundamental,577868.79,529491.15,FUNDEB
+Município 174,2023,Saneamento,730382.12,622208.9,FUNDEB
+Município 174,2023,Educação Fundamental,754178.7,735466.62,FPM
+Município 174,2023,Saúde Básica,488019.75,436354.27,FUNDEB
+Município 174,2023,Infraestrutura,348636.82,312393.25,PAC
+Município 175,2020,Educação Fundamental,608694.25,591969.28,SUS
+Município 175,2020,Esporte,818467.83,710159.4,FUNDEB
+Município 175,2020,Infraestrutura,638671.91,550418.64,PAC
+Município 175,2021,Saneamento,503270.02,437079.6,SUS
+Município 175,2021,Assistência Social,252886.47,228453.59,SUS
+Município 175,2021,Saúde Básica,439272.53,396451.99,Emenda Parlamentar
+Município 175,2021,Infraestrutura,750263.17,729250.27,Emenda Parlamentar
+Município 175,2022,Infraestrutura,181485.19,174180.91,FUNDEB
+Município 175,2022,Esporte,646898.38,560237.94,FUNDEB
+Município 175,2022,Cultura,531176.05,491196.99,FPM
+Município 175,2022,Saúde Básica,656156.4,605393.15,SUS
+Município 175,2023,Infraestrutura,571792.01,496940.89,FPM
+Município 175,2023,Esporte,50000.0,48355.57,FUNDEB
+Município 175,2023,Saneamento,422635.4,397840.7,FUNDEB
+Município 175,2023,Saúde Básica,653222.65,607368.99,SUS
+Município 175,2023,Cultura,389229.8,377356.53,FUNDEB
+Município 176,2020,Assistência Social,451816.21,407116.55,FPM
+Município 176,2020,Saneamento,317101.66,284449.53,FPM
+Município 176,2020,Saúde Básica,681379.7,633745.55,PAC
+Município 176,2020,Infraestrutura,358036.13,346754.16,SUS
+Município 176,2020,Educação Fundamental,274287.99,246286.04,Emenda Parlamentar
+Município 176,2021,Esporte,450652.56,419918.96,SUS
+Município 176,2021,Saneamento,522308.47,488362.78,FUNDEB
+Município 176,2021,Saúde Básica,427586.31,405537.88,FUNDEB
+Município 176,2021,Infraestrutura,347807.41,301741.53,FUNDEB
+Município 176,2021,Educação Fundamental,69573.73,60358.33,PAC
+Município 176,2022,Saúde Básica,300647.59,271882.44,Emenda Parlamentar
+Município 176,2022,Assistência Social,513377.06,469231.63,PAC
+Município 176,2022,Cultura,551312.37,544451.32,Emenda Parlamentar
+Município 176,2023,Cultura,389713.48,356075.7,Emenda Parlamentar
+Município 176,2023,Infraestrutura,399896.79,340284.19,FPM
+Município 176,2023,Esporte,263989.45,228867.46,FPM
+Município 177,2020,Cultura,459058.07,446348.43,Emenda Parlamentar
+Município 177,2020,Educação Fundamental,542066.94,507030.19,PAC
+Município 177,2020,Infraestrutura,547542.92,540340.41,SUS
+Município 177,2020,Esporte,958110.89,838661.34,SUS
+Município 177,2020,Saúde Básica,602325.5,514040.92,PAC
+Município 177,2021,Saúde Básica,114937.44,106204.17,SUS
+Município 177,2021,Educação Fundamental,849561.69,748159.07,PAC
+Município 177,2021,Assistência Social,999475.73,896711.04,SUS
+Município 177,2022,Esporte,823301.9,785698.75,FPM
+Município 177,2022,Saneamento,711498.21,688303.77,SUS
+Município 177,2022,Infraestrutura,395474.81,357913.01,PAC
+Município 177,2023,Saneamento,710522.58,648470.6,Emenda Parlamentar
+Município 177,2023,Esporte,450864.77,442656.36,Emenda Parlamentar
+Município 177,2023,Educação Fundamental,461999.77,445962.84,SUS
+Município 178,2020,Saneamento,462216.85,409644.14,Emenda Parlamentar
+Município 178,2020,Cultura,446065.66,392601.18,PAC
+Município 178,2020,Esporte,516866.21,453223.98,Emenda Parlamentar
+Município 178,2020,Assistência Social,429254.82,415855.76,PAC
+Município 178,2020,Saúde Básica,333830.66,301006.32,PAC
+Município 178,2021,Cultura,171128.47,147338.09,PAC
+Município 178,2021,Assistência Social,372629.01,372313.75,Emenda Parlamentar
+Município 178,2021,Saneamento,373942.5,371950.61,PAC
+Município 178,2022,Cultura,328110.26,284950.38,FUNDEB
+Município 178,2022,Saneamento,233916.34,212167.06,FPM
+Município 178,2022,Saúde Básica,50000.0,42743.98,PAC
+Município 178,2023,Infraestrutura,231861.45,216214.69,Emenda Parlamentar
+Município 178,2023,Esporte,525254.89,476451.48,SUS
+Município 178,2023,Educação Fundamental,385772.03,362372.56,FUNDEB
+Município 178,2023,Saneamento,580130.35,508174.3,SUS
+Município 178,2023,Saúde Básica,334978.04,312182.35,SUS
+Município 178,2023,Cultura,378602.55,328036.53,PAC
+Município 179,2020,Assistência Social,699254.15,694650.23,PAC
+Município 179,2020,Esporte,430258.46,412078.07,FPM
+Município 179,2020,Cultura,238580.2,236347.76,Emenda Parlamentar
+Município 179,2020,Saneamento,695372.11,673477.9,Emenda Parlamentar
+Município 179,2020,Infraestrutura,442572.82,442407.08,Emenda Parlamentar
+Município 179,2021,Assistência Social,413348.78,393033.37,FPM
+Município 179,2021,Saneamento,520237.8,469718.4,PAC
+Município 179,2021,Infraestrutura,397533.43,385165.53,FUNDEB
+Município 179,2021,Saúde Básica,275526.45,243569.93,PAC
+Município 179,2021,Educação Fundamental,260531.73,237282.85,FPM
+Município 179,2021,Esporte,131377.24,112860.35,Emenda Parlamentar
+Município 179,2022,Esporte,242342.55,212707.72,PAC
+Município 179,2022,Educação Fundamental,540023.43,530830.25,PAC
+Município 179,2022,Saúde Básica,559264.67,506953.34,SUS
+Município 179,2022,Saneamento,621007.73,559331.67,FUNDEB
+Município 179,2022,Cultura,511835.17,495616.24,Emenda Parlamentar
+Município 179,2023,Infraestrutura,107511.31,102013.69,Emenda Parlamentar
+Município 179,2023,Saneamento,595039.11,529281.96,Emenda Parlamentar
+Município 179,2023,Educação Fundamental,327423.96,326960.99,PAC
+Município 179,2023,Esporte,256226.09,240935.66,FPM
+Município 179,2023,Cultura,273116.22,264129.65,FPM
+Município 179,2023,Assistência Social,209466.69,186686.57,Emenda Parlamentar
+Município 180,2020,Assistência Social,315389.9,280552.12,FPM
+Município 180,2020,Saúde Básica,635280.55,624557.89,PAC
+Município 180,2020,Educação Fundamental,778995.93,768788.18,SUS
+Município 180,2020,Infraestrutura,849890.82,741945.33,FPM
+Município 180,2020,Cultura,211976.22,184050.69,PAC
+Município 180,2020,Saneamento,508378.08,491265.29,FPM
+Município 180,2021,Educação Fundamental,396540.53,370574.41,SUS
+Município 180,2021,Infraestrutura,388611.31,361870.69,Emenda Parlamentar
+Município 180,2021,Cultura,420398.97,384626.51,PAC
+Município 180,2021,Saúde Básica,479477.55,435394.26,SUS
+Município 180,2021,Esporte,319132.34,310868.2,FUNDEB
+Município 180,2021,Assistência Social,850027.6,799656.45,Emenda Parlamentar
+Município 180,2022,Educação Fundamental,302111.28,294130.35,PAC
+Município 180,2022,Saúde Básica,367633.85,335593.14,PAC
+Município 180,2022,Infraestrutura,583568.15,507923.7,SUS
+Município 180,2023,Esporte,834674.54,713404.73,FPM
+Município 180,2023,Infraestrutura,597593.69,590084.4,SUS
+Município 180,2023,Assistência Social,836308.07,834895.63,SUS
+Município 181,2020,Assistência Social,1057756.77,1033546.74,PAC
+Município 181,2020,Cultura,604211.12,545274.15,FPM
+Município 181,2020,Saneamento,474338.64,462240.72,Emenda Parlamentar
+Município 181,2020,Infraestrutura,231074.71,215979.74,FUNDEB
+Município 181,2020,Saúde Básica,643110.24,556682.09,SUS
+Município 181,2020,Educação Fundamental,369784.85,347020.71,FUNDEB
+Município 181,2021,Saneamento,453789.76,437408.64,FUNDEB
+Município 181,2021,Cultura,698982.55,630221.27,Emenda Parlamentar
+Município 181,2021,Educação Fundamental,509130.31,434233.74,Emenda Parlamentar
+Município 181,2021,Infraestrutura,450704.99,414468.65,SUS
+Município 181,2021,Saúde Básica,630551.2,587883.75,Emenda Parlamentar
+Município 181,2021,Assistência Social,184291.58,178730.19,FUNDEB
+Município 181,2022,Cultura,186630.88,183132.52,FPM
+Município 181,2022,Esporte,753928.88,645711.91,FUNDEB
+Município 181,2022,Infraestrutura,473161.45,409858.25,Emenda Parlamentar
+Município 181,2023,Assistência Social,50000.0,48457.06,PAC
+Município 181,2023,Infraestrutura,318315.0,316942.08,FPM
+Município 181,2023,Esporte,362753.82,351907.5,Emenda Parlamentar
+Município 182,2020,Educação Fundamental,527032.23,525945.22,FUNDEB
+Município 182,2020,Cultura,612080.91,584845.41,SUS
+Município 182,2020,Infraestrutura,865213.6,836725.86,FPM
+Município 182,2020,Saúde Básica,429151.75,384882.16,FPM
+Município 182,2020,Assistência Social,511784.79,508229.23,PAC
+Município 182,2021,Educação Fundamental,348283.33,333069.05,FPM
+Município 182,2021,Infraestrutura,514757.48,462575.3,FPM
+Município 182,2021,Saúde Básica,325623.92,289118.95,FPM
+Município 182,2021,Saneamento,497691.98,485623.69,SUS
+Município 182,2021,Assistência Social,180244.01,160195.18,FPM
+Município 182,2021,Cultura,523241.65,454183.62,SUS
+Município 182,2022,Cultura,450416.23,438170.93,FUNDEB
+Município 182,2022,Educação Fundamental,688348.41,659491.53,SUS
+Município 182,2022,Infraestrutura,443586.32,427996.3,FPM
+Município 182,2022,Saneamento,707839.67,628318.39,FUNDEB
+Município 182,2023,Esporte,775652.62,720745.82,SUS
+Município 182,2023,Assistência Social,596928.62,566415.44,Emenda Parlamentar
+Município 182,2023,Saneamento,595382.66,546116.9,PAC
+Município 182,2023,Infraestrutura,647177.21,605472.1,Emenda Parlamentar
+Município 183,2020,Saúde Básica,545550.28,478766.48,Emenda Parlamentar
+Município 183,2020,Assistência Social,448692.14,429297.69,FUNDEB
+Município 183,2020,Infraestrutura,497158.9,492900.05,Emenda Parlamentar
+Município 183,2021,Infraestrutura,302923.13,282167.28,SUS
+Município 183,2021,Saneamento,276632.1,252848.76,FUNDEB
+Município 183,2021,Assistência Social,495453.44,445184.8,FPM
+Município 183,2021,Cultura,709457.3,694024.14,SUS
+Município 183,2021,Educação Fundamental,226063.52,202006.21,PAC
+Município 183,2022,Saneamento,607479.86,601556.25,PAC
+Município 183,2022,Educação Fundamental,574575.11,528179.6,FUNDEB
+Município 183,2022,Infraestrutura,626980.29,594378.24,PAC
+Município 183,2022,Cultura,883409.33,813665.75,SUS
+Município 183,2022,Saúde Básica,497805.86,462410.07,FUNDEB
+Município 183,2022,Assistência Social,957269.71,827316.79,PAC
+Município 183,2023,Infraestrutura,519997.67,495836.91,SUS
+Município 183,2023,Saneamento,348400.69,335923.75,PAC
+Município 183,2023,Educação Fundamental,512051.35,507767.26,FUNDEB
+Município 184,2020,Educação Fundamental,687431.36,627360.55,Emenda Parlamentar
+Município 184,2020,Saneamento,298000.73,280478.47,SUS
+Município 184,2020,Infraestrutura,277219.26,267868.39,SUS
+Município 184,2020,Esporte,560538.71,500730.29,FPM
+Município 184,2021,Saneamento,291445.1,289720.15,FUNDEB
+Município 184,2021,Saúde Básica,828804.03,749781.57,Emenda Parlamentar
+Município 184,2021,Assistência Social,527646.03,455049.55,Emenda Parlamentar
+Município 184,2021,Esporte,324319.93,275960.95,FUNDEB
+Município 184,2022,Educação Fundamental,193152.92,174746.67,FUNDEB
+Município 184,2022,Cultura,628162.09,552314.48,Emenda Parlamentar
+Município 184,2022,Infraestrutura,416482.51,407119.62,SUS
+Município 184,2022,Saúde Básica,349176.15,331123.65,SUS
+Município 184,2022,Assistência Social,698803.92,671954.85,Emenda Parlamentar
+Município 184,2023,Infraestrutura,325065.07,291850.69,FPM
+Município 184,2023,Saneamento,516019.62,486980.24,PAC
+Município 184,2023,Educação Fundamental,326113.95,297088.59,Emenda Parlamentar
+Município 184,2023,Cultura,449005.27,447313.36,FPM
+Município 184,2023,Esporte,50000.0,48815.17,Emenda Parlamentar
+Município 184,2023,Saúde Básica,885457.44,872768.4,Emenda Parlamentar

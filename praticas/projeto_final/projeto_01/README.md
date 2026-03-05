@@ -1,35 +1,115 @@
-# Projeto 01 — Análise de Indicadores Hospitalares
+# Projeto 01 — Operação Bisturi: Auditoria de Fraude Hospitalar
 
-> **Disciplina:** Programação para Ciência de Dados  
-> **Curso:** MBA em Ciência de Dados — UNIFOR  
-> **Professor:** Cássio Pinheiro  
-> **Formato:** Datathon Aplicado  
+> **Disciplina:** Programação para Ciência de Dados
+> **Curso:** MBA em Ciência de Dados — UNIFOR
+> **Professor:** Cássio Pinheiro
+> **Formato:** Datathon Investigativo
 > **Trabalho:** Em duplas ou trios (formação livre)
+> **Classificação:** Grupo A — Investigativo (padrões ocultos para descobrir)
 
 ---
 
-## Contexto de Negócio
+## Briefing da Operação
 
-Você foi contratado como analista de dados por uma rede hospitalar do Nordeste que deseja entender o desempenho operacional de suas 15 unidades nos últimos 3 anos. A diretoria precisa de evidências para decidir onde investir, quais unidades precisam de intervenção e como otimizar a taxa de ocupação de leitos.
+A Controladoria-Geral do Estado recebeu denúncias anônimas sobre possíveis fraudes em unidades hospitalares da rede pública do Nordeste. Há suspeitas de **superfaturamento de procedimentos**, **pacientes fantasma** e **internações fictícias**. Você foi convocado como analista de dados para auditar 15 unidades hospitalares nos últimos 3 anos e identificar quais unidades apresentam padrões incompatíveis com a operação legítima.
 
-## Dataset
+Os dados brutos estão nos sistemas — agora é preciso cruzá-los para encontrar as evidências.
 
-- **Arquivo:** `data/projeto_01_indicadores_hospitalares.csv`
-- **Fonte inspiradora:** Dados do DataSUS / CNES (adaptados)
-- **Registros:** ~2.400
+---
 
-## Perguntas de Negócio
+## Datasets Fornecidos
 
-1. Qual é a taxa média de ocupação de leitos por unidade e como ela evoluiu trimestralmente? Há unidades consistentemente acima ou abaixo da média?
-2. Existe correlação entre o tempo médio de internação e a taxa de reinternação em 30 dias? O que isso sugere sobre a qualidade da alta?
-3. Quais especialidades médicas apresentam maior variação sazonal na demanda? Como isso pode orientar o planejamento de escala?
-4. A taxa de mortalidade hospitalar varia significativamente entre unidades de mesmo porte? Quais fatores operacionais parecem associados?
-5. Qual é o perfil dos pacientes (faixa etária, tipo de internação) que mais contribuem para a superlotação?
-6. Construa um dashboard analítico (visualizações integradas) que a diretoria possa usar para monitoramento mensal.
+### 1. `data/projeto_01_indicadores_hospitalares.csv`
+Indicadores operacionais mensais de 15 unidades hospitalares (2022-2024).
+
+| Coluna | Descrição |
+|--------|-----------|
+| `ano`, `mes` | Período de referência |
+| `unidade` | Nome do hospital |
+| `especialidade` | Especialidade médica |
+| `leitos_disponiveis` | Quantidade de leitos disponíveis |
+| `taxa_ocupacao` | Taxa de ocupação (0 a 1) |
+| `internacoes` | Número de internações no período |
+| `tempo_medio_internacao_dias` | Tempo médio de internação |
+| `taxa_reinternacao_30d` | Taxa de reinternação em 30 dias |
+| `obitos` | Número de óbitos |
+| `custo_medio_internacao` | Custo médio por internação (R$) |
+| `faixa_etaria_predominante` | Faixa etária predominante |
+| `tipo_internacao` | Urgência ou Eletiva |
+
+### 2. `data/projeto_01_registro_procedimentos.csv`
+Registro individual de 12.000+ procedimentos realizados.
+
+| Coluna | Descrição |
+|--------|-----------|
+| `procedimento_id` | Identificador único do procedimento |
+| `unidade` | Hospital onde foi realizado |
+| `paciente_id` | Identificador do paciente |
+| `data_procedimento` | Data de realização |
+| `tipo_procedimento` | Tipo (Consulta, Exame, Cirurgia, etc.) |
+| `valor_cobrado` | Valor cobrado pelo procedimento (R$) |
+| `convenio` | Convênio (SUS, Plano A, Plano B, Particular) |
+
+### 3. `data/projeto_01_denuncias_anonimas.csv`
+Relatos recebidos pela Ouvidoria.
+
+| Coluna | Descrição |
+|--------|-----------|
+| `denuncia_id` | Identificador da denúncia |
+| `data_denuncia` | Data do registro |
+| `unidade_mencionada` | Hospital mencionado |
+| `canal` | Canal de recebimento |
+| `relato_resumido` | Resumo do relato |
+| `classificacao` | Classificação (Fraude, Outros) |
+| `status` | Status da denúncia |
+
+---
+
+## Missão
+
+Investigue os dados e responda:
+
+1. **Quais unidades apresentam relação incompatível entre número de leitos e volume de internações?** Compare a razão internações/leitos entre todos os hospitais. Quais fogem do padrão?
+2. **Existem procedimentos duplicados** (mesmo paciente, mesma data, mesmo procedimento)? Em quais unidades isso se concentra?
+3. **Os custos médios de internação e procedimentos são compatíveis** com a referência das demais unidades? Quais hospitais cobram significativamente mais?
+4. **Existe sazonalidade suspeita no faturamento?** Há meses com picos de internações ou custos que coincidem com fechamento de metas ou final de exercício?
+5. **O que as denúncias revelam?** Cruze os relatos da ouvidoria com os padrões encontrados nos dados operacionais. As denúncias são corroboradas pelos números?
+6. **Monte o dossiê:** Identifique as unidades suspeitas e construa uma narrativa visual com as evidências encontradas.
+
+---
+
+## Pistas Iniciais
+
+- Comece comparando a **razão internações por leito** entre todas as unidades — há hospitais com poucos leitos mas muitas internações?
+- Procure **procedimentos com mesmo paciente_id + mesma data** no registro de procedimentos
+- Compare os **custos médios** por tipo de procedimento: há hospitais onde o mesmo procedimento custa muito mais?
+- Olhe os **meses de março e setembro** com atenção especial
+- As denúncias mencionam nomes de hospitais — cruze com os dados quantitativos
+
+---
+
+## Desafio de Dados Reais
+
+Enriqueça sua investigação com dados públicos reais:
+
+| Fonte | URL | O que buscar |
+|-------|-----|-------------|
+| **DataSUS / TabNet** | https://datasus.saude.gov.br/transferencia-de-arquivos/ | Dados reais de internações SUS para comparar custos e taxas |
+| **CNES** | https://cnes.datasus.gov.br/ | Cadastro de hospitais reais: leitos, especialidades, equipamentos |
+
+**Perguntas de cruzamento:**
+- Os custos médios do dataset estão compatíveis com os valores reais do SUS na região Nordeste?
+- A taxa de ocupação das unidades é realista comparada aos dados do CNES?
+
+---
 
 ## Técnicas Esperadas
 
-O projeto deve utilizar conceitos dos três módulos do curso: **groupby** multi-nível para agregações por unidade e especialidade, **pivot_table** para reorganizar indicadores temporais, **visualizações temporais** (lineplot) para evolução trimestral, **heatmaps de correlação** entre variáveis de desempenho, **boxplots comparativos** entre unidades e especialidades, e **tratamento de outliers** em tempos de internação, com justificativa das decisões tomadas.
+| Módulo | Técnicas |
+|--------|----------|
+| **M1 — Python** | Leitura de múltiplos CSVs, funções para cálculo de indicadores, tratamento de erros |
+| **M2 — Pandas/NumPy** | `merge` entre datasets, `groupby` multi-nível, `pivot_table`, detecção de duplicatas com `duplicated`, cálculos de razões e proporções |
+| **M3 — Visualização** | Heatmaps de correlação, boxplots comparativos por unidade, lineplots temporais (evolução mensal), barplots de custos, subplots integrados |
 
 ---
 
@@ -38,8 +118,8 @@ O projeto deve utilizar conceitos dos três módulos do curso: **groupby** multi
 ```
 projeto_01/
 ├── README.md          ← Este arquivo
-├── data/              ← Dataset(s) do projeto
-├── notebooks/         ← Notebook(s) Jupyter com a análise
+├── data/              ← 3 datasets do projeto
+├── notebooks/         ← Notebook(s) Jupyter com a investigação
 ├── scripts/           ← Scripts Python auxiliares (se necessário)
 └── docs/              ← Documentação adicional, apresentação
 ```
@@ -47,57 +127,38 @@ projeto_01/
 ## Entregáveis
 
 1. **Notebook Python (.ipynb)** em `notebooks/` contendo:
-   - Importação e inspeção inicial dos dados
+   - Importação e inspeção dos 3 datasets
    - Limpeza e transformação (nulos, tipos, duplicatas, outliers)
-   - Análise exploratória com estatísticas descritivas
+   - Cruzamento entre datasets (merge/join)
+   - Análise investigativa com estatísticas descritivas
    - Mínimo de **8 visualizações** (mix de Matplotlib e Seaborn)
-   - Respostas às perguntas de negócio com evidências nos dados
-   - Células Markdown narrando cada etapa (storytelling)
-   - Conclusões e recomendações
+   - Respostas à missão com **evidências nos dados**
+   - Células Markdown narrando a investigação (storytelling)
+   - Conclusões: quais unidades são suspeitas e por quê
 
 2. **Apresentação oral** (5-7 minutos) — arquivo em `docs/`
-
-3. **Conclusões e recomendações** escritas no notebook
 
 ## Critérios de Avaliação
 
 | Critério | Peso | O que será observado |
 |----------|------|----------------------|
-| **Limpeza e transformação dos dados** | 20% | Tratamento de nulos, duplicatas, tipos incorretos, outliers. Justificativa das decisões tomadas. |
-| **Profundidade da análise exploratória** | 25% | Estatísticas descritivas, segmentações, cruzamentos entre variáveis. Respostas fundamentadas às perguntas de negócio. |
-| **Qualidade e variedade das visualizações** | 20% | Mínimo 8 gráficos. Pelo menos 3 tipos diferentes. Títulos, rótulos, legendas. Gráficos adequados ao tipo de dado. |
-| **Storytelling e clareza nas conclusões** | 20% | Narrativa coerente em Markdown. Insights acionáveis. Recomendações baseadas em evidências. Apresentação oral. |
-| **Organização do código e boas práticas** | 15% | Código limpo e legível. Uso de funções quando apropriado. Notebook autoexplicativo. Estrutura de pastas respeitada. |
+| **Limpeza e transformação dos dados** | 20% | Tratamento de nulos, duplicatas, tipos incorretos, outliers. Justificativa das decisões. |
+| **Profundidade da investigação** | 25% | Cruzamento entre os 3 datasets. Respostas fundamentadas à missão. Descoberta de padrões ocultos. |
+| **Qualidade e variedade das visualizações** | 20% | Mínimo 8 gráficos. Pelo menos 3 tipos diferentes. Títulos, rótulos, legendas. |
+| **Storytelling investigativo** | 20% | Narrativa coerente. Evidências visuais. Conclusões defendidas com dados. Apresentação oral. |
+| **Organização do código e boas práticas** | 15% | Código limpo. Funções quando apropriado. Notebook autoexplicativo. |
 
-### Escala de Notas
-
-| Nota | Descrição |
-|------|-----------|
-| **10** | Excepcional — análise completa, insights originais, código exemplar, storytelling envolvente |
-| **8-9** | Muito bom — todos os critérios atendidos com qualidade, pequenas melhorias possíveis |
-| **6-7** | Satisfatório — atende aos requisitos mínimos, análise superficial em alguns pontos |
-| **4-5** | Insuficiente — falhas significativas em limpeza, análise ou visualizações |
-| **0-3** | Inadequado — entrega incompleta ou sem evidência de esforço analítico |
-
-### Bonificações (+0.5 cada, máx +1.5)
-- Uso criativo de feature engineering (criar variáveis derivadas relevantes)
-- Visualização avançada além do esperado (dashboard integrado, gráficos interativos)
-- Análise adicional não solicitada que gere insights valiosos
+### Bonificações
+- **Enriquecimento com dados reais** (integração de fonte pública): **+1.0 ponto**
+- Uso criativo de feature engineering: **+0.5 ponto**
+- Visualização avançada além do esperado: **+0.5 ponto**
+- Análise adicional não solicitada com insights valiosos: **+0.5 ponto**
 
 ### Penalizações
 - Notebook sem células Markdown explicativas: **-1.0 ponto**
 - Gráficos sem título, rótulos ou legendas: **-0.5 ponto por gráfico**
 - Código copiado sem adaptação (entre grupos): **nota zero para ambos**
 - Entrega após o prazo: **-2.0 pontos por dia**
-
-## Dicas Importantes
-
-1. Comecem pela **inspeção** dos dados (`shape`, `dtypes`, `describe`, `info`, `head`)
-2. Façam a **limpeza** antes de qualquer análise
-3. Usem pelo menos **3 tipos diferentes** de gráfico
-4. Não ignorem **outliers** — investiguem e decidam o que fazer
-5. A **conclusão** é tão importante quanto a análise
-6. O notebook deve ser **autoexplicativo** — alguém que não assistiu à apresentação deve entender
 
 ---
 

@@ -1,0 +1,13 @@
+ubs_id,nome_unidade,regiao,status,data_fechamento,medicos_disponiveis,enfermeiros,pacientes_cadastrados,pacientes_diabetes_acompanhados,consultas_mes_medio,capacidade_maxima_dia
+UBS-001,UBS Vila Nova,Zona Norte,Ativa,,7,4,1867,126,304,63
+UBS-002,UBS Parque Norte,Zona Norte,Ativa,,3,11,1534,242,688,45
+UBS-003,UBS Jardim América,Zona Norte,Ativa,,2,11,2100,162,554,61
+UBS-004,UBS Boa Vista,Zona Sul,Ativa,,7,8,2814,115,585,37
+UBS-005,UBS Sul Center,Zona Sul,Ativa,,8,10,1474,159,422,31
+UBS-006,UBS Leste I,Zona Leste,Ativa,,6,9,2606,138,414,70
+UBS-007,UBS Leste II,Zona Leste,Ativa,,6,9,1484,191,536,35
+UBS-008,UBS Jardim Leste,Zona Leste,Ativa,,2,12,2877,71,207,51
+UBS-009,UBS Oeste Central,Zona Oeste,Fechada temporariamente,2024-03-15,0,0,2378,0,0,59
+UBS-010,UBS Vila Oeste,Zona Oeste,Ativa,,4,11,2287,264,592,78
+UBS-011,UBS Centro,Centro,Ativa,,7,7,2148,146,800,78
+UBS-012,UBS Praça da Saúde,Centro,Ativa,,6,5,833,69,586,36

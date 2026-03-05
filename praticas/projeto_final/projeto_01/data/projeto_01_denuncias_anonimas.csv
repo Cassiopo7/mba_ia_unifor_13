@@ -1,0 +1,9 @@
+denuncia_id,data_denuncia,unidade_mencionada,canal,relato_resumido,classificacao,status
+DEN-0001,2024-06-05,Hospital Regional Norte,Telefone 0800,Pacientes dizem que nunca foram internados mas constam no sistema,Fraude,Arquivada
+DEN-0002,2024-01-03,Hospital Regional Norte,Ouvidoria,Funcionário relatou pressão para registrar procedimentos fictícios,Fraude,Em análise
+DEN-0003,2024-05-23,Hospital Municipal Leste,Telefone 0800,Médico cobra por cirurgias que não aconteceram,Fraude,Em análise
+DEN-0004,2024-12-13,Hospital Municipal Leste,Telefone 0800,Equipamento de raio-X quebrado há 6 meses mas exames continuam sendo cobrados,Fraude,Encaminhada
+DEN-0005,2024-07-10,Hospital Clínica Esperança,E-mail anônimo,Ambulâncias vazias saem e voltam — possível transporte fantasma,Fraude,Arquivada
+DEN-0006,2024-05-09,Hospital Clínica Esperança,E-mail anônimo,Farmácia recebe medicamentos mas pacientes relatam falta,Fraude,Em análise
+DEN-0007,2024-01-10,Hospital São José,Ouvidoria,Reclamação sobre demora no atendimento — sem indícios de fraude,Outros,Em análise
+DEN-0008,2024-08-15,Hospital Universitário,Telefone 0800,Elogio ao atendimento do setor de cardiologia,Outros,Encaminhada

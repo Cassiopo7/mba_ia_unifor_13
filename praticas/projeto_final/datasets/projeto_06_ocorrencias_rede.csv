@@ -1,0 +1,581 @@
+ocorrencia_id,data_ocorrencia,bairro,tipo_ocorrencia,transformador_id,duracao_horas,ucs_afetadas,causa_provavel
+OC-00001,2023-07-25,Meireles,Queda de energia,T-004,1.8,262,Sobrecarga
+OC-00002,2023-08-10,Barra do Ceará,Queda de energia,T-030,1.2,275,Indeterminada
+OC-00003,2024-09-02,Messejana,Manutenção programada,T-020,5.5,10,Falha equipamento
+OC-00004,2023-02-03,Montese,Flutuação de tensão,T-041,0.5,471,Clima
+OC-00005,2024-01-05,Barra do Ceará,Curto-circuito,T-034,5.3,408,Sobrecarga
+OC-00006,2024-04-01,Barra do Ceará,Manutenção programada,T-047,3.1,232,Clima
+OC-00007,2024-04-27,Barra do Ceará,Reclamação de consumidor,T-029,2.1,491,Indeterminada
+OC-00008,2024-02-18,Barra do Ceará,Flutuação de tensão,T-048,4.0,278,Falha equipamento
+OC-00009,2023-05-05,Barra do Ceará,Queda de energia,T-025,1.2,236,Clima
+OC-00010,2023-12-07,Barra do Ceará,Queda de energia,T-007,5.3,290,Vandalismo
+OC-00011,2024-02-21,Barra do Ceará,Flutuação de tensão,T-028,0.5,64,Vandalismo
+OC-00012,2023-07-07,Meireles,Flutuação de tensão,T-014,3.8,475,Vandalismo
+OC-00013,2024-05-30,Edson Queiroz,Flutuação de tensão,T-007,4.4,307,Clima
+OC-00014,2024-08-03,Barra do Ceará,Queda de energia,T-048,3.8,403,Clima
+OC-00015,2024-11-12,Barra do Ceará,Curto-circuito,T-031,6.4,109,Vandalismo
+OC-00016,2023-04-04,Barra do Ceará,Flutuação de tensão,T-009,3.6,394,Indeterminada
+OC-00017,2023-01-06,Meireles,Reclamação de consumidor,T-003,3.2,133,Indeterminada
+OC-00018,2023-03-19,Meireles,Furto detectado,T-029,1.8,449,Clima
+OC-00019,2023-04-24,Barra do Ceará,Flutuação de tensão,T-008,3.0,480,Indeterminada
+OC-00020,2024-12-06,Edson Queiroz,Queda de energia,T-037,0.7,21,Sobrecarga
+OC-00021,2024-05-13,Aldeota,Curto-circuito,T-021,4.4,99,Clima
+OC-00022,2024-04-17,Barra do Ceará,Queda de energia,T-010,2.8,381,Vandalismo
+OC-00023,2024-08-17,Barra do Ceará,Furto detectado,T-049,7.4,306,Falha equipamento
+OC-00024,2023-09-08,Barra do Ceará,Manutenção programada,T-015,3.6,139,Indeterminada
+OC-00025,2024-12-03,Barra do Ceará,Reclamação de consumidor,T-028,4.6,293,Sobrecarga
+OC-00026,2023-04-09,Meireles,Reclamação de consumidor,T-025,1.5,196,Indeterminada
+OC-00027,2024-05-23,Centro,Queda de energia,T-009,7.6,377,Sobrecarga
+OC-00028,2024-01-18,Barra do Ceará,Queda de energia,T-009,0.5,82,Sobrecarga
+OC-00029,2023-11-04,Barra do Ceará,Reclamação de consumidor,T-004,0.5,444,Clima
+OC-00030,2023-07-07,Parangaba,Furto detectado,T-005,2.9,108,Sobrecarga
+OC-00031,2023-09-26,Edson Queiroz,Flutuação de tensão,T-001,4.5,443,Clima
+OC-00032,2024-08-01,Meireles,Reclamação de consumidor,T-022,0.5,55,Indeterminada
+OC-00033,2024-07-17,Meireles,Queda de energia,T-035,6.0,481,Indeterminada
+OC-00034,2023-03-26,Barra do Ceará,Manutenção programada,T-045,3.1,406,Clima
+OC-00035,2023-07-13,Barra do Ceará,Furto detectado,T-023,1.9,36,Clima
+OC-00036,2023-05-17,Centro,Reclamação de consumidor,T-048,0.5,90,Sobrecarga
+OC-00037,2023-10-23,Barra do Ceará,Manutenção programada,T-003,3.1,449,Vandalismo
+OC-00038,2024-10-05,Papicu,Reclamação de consumidor,T-013,3.0,246,Vandalismo
+OC-00039,2024-10-17,Edson Queiroz,Manutenção programada,T-048,0.5,116,Clima
+OC-00040,2024-01-08,Montese,Queda de energia,T-032,7.3,283,Clima
+OC-00041,2024-07-07,Barra do Ceará,Flutuação de tensão,T-012,2.0,272,Falha equipamento
+OC-00042,2023-12-20,Messejana,Reclamação de consumidor,T-007,1.8,279,Vandalismo
+OC-00043,2024-12-28,Barra do Ceará,Curto-circuito,T-012,5.1,186,Falha equipamento
+OC-00044,2024-02-22,Meireles,Reclamação de consumidor,T-028,4.3,206,Vandalismo
+OC-00045,2023-12-09,Barra do Ceará,Manutenção programada,T-015,5.9,412,Clima
+OC-00046,2024-04-19,Edson Queiroz,Curto-circuito,T-007,1.3,298,Clima
+OC-00047,2024-02-22,Barra do Ceará,Queda de energia,T-037,2.9,243,Falha equipamento
+OC-00048,2024-10-19,Meireles,Furto detectado,T-029,0.5,381,Indeterminada
+OC-00049,2024-07-01,Montese,Flutuação de tensão,T-045,6.6,95,Indeterminada
+OC-00050,2024-08-05,Barra do Ceará,Manutenção programada,T-022,0.7,178,Indeterminada
+OC-00051,2023-04-23,Barra do Ceará,Flutuação de tensão,T-001,4.9,348,Vandalismo
+OC-00052,2023-07-08,Centro,Manutenção programada,T-015,3.5,315,Sobrecarga
+OC-00053,2024-03-25,Meireles,Manutenção programada,T-006,2.0,292,Sobrecarga
+OC-00054,2023-04-12,Aldeota,Flutuação de tensão,T-045,2.7,129,Clima
+OC-00055,2023-09-16,Mondubim,Queda de energia,T-026,1.3,259,Clima
+OC-00056,2024-06-20,Centro,Manutenção programada,T-007,3.1,342,Indeterminada
+OC-00057,2024-06-03,Montese,Reclamação de consumidor,T-047,3.8,462,Sobrecarga
+OC-00058,2024-04-11,Centro,Reclamação de consumidor,T-011,5.0,186,Indeterminada
+OC-00059,2023-12-22,Barra do Ceará,Reclamação de consumidor,T-036,3.7,240,Falha equipamento
+OC-00060,2023-08-15,Barra do Ceará,Reclamação de consumidor,T-038,6.3,209,Falha equipamento
+OC-00061,2024-06-04,Barra do Ceará,Queda de energia,T-013,2.4,408,Clima
+OC-00062,2023-06-27,Meireles,Curto-circuito,T-023,3.3,285,Vandalismo
+OC-00063,2023-01-05,Montese,Furto detectado,T-011,2.6,463,Indeterminada
+OC-00064,2023-12-17,Barra do Ceará,Queda de energia,T-044,4.2,184,Vandalismo
+OC-00065,2024-10-14,Mondubim,Reclamação de consumidor,T-049,1.6,250,Clima
+OC-00066,2023-09-06,Centro,Furto detectado,T-001,2.1,142,Clima
+OC-00067,2024-04-22,Meireles,Reclamação de consumidor,T-019,4.4,403,Falha equipamento
+OC-00068,2024-08-14,Montese,Reclamação de consumidor,T-049,3.8,91,Clima
+OC-00069,2023-08-12,Centro,Manutenção programada,T-025,5.7,165,Sobrecarga
+OC-00070,2023-08-26,Barra do Ceará,Queda de energia,T-023,1.0,53,Clima
+OC-00071,2024-07-18,Barra do Ceará,Flutuação de tensão,T-022,3.3,462,Falha equipamento
+OC-00072,2023-12-28,Barra do Ceará,Queda de energia,T-018,3.3,449,Indeterminada
+OC-00073,2024-10-31,Messejana,Queda de energia,T-044,2.3,355,Falha equipamento
+OC-00074,2023-12-16,Parangaba,Manutenção programada,T-048,3.6,404,Vandalismo
+OC-00075,2023-12-09,Papicu,Manutenção programada,T-050,10.2,371,Vandalismo
+OC-00076,2024-10-30,Barra do Ceará,Reclamação de consumidor,T-014,2.7,214,Clima
+OC-00077,2023-12-16,Barra do Ceará,Manutenção programada,T-025,4.5,64,Sobrecarga
+OC-00078,2024-10-02,Parangaba,Furto detectado,T-025,4.8,184,Clima
+OC-00079,2024-11-01,Barra do Ceará,Reclamação de consumidor,T-028,3.7,476,Vandalismo
+OC-00080,2023-02-04,Mondubim,Curto-circuito,T-050,5.2,363,Indeterminada
+OC-00081,2023-07-27,Barra do Ceará,Curto-circuito,T-008,5.0,298,Sobrecarga
+OC-00082,2024-10-16,Meireles,Curto-circuito,T-031,4.7,277,Indeterminada
+OC-00083,2024-06-10,Mondubim,Manutenção programada,T-002,2.0,498,Clima
+OC-00084,2024-10-20,Barra do Ceará,Curto-circuito,T-026,5.7,389,Vandalismo
+OC-00085,2024-03-22,Barra do Ceará,Curto-circuito,T-011,2.0,44,Indeterminada
+OC-00086,2023-01-22,Montese,Queda de energia,T-024,0.8,141,Indeterminada
+OC-00087,2023-07-19,Barra do Ceará,Queda de energia,T-025,2.5,68,Sobrecarga
+OC-00088,2024-08-11,Barra do Ceará,Queda de energia,T-043,5.8,44,Vandalismo
+OC-00089,2023-08-26,Edson Queiroz,Queda de energia,T-043,3.8,73,Indeterminada
+OC-00090,2024-08-03,Messejana,Furto detectado,T-005,2.7,436,Sobrecarga
+OC-00091,2023-09-15,Barra do Ceará,Furto detectado,T-013,1.6,450,Falha equipamento
+OC-00092,2023-07-20,Edson Queiroz,Flutuação de tensão,T-028,3.0,341,Vandalismo
+OC-00093,2023-03-30,Montese,Manutenção programada,T-011,6.6,43,Clima
+OC-00094,2024-12-08,Centro,Queda de energia,T-018,0.7,190,Falha equipamento
+OC-00095,2023-03-31,Barra do Ceará,Flutuação de tensão,T-027,2.6,426,Clima
+OC-00096,2023-08-21,Barra do Ceará,Reclamação de consumidor,T-026,3.8,485,Clima
+OC-00097,2024-09-23,Messejana,Furto detectado,T-027,4.3,101,Sobrecarga
+OC-00098,2024-08-18,Barra do Ceará,Furto detectado,T-032,0.5,91,Falha equipamento
+OC-00099,2024-07-16,Barra do Ceará,Reclamação de consumidor,T-005,2.8,119,Clima
+OC-00100,2023-12-16,Parangaba,Queda de energia,T-032,2.9,25,Vandalismo
+OC-00101,2024-08-03,Meireles,Reclamação de consumidor,T-042,6.7,351,Indeterminada
+OC-00102,2024-08-18,Edson Queiroz,Reclamação de consumidor,T-041,3.5,75,Sobrecarga
+OC-00103,2024-08-20,Mondubim,Reclamação de consumidor,T-001,5.2,60,Falha equipamento
+OC-00104,2023-09-07,Parangaba,Furto detectado,T-016,4.7,416,Sobrecarga
+OC-00105,2023-09-07,Edson Queiroz,Manutenção programada,T-004,5.8,418,Vandalismo
+OC-00106,2023-01-09,Aldeota,Curto-circuito,T-013,3.2,199,Indeterminada
+OC-00107,2024-02-22,Montese,Manutenção programada,T-009,1.5,176,Falha equipamento
+OC-00108,2023-08-29,Barra do Ceará,Queda de energia,T-005,6.8,423,Clima
+OC-00109,2023-07-09,Barra do Ceará,Curto-circuito,T-034,3.7,171,Clima
+OC-00110,2024-04-01,Papicu,Queda de energia,T-042,4.6,106,Falha equipamento
+OC-00111,2024-03-13,Papicu,Flutuação de tensão,T-031,4.6,477,Sobrecarga
+OC-00112,2023-04-28,Aldeota,Furto detectado,T-015,8.9,328,Sobrecarga
+OC-00113,2024-04-04,Edson Queiroz,Manutenção programada,T-003,6.3,462,Indeterminada
+OC-00114,2024-06-01,Barra do Ceará,Queda de energia,T-011,2.5,348,Vandalismo
+OC-00115,2024-12-30,Parangaba,Curto-circuito,T-022,4.2,380,Indeterminada
+OC-00116,2024-12-02,Parangaba,Curto-circuito,T-024,1.3,447,Falha equipamento
+OC-00117,2023-08-07,Montese,Queda de energia,T-037,3.9,108,Vandalismo
+OC-00118,2023-10-04,Barra do Ceará,Furto detectado,T-028,0.5,151,Indeterminada
+OC-00119,2024-04-18,Papicu,Queda de energia,T-022,4.3,369,Indeterminada
+OC-00120,2023-06-17,Messejana,Manutenção programada,T-009,2.6,290,Falha equipamento
+OC-00121,2023-11-01,Edson Queiroz,Queda de energia,T-045,4.7,266,Clima
+OC-00122,2023-11-29,Mondubim,Queda de energia,T-042,1.7,104,Falha equipamento
+OC-00123,2024-07-02,Barra do Ceará,Furto detectado,T-005,3.3,99,Falha equipamento
+OC-00124,2023-05-19,Messejana,Furto detectado,T-008,3.8,66,Vandalismo
+OC-00125,2024-07-16,Montese,Flutuação de tensão,T-017,2.2,434,Indeterminada
+OC-00126,2024-10-20,Montese,Reclamação de consumidor,T-037,3.9,233,Clima
+OC-00127,2024-09-23,Edson Queiroz,Curto-circuito,T-035,2.1,412,Vandalismo
+OC-00128,2023-01-24,Messejana,Manutenção programada,T-018,1.6,354,Indeterminada
+OC-00129,2023-02-04,Barra do Ceará,Reclamação de consumidor,T-007,2.1,77,Clima
+OC-00130,2023-11-05,Centro,Queda de energia,T-036,1.4,279,Vandalismo
+OC-00131,2023-01-07,Edson Queiroz,Manutenção programada,T-040,2.9,448,Sobrecarga
+OC-00132,2023-04-18,Barra do Ceará,Queda de energia,T-041,3.0,32,Sobrecarga
+OC-00133,2023-09-26,Montese,Reclamação de consumidor,T-035,4.9,466,Sobrecarga
+OC-00134,2024-06-07,Aldeota,Manutenção programada,T-050,4.1,131,Indeterminada
+OC-00135,2023-11-14,Barra do Ceará,Curto-circuito,T-030,4.1,160,Indeterminada
+OC-00136,2024-06-15,Edson Queiroz,Manutenção programada,T-014,2.9,43,Vandalismo
+OC-00137,2023-06-25,Centro,Queda de energia,T-043,3.2,303,Clima
+OC-00138,2024-07-29,Barra do Ceará,Furto detectado,T-039,1.3,470,Indeterminada
+OC-00139,2024-03-04,Papicu,Queda de energia,T-003,4.0,465,Sobrecarga
+OC-00140,2023-09-21,Aldeota,Reclamação de consumidor,T-043,5.8,14,Falha equipamento
+OC-00141,2024-06-19,Barra do Ceará,Reclamação de consumidor,T-004,1.6,293,Clima
+OC-00142,2024-01-03,Barra do Ceará,Curto-circuito,T-036,6.1,285,Vandalismo
+OC-00143,2024-07-04,Papicu,Reclamação de consumidor,T-042,5.0,324,Sobrecarga
+OC-00144,2024-02-06,Messejana,Manutenção programada,T-024,2.4,352,Vandalismo
+OC-00145,2023-05-02,Centro,Curto-circuito,T-031,6.6,478,Sobrecarga
+OC-00146,2023-01-06,Barra do Ceará,Manutenção programada,T-025,5.9,382,Clima
+OC-00147,2023-05-27,Montese,Queda de energia,T-015,5.2,325,Indeterminada
+OC-00148,2024-01-28,Papicu,Reclamação de consumidor,T-008,0.5,306,Indeterminada
+OC-00149,2024-11-01,Barra do Ceará,Manutenção programada,T-039,6.6,53,Vandalismo
+OC-00150,2023-10-10,Papicu,Flutuação de tensão,T-016,3.2,391,Sobrecarga
+OC-00151,2024-02-02,Aldeota,Manutenção programada,T-028,4.4,21,Sobrecarga
+OC-00152,2024-09-24,Centro,Curto-circuito,T-044,4.2,195,Sobrecarga
+OC-00153,2023-03-17,Barra do Ceará,Reclamação de consumidor,T-036,2.4,396,Clima
+OC-00154,2024-09-27,Mondubim,Queda de energia,T-011,1.2,32,Sobrecarga
+OC-00155,2024-07-21,Papicu,Curto-circuito,T-010,4.6,350,Clima
+OC-00156,2024-03-19,Aldeota,Queda de energia,T-047,1.4,32,Vandalismo
+OC-00157,2023-03-23,Barra do Ceará,Queda de energia,T-036,1.4,32,Sobrecarga
+OC-00158,2023-05-17,Barra do Ceará,Queda de energia,T-024,2.6,371,Indeterminada
+OC-00159,2023-06-04,Aldeota,Manutenção programada,T-006,4.0,19,Vandalismo
+OC-00160,2023-01-25,Barra do Ceará,Curto-circuito,T-015,3.3,485,Sobrecarga
+OC-00161,2024-03-16,Barra do Ceará,Reclamação de consumidor,T-017,0.7,57,Vandalismo
+OC-00162,2024-11-13,Edson Queiroz,Flutuação de tensão,T-004,4.5,307,Clima
+OC-00163,2024-04-11,Aldeota,Queda de energia,T-028,4.6,291,Indeterminada
+OC-00164,2023-10-31,Parangaba,Furto detectado,T-008,5.6,443,Vandalismo
+OC-00165,2023-10-30,Barra do Ceará,Manutenção programada,T-036,1.0,432,Sobrecarga
+OC-00166,2024-03-16,Montese,Manutenção programada,T-050,7.3,27,Vandalismo
+OC-00167,2023-06-18,Meireles,Reclamação de consumidor,T-038,1.3,409,Falha equipamento
+OC-00168,2024-02-14,Messejana,Manutenção programada,T-006,0.5,363,Clima
+OC-00169,2024-09-12,Parangaba,Manutenção programada,T-001,2.4,399,Falha equipamento
+OC-00170,2023-05-12,Barra do Ceará,Curto-circuito,T-004,5.6,361,Falha equipamento
+OC-00171,2024-04-10,Barra do Ceará,Queda de energia,T-041,1.4,288,Clima
+OC-00172,2024-10-07,Montese,Queda de energia,T-030,0.5,41,Indeterminada
+OC-00173,2024-11-06,Centro,Queda de energia,T-034,4.4,310,Indeterminada
+OC-00174,2023-07-16,Montese,Reclamação de consumidor,T-003,7.1,402,Indeterminada
+OC-00175,2023-07-03,Barra do Ceará,Reclamação de consumidor,T-042,0.5,209,Indeterminada
+OC-00176,2023-07-28,Papicu,Manutenção programada,T-006,3.5,41,Falha equipamento
+OC-00177,2023-09-09,Barra do Ceará,Reclamação de consumidor,T-049,1.9,393,Sobrecarga
+OC-00178,2023-09-25,Barra do Ceará,Reclamação de consumidor,T-035,1.3,284,Sobrecarga
+OC-00179,2024-05-18,Barra do Ceará,Manutenção programada,T-008,3.3,273,Clima
+OC-00180,2024-06-19,Barra do Ceará,Queda de energia,T-024,5.0,107,Sobrecarga
+OC-00181,2024-04-26,Aldeota,Furto detectado,T-015,1.1,394,Clima
+OC-00182,2024-03-23,Centro,Manutenção programada,T-032,0.5,127,Falha equipamento
+OC-00183,2023-05-31,Parangaba,Reclamação de consumidor,T-032,2.7,488,Falha equipamento
+OC-00184,2023-08-21,Edson Queiroz,Queda de energia,T-036,0.5,33,Indeterminada
+OC-00185,2023-11-10,Meireles,Queda de energia,T-005,2.5,284,Indeterminada
+OC-00186,2024-08-13,Mondubim,Reclamação de consumidor,T-014,3.0,377,Vandalismo
+OC-00187,2023-09-07,Meireles,Curto-circuito,T-045,5.6,400,Sobrecarga
+OC-00188,2023-01-24,Messejana,Manutenção programada,T-037,4.2,66,Sobrecarga
+OC-00189,2024-08-22,Barra do Ceará,Flutuação de tensão,T-047,7.7,394,Falha equipamento
+OC-00190,2024-09-03,Messejana,Flutuação de tensão,T-048,4.3,278,Indeterminada
+OC-00191,2023-06-20,Messejana,Furto detectado,T-040,6.1,50,Indeterminada
+OC-00192,2023-02-08,Messejana,Reclamação de consumidor,T-021,4.7,492,Clima
+OC-00193,2024-01-31,Barra do Ceará,Manutenção programada,T-013,3.9,279,Clima
+OC-00194,2023-11-29,Montese,Furto detectado,T-033,2.3,116,Indeterminada
+OC-00195,2023-07-26,Edson Queiroz,Curto-circuito,T-019,3.4,252,Clima
+OC-00196,2024-10-29,Barra do Ceará,Queda de energia,T-032,3.7,195,Vandalismo
+OC-00197,2024-11-17,Meireles,Manutenção programada,T-020,4.0,238,Vandalismo
+OC-00198,2023-02-25,Barra do Ceará,Curto-circuito,T-026,3.7,293,Indeterminada
+OC-00199,2024-11-08,Mondubim,Queda de energia,T-035,4.5,440,Clima
+OC-00200,2023-12-14,Montese,Flutuação de tensão,T-021,3.9,145,Falha equipamento
+OC-00201,2023-05-15,Montese,Reclamação de consumidor,T-017,4.8,173,Falha equipamento
+OC-00202,2023-06-12,Barra do Ceará,Manutenção programada,T-028,7.6,155,Falha equipamento
+OC-00203,2024-10-02,Meireles,Manutenção programada,T-020,2.9,239,Vandalismo
+OC-00204,2023-09-24,Aldeota,Queda de energia,T-009,3.2,458,Falha equipamento
+OC-00205,2023-09-11,Aldeota,Queda de energia,T-037,0.9,349,Clima
+OC-00206,2023-12-11,Mondubim,Flutuação de tensão,T-023,7.4,117,Falha equipamento
+OC-00207,2023-04-05,Papicu,Reclamação de consumidor,T-036,6.4,350,Vandalismo
+OC-00208,2023-01-03,Parangaba,Queda de energia,T-015,0.5,468,Indeterminada
+OC-00209,2023-08-09,Barra do Ceará,Reclamação de consumidor,T-012,3.4,191,Indeterminada
+OC-00210,2024-09-14,Parangaba,Queda de energia,T-013,0.5,135,Indeterminada
+OC-00211,2024-12-14,Barra do Ceará,Curto-circuito,T-043,0.5,191,Sobrecarga
+OC-00212,2023-05-23,Centro,Queda de energia,T-019,5.3,127,Vandalismo
+OC-00213,2023-04-02,Barra do Ceará,Queda de energia,T-043,3.4,209,Clima
+OC-00214,2024-08-28,Messejana,Manutenção programada,T-033,5.2,264,Sobrecarga
+OC-00215,2023-06-30,Aldeota,Reclamação de consumidor,T-042,2.9,452,Indeterminada
+OC-00216,2023-08-11,Parangaba,Manutenção programada,T-030,2.5,294,Sobrecarga
+OC-00217,2024-06-18,Centro,Manutenção programada,T-010,4.7,144,Indeterminada
+OC-00218,2023-04-22,Mondubim,Flutuação de tensão,T-039,3.0,412,Sobrecarga
+OC-00219,2024-05-24,Messejana,Flutuação de tensão,T-047,6.0,151,Vandalismo
+OC-00220,2023-03-16,Papicu,Queda de energia,T-017,1.7,396,Sobrecarga
+OC-00221,2024-06-24,Mondubim,Reclamação de consumidor,T-035,2.5,415,Vandalismo
+OC-00222,2023-01-31,Centro,Reclamação de consumidor,T-002,6.2,470,Clima
+OC-00223,2023-08-27,Barra do Ceará,Reclamação de consumidor,T-040,3.6,216,Falha equipamento
+OC-00224,2024-08-16,Barra do Ceará,Reclamação de consumidor,T-046,0.8,30,Falha equipamento
+OC-00225,2024-02-17,Montese,Reclamação de consumidor,T-025,2.4,127,Clima
+OC-00226,2023-04-09,Barra do Ceará,Flutuação de tensão,T-041,4.6,149,Clima
+OC-00227,2024-05-17,Parangaba,Curto-circuito,T-008,5.4,487,Indeterminada
+OC-00228,2024-06-27,Barra do Ceará,Manutenção programada,T-036,3.2,79,Clima
+OC-00229,2023-10-10,Centro,Queda de energia,T-011,1.1,334,Vandalismo
+OC-00230,2024-03-06,Centro,Manutenção programada,T-016,5.0,248,Falha equipamento
+OC-00231,2023-02-24,Messejana,Reclamação de consumidor,T-042,2.8,301,Vandalismo
+OC-00232,2024-03-27,Meireles,Reclamação de consumidor,T-047,3.5,114,Falha equipamento
+OC-00233,2024-01-29,Barra do Ceará,Reclamação de consumidor,T-041,2.6,143,Clima
+OC-00234,2024-11-19,Aldeota,Furto detectado,T-033,1.3,347,Sobrecarga
+OC-00235,2023-09-01,Papicu,Queda de energia,T-045,0.5,47,Indeterminada
+OC-00236,2024-06-26,Aldeota,Manutenção programada,T-044,4.3,151,Clima
+OC-00237,2023-06-07,Barra do Ceará,Manutenção programada,T-012,4.3,245,Indeterminada
+OC-00238,2024-11-07,Montese,Flutuação de tensão,T-004,0.9,232,Indeterminada
+OC-00239,2024-10-13,Barra do Ceará,Curto-circuito,T-048,0.5,248,Vandalismo
+OC-00240,2024-03-18,Centro,Reclamação de consumidor,T-026,6.2,270,Vandalismo
+OC-00241,2023-03-01,Barra do Ceará,Manutenção programada,T-035,4.5,129,Sobrecarga
+OC-00242,2024-05-25,Barra do Ceará,Furto detectado,T-018,3.1,335,Indeterminada
+OC-00243,2024-05-23,Barra do Ceará,Manutenção programada,T-020,2.3,163,Sobrecarga
+OC-00244,2023-08-07,Barra do Ceará,Reclamação de consumidor,T-039,1.5,180,Sobrecarga
+OC-00245,2024-08-21,Messejana,Furto detectado,T-029,4.7,374,Falha equipamento
+OC-00246,2024-03-28,Messejana,Flutuação de tensão,T-033,2.7,389,Clima
+OC-00247,2023-11-27,Papicu,Manutenção programada,T-036,3.1,469,Falha equipamento
+OC-00248,2024-02-02,Mondubim,Queda de energia,T-040,8.5,57,Falha equipamento
+OC-00249,2024-04-15,Barra do Ceará,Reclamação de consumidor,T-005,2.1,224,Sobrecarga
+OC-00250,2024-05-27,Papicu,Manutenção programada,T-035,1.6,454,Falha equipamento
+OC-00251,2024-05-01,Centro,Curto-circuito,T-028,0.5,214,Falha equipamento
+OC-00252,2023-12-05,Aldeota,Manutenção programada,T-005,1.1,106,Indeterminada
+OC-00253,2024-12-19,Mondubim,Queda de energia,T-019,3.6,305,Vandalismo
+OC-00254,2024-12-06,Parangaba,Furto detectado,T-031,3.1,243,Clima
+OC-00255,2023-08-20,Barra do Ceará,Curto-circuito,T-026,0.6,347,Vandalismo
+OC-00256,2024-06-04,Edson Queiroz,Queda de energia,T-030,0.5,184,Vandalismo
+OC-00257,2024-08-13,Barra do Ceará,Curto-circuito,T-046,4.6,423,Sobrecarga
+OC-00258,2024-11-22,Montese,Queda de energia,T-043,2.3,163,Vandalismo
+OC-00259,2023-03-13,Parangaba,Queda de energia,T-030,3.9,117,Falha equipamento
+OC-00260,2023-02-10,Aldeota,Manutenção programada,T-025,7.2,213,Clima
+OC-00261,2023-06-06,Barra do Ceará,Manutenção programada,T-019,5.3,60,Vandalismo
+OC-00262,2023-10-04,Barra do Ceará,Curto-circuito,T-045,1.1,408,Falha equipamento
+OC-00263,2023-08-25,Meireles,Flutuação de tensão,T-006,4.7,272,Falha equipamento
+OC-00264,2024-06-12,Barra do Ceará,Furto detectado,T-042,0.9,391,Sobrecarga
+OC-00265,2023-06-25,Papicu,Queda de energia,T-021,2.3,17,Clima
+OC-00266,2023-06-24,Meireles,Manutenção programada,T-049,1.0,230,Clima
+OC-00267,2023-07-01,Barra do Ceará,Curto-circuito,T-035,0.9,186,Clima
+OC-00268,2024-06-23,Centro,Reclamação de consumidor,T-016,2.4,192,Falha equipamento
+OC-00269,2024-12-03,Aldeota,Curto-circuito,T-039,3.6,321,Indeterminada
+OC-00270,2023-02-09,Barra do Ceará,Flutuação de tensão,T-011,3.6,364,Indeterminada
+OC-00271,2024-04-18,Barra do Ceará,Queda de energia,T-004,5.5,305,Sobrecarga
+OC-00272,2024-02-19,Barra do Ceará,Manutenção programada,T-019,2.3,351,Indeterminada
+OC-00273,2024-03-12,Edson Queiroz,Queda de energia,T-041,4.5,313,Vandalismo
+OC-00274,2023-04-17,Barra do Ceará,Manutenção programada,T-036,2.0,32,Indeterminada
+OC-00275,2024-07-20,Barra do Ceará,Flutuação de tensão,T-045,8.2,266,Clima
+OC-00276,2023-05-20,Papicu,Reclamação de consumidor,T-026,7.4,35,Vandalismo
+OC-00277,2023-12-28,Edson Queiroz,Curto-circuito,T-029,2.6,31,Clima
+OC-00278,2024-10-25,Barra do Ceará,Manutenção programada,T-046,1.4,256,Indeterminada
+OC-00279,2023-11-11,Montese,Queda de energia,T-029,2.5,164,Vandalismo
+OC-00280,2024-10-06,Meireles,Flutuação de tensão,T-025,1.8,499,Sobrecarga
+OC-00281,2023-08-30,Centro,Flutuação de tensão,T-043,3.6,379,Falha equipamento
+OC-00282,2023-03-31,Messejana,Reclamação de consumidor,T-043,3.2,479,Sobrecarga
+OC-00283,2023-02-12,Mondubim,Curto-circuito,T-004,4.4,251,Falha equipamento
+OC-00284,2024-09-21,Parangaba,Reclamação de consumidor,T-020,2.8,64,Sobrecarga
+OC-00285,2023-07-22,Barra do Ceará,Curto-circuito,T-040,2.3,187,Indeterminada
+OC-00286,2024-08-30,Barra do Ceará,Queda de energia,T-025,3.0,73,Clima
+OC-00287,2024-04-26,Montese,Manutenção programada,T-028,3.6,55,Indeterminada
+OC-00288,2024-09-12,Barra do Ceará,Queda de energia,T-005,0.5,154,Clima
+OC-00289,2023-09-24,Barra do Ceará,Flutuação de tensão,T-037,2.4,267,Falha equipamento
+OC-00290,2024-05-08,Barra do Ceará,Queda de energia,T-050,2.6,16,Clima
+OC-00291,2024-06-18,Parangaba,Reclamação de consumidor,T-028,3.7,500,Vandalismo
+OC-00292,2024-07-17,Mondubim,Reclamação de consumidor,T-027,1.9,407,Sobrecarga
+OC-00293,2024-07-27,Montese,Furto detectado,T-025,4.3,186,Sobrecarga
+OC-00294,2023-01-22,Messejana,Queda de energia,T-010,1.0,362,Falha equipamento
+OC-00295,2024-02-29,Barra do Ceará,Manutenção programada,T-034,2.1,404,Falha equipamento
+OC-00296,2023-04-11,Messejana,Reclamação de consumidor,T-036,3.4,382,Indeterminada
+OC-00297,2024-05-26,Montese,Queda de energia,T-020,0.9,274,Vandalismo
+OC-00298,2024-02-24,Barra do Ceará,Flutuação de tensão,T-032,1.8,143,Sobrecarga
+OC-00299,2024-07-17,Barra do Ceará,Manutenção programada,T-011,4.7,279,Vandalismo
+OC-00300,2024-04-22,Barra do Ceará,Furto detectado,T-042,0.5,413,Indeterminada
+OC-00301,2023-03-02,Parangaba,Manutenção programada,T-049,0.5,187,Clima
+OC-00302,2023-10-12,Messejana,Queda de energia,T-034,1.9,182,Falha equipamento
+OC-00303,2023-09-15,Barra do Ceará,Furto detectado,T-037,4.6,72,Indeterminada
+OC-00304,2024-09-26,Aldeota,Reclamação de consumidor,T-013,3.2,461,Clima
+OC-00305,2024-07-02,Centro,Reclamação de consumidor,T-030,3.0,313,Falha equipamento
+OC-00306,2023-02-26,Montese,Queda de energia,T-015,5.4,172,Vandalismo
+OC-00307,2024-06-24,Barra do Ceará,Flutuação de tensão,T-023,3.7,52,Vandalismo
+OC-00308,2023-07-05,Edson Queiroz,Furto detectado,T-025,5.6,113,Falha equipamento
+OC-00309,2023-04-09,Messejana,Furto detectado,T-011,4.3,247,Sobrecarga
+OC-00310,2024-09-20,Edson Queiroz,Reclamação de consumidor,T-042,3.2,198,Vandalismo
+OC-00311,2024-04-30,Edson Queiroz,Queda de energia,T-037,7.2,394,Falha equipamento
+OC-00312,2023-07-05,Barra do Ceará,Curto-circuito,T-018,2.0,15,Indeterminada
+OC-00313,2024-06-28,Montese,Flutuação de tensão,T-005,4.8,108,Sobrecarga
+OC-00314,2024-04-04,Aldeota,Manutenção programada,T-049,5.7,495,Falha equipamento
+OC-00315,2024-09-03,Mondubim,Curto-circuito,T-006,0.6,482,Clima
+OC-00316,2023-07-29,Mondubim,Manutenção programada,T-025,7.1,260,Vandalismo
+OC-00317,2024-08-02,Montese,Queda de energia,T-030,1.8,155,Indeterminada
+OC-00318,2024-10-30,Mondubim,Flutuação de tensão,T-049,4.3,406,Clima
+OC-00319,2023-03-26,Barra do Ceará,Queda de energia,T-030,1.5,208,Falha equipamento
+OC-00320,2023-04-09,Centro,Queda de energia,T-004,0.7,359,Sobrecarga
+OC-00321,2023-11-11,Barra do Ceará,Reclamação de consumidor,T-013,4.0,256,Clima
+OC-00322,2023-06-17,Barra do Ceará,Flutuação de tensão,T-014,2.3,416,Clima
+OC-00323,2024-10-03,Mondubim,Queda de energia,T-048,3.3,161,Indeterminada
+OC-00324,2024-05-10,Parangaba,Flutuação de tensão,T-044,1.9,169,Clima
+OC-00325,2024-06-22,Barra do Ceará,Flutuação de tensão,T-045,4.9,396,Sobrecarga
+OC-00326,2024-04-08,Barra do Ceará,Flutuação de tensão,T-022,2.8,442,Sobrecarga
+OC-00327,2024-07-22,Papicu,Manutenção programada,T-015,2.8,462,Vandalismo
+OC-00328,2024-11-01,Papicu,Reclamação de consumidor,T-008,2.9,248,Sobrecarga
+OC-00329,2024-12-06,Parangaba,Queda de energia,T-037,2.9,364,Sobrecarga
+OC-00330,2023-11-22,Edson Queiroz,Reclamação de consumidor,T-016,3.3,89,Vandalismo
+OC-00331,2023-08-12,Barra do Ceará,Queda de energia,T-005,6.3,397,Falha equipamento
+OC-00332,2023-05-09,Aldeota,Queda de energia,T-042,3.6,130,Sobrecarga
+OC-00333,2024-05-27,Edson Queiroz,Flutuação de tensão,T-013,4.8,43,Clima
+OC-00334,2024-02-12,Meireles,Reclamação de consumidor,T-036,0.6,367,Sobrecarga
+OC-00335,2023-12-15,Edson Queiroz,Reclamação de consumidor,T-049,5.0,84,Clima
+OC-00336,2024-10-27,Centro,Queda de energia,T-038,7.5,428,Clima
+OC-00337,2024-10-03,Meireles,Queda de energia,T-015,3.1,370,Indeterminada
+OC-00338,2023-02-26,Barra do Ceará,Furto detectado,T-041,2.4,237,Vandalismo
+OC-00339,2023-06-01,Edson Queiroz,Queda de energia,T-013,1.3,301,Vandalismo
+OC-00340,2024-05-23,Montese,Queda de energia,T-008,3.7,233,Vandalismo
+OC-00341,2023-07-13,Parangaba,Flutuação de tensão,T-040,0.7,55,Sobrecarga
+OC-00342,2024-06-03,Barra do Ceará,Furto detectado,T-050,1.8,442,Falha equipamento
+OC-00343,2023-04-16,Barra do Ceará,Queda de energia,T-006,4.6,86,Falha equipamento
+OC-00344,2023-01-08,Centro,Queda de energia,T-015,3.7,208,Vandalismo
+OC-00345,2024-12-21,Barra do Ceará,Flutuação de tensão,T-008,4.9,302,Falha equipamento
+OC-00346,2023-07-10,Aldeota,Flutuação de tensão,T-036,2.9,351,Vandalismo
+OC-00347,2024-02-07,Papicu,Queda de energia,T-050,2.9,484,Sobrecarga
+OC-00348,2024-11-09,Barra do Ceará,Flutuação de tensão,T-021,3.7,56,Sobrecarga
+OC-00349,2023-01-05,Centro,Flutuação de tensão,T-007,0.5,124,Vandalismo
+OC-00350,2023-03-24,Papicu,Manutenção programada,T-038,2.0,129,Indeterminada
+OC-00351,2024-03-16,Barra do Ceará,Reclamação de consumidor,T-043,2.4,176,Vandalismo
+OC-00352,2024-11-20,Mondubim,Furto detectado,T-038,4.0,46,Sobrecarga
+OC-00353,2023-07-15,Messejana,Manutenção programada,T-044,1.2,11,Indeterminada
+OC-00354,2023-11-12,Centro,Reclamação de consumidor,T-035,3.6,164,Clima
+OC-00355,2023-12-14,Aldeota,Queda de energia,T-002,4.9,100,Falha equipamento
+OC-00356,2023-06-07,Barra do Ceará,Flutuação de tensão,T-036,0.5,176,Indeterminada
+OC-00357,2023-11-08,Centro,Reclamação de consumidor,T-005,3.4,252,Falha equipamento
+OC-00358,2024-12-06,Barra do Ceará,Manutenção programada,T-022,3.4,38,Clima
+OC-00359,2024-03-24,Montese,Reclamação de consumidor,T-029,4.8,491,Indeterminada
+OC-00360,2024-01-21,Centro,Queda de energia,T-028,2.5,462,Vandalismo
+OC-00361,2023-01-11,Barra do Ceará,Flutuação de tensão,T-036,1.9,152,Sobrecarga
+OC-00362,2024-07-02,Barra do Ceará,Reclamação de consumidor,T-004,5.8,304,Falha equipamento
+OC-00363,2023-12-18,Aldeota,Curto-circuito,T-036,0.5,13,Sobrecarga
+OC-00364,2024-02-01,Barra do Ceará,Flutuação de tensão,T-015,3.9,43,Vandalismo
+OC-00365,2024-01-14,Papicu,Queda de energia,T-018,4.6,238,Indeterminada
+OC-00366,2023-04-11,Barra do Ceará,Furto detectado,T-039,3.2,52,Indeterminada
+OC-00367,2024-08-29,Centro,Reclamação de consumidor,T-008,3.9,224,Falha equipamento
+OC-00368,2024-04-14,Meireles,Queda de energia,T-003,4.2,108,Clima
+OC-00369,2024-12-25,Centro,Manutenção programada,T-017,3.3,227,Falha equipamento
+OC-00370,2024-08-24,Barra do Ceará,Manutenção programada,T-025,4.7,287,Indeterminada
+OC-00371,2024-10-04,Meireles,Queda de energia,T-007,4.9,267,Sobrecarga
+OC-00372,2023-08-03,Barra do Ceará,Queda de energia,T-004,3.5,203,Falha equipamento
+OC-00373,2023-03-22,Montese,Flutuação de tensão,T-009,4.7,318,Falha equipamento
+OC-00374,2024-10-03,Centro,Queda de energia,T-016,1.7,365,Falha equipamento
+OC-00375,2023-02-27,Meireles,Queda de energia,T-029,7.9,199,Clima
+OC-00376,2023-12-25,Barra do Ceará,Furto detectado,T-007,5.7,331,Indeterminada
+OC-00377,2023-03-04,Barra do Ceará,Queda de energia,T-045,2.5,16,Falha equipamento
+OC-00378,2023-11-19,Meireles,Queda de energia,T-020,4.4,265,Vandalismo
+OC-00379,2023-12-27,Barra do Ceará,Reclamação de consumidor,T-041,3.7,336,Sobrecarga
+OC-00380,2023-10-10,Parangaba,Queda de energia,T-006,2.2,141,Clima
+OC-00381,2024-03-20,Barra do Ceará,Queda de energia,T-008,5.4,455,Clima
+OC-00382,2024-10-26,Meireles,Reclamação de consumidor,T-008,1.5,363,Clima
+OC-00383,2024-08-04,Aldeota,Flutuação de tensão,T-020,6.9,464,Clima
+OC-00384,2024-07-12,Barra do Ceará,Curto-circuito,T-044,1.9,179,Indeterminada
+OC-00385,2023-12-27,Papicu,Reclamação de consumidor,T-015,3.6,435,Indeterminada
+OC-00386,2023-10-27,Papicu,Manutenção programada,T-023,0.5,123,Indeterminada
+OC-00387,2023-06-06,Mondubim,Queda de energia,T-027,2.8,170,Sobrecarga
+OC-00388,2024-06-07,Barra do Ceará,Queda de energia,T-045,1.0,447,Vandalismo
+OC-00389,2024-01-26,Meireles,Curto-circuito,T-041,2.2,15,Sobrecarga
+OC-00390,2023-05-29,Parangaba,Furto detectado,T-040,2.6,493,Vandalismo
+OC-00391,2024-05-09,Edson Queiroz,Manutenção programada,T-032,5.8,269,Sobrecarga
+OC-00392,2024-03-30,Centro,Manutenção programada,T-022,4.2,469,Falha equipamento
+OC-00393,2024-11-01,Edson Queiroz,Curto-circuito,T-035,0.5,120,Sobrecarga
+OC-00394,2023-03-17,Barra do Ceará,Reclamação de consumidor,T-037,2.0,145,Vandalismo
+OC-00395,2023-12-14,Aldeota,Reclamação de consumidor,T-004,2.8,413,Indeterminada
+OC-00396,2024-04-17,Barra do Ceará,Curto-circuito,T-036,5.5,262,Falha equipamento
+OC-00397,2023-12-03,Edson Queiroz,Furto detectado,T-019,0.5,432,Vandalismo
+OC-00398,2023-01-13,Montese,Queda de energia,T-001,5.6,473,Sobrecarga
+OC-00399,2024-10-12,Messejana,Flutuação de tensão,T-023,2.3,330,Sobrecarga
+OC-00400,2024-11-19,Barra do Ceará,Reclamação de consumidor,T-042,1.0,51,Vandalismo
+OC-00401,2024-07-07,Papicu,Reclamação de consumidor,T-021,5.5,146,Indeterminada
+OC-00402,2024-01-12,Barra do Ceará,Queda de energia,T-023,3.0,207,Vandalismo
+OC-00403,2024-01-29,Barra do Ceará,Reclamação de consumidor,T-036,2.6,142,Clima
+OC-00404,2024-02-23,Montese,Reclamação de consumidor,T-048,2.7,211,Indeterminada
+OC-00405,2023-08-16,Parangaba,Curto-circuito,T-043,2.9,353,Indeterminada
+OC-00406,2024-02-17,Mondubim,Reclamação de consumidor,T-012,1.8,229,Vandalismo
+OC-00407,2023-07-05,Barra do Ceará,Queda de energia,T-029,1.4,354,Vandalismo
+OC-00408,2023-11-07,Mondubim,Flutuação de tensão,T-012,0.5,455,Falha equipamento
+OC-00409,2024-04-05,Meireles,Flutuação de tensão,T-031,4.0,252,Sobrecarga
+OC-00410,2024-05-13,Barra do Ceará,Flutuação de tensão,T-010,1.6,94,Clima
+OC-00411,2024-04-21,Barra do Ceará,Furto detectado,T-020,3.4,342,Clima
+OC-00412,2023-07-27,Barra do Ceará,Reclamação de consumidor,T-024,3.1,49,Falha equipamento
+OC-00413,2023-05-01,Meireles,Queda de energia,T-023,3.7,87,Sobrecarga
+OC-00414,2023-03-02,Barra do Ceará,Manutenção programada,T-026,3.6,343,Vandalismo
+OC-00415,2024-06-07,Barra do Ceará,Queda de energia,T-038,3.9,33,Indeterminada
+OC-00416,2024-10-25,Papicu,Furto detectado,T-005,4.2,158,Falha equipamento
+OC-00417,2024-09-15,Barra do Ceará,Flutuação de tensão,T-024,2.7,179,Clima
+OC-00418,2023-11-30,Centro,Queda de energia,T-032,2.5,158,Clima
+OC-00419,2023-07-18,Barra do Ceará,Queda de energia,T-042,5.0,442,Vandalismo
+OC-00420,2023-04-20,Barra do Ceará,Reclamação de consumidor,T-049,3.1,139,Indeterminada
+OC-00421,2023-02-10,Mondubim,Curto-circuito,T-034,0.5,141,Clima
+OC-00422,2023-08-22,Messejana,Curto-circuito,T-027,3.5,38,Sobrecarga
+OC-00423,2024-09-05,Barra do Ceará,Manutenção programada,T-010,3.0,305,Falha equipamento
+OC-00424,2023-07-14,Messejana,Manutenção programada,T-015,1.9,493,Clima
+OC-00425,2024-06-15,Messejana,Curto-circuito,T-035,5.8,252,Clima
+OC-00426,2023-01-11,Montese,Reclamação de consumidor,T-028,3.6,368,Clima
+OC-00427,2024-09-06,Mondubim,Flutuação de tensão,T-050,2.9,212,Clima
+OC-00428,2023-10-18,Barra do Ceará,Furto detectado,T-029,1.5,71,Falha equipamento
+OC-00429,2023-06-30,Barra do Ceará,Curto-circuito,T-004,1.4,125,Clima
+OC-00430,2024-03-16,Barra do Ceará,Reclamação de consumidor,T-033,2.4,429,Clima
+OC-00431,2023-12-29,Aldeota,Curto-circuito,T-039,1.7,299,Falha equipamento
+OC-00432,2024-12-11,Barra do Ceará,Manutenção programada,T-031,1.2,249,Vandalismo
+OC-00433,2023-03-30,Edson Queiroz,Flutuação de tensão,T-021,3.6,398,Falha equipamento
+OC-00434,2024-12-29,Centro,Reclamação de consumidor,T-041,2.4,312,Indeterminada
+OC-00435,2023-10-25,Barra do Ceará,Manutenção programada,T-014,0.5,208,Sobrecarga
+OC-00436,2023-08-26,Barra do Ceará,Flutuação de tensão,T-005,3.6,31,Vandalismo
+OC-00437,2023-12-19,Barra do Ceará,Furto detectado,T-033,1.8,88,Falha equipamento
+OC-00438,2023-09-20,Meireles,Curto-circuito,T-048,2.7,409,Indeterminada
+OC-00439,2024-10-15,Barra do Ceará,Queda de energia,T-005,0.5,27,Clima
+OC-00440,2024-09-07,Messejana,Manutenção programada,T-017,3.8,240,Falha equipamento
+OC-00441,2024-11-17,Centro,Queda de energia,T-036,2.0,131,Vandalismo
+OC-00442,2023-08-13,Barra do Ceará,Queda de energia,T-045,4.3,298,Falha equipamento
+OC-00443,2023-06-01,Messejana,Furto detectado,T-046,0.9,161,Falha equipamento
+OC-00444,2024-07-17,Barra do Ceará,Manutenção programada,T-037,0.5,81,Vandalismo
+OC-00445,2024-11-04,Aldeota,Manutenção programada,T-024,0.8,96,Sobrecarga
+OC-00446,2024-01-02,Montese,Furto detectado,T-010,0.5,426,Falha equipamento
+OC-00447,2024-09-02,Barra do Ceará,Queda de energia,T-008,2.0,195,Clima
+OC-00448,2024-10-14,Messejana,Manutenção programada,T-003,6.7,38,Falha equipamento
+OC-00449,2024-01-13,Edson Queiroz,Queda de energia,T-041,3.7,44,Vandalismo
+OC-00450,2023-11-27,Mondubim,Queda de energia,T-036,6.4,198,Clima
+OC-00451,2023-07-12,Mondubim,Curto-circuito,T-001,2.9,219,Falha equipamento
+OC-00452,2023-10-04,Meireles,Manutenção programada,T-027,2.6,257,Indeterminada
+OC-00453,2024-11-21,Edson Queiroz,Flutuação de tensão,T-024,1.6,492,Indeterminada
+OC-00454,2023-07-24,Meireles,Flutuação de tensão,T-008,1.8,217,Indeterminada
+OC-00455,2024-07-18,Centro,Flutuação de tensão,T-012,3.2,449,Sobrecarga
+OC-00456,2024-11-11,Mondubim,Manutenção programada,T-020,3.2,317,Indeterminada
+OC-00457,2024-02-04,Barra do Ceará,Queda de energia,T-047,3.1,435,Falha equipamento
+OC-00458,2023-05-01,Barra do Ceará,Flutuação de tensão,T-017,1.8,251,Vandalismo
+OC-00459,2023-12-06,Meireles,Manutenção programada,T-038,4.3,464,Clima
+OC-00460,2024-06-16,Edson Queiroz,Furto detectado,T-042,2.5,395,Falha equipamento
+OC-00461,2024-05-14,Mondubim,Reclamação de consumidor,T-008,3.4,45,Clima
+OC-00462,2024-10-07,Parangaba,Reclamação de consumidor,T-045,0.5,383,Falha equipamento
+OC-00463,2023-07-28,Aldeota,Queda de energia,T-032,3.8,465,Vandalismo
+OC-00464,2023-02-27,Messejana,Manutenção programada,T-029,5.6,216,Indeterminada
+OC-00465,2023-09-28,Barra do Ceará,Curto-circuito,T-008,0.5,368,Indeterminada
+OC-00466,2024-12-10,Centro,Reclamação de consumidor,T-043,0.5,460,Sobrecarga
+OC-00467,2024-03-11,Meireles,Queda de energia,T-036,1.6,236,Vandalismo
+OC-00468,2024-03-16,Barra do Ceará,Manutenção programada,T-047,3.4,365,Falha equipamento
+OC-00469,2023-02-10,Montese,Queda de energia,T-003,5.0,351,Clima
+OC-00470,2023-11-21,Parangaba,Queda de energia,T-031,4.3,384,Sobrecarga
+OC-00471,2024-08-16,Papicu,Manutenção programada,T-021,2.7,346,Vandalismo
+OC-00472,2024-06-20,Papicu,Queda de energia,T-044,0.7,231,Clima
+OC-00473,2024-06-17,Parangaba,Manutenção programada,T-038,5.1,379,Falha equipamento
+OC-00474,2023-01-22,Montese,Queda de energia,T-004,5.4,300,Clima
+OC-00475,2024-08-29,Barra do Ceará,Reclamação de consumidor,T-019,2.7,190,Falha equipamento
+OC-00476,2023-10-03,Parangaba,Queda de energia,T-018,4.6,34,Vandalismo
+OC-00477,2023-09-16,Montese,Furto detectado,T-039,0.5,472,Indeterminada
+OC-00478,2024-09-19,Montese,Flutuação de tensão,T-016,3.8,110,Indeterminada
+OC-00479,2024-03-16,Papicu,Reclamação de consumidor,T-031,3.5,446,Vandalismo
+OC-00480,2024-09-14,Barra do Ceará,Reclamação de consumidor,T-008,9.9,449,Vandalismo
+OC-00481,2023-10-15,Centro,Curto-circuito,T-025,1.3,305,Clima
+OC-00482,2023-01-08,Papicu,Manutenção programada,T-028,6.7,305,Falha equipamento
+OC-00483,2023-04-26,Montese,Manutenção programada,T-024,3.2,396,Vandalismo
+OC-00484,2024-01-08,Edson Queiroz,Queda de energia,T-009,1.4,33,Falha equipamento
+OC-00485,2023-09-27,Mondubim,Queda de energia,T-018,7.1,208,Indeterminada
+OC-00486,2023-05-25,Aldeota,Reclamação de consumidor,T-045,3.9,330,Clima
+OC-00487,2024-07-30,Centro,Furto detectado,T-021,5.4,24,Falha equipamento
+OC-00488,2024-10-25,Barra do Ceará,Queda de energia,T-012,1.3,444,Indeterminada
+OC-00489,2024-12-04,Parangaba,Furto detectado,T-005,2.4,22,Clima
+OC-00490,2023-10-10,Aldeota,Manutenção programada,T-018,1.5,289,Clima
+OC-00491,2023-05-19,Mondubim,Queda de energia,T-029,3.0,156,Indeterminada
+OC-00492,2023-02-17,Barra do Ceará,Queda de energia,T-046,4.9,13,Sobrecarga
+OC-00493,2024-02-25,Edson Queiroz,Curto-circuito,T-033,0.9,367,Falha equipamento
+OC-00494,2023-09-03,Mondubim,Manutenção programada,T-016,3.2,453,Falha equipamento
+OC-00495,2023-05-29,Barra do Ceará,Manutenção programada,T-011,2.0,460,Falha equipamento
+OC-00496,2023-09-01,Barra do Ceará,Manutenção programada,T-028,2.1,98,Vandalismo
+OC-00497,2024-03-09,Barra do Ceará,Manutenção programada,T-005,6.1,362,Clima
+OC-00498,2024-06-27,Meireles,Flutuação de tensão,T-025,5.0,110,Vandalismo
+OC-00499,2023-12-25,Barra do Ceará,Manutenção programada,T-010,6.1,461,Falha equipamento
+OC-00500,2023-12-24,Barra do Ceará,Furto detectado,T-038,1.3,115,Clima
+OC-00501,2024-09-02,Barra do Ceará,Queda de energia,T-023,10.7,251,Sobrecarga
+OC-00502,2024-10-25,Barra do Ceará,Curto-circuito,T-023,12.2,182,Sobrecarga
+OC-00503,2024-12-20,Barra do Ceará,Curto-circuito,T-023,3.9,120,Sobrecarga
+OC-00504,2024-07-28,Barra do Ceará,Queda de energia,T-023,5.7,192,Sobrecarga
+OC-00505,2024-11-27,Barra do Ceará,Queda de energia,T-023,6.3,100,Sobrecarga
+OC-00506,2024-11-12,Barra do Ceará,Queda de energia,T-023,9.5,152,Sobrecarga
+OC-00507,2024-09-14,Barra do Ceará,Queda de energia,T-023,7.3,109,Sobrecarga
+OC-00508,2024-12-21,Barra do Ceará,Queda de energia,T-023,5.5,204,Sobrecarga
+OC-00509,2024-11-10,Barra do Ceará,Furto detectado,T-023,6.1,206,Sobrecarga
+OC-00510,2024-07-07,Barra do Ceará,Queda de energia,T-023,8.9,102,Sobrecarga
+OC-00511,2024-11-21,Barra do Ceará,Queda de energia,T-023,7.8,251,Sobrecarga
+OC-00512,2024-12-02,Barra do Ceará,Flutuação de tensão,T-023,7.3,201,Indeterminada
+OC-00513,2024-09-25,Barra do Ceará,Queda de energia,T-023,4.7,191,Sobrecarga
+OC-00514,2024-11-29,Barra do Ceará,Curto-circuito,T-023,7.6,77,Sobrecarga
+OC-00515,2024-07-05,Barra do Ceará,Queda de energia,T-023,2.5,276,Sobrecarga
+OC-00516,2024-11-01,Barra do Ceará,Queda de energia,T-023,2.8,84,Indeterminada
+OC-00517,2024-11-28,Barra do Ceará,Furto detectado,T-023,6.8,278,Sobrecarga
+OC-00518,2024-11-26,Barra do Ceará,Furto detectado,T-023,2.5,149,Indeterminada
+OC-00519,2024-08-28,Barra do Ceará,Queda de energia,T-023,5.6,159,Indeterminada
+OC-00520,2024-12-10,Barra do Ceará,Flutuação de tensão,T-023,5.9,67,Sobrecarga
+OC-00521,2024-11-01,Barra do Ceará,Curto-circuito,T-023,6.0,104,Sobrecarga
+OC-00522,2024-11-18,Barra do Ceará,Queda de energia,T-023,0.5,64,Sobrecarga
+OC-00523,2024-10-11,Barra do Ceará,Furto detectado,T-023,4.3,268,Indeterminada
+OC-00524,2024-10-03,Barra do Ceará,Furto detectado,T-023,5.1,54,Sobrecarga
+OC-00525,2024-11-18,Barra do Ceará,Furto detectado,T-023,5.5,261,Sobrecarga
+OC-00526,2024-07-31,Barra do Ceará,Queda de energia,T-023,3.0,252,Sobrecarga
+OC-00527,2024-07-02,Barra do Ceará,Furto detectado,T-023,5.2,92,Sobrecarga
+OC-00528,2024-12-10,Barra do Ceará,Curto-circuito,T-023,3.6,196,Sobrecarga
+OC-00529,2024-07-27,Barra do Ceará,Curto-circuito,T-023,6.6,51,Sobrecarga
+OC-00530,2024-08-08,Barra do Ceará,Curto-circuito,T-023,0.5,173,Indeterminada
+OC-00531,2024-11-28,Barra do Ceará,Queda de energia,T-023,4.6,70,Sobrecarga
+OC-00532,2024-08-15,Barra do Ceará,Curto-circuito,T-023,3.2,105,Sobrecarga
+OC-00533,2024-11-21,Barra do Ceará,Flutuação de tensão,T-023,3.1,157,Sobrecarga
+OC-00534,2024-07-30,Barra do Ceará,Curto-circuito,T-023,5.8,96,Sobrecarga
+OC-00535,2024-10-28,Barra do Ceará,Flutuação de tensão,T-023,4.8,223,Sobrecarga
+OC-00536,2024-08-26,Barra do Ceará,Curto-circuito,T-023,6.3,281,Sobrecarga
+OC-00537,2024-09-24,Barra do Ceará,Queda de energia,T-023,3.3,217,Indeterminada
+OC-00538,2024-08-12,Barra do Ceará,Furto detectado,T-023,8.9,146,Sobrecarga
+OC-00539,2024-10-01,Barra do Ceará,Flutuação de tensão,T-023,2.8,231,Indeterminada
+OC-00540,2024-07-05,Barra do Ceará,Furto detectado,T-023,3.5,71,Sobrecarga
+OC-00541,2024-11-18,Barra do Ceará,Flutuação de tensão,T-023,0.5,294,Sobrecarga
+OC-00542,2024-08-19,Barra do Ceará,Furto detectado,T-023,3.7,178,Sobrecarga
+OC-00543,2024-09-10,Barra do Ceará,Flutuação de tensão,T-023,5.2,55,Sobrecarga
+OC-00544,2024-08-07,Barra do Ceará,Queda de energia,T-023,8.4,83,Sobrecarga
+OC-00545,2024-10-11,Barra do Ceará,Curto-circuito,T-023,8.5,271,Sobrecarga
+OC-00546,2024-10-13,Barra do Ceará,Furto detectado,T-023,10.2,96,Sobrecarga
+OC-00547,2024-07-24,Barra do Ceará,Flutuação de tensão,T-023,4.3,151,Sobrecarga
+OC-00548,2024-12-11,Barra do Ceará,Furto detectado,T-023,3.3,102,Indeterminada
+OC-00549,2024-11-07,Barra do Ceará,Furto detectado,T-023,2.3,171,Sobrecarga
+OC-00550,2024-10-27,Barra do Ceará,Furto detectado,T-023,3.2,62,Indeterminada
+OC-00551,2024-10-08,Barra do Ceará,Queda de energia,T-023,4.0,119,Sobrecarga
+OC-00552,2024-08-22,Barra do Ceará,Furto detectado,T-023,3.9,112,Sobrecarga
+OC-00553,2024-10-02,Barra do Ceará,Queda de energia,T-023,7.1,229,Sobrecarga
+OC-00554,2024-10-28,Barra do Ceará,Curto-circuito,T-023,9.9,204,Sobrecarga
+OC-00555,2024-07-19,Barra do Ceará,Furto detectado,T-023,1.3,288,Sobrecarga
+OC-00556,2024-12-20,Barra do Ceará,Queda de energia,T-023,3.6,125,Sobrecarga
+OC-00557,2024-12-12,Barra do Ceará,Curto-circuito,T-023,9.6,277,Sobrecarga
+OC-00558,2024-12-15,Barra do Ceará,Curto-circuito,T-023,4.4,66,Sobrecarga
+OC-00559,2024-09-30,Barra do Ceará,Curto-circuito,T-023,1.6,213,Sobrecarga
+OC-00560,2024-07-02,Barra do Ceará,Curto-circuito,T-023,1.6,191,Sobrecarga
+OC-00561,2024-07-09,Barra do Ceará,Flutuação de tensão,T-023,5.4,194,Sobrecarga
+OC-00562,2024-10-02,Barra do Ceará,Furto detectado,T-023,4.5,157,Sobrecarga
+OC-00563,2024-09-03,Barra do Ceará,Queda de energia,T-023,9.4,187,Sobrecarga
+OC-00564,2024-12-23,Barra do Ceará,Flutuação de tensão,T-023,6.2,56,Indeterminada
+OC-00565,2024-08-27,Barra do Ceará,Furto detectado,T-023,2.8,261,Sobrecarga
+OC-00566,2024-12-26,Barra do Ceará,Queda de energia,T-023,5.4,139,Indeterminada
+OC-00567,2024-11-08,Barra do Ceará,Flutuação de tensão,T-023,2.1,290,Indeterminada
+OC-00568,2024-10-04,Barra do Ceará,Furto detectado,T-023,1.9,74,Sobrecarga
+OC-00569,2024-12-21,Barra do Ceará,Flutuação de tensão,T-023,4.8,125,Sobrecarga
+OC-00570,2024-09-02,Barra do Ceará,Curto-circuito,T-023,4.8,68,Sobrecarga
+OC-00571,2024-11-16,Barra do Ceará,Furto detectado,T-023,2.0,124,Indeterminada
+OC-00572,2024-08-18,Barra do Ceará,Queda de energia,T-023,4.9,281,Sobrecarga
+OC-00573,2024-10-03,Barra do Ceará,Curto-circuito,T-023,6.1,244,Sobrecarga
+OC-00574,2024-08-18,Barra do Ceará,Curto-circuito,T-023,9.3,171,Sobrecarga
+OC-00575,2024-11-26,Barra do Ceará,Curto-circuito,T-023,2.6,183,Sobrecarga
+OC-00576,2024-09-29,Barra do Ceará,Curto-circuito,T-023,4.4,70,Sobrecarga
+OC-00577,2024-11-10,Barra do Ceará,Furto detectado,T-023,1.0,207,Sobrecarga
+OC-00578,2024-09-21,Barra do Ceará,Furto detectado,T-023,10.4,131,Indeterminada
+OC-00579,2024-10-20,Barra do Ceará,Curto-circuito,T-023,0.5,273,Sobrecarga
+OC-00580,2024-09-21,Barra do Ceará,Flutuação de tensão,T-023,4.3,103,Indeterminada
